@@ -1,0 +1,17130 @@
+﻿#include "il2cpp-config.h"
+
+#ifndef _MSC_VER
+# include <alloca.h>
+#else
+# include <malloc.h>
+#endif
+
+#include <cstring>
+#include <string.h>
+#include <stdio.h>
+#include <cmath>
+#include <limits>
+#include <assert.h>
+
+#include "class-internals.h"
+#include "codegen/il2cpp-codegen.h"
+#include "mscorlib_System_Array3829468939.h"
+#include "AssemblyU2DCSharp_HutongGames_PlayMaker_Actions_Qu3565674165.h"
+#include "mscorlib_System_Void1841601450.h"
+#include "AssemblyU2DCSharp_HutongGames_PlayMaker_Actions_Qu3869353585.h"
+#include "PlayMaker_HutongGames_PlayMaker_FsmQuaternion878438756.h"
+#include "PlayMaker_HutongGames_PlayMaker_NamedVariable3026441313.h"
+#include "mscorlib_System_Boolean3825574718.h"
+#include "PlayMaker_HutongGames_PlayMaker_FsmFloat937133978.h"
+#include "mscorlib_System_Single2076509932.h"
+#include "AssemblyU2DCSharp_HutongGames_PlayMaker_Actions_Qu3420975431.h"
+#include "PlayMaker_HutongGames_PlayMaker_FsmStateAction2862378169.h"
+#include "UnityEngine_UnityEngine_Quaternion4030073918.h"
+#include "AssemblyU2DCSharp_HutongGames_PlayMaker_Actions_Qu3176095846.h"
+#include "AssemblyU2DCSharp_HutongGames_PlayMaker_Actions_Ran584171437.h"
+#include "PlayMaker_HutongGames_PlayMaker_FsmBool664485696.h"
+#include "mscorlib_System_Int322071877448.h"
+#include "AssemblyU2DCSharp_HutongGames_PlayMaker_Actions_Ra1725515053.h"
+#include "PlayMaker_HutongGames_PlayMaker_FsmEvent1258573736.h"
+#include "PlayMaker_HutongGames_PlayMaker_FsmState1643911659.h"
+#include "PlayMaker_HutongGames_PlayMaker_FsmTransition1534990431.h"
+#include "PlayMaker_HutongGames_PlayMaker_Fsm917886356.h"
+#include "PlayMaker_HutongGames_PlayMaker_DelayedEvent1624700828.h"
+#include "AssemblyU2DCSharp_HutongGames_PlayMaker_Actions_Ra3076278315.h"
+#include "AssemblyU2DCSharp_HutongGames_PlayMaker_Actions_Ran922903046.h"
+#include "PlayMaker_HutongGames_PlayMaker_FsmInt1273009179.h"
+#include "AssemblyU2DCSharp_HutongGames_PlayMaker_Actions_Ra3965164550.h"
+#include "AssemblyU2DCSharp_HutongGames_PlayMaker_Actions_Ra2231194495.h"
+#include "UnityEngine_UnityEngine_Color2020392075.h"
+#include "PlayMaker_HutongGames_PlayMaker_FsmVector33996534004.h"
+#include "PlayMaker_HutongGames_PlayMaker_FsmOwnerDefault2023674184.h"
+#include "UnityEngine_UnityEngine_Space4278750806.h"
+#include "PlayMaker_HutongGames_PlayMaker_FsmGameObject3097142863.h"
+#include "PlayMaker_HutongGames_PlayMaker_FsmColor118301965.h"
+#include "UnityEngine_UnityEngine_Object1021602117.h"
+#include "UnityEngine_UnityEngine_Vector32243707580.h"
+#include "UnityEngine_UnityEngine_RaycastHit87180320.h"
+#include "UnityEngine_UnityEngine_GameObject1756533147.h"
+#include "UnityEngine_UnityEngine_Transform3275118058.h"
+#include "UnityEngine_UnityEngine_Collider3497673348.h"
+#include "UnityEngine_UnityEngine_Component3819376471.h"
+#include "AssemblyU2DCSharp_HutongGames_PlayMaker_Actions_Ra3646134017.h"
+#include "PlayMaker_HutongGames_PlayMaker_FsmVector22430450063.h"
+#include "UnityEngine_UnityEngine_Vector22243707579.h"
+#include "UnityEngine_UnityEngine_RaycastHit2D4063908774.h"
+#include "UnityEngine_UnityEngine_Mathf2336485820.h"
+#include "UnityEngine_UnityEngine_Collider2D646061738.h"
+#include "AssemblyU2DCSharp_HutongGames_PlayMaker_Actions_Ra2103133324.h"
+#include "PlayMaker_HutongGames_PlayMaker_FsmArray527459893.h"
+#include "mscorlib_System_Object2689449295.h"
+#include "AssemblyU2DCSharp_HutongGames_PlayMaker_Actions_Re3983555943.h"
+#include "PlayMaker_HutongGames_PlayMaker_FsmMaterial1421632035.h"
+#include "AssemblyU2DCSharp_HutongGames_PlayMaker_Actions_Re3461006553.h"
+#include "PlayMaker_HutongGames_PlayMaker_FsmRect19023354.h"
+#include "UnityEngine_UnityEngine_Rect3681755626.h"
+#include "AssemblyU2DCSharp_HutongGames_PlayMaker_Actions_Re2454060090.h"
+#include "AssemblyU2DCSharp_HutongGames_PlayMaker_Actions_Re2841934220.h"
+#include "AssemblyU2DCSharp_HutongGames_PlayMaker_Actions_Bas200783347.h"
+#include "mscorlib_System_String2029220233.h"
+#include "PlayMaker_HutongGames_PlayMaker_FsmString2414474701.h"
+#include "UnityEngine_UnityEngine_TrackedReference1045890189.h"
+#include "UnityEngine_UnityEngine_AnimationState1303741697.h"
+#include "AssemblyU2DCSharp_HutongGames_PlayMaker_Actions_Co2669650811.h"
+#include "UnityEngine_UnityEngine_Animation2068071072.h"
+#include "AssemblyU2DCSharp_HutongGames_PlayMaker_Actions_Re1993943153.h"
+#include "UnityEngine_UnityEngine_Matrix4x42933234003.h"
+#include "AssemblyU2DCSharp_HutongGames_PlayMaker_Actions_Re1955623714.h"
+#include "AssemblyU2DCSharp_HutongGames_PlayMaker_Actions_Re2595084709.h"
+#include "UnityEngine_UnityEngine_SceneManagement_Scene1684909666.h"
+#include "UnityEngine_UnityEngine_SceneManagement_LoadSceneM2981886439.h"
+#include "AssemblyU2DCSharp_HutongGames_PlayMaker_Actions_Re3150139471.h"
+#include "AssemblyU2DCSharp_HutongGames_PlayMaker_Actions_Rot177341313.h"
+#include "AssemblyU2DCSharp_HutongGames_PlayMaker_Actions_Rot586588880.h"
+#include "AssemblyU2DCSharp_HutongGames_PlayMaker_Actions_Ru3880618399.h"
+#include "PlayMaker_HutongGames_PlayMaker_FsmTemplateControl924276959.h"
+#include "AssemblyU2DCSharp_HutongGames_PlayMaker_Actions_Run720811133.h"
+#include "PlayMaker_FsmTemplate1285897084.h"
+#include "UnityEngine_UnityEngine_Collision2876846408.h"
+#include "UnityEngine_UnityEngine_ControllerColliderHit4070855101.h"
+#include "UnityEngine_UnityEngine_Collision2D1539500754.h"
+#include "AssemblyU2DCSharp_HutongGames_PlayMaker_Actions_Sam702362601.h"
+#include "PlayMaker_HutongGames_PlayMaker_FsmAnimationCurve326747561.h"
+#include "UnityEngine_UnityEngine_AnimationCurve3306541151.h"
+#include "AssemblyU2DCSharp_HutongGames_PlayMaker_Actions_Sc2599920435.h"
+#include "AssemblyU2DCSharp_HutongGames_PlayMaker_Actions_Sc3218346659.h"
+#include "AssemblyU2DCSharp_HutongGames_PlayMaker_Actions_Sc3182193451.h"
+#include "UnityEngine_UnityEngine_Ray2469606224.h"
+#include "UnityEngine_UnityEngine_Camera189460977.h"
+#include "AssemblyU2DCSharp_HutongGames_PlayMaker_Actions_Sc3932806665.h"
+#include "AssemblyU2DCSharp_HutongGames_PlayMaker_Actions_Sc1519632141.h"
+#include "AssemblyU2DCSharp_HutongGames_PlayMaker_Actions_Se1687601772.h"
+#include "AssemblyU2DCSharp_HutongGames_PlayMaker_Actions_Sel435281682.h"
+#include "AssemblyU2DCSharp_HutongGames_PlayMaker_Actions_Se2820022428.h"
+#include "AssemblyU2DCSharp_HutongGames_PlayMaker_Actions_Se3542404786.h"
+#include "AssemblyU2DCSharp_HutongGames_PlayMaker_Actions_Se3542404785.h"
+#include "AssemblyU2DCSharp_HutongGames_PlayMaker_Actions_Se3095845534.h"
+#include "mscorlib_System_IntPtr2504060609.h"
+#include "UnityEngine_UnityEngine_Events_UnityAction_2_gen606618774.h"
+#include "AssemblyU2DCSharp_HutongGames_PlayMaker_Actions_Se2137460182.h"
+#include "PlayMaker_HutongGames_PlayMaker_FsmEventTarget172293745.h"
+#include "AssemblyU2DCSharp_HutongGames_PlayMaker_Actions_Sen239596870.h"
+#include "AssemblyU2DCSharp_HutongGames_PlayMaker_Actions_Sen102492465.h"
+#include "PlayMaker_PlayMakerFSM437737208.h"
+#include "AssemblyU2DCSharp_HutongGames_PlayMaker_Actions_Se2292102445.h"
+#include "AssemblyU2DCSharp_HutongGames_PlayMaker_Actions_Se1591313614.h"
+#include "UnityEngine_UnityEngine_SendMessageOptions1414041951.h"
+#include "PlayMaker_HutongGames_PlayMaker_FunctionCall2754669930.h"
+#include "mscorlib_System_Collections_Generic_Dictionary_2_g3986656710.h"
+#include "UnityEngine_UnityEngine_Material193706927.h"
+#include "PlayMaker_HutongGames_PlayMaker_FsmTexture3372293163.h"
+#include "UnityEngine_UnityEngine_Texture2243626319.h"
+#include "PlayMaker_HutongGames_PlayMaker_FsmObject2785794313.h"
+#include "PlayMaker_HutongGames_PlayMaker_FsmEnum2808516103.h"
+#include "mscorlib_System_Enum2459695545.h"
+#include "AssemblyU2DCSharp_HutongGames_PlayMaker_Actions_Sen685549595.h"
+#include "AssemblyU2DCSharp_HutongGames_PlayMaker_Actions_Se4158827811.h"
+#include "UnityEngine_UnityEngine_Events_UnityAction_2_gen1903595547.h"
+#include "AssemblyU2DCSharp_HutongGames_PlayMaker_Actions_Se2523336820.h"
+#include "UnityEngine_UnityEngine_Events_UnityAction_1_gen3051495417.h"
+#include "AssemblyU2DCSharp_HutongGames_PlayMaker_Actions_Se1656293595.h"
+#include "AssemblyU2DCSharp_HutongGames_PlayMaker_Actions_Se1943743286.h"
+#include "AssemblyU2DCSharp_HutongGames_PlayMaker_Actions_Se3006405993.h"
+#include "mscorlib_System_Exception1927440687.h"
+#include "AssemblyU2DCSharp_HutongGames_PlayMaker_Actions_Se4080893434.h"
+#include "AssemblyU2DCSharp_HutongGames_PlayMaker_Actions_Set243237306.h"
+#include "AssemblyU2DCSharp_HutongGames_PlayMaker_Actions_Se3482002817.h"
+#include "PlayMaker_HutongGames_PlayMaker_OwnerDefaultOption3848444473.h"
+#include "AssemblyU2DCSharp_HutongGames_PlayMaker_Actions_Se3526512217.h"
+#include "AssemblyU2DCSharp_HutongGames_PlayMaker_Actions_Se1672927842.h"
+#include "AssemblyU2DCSharp_HutongGames_PlayMaker_Actions_Se4257862663.h"
+#include "UnityEngine_UnityEngine_Animator69676727.h"
+#include "AssemblyU2DCSharp_HutongGames_PlayMaker_Actions_Se3010275605.h"
+#include "AssemblyU2DCSharp_HutongGames_PlayMaker_Actions_Se1087961285.h"
+#include "AssemblyU2DCSharp_HutongGames_PlayMaker_Actions_Fs3863144983.h"
+#include "AssemblyU2DCSharp_HutongGames_PlayMaker_Actions_Se1528296606.h"
+#include "UnityEngine_UnityEngine_AnimatorCullingMode258421960.h"
+#include "AssemblyU2DCSharp_HutongGames_PlayMaker_Actions_Se3188379659.h"
+#include "AssemblyU2DCSharp_HutongGames_PlayMaker_Actions_Se1785639679.h"
+#include "AssemblyU2DCSharp_HutongGames_PlayMaker_Actions_Se3328366004.h"
+#include "UnityEngine_UnityEngine_AvatarIKGoal3089653344.h"
+#include "AssemblyU2DCSharp_HutongGames_PlayMaker_Actions_Set620710464.h"
+#include "AssemblyU2DCSharp_HutongGames_PlayMaker_Actions_Set195665531.h"
+#include "AssemblyU2DCSharp_HutongGames_PlayMaker_Actions_Se1821312336.h"
+#include "AssemblyU2DCSharp_HutongGames_PlayMaker_Actions_Set349070307.h"
+#include "AssemblyU2DCSharp_HutongGames_PlayMaker_Actions_Se3407909277.h"
+#include "AssemblyU2DCSharp_HutongGames_PlayMaker_Actions_Set170527177.h"
+#include "AssemblyU2DCSharp_HutongGames_PlayMaker_Actions_Se2775137368.h"
+#include "AssemblyU2DCSharp_HutongGames_PlayMaker_Actions_Se3575473090.h"
+#include "AssemblyU2DCSharp_HutongGames_PlayMaker_Actions_Set762350858.h"
+#include "UnityEngine_UnityEngine_AvatarTarget193923574.h"
+#include "AssemblyU2DCSharp_HutongGames_PlayMaker_Actions_Se3111496129.h"
+#include "AssemblyU2DCSharp_HutongGames_PlayMaker_Actions_Se3781849772.h"
+#include "AssemblyU2DCSharp_HutongGames_PlayMaker_Actions_Co1736686362.h"
+#include "UnityEngine_UnityEngine_AudioClip1932558630.h"
+#include "UnityEngine_UnityEngine_AudioSource1135106623.h"
+#include "AssemblyU2DCSharp_HutongGames_PlayMaker_Actions_Se4164931234.h"
+#include "AssemblyU2DCSharp_HutongGames_PlayMaker_Actions_Se2843540500.h"
+#include "AssemblyU2DCSharp_HutongGames_PlayMaker_Actions_Se3912171830.h"
+#include "AssemblyU2DCSharp_HutongGames_PlayMaker_Actions_Set423384025.h"
+#include "AssemblyU2DCSharp_HutongGames_PlayMaker_Actions_Com791040716.h"
+#include "AssemblyU2DCSharp_HutongGames_PlayMaker_Actions_Se2045192887.h"
+#include "AssemblyU2DCSharp_HutongGames_PlayMaker_Actions_Se2337594823.h"
+#include "AssemblyU2DCSharp_HutongGames_PlayMaker_Actions_Se2435366378.h"
+#include "AssemblyU2DCSharp_HutongGames_PlayMaker_Actions_Se3962719942.h"
+#include "AssemblyU2DCSharp_HutongGames_PlayMaker_Actions_Se2500887559.h"
+#include "AssemblyU2DCSharp_HutongGames_PlayMaker_Actions_Se3782904230.h"
+#include "AssemblyU2DCSharp_HutongGames_PlayMaker_Actions_Se1013364552.h"
+#include "AssemblyU2DCSharp_HutongGames_PlayMaker_Actions_Com540501634.h"
+#include "UnityEngine_UnityEngine_Rigidbody4233889191.h"
+#include "AssemblyU2DCSharp_HutongGames_PlayMaker_Actions_Se4139640040.h"
+#include "AssemblyU2DCSharp_HutongGames_PlayMaker_Actions_Se3188337776.h"
+#include "PlayMaker_HutongGames_PlayMaker_FsmEventData2110469976.h"
+#include "AssemblyU2DCSharp_HutongGames_PlayMaker_Actions_Se3604402311.h"
+#include "AssemblyU2DCSharp_HutongGames_PlayMaker_Actions_Se1646161835.h"
+#include "AssemblyU2DCSharp_HutongGames_PlayMaker_Actions_Se1765088067.h"
+#include "AssemblyU2DCSharp_HutongGames_PlayMaker_Actions_Se2065187483.h"
+#include "AssemblyU2DCSharp_HutongGames_PlayMaker_Actions_Se3867228106.h"
+#include "AssemblyU2DCSharp_HutongGames_PlayMaker_Actions_Set309067603.h"
+#include "AssemblyU2DCSharp_HutongGames_PlayMaker_Actions_Ba1849884759.h"
+#include "PlayMaker_HutongGames_PlayMaker_VariableType930978778.h"
+#include "PlayMaker_HutongGames_PlayMaker_FsmVariables630687169.h"
+#include "AssemblyU2DCSharp_HutongGames_PlayMaker_Actions_Se1117188136.h"
+#include "AssemblyU2DCSharp_HutongGames_PlayMaker_Actions_Ba3235583395.h"
+#include "PlayMaker_HutongGames_PlayMaker_FsmVar2872592513.h"
+#include "AssemblyU2DCSharp_HutongGames_PlayMaker_Actions_Se2886585218.h"
+#include "AssemblyU2DCSharp_HutongGames_PlayMaker_Actions_Set759142125.h"
+#include "AssemblyU2DCSharp_HutongGames_PlayMaker_Actions_SetF16539373.h"
+#include "AssemblyU2DCSharp_HutongGames_PlayMaker_Actions_Se2903169588.h"
+#include "AssemblyU2DCSharp_HutongGames_PlayMaker_Actions_Se1367964709.h"
+#include "AssemblyU2DCSharp_HutongGames_PlayMaker_Actions_Se1716896067.h"
+#include "AssemblyU2DCSharp_HutongGames_PlayMaker_Actions_Se3345318009.h"
+#include "AssemblyU2DCSharp_HutongGames_PlayMaker_Actions_Se3286560103.h"
+#include "AssemblyU2DCSharp_HutongGames_PlayMaker_Actions_Set128851816.h"
+#include "AssemblyU2DCSharp_HutongGames_PlayMaker_Actions_Set487080500.h"
+#include "AssemblyU2DCSharp_HutongGames_PlayMaker_Actions_Se4065550381.h"
+#include "AssemblyU2DCSharp_HutongGames_PlayMaker_Actions_Se3916602097.h"
+
+// HutongGames.PlayMaker.Actions.QuaternionRotateTowards
+struct QuaternionRotateTowards_t3565674165;
+// HutongGames.PlayMaker.Actions.QuaternionBaseAction
+struct QuaternionBaseAction_t3869353585;
+// HutongGames.PlayMaker.FsmQuaternion
+struct FsmQuaternion_t878438756;
+// HutongGames.PlayMaker.NamedVariable
+struct NamedVariable_t3026441313;
+// HutongGames.PlayMaker.FsmFloat
+struct FsmFloat_t937133978;
+// HutongGames.PlayMaker.FsmStateAction
+struct FsmStateAction_t2862378169;
+// HutongGames.PlayMaker.Actions.QuaternionSlerp
+struct QuaternionSlerp_t3176095846;
+// HutongGames.PlayMaker.Actions.RandomBool
+struct RandomBool_t584171437;
+// HutongGames.PlayMaker.FsmBool
+struct FsmBool_t664485696;
+// HutongGames.PlayMaker.Actions.RandomEvent
+struct RandomEvent_t1725515053;
+// HutongGames.PlayMaker.FsmState
+struct FsmState_t1643911659;
+// HutongGames.PlayMaker.FsmTransition[]
+struct FsmTransitionU5BU5D_t1091630918;
+// HutongGames.PlayMaker.Fsm
+struct Fsm_t917886356;
+// HutongGames.PlayMaker.FsmEvent
+struct FsmEvent_t1258573736;
+// HutongGames.PlayMaker.DelayedEvent
+struct DelayedEvent_t1624700828;
+// HutongGames.PlayMaker.FsmTransition
+struct FsmTransition_t1534990431;
+// HutongGames.PlayMaker.Actions.RandomFloat
+struct RandomFloat_t3076278315;
+// HutongGames.PlayMaker.Actions.RandomInt
+struct RandomInt_t922903046;
+// HutongGames.PlayMaker.FsmInt
+struct FsmInt_t1273009179;
+// HutongGames.PlayMaker.Actions.RandomWait
+struct RandomWait_t3965164550;
+// HutongGames.PlayMaker.Actions.Raycast
+struct Raycast_t2231194495;
+// HutongGames.PlayMaker.FsmVector3
+struct FsmVector3_t3996534004;
+// HutongGames.PlayMaker.FsmColor
+struct FsmColor_t118301965;
+// UnityEngine.GameObject
+struct GameObject_t1756533147;
+// HutongGames.PlayMaker.FsmOwnerDefault
+struct FsmOwnerDefault_t2023674184;
+// UnityEngine.Object
+struct Object_t1021602117;
+// UnityEngine.Transform
+struct Transform_t3275118058;
+// HutongGames.PlayMaker.FsmInt[]
+struct FsmIntU5BU5D_t2637547802;
+// UnityEngine.Collider
+struct Collider_t3497673348;
+// UnityEngine.Component
+struct Component_t3819376471;
+// HutongGames.PlayMaker.FsmGameObject
+struct FsmGameObject_t3097142863;
+// HutongGames.PlayMaker.Actions.RayCast2d
+struct RayCast2d_t3646134017;
+// HutongGames.PlayMaker.FsmVector2
+struct FsmVector2_t2430450063;
+// UnityEngine.Collider2D
+struct Collider2D_t646061738;
+// HutongGames.PlayMaker.Actions.RaycastAll
+struct RaycastAll_t2103133324;
+// UnityEngine.RaycastHit[]
+struct RaycastHitU5BU5D_t1214023521;
+// HutongGames.PlayMaker.FsmArray
+struct FsmArray_t527459893;
+// System.Object[]
+struct ObjectU5BU5D_t3614634134;
+// System.Object
+struct Il2CppObject;
+// HutongGames.PlayMaker.Actions.RebuildTextures
+struct RebuildTextures_t3983555943;
+// HutongGames.PlayMaker.Actions.RectContains
+struct RectContains_t3461006553;
+// HutongGames.PlayMaker.FsmRect
+struct FsmRect_t19023354;
+// HutongGames.PlayMaker.Actions.RectOverlaps
+struct RectOverlaps_t2454060090;
+// HutongGames.PlayMaker.Actions.RemoveMixingTransform
+struct RemoveMixingTransform_t2841934220;
+// HutongGames.PlayMaker.Actions.BaseAnimationAction
+struct BaseAnimationAction_t200783347;
+// HutongGames.PlayMaker.FsmString
+struct FsmString_t2414474701;
+// System.String
+struct String_t;
+// HutongGames.PlayMaker.Actions.ComponentAction`1<UnityEngine.Animation>
+struct ComponentAction_1_t2669650811;
+// HutongGames.PlayMaker.Actions.ComponentAction`1<System.Object>
+struct ComponentAction_1_t3291029034;
+// UnityEngine.Animation
+struct Animation_t2068071072;
+// UnityEngine.AnimationState
+struct AnimationState_t1303741697;
+// UnityEngine.TrackedReference
+struct TrackedReference_t1045890189;
+// HutongGames.PlayMaker.Actions.ResetGUIMatrix
+struct ResetGUIMatrix_t1993943153;
+// HutongGames.PlayMaker.Actions.ResetInputAxes
+struct ResetInputAxes_t1955623714;
+// HutongGames.PlayMaker.Actions.RestartLevel
+struct RestartLevel_t2595084709;
+// HutongGames.PlayMaker.Actions.RewindAnimation
+struct RewindAnimation_t3150139471;
+// HutongGames.PlayMaker.Actions.Rotate
+struct Rotate_t177341313;
+// HutongGames.PlayMaker.Actions.RotateGUI
+struct RotateGUI_t586588880;
+// HutongGames.PlayMaker.Actions.RunFSM
+struct RunFSM_t3880618399;
+// HutongGames.PlayMaker.FsmTemplateControl
+struct FsmTemplateControl_t924276959;
+// HutongGames.PlayMaker.Actions.RunFSMAction
+struct RunFSMAction_t720811133;
+// UnityEngine.Collision
+struct Collision_t2876846408;
+// UnityEngine.ControllerColliderHit
+struct ControllerColliderHit_t4070855101;
+// UnityEngine.Collision2D
+struct Collision2D_t1539500754;
+// HutongGames.PlayMaker.Actions.SampleCurve
+struct SampleCurve_t702362601;
+// UnityEngine.AnimationCurve
+struct AnimationCurve_t3306541151;
+// HutongGames.PlayMaker.Actions.ScaleGUI
+struct ScaleGUI_t2599920435;
+// HutongGames.PlayMaker.Actions.ScaleTime
+struct ScaleTime_t3218346659;
+// HutongGames.PlayMaker.Actions.ScreenPick
+struct ScreenPick_t3182193451;
+// UnityEngine.Camera
+struct Camera_t189460977;
+// HutongGames.PlayMaker.Actions.ScreenPick2d
+struct ScreenPick2d_t3932806665;
+// HutongGames.PlayMaker.Actions.ScreenToWorldPoint
+struct ScreenToWorldPoint_t1519632141;
+// HutongGames.PlayMaker.Actions.SelectRandomColor
+struct SelectRandomColor_t1687601772;
+// HutongGames.PlayMaker.FsmFloat[]
+struct FsmFloatU5BU5D_t4177556671;
+// HutongGames.PlayMaker.Actions.SelectRandomGameObject
+struct SelectRandomGameObject_t435281682;
+// HutongGames.PlayMaker.Actions.SelectRandomString
+struct SelectRandomString_t2820022428;
+// HutongGames.PlayMaker.Actions.SelectRandomVector2
+struct SelectRandomVector2_t3542404786;
+// HutongGames.PlayMaker.Actions.SelectRandomVector3
+struct SelectRandomVector3_t3542404785;
+// HutongGames.PlayMaker.Actions.SendActiveSceneChangedEvent
+struct SendActiveSceneChangedEvent_t3095845534;
+// UnityEngine.Events.UnityAction`2<UnityEngine.SceneManagement.Scene,UnityEngine.SceneManagement.Scene>
+struct UnityAction_2_t606618774;
+// HutongGames.PlayMaker.Actions.SendEvent
+struct SendEvent_t2137460182;
+// HutongGames.PlayMaker.FsmEventTarget
+struct FsmEventTarget_t172293745;
+// HutongGames.PlayMaker.Actions.SendEventByName
+struct SendEventByName_t239596870;
+// HutongGames.PlayMaker.Actions.SendEventToFsm
+struct SendEventToFsm_t102492465;
+// PlayMakerFSM
+struct PlayMakerFSM_t437737208;
+// HutongGames.PlayMaker.Actions.SendMessage
+struct SendMessage_t2292102445;
+// HutongGames.PlayMaker.FunctionCall
+struct FunctionCall_t2754669930;
+// System.Collections.Generic.Dictionary`2<System.String,System.Int32>
+struct Dictionary_2_t3986656710;
+// System.Collections.Generic.Dictionary`2<System.Object,System.Int32>
+struct Dictionary_2_t1663937576;
+// HutongGames.PlayMaker.FsmMaterial
+struct FsmMaterial_t1421632035;
+// UnityEngine.Material
+struct Material_t193706927;
+// HutongGames.PlayMaker.FsmTexture
+struct FsmTexture_t3372293163;
+// UnityEngine.Texture
+struct Texture_t2243626319;
+// HutongGames.PlayMaker.FsmObject
+struct FsmObject_t2785794313;
+// HutongGames.PlayMaker.FsmEnum
+struct FsmEnum_t2808516103;
+// System.Enum
+struct Enum_t2459695545;
+// HutongGames.PlayMaker.Actions.SendRandomEvent
+struct SendRandomEvent_t685549595;
+// HutongGames.PlayMaker.Actions.SendSceneLoadedEvent
+struct SendSceneLoadedEvent_t4158827811;
+// UnityEngine.Events.UnityAction`2<UnityEngine.SceneManagement.Scene,UnityEngine.SceneManagement.LoadSceneMode>
+struct UnityAction_2_t1903595547;
+// HutongGames.PlayMaker.Actions.SendSceneUnloadedEvent
+struct SendSceneUnloadedEvent_t2523336820;
+// UnityEngine.Events.UnityAction`1<UnityEngine.SceneManagement.Scene>
+struct UnityAction_1_t3051495417;
+// HutongGames.PlayMaker.Actions.SequenceEvent
+struct SequenceEvent_t1656293595;
+// HutongGames.PlayMaker.Actions.SetActiveScene
+struct SetActiveScene_t1943743286;
+// System.Exception
+struct Exception_t1927440687;
+// HutongGames.PlayMaker.Actions.SetAllFsmGameObject
+struct SetAllFsmGameObject_t4080893434;
+// HutongGames.PlayMaker.Actions.SetAmbientLight
+struct SetAmbientLight_t243237306;
+// HutongGames.PlayMaker.Actions.SetAnimationSpeed
+struct SetAnimationSpeed_t3482002817;
+// HutongGames.PlayMaker.Actions.SetAnimationTime
+struct SetAnimationTime_t3526512217;
+// HutongGames.PlayMaker.Actions.SetAnimationWeight
+struct SetAnimationWeight_t1672927842;
+// HutongGames.PlayMaker.Actions.SetAnimatorApplyRootMotion
+struct SetAnimatorApplyRootMotion_t4257862663;
+// UnityEngine.Animator
+struct Animator_t69676727;
+// HutongGames.PlayMaker.Actions.SetAnimatorBody
+struct SetAnimatorBody_t3010275605;
+// HutongGames.PlayMaker.Actions.SetAnimatorBool
+struct SetAnimatorBool_t1087961285;
+// HutongGames.PlayMaker.Actions.FsmStateActionAnimatorBase
+struct FsmStateActionAnimatorBase_t3863144983;
+// HutongGames.PlayMaker.Actions.SetAnimatorCullingMode
+struct SetAnimatorCullingMode_t1528296606;
+// HutongGames.PlayMaker.Actions.SetAnimatorFeetPivotActive
+struct SetAnimatorFeetPivotActive_t3188379659;
+// HutongGames.PlayMaker.Actions.SetAnimatorFloat
+struct SetAnimatorFloat_t1785639679;
+// HutongGames.PlayMaker.Actions.SetAnimatorIKGoal
+struct SetAnimatorIKGoal_t3328366004;
+// HutongGames.PlayMaker.Actions.SetAnimatorInt
+struct SetAnimatorInt_t620710464;
+// HutongGames.PlayMaker.Actions.SetAnimatorLayersAffectMassCenter
+struct SetAnimatorLayersAffectMassCenter_t195665531;
+// HutongGames.PlayMaker.Actions.SetAnimatorLayerWeight
+struct SetAnimatorLayerWeight_t1821312336;
+// HutongGames.PlayMaker.Actions.SetAnimatorLookAt
+struct SetAnimatorLookAt_t349070307;
+// HutongGames.PlayMaker.Actions.SetAnimatorPlayBackSpeed
+struct SetAnimatorPlayBackSpeed_t3407909277;
+// HutongGames.PlayMaker.Actions.SetAnimatorPlayBackTime
+struct SetAnimatorPlayBackTime_t170527177;
+// HutongGames.PlayMaker.Actions.SetAnimatorSpeed
+struct SetAnimatorSpeed_t2775137368;
+// HutongGames.PlayMaker.Actions.SetAnimatorStabilizeFeet
+struct SetAnimatorStabilizeFeet_t3575473090;
+// HutongGames.PlayMaker.Actions.SetAnimatorTarget
+struct SetAnimatorTarget_t762350858;
+// HutongGames.PlayMaker.Actions.SetAnimatorTrigger
+struct SetAnimatorTrigger_t3111496129;
+// HutongGames.PlayMaker.Actions.SetAudioClip
+struct SetAudioClip_t3781849772;
+// HutongGames.PlayMaker.Actions.ComponentAction`1<UnityEngine.AudioSource>
+struct ComponentAction_1_t1736686362;
+// UnityEngine.AudioSource
+struct AudioSource_t1135106623;
+// UnityEngine.AudioClip
+struct AudioClip_t1932558630;
+// HutongGames.PlayMaker.Actions.SetAudioLoop
+struct SetAudioLoop_t4164931234;
+// HutongGames.PlayMaker.Actions.SetAudioPitch
+struct SetAudioPitch_t2843540500;
+// HutongGames.PlayMaker.Actions.SetAudioVolume
+struct SetAudioVolume_t3912171830;
+// HutongGames.PlayMaker.Actions.SetBackgroundColor
+struct SetBackgroundColor_t423384025;
+// HutongGames.PlayMaker.Actions.ComponentAction`1<UnityEngine.Camera>
+struct ComponentAction_1_t791040716;
+// HutongGames.PlayMaker.Actions.SetBoolValue
+struct SetBoolValue_t2045192887;
+// HutongGames.PlayMaker.Actions.SetCameraCullingMask
+struct SetCameraCullingMask_t2337594823;
+// HutongGames.PlayMaker.Actions.SetCameraFOV
+struct SetCameraFOV_t2435366378;
+// HutongGames.PlayMaker.Actions.SetCollider2dIsTrigger
+struct SetCollider2dIsTrigger_t3962719942;
+// UnityEngine.Collider2D[]
+struct Collider2DU5BU5D_t3535523695;
+// HutongGames.PlayMaker.Actions.SetColorRGBA
+struct SetColorRGBA_t2500887559;
+// HutongGames.PlayMaker.Actions.SetColorValue
+struct SetColorValue_t3782904230;
+// HutongGames.PlayMaker.Actions.SetDrag
+struct SetDrag_t1013364552;
+// HutongGames.PlayMaker.Actions.ComponentAction`1<UnityEngine.Rigidbody>
+struct ComponentAction_1_t540501634;
+// UnityEngine.Rigidbody
+struct Rigidbody_t4233889191;
+// HutongGames.PlayMaker.Actions.SetEnumValue
+struct SetEnumValue_t4139640040;
+// HutongGames.PlayMaker.Actions.SetEventData
+struct SetEventData_t3188337776;
+// HutongGames.PlayMaker.Actions.SetEventTarget
+struct SetEventTarget_t3604402311;
+// HutongGames.PlayMaker.Actions.SetFlareStrength
+struct SetFlareStrength_t1646161835;
+// HutongGames.PlayMaker.Actions.SetFloatValue
+struct SetFloatValue_t1765088067;
+// HutongGames.PlayMaker.Actions.SetFogColor
+struct SetFogColor_t2065187483;
+// HutongGames.PlayMaker.Actions.SetFogDensity
+struct SetFogDensity_t3867228106;
+// HutongGames.PlayMaker.Actions.SetFsmArray
+struct SetFsmArray_t309067603;
+// HutongGames.PlayMaker.Actions.BaseFsmVariableAction
+struct BaseFsmVariableAction_t1849884759;
+// HutongGames.PlayMaker.FsmVariables
+struct FsmVariables_t630687169;
+// System.Array
+struct Il2CppArray;
+// HutongGames.PlayMaker.Actions.SetFsmArrayItem
+struct SetFsmArrayItem_t1117188136;
+// HutongGames.PlayMaker.Actions.BaseFsmVariableIndexAction
+struct BaseFsmVariableIndexAction_t3235583395;
+// HutongGames.PlayMaker.FsmVar
+struct FsmVar_t2872592513;
+// HutongGames.PlayMaker.Actions.SetFsmBool
+struct SetFsmBool_t2886585218;
+// HutongGames.PlayMaker.Actions.SetFsmColor
+struct SetFsmColor_t759142125;
+// HutongGames.PlayMaker.Actions.SetFsmEnum
+struct SetFsmEnum_t16539373;
+// HutongGames.PlayMaker.Actions.SetFsmFloat
+struct SetFsmFloat_t2903169588;
+// HutongGames.PlayMaker.Actions.SetFsmGameObject
+struct SetFsmGameObject_t1367964709;
+// HutongGames.PlayMaker.Actions.SetFsmInt
+struct SetFsmInt_t1716896067;
+// HutongGames.PlayMaker.Actions.SetFsmMaterial
+struct SetFsmMaterial_t3345318009;
+// HutongGames.PlayMaker.Actions.SetFsmObject
+struct SetFsmObject_t3286560103;
+// HutongGames.PlayMaker.Actions.SetFsmQuaternion
+struct SetFsmQuaternion_t128851816;
+// HutongGames.PlayMaker.Actions.SetFsmRect
+struct SetFsmRect_t487080500;
+// HutongGames.PlayMaker.Actions.SetFsmString
+struct SetFsmString_t4065550381;
+// HutongGames.PlayMaker.Actions.SetFsmTexture
+struct SetFsmTexture_t3916602097;
+extern Il2CppClass* FsmQuaternion_t878438756_il2cpp_TypeInfo_var;
+extern const uint32_t QuaternionRotateTowards_Reset_m3352987562_MetadataUsageId;
+extern const uint32_t QuaternionSlerp_Reset_m3305049127_MetadataUsageId;
+extern Il2CppClass* FsmVector3_t3996534004_il2cpp_TypeInfo_var;
+extern Il2CppClass* FsmIntU5BU5D_t2637547802_il2cpp_TypeInfo_var;
+extern const uint32_t Raycast_Reset_m1547411832_MetadataUsageId;
+extern Il2CppClass* Object_t1021602117_il2cpp_TypeInfo_var;
+extern Il2CppClass* Mathf_t2336485820_il2cpp_TypeInfo_var;
+extern Il2CppClass* Debug_t1368543263_il2cpp_TypeInfo_var;
+extern const uint32_t Raycast_DoRaycast_m2881878705_MetadataUsageId;
+extern Il2CppClass* FsmVector2_t2430450063_il2cpp_TypeInfo_var;
+extern Il2CppClass* FsmInt_t1273009179_il2cpp_TypeInfo_var;
+extern const uint32_t RayCast2d_Reset_m839132578_MetadataUsageId;
+extern const uint32_t RayCast2d_OnEnter_m892330396_MetadataUsageId;
+extern Il2CppClass* Physics2D_t2540166467_il2cpp_TypeInfo_var;
+extern Il2CppClass* Fsm_t917886356_il2cpp_TypeInfo_var;
+extern const uint32_t RayCast2d_DoRaycast_m2728306279_MetadataUsageId;
+extern const uint32_t RaycastAll_Reset_m2711891741_MetadataUsageId;
+extern Il2CppClass* RaycastAll_t2103133324_il2cpp_TypeInfo_var;
+extern Il2CppClass* GameObjectU5BU5D_t3057952154_il2cpp_TypeInfo_var;
+extern const uint32_t RaycastAll_DoRaycast_m2883002290_MetadataUsageId;
+extern Il2CppClass* FsmRect_t19023354_il2cpp_TypeInfo_var;
+extern Il2CppClass* FsmFloat_t937133978_il2cpp_TypeInfo_var;
+extern const uint32_t RectContains_Reset_m3298359522_MetadataUsageId;
+extern const uint32_t RectOverlaps_Reset_m375760843_MetadataUsageId;
+extern Il2CppClass* String_t_il2cpp_TypeInfo_var;
+extern const uint32_t RemoveMixingTransform_Reset_m674614725_MetadataUsageId;
+extern const MethodInfo* ComponentAction_1_UpdateCache_m2558231994_MethodInfo_var;
+extern const MethodInfo* ComponentAction_1_get_animation_m1902480922_MethodInfo_var;
+extern const uint32_t RemoveMixingTransform_DoRemoveMixingTransform_m3431249005_MetadataUsageId;
+extern Il2CppClass* GUI_t4082743951_il2cpp_TypeInfo_var;
+extern Il2CppClass* PlayMakerGUI_t2662579489_il2cpp_TypeInfo_var;
+extern const uint32_t ResetGUIMatrix_OnGUI_m3030653573_MetadataUsageId;
+extern Il2CppClass* Input_t1785128008_il2cpp_TypeInfo_var;
+extern const uint32_t ResetInputAxes_OnEnter_m1102490147_MetadataUsageId;
+extern const uint32_t RewindAnimation_DoRewindAnimation_m1834574813_MetadataUsageId;
+extern const uint32_t Rotate_Reset_m3188657962_MetadataUsageId;
+extern const uint32_t Rotate_DoRotate_m4026921729_MetadataUsageId;
+extern Il2CppClass* GUIUtility_t3275770671_il2cpp_TypeInfo_var;
+extern const uint32_t RotateGUI_OnGUI_m377144660_MetadataUsageId;
+extern Il2CppClass* FsmTemplateControl_t924276959_il2cpp_TypeInfo_var;
+extern const uint32_t RunFSM__ctor_m1553634871_MetadataUsageId;
+extern const uint32_t RunFSM_Reset_m2352803504_MetadataUsageId;
+extern const uint32_t RunFSM_Awake_m3443362260_MetadataUsageId;
+extern Il2CppClass* Single_t2076509932_il2cpp_TypeInfo_var;
+extern Il2CppClass* Int32_t2071877448_il2cpp_TypeInfo_var;
+extern const uint32_t ScaleGUI_OnGUI_m240692131_MetadataUsageId;
+extern const uint32_t ScreenPick_Reset_m990566516_MetadataUsageId;
+extern Il2CppCodeGenString* _stringLiteral300472843;
+extern const uint32_t ScreenPick_DoScreenPick_m1980130241_MetadataUsageId;
+extern const uint32_t ScreenPick2d_Reset_m2881479446_MetadataUsageId;
+extern const uint32_t ScreenPick2d_DoScreenPick_m766231039_MetadataUsageId;
+extern const uint32_t ScreenToWorldPoint_Reset_m221764338_MetadataUsageId;
+extern const uint32_t ScreenToWorldPoint_DoScreenToWorldPoint_m3535202433_MetadataUsageId;
+extern Il2CppClass* FsmColorU5BU5D_t4100123680_il2cpp_TypeInfo_var;
+extern Il2CppClass* FsmFloatU5BU5D_t4177556671_il2cpp_TypeInfo_var;
+extern const uint32_t SelectRandomColor_Reset_m3831295373_MetadataUsageId;
+extern Il2CppClass* FsmGameObjectU5BU5D_t3601875862_il2cpp_TypeInfo_var;
+extern const uint32_t SelectRandomGameObject_Reset_m1651995323_MetadataUsageId;
+extern Il2CppClass* FsmStringU5BU5D_t2699231328_il2cpp_TypeInfo_var;
+extern const uint32_t SelectRandomString_Reset_m102886921_MetadataUsageId;
+extern Il2CppClass* FsmVector2U5BU5D_t381696854_il2cpp_TypeInfo_var;
+extern const uint32_t SelectRandomVector2_Reset_m1912388395_MetadataUsageId;
+extern Il2CppClass* FsmVector3U5BU5D_t643261629_il2cpp_TypeInfo_var;
+extern const uint32_t SelectRandomVector3_Reset_m1908910954_MetadataUsageId;
+extern Il2CppClass* UnityAction_2_t606618774_il2cpp_TypeInfo_var;
+extern const MethodInfo* SendActiveSceneChangedEvent_SceneManager_activeSceneChanged_m489784890_MethodInfo_var;
+extern const MethodInfo* UnityAction_2__ctor_m1700527340_MethodInfo_var;
+extern const uint32_t SendActiveSceneChangedEvent_OnEnter_m4195327071_MetadataUsageId;
+extern Il2CppClass* SendActiveSceneChangedEvent_t3095845534_il2cpp_TypeInfo_var;
+extern const uint32_t SendActiveSceneChangedEvent_SceneManager_activeSceneChanged_m489784890_MetadataUsageId;
+extern const uint32_t SendActiveSceneChangedEvent_OnExit_m533019903_MetadataUsageId;
+extern Il2CppClass* FsmEvent_t1258573736_il2cpp_TypeInfo_var;
+extern const uint32_t SendEventByName_OnEnter_m257003715_MetadataUsageId;
+extern Il2CppCodeGenString* _stringLiteral4271151420;
+extern Il2CppCodeGenString* _stringLiteral372029310;
+extern const uint32_t SendEventToFsm_OnEnter_m1255039804_MetadataUsageId;
+extern Il2CppClass* SendMessage_t2292102445_il2cpp_TypeInfo_var;
+extern Il2CppClass* Dictionary_2_t3986656710_il2cpp_TypeInfo_var;
+extern Il2CppClass* Boolean_t3825574718_il2cpp_TypeInfo_var;
+extern Il2CppClass* Vector2_t2243707579_il2cpp_TypeInfo_var;
+extern Il2CppClass* Vector3_t2243707580_il2cpp_TypeInfo_var;
+extern Il2CppClass* Rect_t3681755626_il2cpp_TypeInfo_var;
+extern Il2CppClass* Color_t2020392075_il2cpp_TypeInfo_var;
+extern Il2CppClass* Quaternion_t4030073918_il2cpp_TypeInfo_var;
+extern const MethodInfo* Dictionary_2__ctor_m2118310873_MethodInfo_var;
+extern const MethodInfo* Dictionary_2_Add_m1209957957_MethodInfo_var;
+extern const MethodInfo* Dictionary_2_TryGetValue_m2977303364_MethodInfo_var;
+extern Il2CppCodeGenString* _stringLiteral1414246128;
+extern Il2CppCodeGenString* _stringLiteral204391430;
+extern Il2CppCodeGenString* _stringLiteral3068682575;
+extern Il2CppCodeGenString* _stringLiteral613657440;
+extern Il2CppCodeGenString* _stringLiteral3311014053;
+extern Il2CppCodeGenString* _stringLiteral1335531435;
+extern Il2CppCodeGenString* _stringLiteral1335531434;
+extern Il2CppCodeGenString* _stringLiteral3423762616;
+extern Il2CppCodeGenString* _stringLiteral2236113155;
+extern Il2CppCodeGenString* _stringLiteral3067252259;
+extern Il2CppCodeGenString* _stringLiteral1335595703;
+extern Il2CppCodeGenString* _stringLiteral3120862801;
+extern Il2CppCodeGenString* _stringLiteral953520486;
+extern Il2CppCodeGenString* _stringLiteral2051284657;
+extern Il2CppCodeGenString* _stringLiteral1629313587;
+extern Il2CppCodeGenString* _stringLiteral1185245981;
+extern const uint32_t SendMessage_DoSendMessage_m1290580433_MetadataUsageId;
+extern Il2CppClass* FsmEventU5BU5D_t287863993_il2cpp_TypeInfo_var;
+extern const uint32_t SendRandomEvent_Reset_m1827739932_MetadataUsageId;
+extern Il2CppClass* UnityAction_2_t1903595547_il2cpp_TypeInfo_var;
+extern const MethodInfo* SendSceneLoadedEvent_SceneManager_sceneLoaded_m2978163357_MethodInfo_var;
+extern const MethodInfo* UnityAction_2__ctor_m1085363353_MethodInfo_var;
+extern const uint32_t SendSceneLoadedEvent_OnEnter_m1387032222_MetadataUsageId;
+extern Il2CppClass* SendSceneLoadedEvent_t4158827811_il2cpp_TypeInfo_var;
+extern const uint32_t SendSceneLoadedEvent_SceneManager_sceneLoaded_m2978163357_MetadataUsageId;
+extern const uint32_t SendSceneLoadedEvent_OnExit_m3336778574_MetadataUsageId;
+extern Il2CppCodeGenString* _stringLiteral1054710414;
+extern const uint32_t SendSceneLoadedEvent_ErrorCheck_m2030403260_MetadataUsageId;
+extern Il2CppClass* UnityAction_1_t3051495417_il2cpp_TypeInfo_var;
+extern const MethodInfo* SendSceneUnloadedEvent_SceneManager_sceneUnloaded_m2291888182_MethodInfo_var;
+extern const MethodInfo* UnityAction_1__ctor_m1058454129_MethodInfo_var;
+extern const uint32_t SendSceneUnloadedEvent_OnEnter_m292929261_MetadataUsageId;
+extern Il2CppClass* SendSceneUnloadedEvent_t2523336820_il2cpp_TypeInfo_var;
+extern const uint32_t SendSceneUnloadedEvent_SceneManager_sceneUnloaded_m2291888182_MetadataUsageId;
+extern const uint32_t SendSceneUnloadedEvent_OnExit_m2040453481_MetadataUsageId;
+extern Il2CppClass* Exception_t1927440687_il2cpp_TypeInfo_var;
+extern Il2CppClass* Scene_t1684909666_il2cpp_TypeInfo_var;
+extern Il2CppCodeGenString* _stringLiteral3792612384;
+extern const uint32_t SetActiveScene_DoSetActivate_m3383789092_MetadataUsageId;
+extern Il2CppCodeGenString* _stringLiteral3861672474;
+extern const uint32_t SetAnimationSpeed_DoSetAnimationSpeed_m2534932237_MetadataUsageId;
+extern const uint32_t SetAnimationTime_DoSetAnimationTime_m3951448813_MetadataUsageId;
+extern const uint32_t SetAnimationWeight_DoSetAnimationWeight_m722090061_MetadataUsageId;
+extern const MethodInfo* GameObject_GetComponent_TisAnimator_t69676727_m2717502299_MethodInfo_var;
+extern const uint32_t SetAnimatorApplyRootMotion_OnEnter_m1808247442_MetadataUsageId;
+extern const uint32_t SetAnimatorApplyRootMotion_DoApplyRootMotion_m2967156894_MetadataUsageId;
+extern const uint32_t SetAnimatorBody_Reset_m3199843626_MetadataUsageId;
+extern const uint32_t SetAnimatorBody_OnEnter_m1180635436_MetadataUsageId;
+extern const uint32_t SetAnimatorBody_DoSetBody_m2900504470_MetadataUsageId;
+extern const uint32_t SetAnimatorBool_OnEnter_m3231680096_MetadataUsageId;
+extern const uint32_t SetAnimatorBool_SetParameter_m2471012474_MetadataUsageId;
+extern const uint32_t SetAnimatorCullingMode_OnEnter_m353330971_MetadataUsageId;
+extern const uint32_t SetAnimatorCullingMode_SetCullingMode_m2215389557_MetadataUsageId;
+extern const uint32_t SetAnimatorFeetPivotActive_OnEnter_m3526038150_MetadataUsageId;
+extern const uint32_t SetAnimatorFeetPivotActive_DoFeetPivotActive_m3046968450_MetadataUsageId;
+extern const uint32_t SetAnimatorFloat_Reset_m2394164048_MetadataUsageId;
+extern const uint32_t SetAnimatorFloat_OnEnter_m1775862462_MetadataUsageId;
+extern const uint32_t SetAnimatorFloat_SetParameter_m1272420540_MetadataUsageId;
+extern const uint32_t SetAnimatorIKGoal_Reset_m1089851381_MetadataUsageId;
+extern const uint32_t SetAnimatorIKGoal_OnEnter_m1808082869_MetadataUsageId;
+extern const uint32_t SetAnimatorIKGoal_DoSetIKGoal_m4274498532_MetadataUsageId;
+extern const uint32_t SetAnimatorInt_OnEnter_m3055034877_MetadataUsageId;
+extern const uint32_t SetAnimatorInt_SetParameter_m2100579519_MetadataUsageId;
+extern const uint32_t SetAnimatorLayersAffectMassCenter_OnEnter_m2691460330_MetadataUsageId;
+extern const uint32_t SetAnimatorLayersAffectMassCenter_SetAffectMassCenter_m2768642441_MetadataUsageId;
+extern const uint32_t SetAnimatorLayerWeight_OnEnter_m1903068317_MetadataUsageId;
+extern const uint32_t SetAnimatorLayerWeight_DoLayerWeight_m2594134044_MetadataUsageId;
+extern const uint32_t SetAnimatorLookAt_Reset_m1110585284_MetadataUsageId;
+extern const uint32_t SetAnimatorLookAt_OnEnter_m1100618302_MetadataUsageId;
+extern const uint32_t SetAnimatorLookAt_DoSetLookAt_m1574379630_MetadataUsageId;
+extern const uint32_t SetAnimatorPlayBackSpeed_OnEnter_m837261508_MetadataUsageId;
+extern const uint32_t SetAnimatorPlayBackSpeed_DoPlayBackSpeed_m707694510_MetadataUsageId;
+extern const uint32_t SetAnimatorPlayBackTime_OnEnter_m50939044_MetadataUsageId;
+extern const uint32_t SetAnimatorPlayBackTime_DoPlaybackTime_m4030669916_MetadataUsageId;
+extern const uint32_t SetAnimatorSpeed_OnEnter_m451983889_MetadataUsageId;
+extern const uint32_t SetAnimatorSpeed_DoPlaybackSpeed_m2210846151_MetadataUsageId;
+extern const uint32_t SetAnimatorStabilizeFeet_OnEnter_m3102292471_MetadataUsageId;
+extern const uint32_t SetAnimatorStabilizeFeet_DoStabilizeFeet_m2036505336_MetadataUsageId;
+extern const uint32_t SetAnimatorTarget_OnEnter_m1039156567_MetadataUsageId;
+extern const uint32_t SetAnimatorTarget_SetTarget_m2217284069_MetadataUsageId;
+extern const uint32_t SetAnimatorTrigger_OnEnter_m2221520188_MetadataUsageId;
+extern const uint32_t SetAnimatorTrigger_SetTrigger_m510368757_MetadataUsageId;
+extern const MethodInfo* ComponentAction_1__ctor_m2282656970_MethodInfo_var;
+extern const uint32_t SetAudioClip__ctor_m2342809448_MetadataUsageId;
+extern Il2CppClass* AudioClip_t1932558630_il2cpp_TypeInfo_var;
+extern const MethodInfo* ComponentAction_1_UpdateCache_m661482389_MethodInfo_var;
+extern const MethodInfo* ComponentAction_1_get_audio_m2158153034_MethodInfo_var;
+extern const uint32_t SetAudioClip_OnEnter_m3691524257_MetadataUsageId;
+extern const uint32_t SetAudioLoop__ctor_m430751728_MetadataUsageId;
+extern const uint32_t SetAudioLoop_OnEnter_m2879467871_MetadataUsageId;
+extern const uint32_t SetAudioPitch__ctor_m128356330_MetadataUsageId;
+extern const uint32_t SetAudioPitch_DoSetAudioPitch_m1394952541_MetadataUsageId;
+extern const uint32_t SetAudioVolume__ctor_m1058494268_MetadataUsageId;
+extern const uint32_t SetAudioVolume_DoSetAudioVolume_m2414347873_MetadataUsageId;
+extern const MethodInfo* ComponentAction_1__ctor_m2142913070_MethodInfo_var;
+extern const uint32_t SetBackgroundColor__ctor_m2311639891_MetadataUsageId;
+extern const MethodInfo* ComponentAction_1_UpdateCache_m4284851463_MethodInfo_var;
+extern const MethodInfo* ComponentAction_1_get_camera_m3499382131_MethodInfo_var;
+extern const uint32_t SetBackgroundColor_DoSetBackgroundColor_m872035457_MetadataUsageId;
+extern const uint32_t SetCameraCullingMask__ctor_m1181644727_MetadataUsageId;
+extern const uint32_t SetCameraCullingMask_Reset_m3789026160_MetadataUsageId;
+extern const uint32_t SetCameraCullingMask_DoSetCameraCullingMask_m1426544513_MetadataUsageId;
+extern const uint32_t SetCameraFOV__ctor_m2394408766_MetadataUsageId;
+extern const uint32_t SetCameraFOV_DoSetCameraFOV_m2304958017_MetadataUsageId;
+extern const MethodInfo* GameObject_GetComponents_TisCollider2D_t646061738_m3026490665_MethodInfo_var;
+extern const MethodInfo* GameObject_GetComponent_TisCollider2D_t646061738_m102049670_MethodInfo_var;
+extern const uint32_t SetCollider2dIsTrigger_DoSetIsTrigger_m3931150077_MetadataUsageId;
+extern const MethodInfo* ComponentAction_1__ctor_m624387542_MethodInfo_var;
+extern const uint32_t SetDrag__ctor_m1012650124_MetadataUsageId;
+extern const MethodInfo* ComponentAction_1_UpdateCache_m135452307_MethodInfo_var;
+extern const MethodInfo* ComponentAction_1_get_rigidbody_m1721699991_MethodInfo_var;
+extern const uint32_t SetDrag_DoSetDrag_m1330522333_MetadataUsageId;
+extern Il2CppClass* FsmGameObject_t3097142863_il2cpp_TypeInfo_var;
+extern Il2CppClass* FsmString_t2414474701_il2cpp_TypeInfo_var;
+extern Il2CppClass* FsmBool_t664485696_il2cpp_TypeInfo_var;
+extern Il2CppClass* FsmColor_t118301965_il2cpp_TypeInfo_var;
+extern Il2CppClass* FsmMaterial_t1421632035_il2cpp_TypeInfo_var;
+extern Il2CppClass* FsmTexture_t3372293163_il2cpp_TypeInfo_var;
+extern Il2CppClass* FsmObject_t2785794313_il2cpp_TypeInfo_var;
+extern const uint32_t SetEventData_Reset_m1943603545_MetadataUsageId;
+extern const uint32_t SetEventData_OnEnter_m3925395097_MetadataUsageId;
+extern const uint32_t SetFsmArray_Reset_m2050803916_MetadataUsageId;
+extern Il2CppClass* ObjectU5BU5D_t3614634134_il2cpp_TypeInfo_var;
+extern Il2CppClass* VariableType_t930978778_il2cpp_TypeInfo_var;
+extern Il2CppCodeGenString* _stringLiteral597527219;
+extern Il2CppCodeGenString* _stringLiteral3135188505;
+extern Il2CppCodeGenString* _stringLiteral372029332;
+extern const uint32_t SetFsmArray_DoSetFsmArrayCopy_m469428794_MetadataUsageId;
+extern const uint32_t SetFsmArrayItem_Reset_m314938337_MetadataUsageId;
+extern Il2CppCodeGenString* _stringLiteral816937841;
+extern const uint32_t SetFsmArrayItem_DoSetFsmArray_m3822892670_MetadataUsageId;
+extern const uint32_t SetFsmBool_Reset_m2445796591_MetadataUsageId;
+extern Il2CppCodeGenString* _stringLiteral89614007;
+extern Il2CppCodeGenString* _stringLiteral4100572733;
+extern const uint32_t SetFsmBool_DoSetFsmBool_m3739246433_MetadataUsageId;
+extern const uint32_t SetFsmColor_Reset_m3286521322_MetadataUsageId;
+extern const uint32_t SetFsmColor_DoSetFsmColor_m3716858801_MetadataUsageId;
+extern const uint32_t SetFsmEnum_Reset_m213780250_MetadataUsageId;
+extern const uint32_t SetFsmEnum_DoSetFsmEnum_m1383548289_MetadataUsageId;
+extern const uint32_t SetFsmFloat_Reset_m1682546897_MetadataUsageId;
+extern const uint32_t SetFsmFloat_DoSetFsmFloat_m317043325_MetadataUsageId;
+extern const uint32_t SetFsmGameObject_Reset_m196040394_MetadataUsageId;
+extern const uint32_t SetFsmGameObject_DoSetFsmGameObject_m1016196609_MetadataUsageId;
+extern const uint32_t SetFsmInt_Reset_m3882309568_MetadataUsageId;
+extern const uint32_t SetFsmInt_DoSetFsmInt_m3294848813_MetadataUsageId;
+extern const uint32_t SetFsmMaterial_Reset_m1166806346_MetadataUsageId;
+extern const uint32_t SetFsmMaterial_DoSetFsmBool_m2270217842_MetadataUsageId;
+extern const uint32_t SetFsmObject_Reset_m3824522488_MetadataUsageId;
+extern const uint32_t SetFsmObject_DoSetFsmBool_m2735063900_MetadataUsageId;
+extern const uint32_t SetFsmQuaternion_Reset_m1995988589_MetadataUsageId;
+extern const uint32_t SetFsmQuaternion_DoSetFsmQuaternion_m4057498497_MetadataUsageId;
+extern const uint32_t SetFsmRect_Reset_m4071714497_MetadataUsageId;
+extern const uint32_t SetFsmRect_DoSetFsmBool_m3764728407_MetadataUsageId;
+extern const uint32_t SetFsmString_Reset_m2984007902_MetadataUsageId;
+extern const uint32_t SetFsmString_DoSetFsmString_m474226881_MetadataUsageId;
+extern const uint32_t SetFsmTexture_Reset_m3897946446_MetadataUsageId;
+extern const uint32_t SetFsmTexture_DoSetFsmBool_m1021498382_MetadataUsageId;
+
+// HutongGames.PlayMaker.FsmTransition[]
+struct FsmTransitionU5BU5D_t1091630918  : public Il2CppArray
+{
+public:
+	ALIGN_FIELD (8) FsmTransition_t1534990431 * m_Items[1];
+
+public:
+	inline FsmTransition_t1534990431 * GetAt(il2cpp_array_size_t index) const
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items[index];
+	}
+	inline FsmTransition_t1534990431 ** GetAddressAt(il2cpp_array_size_t index)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items + index;
+	}
+	inline void SetAt(il2cpp_array_size_t index, FsmTransition_t1534990431 * value)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		m_Items[index] = value;
+		Il2CppCodeGenWriteBarrier(m_Items + index, value);
+	}
+	inline FsmTransition_t1534990431 * GetAtUnchecked(il2cpp_array_size_t index) const
+	{
+		return m_Items[index];
+	}
+	inline FsmTransition_t1534990431 ** GetAddressAtUnchecked(il2cpp_array_size_t index)
+	{
+		return m_Items + index;
+	}
+	inline void SetAtUnchecked(il2cpp_array_size_t index, FsmTransition_t1534990431 * value)
+	{
+		m_Items[index] = value;
+		Il2CppCodeGenWriteBarrier(m_Items + index, value);
+	}
+};
+// HutongGames.PlayMaker.FsmInt[]
+struct FsmIntU5BU5D_t2637547802  : public Il2CppArray
+{
+public:
+	ALIGN_FIELD (8) FsmInt_t1273009179 * m_Items[1];
+
+public:
+	inline FsmInt_t1273009179 * GetAt(il2cpp_array_size_t index) const
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items[index];
+	}
+	inline FsmInt_t1273009179 ** GetAddressAt(il2cpp_array_size_t index)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items + index;
+	}
+	inline void SetAt(il2cpp_array_size_t index, FsmInt_t1273009179 * value)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		m_Items[index] = value;
+		Il2CppCodeGenWriteBarrier(m_Items + index, value);
+	}
+	inline FsmInt_t1273009179 * GetAtUnchecked(il2cpp_array_size_t index) const
+	{
+		return m_Items[index];
+	}
+	inline FsmInt_t1273009179 ** GetAddressAtUnchecked(il2cpp_array_size_t index)
+	{
+		return m_Items + index;
+	}
+	inline void SetAtUnchecked(il2cpp_array_size_t index, FsmInt_t1273009179 * value)
+	{
+		m_Items[index] = value;
+		Il2CppCodeGenWriteBarrier(m_Items + index, value);
+	}
+};
+// UnityEngine.GameObject[]
+struct GameObjectU5BU5D_t3057952154  : public Il2CppArray
+{
+public:
+	ALIGN_FIELD (8) GameObject_t1756533147 * m_Items[1];
+
+public:
+	inline GameObject_t1756533147 * GetAt(il2cpp_array_size_t index) const
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items[index];
+	}
+	inline GameObject_t1756533147 ** GetAddressAt(il2cpp_array_size_t index)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items + index;
+	}
+	inline void SetAt(il2cpp_array_size_t index, GameObject_t1756533147 * value)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		m_Items[index] = value;
+		Il2CppCodeGenWriteBarrier(m_Items + index, value);
+	}
+	inline GameObject_t1756533147 * GetAtUnchecked(il2cpp_array_size_t index) const
+	{
+		return m_Items[index];
+	}
+	inline GameObject_t1756533147 ** GetAddressAtUnchecked(il2cpp_array_size_t index)
+	{
+		return m_Items + index;
+	}
+	inline void SetAtUnchecked(il2cpp_array_size_t index, GameObject_t1756533147 * value)
+	{
+		m_Items[index] = value;
+		Il2CppCodeGenWriteBarrier(m_Items + index, value);
+	}
+};
+// UnityEngine.RaycastHit[]
+struct RaycastHitU5BU5D_t1214023521  : public Il2CppArray
+{
+public:
+	ALIGN_FIELD (8) RaycastHit_t87180320  m_Items[1];
+
+public:
+	inline RaycastHit_t87180320  GetAt(il2cpp_array_size_t index) const
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items[index];
+	}
+	inline RaycastHit_t87180320 * GetAddressAt(il2cpp_array_size_t index)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items + index;
+	}
+	inline void SetAt(il2cpp_array_size_t index, RaycastHit_t87180320  value)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		m_Items[index] = value;
+	}
+	inline RaycastHit_t87180320  GetAtUnchecked(il2cpp_array_size_t index) const
+	{
+		return m_Items[index];
+	}
+	inline RaycastHit_t87180320 * GetAddressAtUnchecked(il2cpp_array_size_t index)
+	{
+		return m_Items + index;
+	}
+	inline void SetAtUnchecked(il2cpp_array_size_t index, RaycastHit_t87180320  value)
+	{
+		m_Items[index] = value;
+	}
+};
+// System.Object[]
+struct ObjectU5BU5D_t3614634134  : public Il2CppArray
+{
+public:
+	ALIGN_FIELD (8) Il2CppObject * m_Items[1];
+
+public:
+	inline Il2CppObject * GetAt(il2cpp_array_size_t index) const
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items[index];
+	}
+	inline Il2CppObject ** GetAddressAt(il2cpp_array_size_t index)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items + index;
+	}
+	inline void SetAt(il2cpp_array_size_t index, Il2CppObject * value)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		m_Items[index] = value;
+		Il2CppCodeGenWriteBarrier(m_Items + index, value);
+	}
+	inline Il2CppObject * GetAtUnchecked(il2cpp_array_size_t index) const
+	{
+		return m_Items[index];
+	}
+	inline Il2CppObject ** GetAddressAtUnchecked(il2cpp_array_size_t index)
+	{
+		return m_Items + index;
+	}
+	inline void SetAtUnchecked(il2cpp_array_size_t index, Il2CppObject * value)
+	{
+		m_Items[index] = value;
+		Il2CppCodeGenWriteBarrier(m_Items + index, value);
+	}
+};
+// HutongGames.PlayMaker.FsmColor[]
+struct FsmColorU5BU5D_t4100123680  : public Il2CppArray
+{
+public:
+	ALIGN_FIELD (8) FsmColor_t118301965 * m_Items[1];
+
+public:
+	inline FsmColor_t118301965 * GetAt(il2cpp_array_size_t index) const
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items[index];
+	}
+	inline FsmColor_t118301965 ** GetAddressAt(il2cpp_array_size_t index)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items + index;
+	}
+	inline void SetAt(il2cpp_array_size_t index, FsmColor_t118301965 * value)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		m_Items[index] = value;
+		Il2CppCodeGenWriteBarrier(m_Items + index, value);
+	}
+	inline FsmColor_t118301965 * GetAtUnchecked(il2cpp_array_size_t index) const
+	{
+		return m_Items[index];
+	}
+	inline FsmColor_t118301965 ** GetAddressAtUnchecked(il2cpp_array_size_t index)
+	{
+		return m_Items + index;
+	}
+	inline void SetAtUnchecked(il2cpp_array_size_t index, FsmColor_t118301965 * value)
+	{
+		m_Items[index] = value;
+		Il2CppCodeGenWriteBarrier(m_Items + index, value);
+	}
+};
+// HutongGames.PlayMaker.FsmFloat[]
+struct FsmFloatU5BU5D_t4177556671  : public Il2CppArray
+{
+public:
+	ALIGN_FIELD (8) FsmFloat_t937133978 * m_Items[1];
+
+public:
+	inline FsmFloat_t937133978 * GetAt(il2cpp_array_size_t index) const
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items[index];
+	}
+	inline FsmFloat_t937133978 ** GetAddressAt(il2cpp_array_size_t index)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items + index;
+	}
+	inline void SetAt(il2cpp_array_size_t index, FsmFloat_t937133978 * value)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		m_Items[index] = value;
+		Il2CppCodeGenWriteBarrier(m_Items + index, value);
+	}
+	inline FsmFloat_t937133978 * GetAtUnchecked(il2cpp_array_size_t index) const
+	{
+		return m_Items[index];
+	}
+	inline FsmFloat_t937133978 ** GetAddressAtUnchecked(il2cpp_array_size_t index)
+	{
+		return m_Items + index;
+	}
+	inline void SetAtUnchecked(il2cpp_array_size_t index, FsmFloat_t937133978 * value)
+	{
+		m_Items[index] = value;
+		Il2CppCodeGenWriteBarrier(m_Items + index, value);
+	}
+};
+// HutongGames.PlayMaker.FsmGameObject[]
+struct FsmGameObjectU5BU5D_t3601875862  : public Il2CppArray
+{
+public:
+	ALIGN_FIELD (8) FsmGameObject_t3097142863 * m_Items[1];
+
+public:
+	inline FsmGameObject_t3097142863 * GetAt(il2cpp_array_size_t index) const
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items[index];
+	}
+	inline FsmGameObject_t3097142863 ** GetAddressAt(il2cpp_array_size_t index)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items + index;
+	}
+	inline void SetAt(il2cpp_array_size_t index, FsmGameObject_t3097142863 * value)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		m_Items[index] = value;
+		Il2CppCodeGenWriteBarrier(m_Items + index, value);
+	}
+	inline FsmGameObject_t3097142863 * GetAtUnchecked(il2cpp_array_size_t index) const
+	{
+		return m_Items[index];
+	}
+	inline FsmGameObject_t3097142863 ** GetAddressAtUnchecked(il2cpp_array_size_t index)
+	{
+		return m_Items + index;
+	}
+	inline void SetAtUnchecked(il2cpp_array_size_t index, FsmGameObject_t3097142863 * value)
+	{
+		m_Items[index] = value;
+		Il2CppCodeGenWriteBarrier(m_Items + index, value);
+	}
+};
+// HutongGames.PlayMaker.FsmString[]
+struct FsmStringU5BU5D_t2699231328  : public Il2CppArray
+{
+public:
+	ALIGN_FIELD (8) FsmString_t2414474701 * m_Items[1];
+
+public:
+	inline FsmString_t2414474701 * GetAt(il2cpp_array_size_t index) const
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items[index];
+	}
+	inline FsmString_t2414474701 ** GetAddressAt(il2cpp_array_size_t index)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items + index;
+	}
+	inline void SetAt(il2cpp_array_size_t index, FsmString_t2414474701 * value)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		m_Items[index] = value;
+		Il2CppCodeGenWriteBarrier(m_Items + index, value);
+	}
+	inline FsmString_t2414474701 * GetAtUnchecked(il2cpp_array_size_t index) const
+	{
+		return m_Items[index];
+	}
+	inline FsmString_t2414474701 ** GetAddressAtUnchecked(il2cpp_array_size_t index)
+	{
+		return m_Items + index;
+	}
+	inline void SetAtUnchecked(il2cpp_array_size_t index, FsmString_t2414474701 * value)
+	{
+		m_Items[index] = value;
+		Il2CppCodeGenWriteBarrier(m_Items + index, value);
+	}
+};
+// HutongGames.PlayMaker.FsmVector2[]
+struct FsmVector2U5BU5D_t381696854  : public Il2CppArray
+{
+public:
+	ALIGN_FIELD (8) FsmVector2_t2430450063 * m_Items[1];
+
+public:
+	inline FsmVector2_t2430450063 * GetAt(il2cpp_array_size_t index) const
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items[index];
+	}
+	inline FsmVector2_t2430450063 ** GetAddressAt(il2cpp_array_size_t index)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items + index;
+	}
+	inline void SetAt(il2cpp_array_size_t index, FsmVector2_t2430450063 * value)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		m_Items[index] = value;
+		Il2CppCodeGenWriteBarrier(m_Items + index, value);
+	}
+	inline FsmVector2_t2430450063 * GetAtUnchecked(il2cpp_array_size_t index) const
+	{
+		return m_Items[index];
+	}
+	inline FsmVector2_t2430450063 ** GetAddressAtUnchecked(il2cpp_array_size_t index)
+	{
+		return m_Items + index;
+	}
+	inline void SetAtUnchecked(il2cpp_array_size_t index, FsmVector2_t2430450063 * value)
+	{
+		m_Items[index] = value;
+		Il2CppCodeGenWriteBarrier(m_Items + index, value);
+	}
+};
+// HutongGames.PlayMaker.FsmVector3[]
+struct FsmVector3U5BU5D_t643261629  : public Il2CppArray
+{
+public:
+	ALIGN_FIELD (8) FsmVector3_t3996534004 * m_Items[1];
+
+public:
+	inline FsmVector3_t3996534004 * GetAt(il2cpp_array_size_t index) const
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items[index];
+	}
+	inline FsmVector3_t3996534004 ** GetAddressAt(il2cpp_array_size_t index)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items + index;
+	}
+	inline void SetAt(il2cpp_array_size_t index, FsmVector3_t3996534004 * value)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		m_Items[index] = value;
+		Il2CppCodeGenWriteBarrier(m_Items + index, value);
+	}
+	inline FsmVector3_t3996534004 * GetAtUnchecked(il2cpp_array_size_t index) const
+	{
+		return m_Items[index];
+	}
+	inline FsmVector3_t3996534004 ** GetAddressAtUnchecked(il2cpp_array_size_t index)
+	{
+		return m_Items + index;
+	}
+	inline void SetAtUnchecked(il2cpp_array_size_t index, FsmVector3_t3996534004 * value)
+	{
+		m_Items[index] = value;
+		Il2CppCodeGenWriteBarrier(m_Items + index, value);
+	}
+};
+// HutongGames.PlayMaker.FsmEvent[]
+struct FsmEventU5BU5D_t287863993  : public Il2CppArray
+{
+public:
+	ALIGN_FIELD (8) FsmEvent_t1258573736 * m_Items[1];
+
+public:
+	inline FsmEvent_t1258573736 * GetAt(il2cpp_array_size_t index) const
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items[index];
+	}
+	inline FsmEvent_t1258573736 ** GetAddressAt(il2cpp_array_size_t index)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items + index;
+	}
+	inline void SetAt(il2cpp_array_size_t index, FsmEvent_t1258573736 * value)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		m_Items[index] = value;
+		Il2CppCodeGenWriteBarrier(m_Items + index, value);
+	}
+	inline FsmEvent_t1258573736 * GetAtUnchecked(il2cpp_array_size_t index) const
+	{
+		return m_Items[index];
+	}
+	inline FsmEvent_t1258573736 ** GetAddressAtUnchecked(il2cpp_array_size_t index)
+	{
+		return m_Items + index;
+	}
+	inline void SetAtUnchecked(il2cpp_array_size_t index, FsmEvent_t1258573736 * value)
+	{
+		m_Items[index] = value;
+		Il2CppCodeGenWriteBarrier(m_Items + index, value);
+	}
+};
+// UnityEngine.Collider2D[]
+struct Collider2DU5BU5D_t3535523695  : public Il2CppArray
+{
+public:
+	ALIGN_FIELD (8) Collider2D_t646061738 * m_Items[1];
+
+public:
+	inline Collider2D_t646061738 * GetAt(il2cpp_array_size_t index) const
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items[index];
+	}
+	inline Collider2D_t646061738 ** GetAddressAt(il2cpp_array_size_t index)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items + index;
+	}
+	inline void SetAt(il2cpp_array_size_t index, Collider2D_t646061738 * value)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		m_Items[index] = value;
+		Il2CppCodeGenWriteBarrier(m_Items + index, value);
+	}
+	inline Collider2D_t646061738 * GetAtUnchecked(il2cpp_array_size_t index) const
+	{
+		return m_Items[index];
+	}
+	inline Collider2D_t646061738 ** GetAddressAtUnchecked(il2cpp_array_size_t index)
+	{
+		return m_Items + index;
+	}
+	inline void SetAtUnchecked(il2cpp_array_size_t index, Collider2D_t646061738 * value)
+	{
+		m_Items[index] = value;
+		Il2CppCodeGenWriteBarrier(m_Items + index, value);
+	}
+};
+
+
+// System.Boolean HutongGames.PlayMaker.Actions.ComponentAction`1<System.Object>::UpdateCache(UnityEngine.GameObject)
+extern "C"  bool ComponentAction_1_UpdateCache_m929902755_gshared (ComponentAction_1_t3291029034 * __this, GameObject_t1756533147 * p0, const MethodInfo* method);
+// UnityEngine.Animation HutongGames.PlayMaker.Actions.ComponentAction`1<System.Object>::get_animation()
+extern "C"  Animation_t2068071072 * ComponentAction_1_get_animation_m3473365767_gshared (ComponentAction_1_t3291029034 * __this, const MethodInfo* method);
+// System.Void UnityEngine.Events.UnityAction`2<UnityEngine.SceneManagement.Scene,UnityEngine.SceneManagement.Scene>::.ctor(System.Object,System.IntPtr)
+extern "C"  void UnityAction_2__ctor_m1700527340_gshared (UnityAction_2_t606618774 * __this, Il2CppObject * p0, IntPtr_t p1, const MethodInfo* method);
+// System.Void System.Collections.Generic.Dictionary`2<System.Object,System.Int32>::.ctor(System.Int32)
+extern "C"  void Dictionary_2__ctor_m3043033341_gshared (Dictionary_2_t1663937576 * __this, int32_t p0, const MethodInfo* method);
+// System.Void System.Collections.Generic.Dictionary`2<System.Object,System.Int32>::Add(!0,!1)
+extern "C"  void Dictionary_2_Add_m790520409_gshared (Dictionary_2_t1663937576 * __this, Il2CppObject * p0, int32_t p1, const MethodInfo* method);
+// System.Boolean System.Collections.Generic.Dictionary`2<System.Object,System.Int32>::TryGetValue(!0,!1&)
+extern "C"  bool Dictionary_2_TryGetValue_m2330758874_gshared (Dictionary_2_t1663937576 * __this, Il2CppObject * p0, int32_t* p1, const MethodInfo* method);
+// System.Void UnityEngine.Events.UnityAction`2<UnityEngine.SceneManagement.Scene,UnityEngine.SceneManagement.LoadSceneMode>::.ctor(System.Object,System.IntPtr)
+extern "C"  void UnityAction_2__ctor_m1085363353_gshared (UnityAction_2_t1903595547 * __this, Il2CppObject * p0, IntPtr_t p1, const MethodInfo* method);
+// System.Void UnityEngine.Events.UnityAction`1<UnityEngine.SceneManagement.Scene>::.ctor(System.Object,System.IntPtr)
+extern "C"  void UnityAction_1__ctor_m1058454129_gshared (UnityAction_1_t3051495417 * __this, Il2CppObject * p0, IntPtr_t p1, const MethodInfo* method);
+// !!0 UnityEngine.GameObject::GetComponent<System.Object>()
+extern "C"  Il2CppObject * GameObject_GetComponent_TisIl2CppObject_m2650145732_gshared (GameObject_t1756533147 * __this, const MethodInfo* method);
+// System.Void HutongGames.PlayMaker.Actions.ComponentAction`1<System.Object>::.ctor()
+extern "C"  void ComponentAction_1__ctor_m2818003542_gshared (ComponentAction_1_t3291029034 * __this, const MethodInfo* method);
+// UnityEngine.AudioSource HutongGames.PlayMaker.Actions.ComponentAction`1<System.Object>::get_audio()
+extern "C"  AudioSource_t1135106623 * ComponentAction_1_get_audio_m1942127190_gshared (ComponentAction_1_t3291029034 * __this, const MethodInfo* method);
+// UnityEngine.Camera HutongGames.PlayMaker.Actions.ComponentAction`1<System.Object>::get_camera()
+extern "C"  Camera_t189460977 * ComponentAction_1_get_camera_m1130907379_gshared (ComponentAction_1_t3291029034 * __this, const MethodInfo* method);
+// !!0[] UnityEngine.GameObject::GetComponents<System.Object>()
+extern "C"  ObjectU5BU5D_t3614634134* GameObject_GetComponents_TisIl2CppObject_m2259191280_gshared (GameObject_t1756533147 * __this, const MethodInfo* method);
+// UnityEngine.Rigidbody HutongGames.PlayMaker.Actions.ComponentAction`1<System.Object>::get_rigidbody()
+extern "C"  Rigidbody_t4233889191 * ComponentAction_1_get_rigidbody_m3236782951_gshared (ComponentAction_1_t3291029034 * __this, const MethodInfo* method);
+
+// System.Void HutongGames.PlayMaker.Actions.QuaternionBaseAction::.ctor()
+extern "C"  void QuaternionBaseAction__ctor_m2777676569 (QuaternionBaseAction_t3869353585 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void HutongGames.PlayMaker.FsmQuaternion::.ctor()
+extern "C"  void FsmQuaternion__ctor_m3078120561 (FsmQuaternion_t878438756 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void HutongGames.PlayMaker.NamedVariable::set_UseVariable(System.Boolean)
+extern "C"  void NamedVariable_set_UseVariable_m1478981231 (NamedVariable_t3026441313 * __this, bool p0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// HutongGames.PlayMaker.FsmFloat HutongGames.PlayMaker.FsmFloat::op_Implicit(System.Single)
+extern "C"  FsmFloat_t937133978 * FsmFloat_op_Implicit_m475928236 (Il2CppObject * __this /* static, unused */, float p0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void HutongGames.PlayMaker.Actions.QuaternionRotateTowards::DoQuatRotateTowards()
+extern "C"  void QuaternionRotateTowards_DoQuatRotateTowards_m2646640622 (QuaternionRotateTowards_t3565674165 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void HutongGames.PlayMaker.FsmStateAction::Finish()
+extern "C"  void FsmStateAction_Finish_m1955744727 (FsmStateAction_t2862378169 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// UnityEngine.Quaternion HutongGames.PlayMaker.FsmQuaternion::get_Value()
+extern "C"  Quaternion_t4030073918  FsmQuaternion_get_Value_m2629833107 (FsmQuaternion_t878438756 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Single HutongGames.PlayMaker.FsmFloat::get_Value()
+extern "C"  float FsmFloat_get_Value_m1818441449 (FsmFloat_t937133978 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// UnityEngine.Quaternion UnityEngine.Quaternion::RotateTowards(UnityEngine.Quaternion,UnityEngine.Quaternion,System.Single)
+extern "C"  Quaternion_t4030073918  Quaternion_RotateTowards_m83980725 (Il2CppObject * __this /* static, unused */, Quaternion_t4030073918  p0, Quaternion_t4030073918  p1, float p2, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void HutongGames.PlayMaker.FsmQuaternion::set_Value(UnityEngine.Quaternion)
+extern "C"  void FsmQuaternion_set_Value_m1061544654 (FsmQuaternion_t878438756 * __this, Quaternion_t4030073918  p0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void HutongGames.PlayMaker.Actions.QuaternionSlerp::DoQuatSlerp()
+extern "C"  void QuaternionSlerp_DoQuatSlerp_m1992206728 (QuaternionSlerp_t3176095846 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// UnityEngine.Quaternion UnityEngine.Quaternion::Slerp(UnityEngine.Quaternion,UnityEngine.Quaternion,System.Single)
+extern "C"  Quaternion_t4030073918  Quaternion_Slerp_m1992855400 (Il2CppObject * __this /* static, unused */, Quaternion_t4030073918  p0, Quaternion_t4030073918  p1, float p2, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void HutongGames.PlayMaker.FsmStateAction::.ctor()
+extern "C"  void FsmStateAction__ctor_m1837021228 (FsmStateAction_t2862378169 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Int32 UnityEngine.Random::Range(System.Int32,System.Int32)
+extern "C"  int32_t Random_Range_m694320887 (Il2CppObject * __this /* static, unused */, int32_t p0, int32_t p1, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void HutongGames.PlayMaker.FsmBool::set_Value(System.Boolean)
+extern "C"  void FsmBool_set_Value_m2522230142 (FsmBool_t664485696 * __this, bool p0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// HutongGames.PlayMaker.FsmState HutongGames.PlayMaker.FsmStateAction::get_State()
+extern "C"  FsmState_t1643911659 * FsmStateAction_get_State_m267961006 (FsmStateAction_t2862378169 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// HutongGames.PlayMaker.FsmTransition[] HutongGames.PlayMaker.FsmState::get_Transitions()
+extern "C"  FsmTransitionU5BU5D_t1091630918* FsmState_get_Transitions_m726541619 (FsmState_t1643911659 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// HutongGames.PlayMaker.Fsm HutongGames.PlayMaker.FsmStateAction::get_Fsm()
+extern "C"  Fsm_t917886356 * FsmStateAction_get_Fsm_m4079598046 (FsmStateAction_t2862378169 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// HutongGames.PlayMaker.FsmEvent HutongGames.PlayMaker.Actions.RandomEvent::GetRandomEvent()
+extern "C"  FsmEvent_t1258573736 * RandomEvent_GetRandomEvent_m2298737225 (RandomEvent_t1725515053 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void HutongGames.PlayMaker.Fsm::Event(HutongGames.PlayMaker.FsmEvent)
+extern "C"  void Fsm_Event_m4079224475 (Fsm_t917886356 * __this, FsmEvent_t1258573736 * p0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// HutongGames.PlayMaker.DelayedEvent HutongGames.PlayMaker.Fsm::DelayedEvent(HutongGames.PlayMaker.FsmEvent,System.Single)
+extern "C"  DelayedEvent_t1624700828 * Fsm_DelayedEvent_m1521897107 (Fsm_t917886356 * __this, FsmEvent_t1258573736 * p0, float p1, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Boolean HutongGames.PlayMaker.DelayedEvent::WasSent(HutongGames.PlayMaker.DelayedEvent)
+extern "C"  bool DelayedEvent_WasSent_m1980822908 (Il2CppObject * __this /* static, unused */, DelayedEvent_t1624700828 * p0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Boolean HutongGames.PlayMaker.FsmBool::get_Value()
+extern "C"  bool FsmBool_get_Value_m3738134001 (FsmBool_t664485696 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// HutongGames.PlayMaker.FsmEvent HutongGames.PlayMaker.FsmTransition::get_FsmEvent()
+extern "C"  FsmEvent_t1258573736 * FsmTransition_get_FsmEvent_m3818892412 (FsmTransition_t1534990431 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Single UnityEngine.Random::Range(System.Single,System.Single)
+extern "C"  float Random_Range_m2884721203 (Il2CppObject * __this /* static, unused */, float p0, float p1, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void HutongGames.PlayMaker.FsmFloat::set_Value(System.Single)
+extern "C"  void FsmFloat_set_Value_m3447553958 (FsmFloat_t937133978 * __this, float p0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// HutongGames.PlayMaker.FsmInt HutongGames.PlayMaker.FsmInt::op_Implicit(System.Int32)
+extern "C"  FsmInt_t1273009179 * FsmInt_op_Implicit_m2429643636 (Il2CppObject * __this /* static, unused */, int32_t p0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Int32 HutongGames.PlayMaker.FsmInt::get_Value()
+extern "C"  int32_t FsmInt_get_Value_m3705703582 (FsmInt_t1273009179 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void HutongGames.PlayMaker.FsmInt::set_Value(System.Int32)
+extern "C"  void FsmInt_set_Value_m4097648685 (FsmInt_t1273009179 * __this, int32_t p0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Single HutongGames.PlayMaker.FsmTime::get_RealtimeSinceStartup()
+extern "C"  float FsmTime_get_RealtimeSinceStartup_m1789542355 (Il2CppObject * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Single UnityEngine.Time::get_deltaTime()
+extern "C"  float Time_get_deltaTime_m2233168104 (Il2CppObject * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void HutongGames.PlayMaker.FsmVector3::.ctor()
+extern "C"  void FsmVector3__ctor_m2525545399 (FsmVector3_t3996534004 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// HutongGames.PlayMaker.FsmBool HutongGames.PlayMaker.FsmBool::op_Implicit(System.Boolean)
+extern "C"  FsmBool_t664485696 * FsmBool_op_Implicit_m2342972798 (Il2CppObject * __this /* static, unused */, bool p0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// UnityEngine.Color UnityEngine.Color::get_yellow()
+extern "C"  Color_t2020392075  Color_get_yellow_m3741935494 (Il2CppObject * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// HutongGames.PlayMaker.FsmColor HutongGames.PlayMaker.FsmColor::op_Implicit(UnityEngine.Color)
+extern "C"  FsmColor_t118301965 * FsmColor_op_Implicit_m1499113597 (Il2CppObject * __this /* static, unused */, Color_t2020392075  p0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void HutongGames.PlayMaker.Actions.Raycast::DoRaycast()
+extern "C"  void Raycast_DoRaycast_m2881878705 (Raycast_t2231194495 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// UnityEngine.GameObject HutongGames.PlayMaker.Fsm::GetOwnerDefaultTarget(HutongGames.PlayMaker.FsmOwnerDefault)
+extern "C"  GameObject_t1756533147 * Fsm_GetOwnerDefaultTarget_m1045900479 (Fsm_t917886356 * __this, FsmOwnerDefault_t2023674184 * p0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Boolean UnityEngine.Object::op_Inequality(UnityEngine.Object,UnityEngine.Object)
+extern "C"  bool Object_op_Inequality_m2402264703 (Il2CppObject * __this /* static, unused */, Object_t1021602117 * p0, Object_t1021602117 * p1, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// UnityEngine.Transform UnityEngine.GameObject::get_transform()
+extern "C"  Transform_t3275118058 * GameObject_get_transform_m909382139 (GameObject_t1756533147 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// UnityEngine.Vector3 UnityEngine.Transform::get_position()
+extern "C"  Vector3_t2243707580  Transform_get_position_m1104419803 (Transform_t3275118058 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// UnityEngine.Vector3 HutongGames.PlayMaker.FsmVector3::get_Value()
+extern "C"  Vector3_t2243707580  FsmVector3_get_Value_m4242600139 (FsmVector3_t3996534004 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// UnityEngine.Vector3 UnityEngine.Transform::TransformDirection(UnityEngine.Vector3)
+extern "C"  Vector3_t2243707580  Transform_TransformDirection_m1639585047 (Transform_t3275118058 * __this, Vector3_t2243707580  p0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Int32 HutongGames.PlayMaker.ActionHelpers::LayerArrayToLayerMask(HutongGames.PlayMaker.FsmInt[],System.Boolean)
+extern "C"  int32_t ActionHelpers_LayerArrayToLayerMask_m4230506674 (Il2CppObject * __this /* static, unused */, FsmIntU5BU5D_t2637547802* p0, bool p1, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Boolean UnityEngine.Physics::Raycast(UnityEngine.Vector3,UnityEngine.Vector3,UnityEngine.RaycastHit&,System.Single,System.Int32)
+extern "C"  bool Physics_Raycast_m1929115794 (Il2CppObject * __this /* static, unused */, Vector3_t2243707580  p0, Vector3_t2243707580  p1, RaycastHit_t87180320 * p2, float p3, int32_t p4, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void HutongGames.PlayMaker.Fsm::set_RaycastHitInfo(UnityEngine.RaycastHit)
+extern "C"  void Fsm_set_RaycastHitInfo_m3536322337 (Fsm_t917886356 * __this, RaycastHit_t87180320  p0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// UnityEngine.Collider UnityEngine.RaycastHit::get_collider()
+extern "C"  Collider_t3497673348 * RaycastHit_get_collider_m301198172 (RaycastHit_t87180320 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// UnityEngine.GameObject UnityEngine.Component::get_gameObject()
+extern "C"  GameObject_t1756533147 * Component_get_gameObject_m3105766835 (Component_t3819376471 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void HutongGames.PlayMaker.FsmGameObject::set_Value(UnityEngine.GameObject)
+extern "C"  void FsmGameObject_set_Value_m1923169006 (FsmGameObject_t3097142863 * __this, GameObject_t1756533147 * p0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// UnityEngine.RaycastHit HutongGames.PlayMaker.Fsm::get_RaycastHitInfo()
+extern "C"  RaycastHit_t87180320  Fsm_get_RaycastHitInfo_m2871237254 (Fsm_t917886356 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// UnityEngine.Vector3 UnityEngine.RaycastHit::get_point()
+extern "C"  Vector3_t2243707580  RaycastHit_get_point_m326143462 (RaycastHit_t87180320 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void HutongGames.PlayMaker.FsmVector3::set_Value(UnityEngine.Vector3)
+extern "C"  void FsmVector3_set_Value_m1785770740 (FsmVector3_t3996534004 * __this, Vector3_t2243707580  p0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// UnityEngine.Vector3 UnityEngine.RaycastHit::get_normal()
+extern "C"  Vector3_t2243707580  RaycastHit_get_normal_m817665579 (RaycastHit_t87180320 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Single UnityEngine.RaycastHit::get_distance()
+extern "C"  float RaycastHit_get_distance_m1178709367 (RaycastHit_t87180320 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Single UnityEngine.Mathf::Min(System.Single,System.Single)
+extern "C"  float Mathf_Min_m1648492575 (Il2CppObject * __this /* static, unused */, float p0, float p1, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// UnityEngine.Vector3 UnityEngine.Vector3::op_Multiply(UnityEngine.Vector3,System.Single)
+extern "C"  Vector3_t2243707580  Vector3_op_Multiply_m1351554733 (Il2CppObject * __this /* static, unused */, Vector3_t2243707580  p0, float p1, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// UnityEngine.Vector3 UnityEngine.Vector3::op_Addition(UnityEngine.Vector3,UnityEngine.Vector3)
+extern "C"  Vector3_t2243707580  Vector3_op_Addition_m3146764857 (Il2CppObject * __this /* static, unused */, Vector3_t2243707580  p0, Vector3_t2243707580  p1, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// UnityEngine.Color HutongGames.PlayMaker.FsmColor::get_Value()
+extern "C"  Color_t2020392075  FsmColor_get_Value_m687626399 (FsmColor_t118301965 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void UnityEngine.Debug::DrawLine(UnityEngine.Vector3,UnityEngine.Vector3,UnityEngine.Color)
+extern "C"  void Debug_DrawLine_m3455422326 (Il2CppObject * __this /* static, unused */, Vector3_t2243707580  p0, Vector3_t2243707580  p1, Color_t2020392075  p2, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void HutongGames.PlayMaker.FsmVector2::.ctor()
+extern "C"  void FsmVector2__ctor_m39699932 (FsmVector2_t2430450063 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void HutongGames.PlayMaker.FsmInt::.ctor()
+extern "C"  void FsmInt__ctor_m3152485982 (FsmInt_t1273009179 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void HutongGames.PlayMaker.Actions.RayCast2d::DoRaycast()
+extern "C"  void RayCast2d_DoRaycast_m2728306279 (RayCast2d_t3646134017 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// UnityEngine.Vector2 HutongGames.PlayMaker.FsmVector2::get_Value()
+extern "C"  Vector2_t2243707579  FsmVector2_get_Value_m2589490767 (FsmVector2_t2430450063 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// UnityEngine.Vector2 UnityEngine.Vector2::get_normalized()
+extern "C"  Vector2_t2243707579  Vector2_get_normalized_m2985402409 (Vector2_t2243707579 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void UnityEngine.Vector3::.ctor(System.Single,System.Single,System.Single)
+extern "C"  void Vector3__ctor_m2638739322 (Vector3_t2243707580 * __this, float p0, float p1, float p2, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Boolean HutongGames.PlayMaker.NamedVariable::get_IsNone()
+extern "C"  bool NamedVariable_get_IsNone_m1506066313 (NamedVariable_t3026441313 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// UnityEngine.RaycastHit2D UnityEngine.Physics2D::Raycast(UnityEngine.Vector2,UnityEngine.Vector2,System.Single,System.Int32)
+extern "C"  RaycastHit2D_t4063908774  Physics2D_Raycast_m122312471 (Il2CppObject * __this /* static, unused */, Vector2_t2243707579  p0, Vector2_t2243707579  p1, float p2, int32_t p3, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// UnityEngine.RaycastHit2D UnityEngine.Physics2D::Raycast(UnityEngine.Vector2,UnityEngine.Vector2,System.Single,System.Int32,System.Single,System.Single)
+extern "C"  RaycastHit2D_t4063908774  Physics2D_Raycast_m2303387255 (Il2CppObject * __this /* static, unused */, Vector2_t2243707579  p0, Vector2_t2243707579  p1, float p2, int32_t p3, float p4, float p5, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void HutongGames.PlayMaker.Fsm::RecordLastRaycastHit2DInfo(HutongGames.PlayMaker.Fsm,UnityEngine.RaycastHit2D)
+extern "C"  void Fsm_RecordLastRaycastHit2DInfo_m756800341 (Il2CppObject * __this /* static, unused */, Fsm_t917886356 * p0, RaycastHit2D_t4063908774  p1, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// UnityEngine.Collider2D UnityEngine.RaycastHit2D::get_collider()
+extern "C"  Collider2D_t646061738 * RaycastHit2D_get_collider_m2568504212 (RaycastHit2D_t4063908774 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// UnityEngine.Vector2 UnityEngine.RaycastHit2D::get_point()
+extern "C"  Vector2_t2243707579  RaycastHit2D_get_point_m442317739 (RaycastHit2D_t4063908774 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void HutongGames.PlayMaker.FsmVector2::set_Value(UnityEngine.Vector2)
+extern "C"  void FsmVector2_set_Value_m1294693978 (FsmVector2_t2430450063 * __this, Vector2_t2243707579  p0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// UnityEngine.Vector2 UnityEngine.RaycastHit2D::get_normal()
+extern "C"  Vector2_t2243707579  RaycastHit2D_get_normal_m3768105386 (RaycastHit2D_t4063908774 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Single UnityEngine.RaycastHit2D::get_distance()
+extern "C"  float RaycastHit2D_get_distance_m4065977169 (RaycastHit2D_t4063908774 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Single UnityEngine.RaycastHit2D::get_fraction()
+extern "C"  float RaycastHit2D_get_fraction_m1296150410 (RaycastHit2D_t4063908774 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void HutongGames.PlayMaker.Actions.RaycastAll::DoRaycast()
+extern "C"  void RaycastAll_DoRaycast_m2883002290 (RaycastAll_t2103133324 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// UnityEngine.RaycastHit[] UnityEngine.Physics::RaycastAll(UnityEngine.Vector3,UnityEngine.Vector3,System.Single,System.Int32)
+extern "C"  RaycastHitU5BU5D_t1214023521* Physics_RaycastAll_m3256436970 (Il2CppObject * __this /* static, unused */, Vector3_t2243707580  p0, Vector3_t2243707580  p1, float p2, int32_t p3, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void HutongGames.PlayMaker.FsmArray::set_Values(System.Object[])
+extern "C"  void FsmArray_set_Values_m2545008121 (FsmArray_t527459893 * __this, ObjectU5BU5D_t3614634134* p0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void HutongGames.PlayMaker.Actions.RebuildTextures::DoRebuildTextures()
+extern "C"  void RebuildTextures_DoRebuildTextures_m517064349 (RebuildTextures_t3983555943 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void HutongGames.PlayMaker.FsmRect::.ctor()
+extern "C"  void FsmRect__ctor_m2863765477 (FsmRect_t19023354 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void HutongGames.PlayMaker.FsmFloat::.ctor()
+extern "C"  void FsmFloat__ctor_m2608255745 (FsmFloat_t937133978 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void HutongGames.PlayMaker.Actions.RectContains::DoRectContains()
+extern "C"  void RectContains_DoRectContains_m1800739905 (RectContains_t3461006553 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// UnityEngine.Rect HutongGames.PlayMaker.FsmRect::get_Value()
+extern "C"  Rect_t3681755626  FsmRect_get_Value_m3959922771 (FsmRect_t19023354 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Boolean UnityEngine.Rect::Contains(UnityEngine.Vector3)
+extern "C"  bool Rect_Contains_m1334685291 (Rect_t3681755626 * __this, Vector3_t2243707580  p0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void HutongGames.PlayMaker.Actions.RectOverlaps::DoRectOverlap()
+extern "C"  void RectOverlaps_DoRectOverlap_m1093712508 (RectOverlaps_t2454060090 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Boolean HutongGames.PlayMaker.Actions.RectOverlaps::Intersect(UnityEngine.Rect,UnityEngine.Rect)
+extern "C"  bool RectOverlaps_Intersect_m718150195 (Il2CppObject * __this /* static, unused */, Rect_t3681755626  ___a0, Rect_t3681755626  ___b1, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void HutongGames.PlayMaker.Actions.RectOverlaps::FlipNegative(UnityEngine.Rect&)
+extern "C"  void RectOverlaps_FlipNegative_m343564847 (Il2CppObject * __this /* static, unused */, Rect_t3681755626 * ___r0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Single UnityEngine.Rect::get_xMin()
+extern "C"  float Rect_get_xMin_m1161102488 (Rect_t3681755626 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Single UnityEngine.Rect::get_xMax()
+extern "C"  float Rect_get_xMax_m2915145014 (Rect_t3681755626 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Single UnityEngine.Rect::get_yMin()
+extern "C"  float Rect_get_yMin_m1161103577 (Rect_t3681755626 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Single UnityEngine.Rect::get_yMax()
+extern "C"  float Rect_get_yMax_m2915146103 (Rect_t3681755626 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Single UnityEngine.Rect::get_width()
+extern "C"  float Rect_get_width_m1138015702 (Rect_t3681755626 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Single UnityEngine.Rect::get_x()
+extern "C"  float Rect_get_x_m1393582490 (Rect_t3681755626 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void UnityEngine.Rect::set_width(System.Single)
+extern "C"  void Rect_set_width_m1921257731 (Rect_t3681755626 * __this, float p0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void UnityEngine.Rect::set_x(System.Single)
+extern "C"  void Rect_set_x_m3783700513 (Rect_t3681755626 * __this, float p0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Single UnityEngine.Rect::get_height()
+extern "C"  float Rect_get_height_m3128694305 (Rect_t3681755626 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Single UnityEngine.Rect::get_y()
+extern "C"  float Rect_get_y_m1393582395 (Rect_t3681755626 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void UnityEngine.Rect::set_height(System.Single)
+extern "C"  void Rect_set_height_m2019122814 (Rect_t3681755626 * __this, float p0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void UnityEngine.Rect::set_y(System.Single)
+extern "C"  void Rect_set_y_m4294916608 (Rect_t3681755626 * __this, float p0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void HutongGames.PlayMaker.Actions.BaseAnimationAction::.ctor()
+extern "C"  void BaseAnimationAction__ctor_m2023490959 (BaseAnimationAction_t200783347 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// HutongGames.PlayMaker.FsmString HutongGames.PlayMaker.FsmString::op_Implicit(System.String)
+extern "C"  FsmString_t2414474701 * FsmString_op_Implicit_m1196227529 (Il2CppObject * __this /* static, unused */, String_t* p0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void HutongGames.PlayMaker.Actions.RemoveMixingTransform::DoRemoveMixingTransform()
+extern "C"  void RemoveMixingTransform_DoRemoveMixingTransform_m3431249005 (RemoveMixingTransform_t2841934220 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Boolean HutongGames.PlayMaker.Actions.ComponentAction`1<UnityEngine.Animation>::UpdateCache(UnityEngine.GameObject)
+#define ComponentAction_1_UpdateCache_m2558231994(__this, p0, method) ((  bool (*) (ComponentAction_1_t2669650811 *, GameObject_t1756533147 *, const MethodInfo*))ComponentAction_1_UpdateCache_m929902755_gshared)(__this, p0, method)
+// UnityEngine.Animation HutongGames.PlayMaker.Actions.ComponentAction`1<UnityEngine.Animation>::get_animation()
+#define ComponentAction_1_get_animation_m1902480922(__this, method) ((  Animation_t2068071072 * (*) (ComponentAction_1_t2669650811 *, const MethodInfo*))ComponentAction_1_get_animation_m3473365767_gshared)(__this, method)
+// System.String HutongGames.PlayMaker.FsmString::get_Value()
+extern "C"  String_t* FsmString_get_Value_m3775166715 (FsmString_t2414474701 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// UnityEngine.AnimationState UnityEngine.Animation::get_Item(System.String)
+extern "C"  AnimationState_t1303741697 * Animation_get_Item_m4198128320 (Animation_t2068071072 * __this, String_t* p0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Boolean UnityEngine.TrackedReference::op_Equality(UnityEngine.TrackedReference,UnityEngine.TrackedReference)
+extern "C"  bool TrackedReference_op_Equality_m3491334086 (Il2CppObject * __this /* static, unused */, TrackedReference_t1045890189 * p0, TrackedReference_t1045890189 * p1, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// UnityEngine.Transform UnityEngine.Transform::Find(System.String)
+extern "C"  Transform_t3275118058 * Transform_Find_m3323476454 (Transform_t3275118058 * __this, String_t* p0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void UnityEngine.AnimationState::AddMixingTransform(UnityEngine.Transform)
+extern "C"  void AnimationState_AddMixingTransform_m668666486 (AnimationState_t1303741697 * __this, Transform_t3275118058 * p0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// UnityEngine.Matrix4x4 UnityEngine.Matrix4x4::get_identity()
+extern "C"  Matrix4x4_t2933234003  Matrix4x4_get_identity_m3039560904 (Il2CppObject * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void UnityEngine.GUI::set_matrix(UnityEngine.Matrix4x4)
+extern "C"  void GUI_set_matrix_m3701966918 (Il2CppObject * __this /* static, unused */, Matrix4x4_t2933234003  p0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void PlayMakerGUI::set_GUIMatrix(UnityEngine.Matrix4x4)
+extern "C"  void PlayMakerGUI_set_GUIMatrix_m1989428149 (Il2CppObject * __this /* static, unused */, Matrix4x4_t2933234003  p0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void UnityEngine.Input::ResetInputAxes()
+extern "C"  void Input_ResetInputAxes_m3212187783 (Il2CppObject * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// UnityEngine.SceneManagement.Scene UnityEngine.SceneManagement.SceneManager::GetActiveScene()
+extern "C"  Scene_t1684909666  SceneManager_GetActiveScene_m2964039490 (Il2CppObject * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.String UnityEngine.SceneManagement.Scene::get_name()
+extern "C"  String_t* Scene_get_name_m745914591 (Scene_t1684909666 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void UnityEngine.SceneManagement.SceneManager::LoadScene(System.String,UnityEngine.SceneManagement.LoadSceneMode)
+extern "C"  void SceneManager_LoadScene_m1386820036 (Il2CppObject * __this /* static, unused */, String_t* p0, int32_t p1, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void HutongGames.PlayMaker.Actions.RewindAnimation::DoRewindAnimation()
+extern "C"  void RewindAnimation_DoRewindAnimation_m1834574813 (RewindAnimation_t3150139471 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Boolean System.String::IsNullOrEmpty(System.String)
+extern "C"  bool String_IsNullOrEmpty_m2802126737 (Il2CppObject * __this /* static, unused */, String_t* p0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void UnityEngine.Animation::Rewind(System.String)
+extern "C"  void Animation_Rewind_m1869730758 (Animation_t2068071072 * __this, String_t* p0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void HutongGames.PlayMaker.Fsm::set_HandleFixedUpdate(System.Boolean)
+extern "C"  void Fsm_set_HandleFixedUpdate_m1286405006 (Fsm_t917886356 * __this, bool p0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void HutongGames.PlayMaker.Actions.Rotate::DoRotate()
+extern "C"  void Rotate_DoRotate_m4026921729 (Rotate_t177341313 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Boolean UnityEngine.Object::op_Equality(UnityEngine.Object,UnityEngine.Object)
+extern "C"  bool Object_op_Equality_m3764089466 (Il2CppObject * __this /* static, unused */, Object_t1021602117 * p0, Object_t1021602117 * p1, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void UnityEngine.Transform::Rotate(UnityEngine.Vector3,UnityEngine.Space)
+extern "C"  void Transform_Rotate_m2612876682 (Transform_t3275118058 * __this, Vector3_t2243707580  p0, int32_t p1, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void UnityEngine.Vector2::.ctor(System.Single,System.Single)
+extern "C"  void Vector2__ctor_m3067419446 (Vector2_t2243707579 * __this, float p0, float p1, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Int32 UnityEngine.Screen::get_width()
+extern "C"  int32_t Screen_get_width_m41137238 (Il2CppObject * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Int32 UnityEngine.Screen::get_height()
+extern "C"  int32_t Screen_get_height_m1051800773 (Il2CppObject * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void UnityEngine.GUIUtility::RotateAroundPivot(System.Single,UnityEngine.Vector2)
+extern "C"  void GUIUtility_RotateAroundPivot_m2075646761 (Il2CppObject * __this /* static, unused */, float p0, Vector2_t2243707579  p1, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// UnityEngine.Matrix4x4 UnityEngine.GUI::get_matrix()
+extern "C"  Matrix4x4_t2933234003  GUI_get_matrix_m976981075 (Il2CppObject * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void HutongGames.PlayMaker.FsmTemplateControl::.ctor()
+extern "C"  void FsmTemplateControl__ctor_m2769513368 (FsmTemplateControl_t924276959 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void HutongGames.PlayMaker.Actions.RunFSMAction::.ctor()
+extern "C"  void RunFSMAction__ctor_m1919854561 (RunFSMAction_t720811133 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Boolean UnityEngine.Application::get_isPlaying()
+extern "C"  bool Application_get_isPlaying_m4091950718 (Il2CppObject * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// HutongGames.PlayMaker.Fsm HutongGames.PlayMaker.Fsm::CreateSubFsm(HutongGames.PlayMaker.FsmTemplateControl)
+extern "C"  Fsm_t917886356 * Fsm_CreateSubFsm_m2497459229 (Fsm_t917886356 * __this, FsmTemplateControl_t924276959 * p0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void HutongGames.PlayMaker.FsmTemplateControl::UpdateValues()
+extern "C"  void FsmTemplateControl_UpdateValues_m3784608603 (FsmTemplateControl_t924276959 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void HutongGames.PlayMaker.FsmTemplateControl::ApplyOverrides(HutongGames.PlayMaker.Fsm)
+extern "C"  void FsmTemplateControl_ApplyOverrides_m2902926407 (FsmTemplateControl_t924276959 * __this, Fsm_t917886356 * p0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void HutongGames.PlayMaker.Fsm::OnEnable()
+extern "C"  void Fsm_OnEnable_m1500513457 (Fsm_t917886356 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Boolean HutongGames.PlayMaker.Fsm::get_Started()
+extern "C"  bool Fsm_get_Started_m2972087901 (Fsm_t917886356 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void HutongGames.PlayMaker.Fsm::Start()
+extern "C"  void Fsm_Start_m2000538737 (Fsm_t917886356 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Int32 HutongGames.PlayMaker.FsmTemplateControl::get_ID()
+extern "C"  int32_t FsmTemplateControl_get_ID_m858283904 (FsmTemplateControl_t924276959 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Boolean HutongGames.PlayMaker.Fsm::get_Finished()
+extern "C"  bool Fsm_get_Finished_m3585713968 (Fsm_t917886356 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Boolean HutongGames.PlayMaker.FsmEvent::get_IsGlobal()
+extern "C"  bool FsmEvent_get_IsGlobal_m1271230613 (FsmEvent_t1258573736 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Boolean HutongGames.PlayMaker.FsmEvent::get_IsSystemEvent()
+extern "C"  bool FsmEvent_get_IsSystemEvent_m369228735 (FsmEvent_t1258573736 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void HutongGames.PlayMaker.Fsm::Update()
+extern "C"  void Fsm_Update_m1801256204 (Fsm_t917886356 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void HutongGames.PlayMaker.Fsm::FixedUpdate()
+extern "C"  void Fsm_FixedUpdate_m4175912806 (Fsm_t917886356 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void HutongGames.PlayMaker.Fsm::LateUpdate()
+extern "C"  void Fsm_LateUpdate_m459470616 (Fsm_t917886356 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Boolean HutongGames.PlayMaker.Fsm::get_HandleTriggerEnter()
+extern "C"  bool Fsm_get_HandleTriggerEnter_m790156034 (Fsm_t917886356 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void HutongGames.PlayMaker.Fsm::OnTriggerEnter(UnityEngine.Collider)
+extern "C"  void Fsm_OnTriggerEnter_m2846356605 (Fsm_t917886356 * __this, Collider_t3497673348 * p0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Boolean HutongGames.PlayMaker.Fsm::get_HandleTriggerStay()
+extern "C"  bool Fsm_get_HandleTriggerStay_m3688276885 (Fsm_t917886356 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void HutongGames.PlayMaker.Fsm::OnTriggerStay(UnityEngine.Collider)
+extern "C"  void Fsm_OnTriggerStay_m3815556686 (Fsm_t917886356 * __this, Collider_t3497673348 * p0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Boolean HutongGames.PlayMaker.Fsm::get_HandleTriggerExit()
+extern "C"  bool Fsm_get_HandleTriggerExit_m362350026 (Fsm_t917886356 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void HutongGames.PlayMaker.Fsm::OnTriggerExit(UnityEngine.Collider)
+extern "C"  void Fsm_OnTriggerExit_m3786251381 (Fsm_t917886356 * __this, Collider_t3497673348 * p0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Boolean HutongGames.PlayMaker.Fsm::get_HandleCollisionEnter()
+extern "C"  bool Fsm_get_HandleCollisionEnter_m1456631574 (Fsm_t917886356 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void HutongGames.PlayMaker.Fsm::OnCollisionEnter(UnityEngine.Collision)
+extern "C"  void Fsm_OnCollisionEnter_m809557319 (Fsm_t917886356 * __this, Collision_t2876846408 * p0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Boolean HutongGames.PlayMaker.Fsm::get_HandleCollisionStay()
+extern "C"  bool Fsm_get_HandleCollisionStay_m1380478791 (Fsm_t917886356 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void HutongGames.PlayMaker.Fsm::OnCollisionStay(UnityEngine.Collision)
+extern "C"  void Fsm_OnCollisionStay_m3817365356 (Fsm_t917886356 * __this, Collision_t2876846408 * p0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Boolean HutongGames.PlayMaker.Fsm::get_HandleCollisionExit()
+extern "C"  bool Fsm_get_HandleCollisionExit_m3450142898 (Fsm_t917886356 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void HutongGames.PlayMaker.Fsm::OnCollisionExit(UnityEngine.Collision)
+extern "C"  void Fsm_OnCollisionExit_m2954176683 (Fsm_t917886356 * __this, Collision_t2876846408 * p0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Boolean HutongGames.PlayMaker.Fsm::get_HandleParticleCollision()
+extern "C"  bool Fsm_get_HandleParticleCollision_m2116271836 (Fsm_t917886356 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void HutongGames.PlayMaker.Fsm::OnParticleCollision(UnityEngine.GameObject)
+extern "C"  void Fsm_OnParticleCollision_m784661054 (Fsm_t917886356 * __this, GameObject_t1756533147 * p0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void HutongGames.PlayMaker.Fsm::OnControllerColliderHit(UnityEngine.ControllerColliderHit)
+extern "C"  void Fsm_OnControllerColliderHit_m450115771 (Fsm_t917886356 * __this, ControllerColliderHit_t4070855101 * p0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void HutongGames.PlayMaker.Fsm::OnTriggerEnter2D(UnityEngine.Collider2D)
+extern "C"  void Fsm_OnTriggerEnter2D_m774284857 (Fsm_t917886356 * __this, Collider2D_t646061738 * p0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void HutongGames.PlayMaker.Fsm::OnTriggerStay2D(UnityEngine.Collider2D)
+extern "C"  void Fsm_OnTriggerStay2D_m1827537318 (Fsm_t917886356 * __this, Collider2D_t646061738 * p0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void HutongGames.PlayMaker.Fsm::OnTriggerExit2D(UnityEngine.Collider2D)
+extern "C"  void Fsm_OnTriggerExit2D_m616971321 (Fsm_t917886356 * __this, Collider2D_t646061738 * p0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void HutongGames.PlayMaker.Fsm::OnCollisionEnter2D(UnityEngine.Collision2D)
+extern "C"  void Fsm_OnCollisionEnter2D_m1740000423 (Fsm_t917886356 * __this, Collision2D_t1539500754 * p0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void HutongGames.PlayMaker.Fsm::OnCollisionStay2D(UnityEngine.Collision2D)
+extern "C"  void Fsm_OnCollisionStay2D_m1881561292 (Fsm_t917886356 * __this, Collision2D_t1539500754 * p0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void HutongGames.PlayMaker.Fsm::OnCollisionExit2D(UnityEngine.Collision2D)
+extern "C"  void Fsm_OnCollisionExit2D_m1642132107 (Fsm_t917886356 * __this, Collision2D_t1539500754 * p0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Boolean HutongGames.PlayMaker.Fsm::get_HandleOnGUI()
+extern "C"  bool Fsm_get_HandleOnGUI_m1667477422 (Fsm_t917886356 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void HutongGames.PlayMaker.Fsm::OnGUI()
+extern "C"  void Fsm_OnGUI_m3260270399 (Fsm_t917886356 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void HutongGames.PlayMaker.Fsm::Stop()
+extern "C"  void Fsm_Stop_m3650953385 (Fsm_t917886356 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void HutongGames.PlayMaker.Actions.SampleCurve::DoSampleCurve()
+extern "C"  void SampleCurve_DoSampleCurve_m2326468173 (SampleCurve_t702362601 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Single UnityEngine.AnimationCurve::Evaluate(System.Single)
+extern "C"  float AnimationCurve_Evaluate_m3698879322 (AnimationCurve_t3306541151 * __this, float p0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Boolean System.Object::Equals(System.Object,System.Object)
+extern "C"  bool Object_Equals_m969736273 (Il2CppObject * __this /* static, unused */, Il2CppObject * p0, Il2CppObject * p1, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void UnityEngine.GUIUtility::ScaleAroundPivot(UnityEngine.Vector2,UnityEngine.Vector2)
+extern "C"  void GUIUtility_ScaleAroundPivot_m2804228701 (Il2CppObject * __this /* static, unused */, Vector2_t2243707579  p0, Vector2_t2243707579  p1, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void HutongGames.PlayMaker.Actions.ScaleTime::DoTimeScale()
+extern "C"  void ScaleTime_DoTimeScale_m60958537 (ScaleTime_t3218346659 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void UnityEngine.Time::set_timeScale(System.Single)
+extern "C"  void Time_set_timeScale_m2194722837 (Il2CppObject * __this /* static, unused */, float p0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Single UnityEngine.Time::get_timeScale()
+extern "C"  float Time_get_timeScale_m3151482970 (Il2CppObject * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void UnityEngine.Time::set_fixedDeltaTime(System.Single)
+extern "C"  void Time_set_fixedDeltaTime_m3972646343 (Il2CppObject * __this /* static, unused */, float p0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void HutongGames.PlayMaker.Actions.ScreenPick::DoScreenPick()
+extern "C"  void ScreenPick_DoScreenPick_m1980130241 (ScreenPick_t3182193451 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// UnityEngine.Camera UnityEngine.Camera::get_main()
+extern "C"  Camera_t189460977 * Camera_get_main_m475173995 (Il2CppObject * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void HutongGames.PlayMaker.FsmStateAction::LogError(System.String)
+extern "C"  void FsmStateAction_LogError_m3656178960 (FsmStateAction_t2862378169 * __this, String_t* p0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// UnityEngine.Vector3 UnityEngine.Vector3::get_zero()
+extern "C"  Vector3_t2243707580  Vector3_get_zero_m1527993324 (Il2CppObject * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// UnityEngine.Ray UnityEngine.Camera::ScreenPointToRay(UnityEngine.Vector3)
+extern "C"  Ray_t2469606224  Camera_ScreenPointToRay_m614889538 (Camera_t189460977 * __this, Vector3_t2243707580  p0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Boolean UnityEngine.Physics::Raycast(UnityEngine.Ray,UnityEngine.RaycastHit&,System.Single,System.Int32)
+extern "C"  bool Physics_Raycast_m2009151399 (Il2CppObject * __this /* static, unused */, Ray_t2469606224  p0, RaycastHit_t87180320 * p1, float p2, int32_t p3, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void HutongGames.PlayMaker.Actions.ScreenPick2d::DoScreenPick()
+extern "C"  void ScreenPick2d_DoScreenPick_m766231039 (ScreenPick2d_t3932806665 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// UnityEngine.RaycastHit2D UnityEngine.Physics2D::GetRayIntersection(UnityEngine.Ray,System.Single,System.Int32)
+extern "C"  RaycastHit2D_t4063908774  Physics2D_GetRayIntersection_m1570215952 (Il2CppObject * __this /* static, unused */, Ray_t2469606224  p0, float p1, int32_t p2, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// UnityEngine.Vector3 UnityEngine.Vector2::op_Implicit(UnityEngine.Vector2)
+extern "C"  Vector3_t2243707580  Vector2_op_Implicit_m176791411 (Il2CppObject * __this /* static, unused */, Vector2_t2243707579  p0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void HutongGames.PlayMaker.Actions.ScreenToWorldPoint::DoScreenToWorldPoint()
+extern "C"  void ScreenToWorldPoint_DoScreenToWorldPoint_m3535202433 (ScreenToWorldPoint_t1519632141 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// UnityEngine.Vector3 UnityEngine.Camera::ScreenToWorldPoint(UnityEngine.Vector3)
+extern "C"  Vector3_t2243707580  Camera_ScreenToWorldPoint_m929392728 (Camera_t189460977 * __this, Vector3_t2243707580  p0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void HutongGames.PlayMaker.Actions.SelectRandomColor::DoSelectRandomColor()
+extern "C"  void SelectRandomColor_DoSelectRandomColor_m3893593773 (SelectRandomColor_t1687601772 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Int32 HutongGames.PlayMaker.ActionHelpers::GetRandomWeightedIndex(HutongGames.PlayMaker.FsmFloat[])
+extern "C"  int32_t ActionHelpers_GetRandomWeightedIndex_m3581206222 (Il2CppObject * __this /* static, unused */, FsmFloatU5BU5D_t4177556671* p0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void HutongGames.PlayMaker.FsmColor::set_Value(UnityEngine.Color)
+extern "C"  void FsmColor_set_Value_m92994086 (FsmColor_t118301965 * __this, Color_t2020392075  p0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void HutongGames.PlayMaker.Actions.SelectRandomGameObject::DoSelectRandomGameObject()
+extern "C"  void SelectRandomGameObject_DoSelectRandomGameObject_m1064615393 (SelectRandomGameObject_t435281682 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// UnityEngine.GameObject HutongGames.PlayMaker.FsmGameObject::get_Value()
+extern "C"  GameObject_t1756533147 * FsmGameObject_get_Value_m15585107 (FsmGameObject_t3097142863 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void HutongGames.PlayMaker.Actions.SelectRandomString::DoSelectRandomString()
+extern "C"  void SelectRandomString_DoSelectRandomString_m147476385 (SelectRandomString_t2820022428 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void HutongGames.PlayMaker.FsmString::set_Value(System.String)
+extern "C"  void FsmString_set_Value_m1767060322 (FsmString_t2414474701 * __this, String_t* p0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void HutongGames.PlayMaker.Actions.SelectRandomVector2::DoSelectRandomColor()
+extern "C"  void SelectRandomVector2_DoSelectRandomColor_m1587375559 (SelectRandomVector2_t3542404786 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void HutongGames.PlayMaker.Actions.SelectRandomVector3::DoSelectRandomColor()
+extern "C"  void SelectRandomVector3_DoSelectRandomColor_m904214824 (SelectRandomVector3_t3542404785 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void UnityEngine.Events.UnityAction`2<UnityEngine.SceneManagement.Scene,UnityEngine.SceneManagement.Scene>::.ctor(System.Object,System.IntPtr)
+#define UnityAction_2__ctor_m1700527340(__this, p0, p1, method) ((  void (*) (UnityAction_2_t606618774 *, Il2CppObject *, IntPtr_t, const MethodInfo*))UnityAction_2__ctor_m1700527340_gshared)(__this, p0, p1, method)
+// System.Void UnityEngine.SceneManagement.SceneManager::add_activeSceneChanged(UnityEngine.Events.UnityAction`2<UnityEngine.SceneManagement.Scene,UnityEngine.SceneManagement.Scene>)
+extern "C"  void SceneManager_add_activeSceneChanged_m3462240628 (Il2CppObject * __this /* static, unused */, UnityAction_2_t606618774 * p0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void UnityEngine.SceneManagement.SceneManager::remove_activeSceneChanged(UnityEngine.Events.UnityAction`2<UnityEngine.SceneManagement.Scene,UnityEngine.SceneManagement.Scene>)
+extern "C"  void SceneManager_remove_activeSceneChanged_m4267832693 (Il2CppObject * __this /* static, unused */, UnityAction_2_t606618774 * p0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void HutongGames.PlayMaker.Fsm::Event(HutongGames.PlayMaker.FsmEventTarget,HutongGames.PlayMaker.FsmEvent)
+extern "C"  void Fsm_Event_m135555812 (Fsm_t917886356 * __this, FsmEventTarget_t172293745 * p0, FsmEvent_t1258573736 * p1, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// HutongGames.PlayMaker.DelayedEvent HutongGames.PlayMaker.Fsm::DelayedEvent(HutongGames.PlayMaker.FsmEventTarget,HutongGames.PlayMaker.FsmEvent,System.Single)
+extern "C"  DelayedEvent_t1624700828 * Fsm_DelayedEvent_m1247884586 (Fsm_t917886356 * __this, FsmEventTarget_t172293745 * p0, FsmEvent_t1258573736 * p1, float p2, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void HutongGames.PlayMaker.Fsm::Event(HutongGames.PlayMaker.FsmEventTarget,System.String)
+extern "C"  void Fsm_Event_m1156864510 (Fsm_t917886356 * __this, FsmEventTarget_t172293745 * p0, String_t* p1, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// HutongGames.PlayMaker.FsmEvent HutongGames.PlayMaker.FsmEvent::GetFsmEvent(System.String)
+extern "C"  FsmEvent_t1258573736 * FsmEvent_GetFsmEvent_m128779372 (Il2CppObject * __this /* static, unused */, String_t* p0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// PlayMakerFSM HutongGames.PlayMaker.ActionHelpers::GetGameObjectFsm(UnityEngine.GameObject,System.String)
+extern "C"  PlayMakerFSM_t437737208 * ActionHelpers_GetGameObjectFsm_m2570111466 (Il2CppObject * __this /* static, unused */, GameObject_t1756533147 * p0, String_t* p1, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.String UnityEngine.Object::get_name()
+extern "C"  String_t* Object_get_name_m2079638459 (Object_t1021602117 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.String System.String::Concat(System.String,System.String,System.String,System.String)
+extern "C"  String_t* String_Concat_m1561703559 (Il2CppObject * __this /* static, unused */, String_t* p0, String_t* p1, String_t* p2, String_t* p3, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// HutongGames.PlayMaker.Fsm PlayMakerFSM::get_Fsm()
+extern "C"  Fsm_t917886356 * PlayMakerFSM_get_Fsm_m3359411247 (PlayMakerFSM_t437737208 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void HutongGames.PlayMaker.Fsm::Event(System.String)
+extern "C"  void Fsm_Event_m603178779 (Fsm_t917886356 * __this, String_t* p0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void HutongGames.PlayMaker.Actions.SendMessage::DoSendMessage()
+extern "C"  void SendMessage_DoSendMessage_m1290580433 (SendMessage_t2292102445 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.String HutongGames.PlayMaker.FunctionCall::get_ParameterType()
+extern "C"  String_t* FunctionCall_get_ParameterType_m2201785492 (FunctionCall_t2754669930 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void System.Collections.Generic.Dictionary`2<System.String,System.Int32>::.ctor(System.Int32)
+#define Dictionary_2__ctor_m2118310873(__this, p0, method) ((  void (*) (Dictionary_2_t3986656710 *, int32_t, const MethodInfo*))Dictionary_2__ctor_m3043033341_gshared)(__this, p0, method)
+// System.Void System.Collections.Generic.Dictionary`2<System.String,System.Int32>::Add(!0,!1)
+#define Dictionary_2_Add_m1209957957(__this, p0, p1, method) ((  void (*) (Dictionary_2_t3986656710 *, String_t*, int32_t, const MethodInfo*))Dictionary_2_Add_m790520409_gshared)(__this, p0, p1, method)
+// System.Boolean System.Collections.Generic.Dictionary`2<System.String,System.Int32>::TryGetValue(!0,!1&)
+#define Dictionary_2_TryGetValue_m2977303364(__this, p0, p1, method) ((  bool (*) (Dictionary_2_t3986656710 *, String_t*, int32_t*, const MethodInfo*))Dictionary_2_TryGetValue_m2330758874_gshared)(__this, p0, p1, method)
+// UnityEngine.Material HutongGames.PlayMaker.FsmMaterial::get_Value()
+extern "C"  Material_t193706927 * FsmMaterial_get_Value_m361239091 (FsmMaterial_t1421632035 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// UnityEngine.Texture HutongGames.PlayMaker.FsmTexture::get_Value()
+extern "C"  Texture_t2243626319 * FsmTexture_get_Value_m2325441495 (FsmTexture_t3372293163 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// UnityEngine.Object HutongGames.PlayMaker.FsmObject::get_Value()
+extern "C"  Object_t1021602117 * FsmObject_get_Value_m1585581971 (FsmObject_t2785794313 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Enum HutongGames.PlayMaker.FsmEnum::get_Value()
+extern "C"  Enum_t2459695545 * FsmEnum_get_Value_m3904328091 (FsmEnum_t2808516103 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Object[] HutongGames.PlayMaker.FsmArray::get_Values()
+extern "C"  ObjectU5BU5D_t3614634134* FsmArray_get_Values_m592566460 (FsmArray_t527459893 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void UnityEngine.GameObject::SendMessage(System.String,System.Object,UnityEngine.SendMessageOptions)
+extern "C"  void GameObject_SendMessage_m71956653 (GameObject_t1756533147 * __this, String_t* p0, Il2CppObject * p1, int32_t p2, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void UnityEngine.GameObject::SendMessageUpwards(System.String,System.Object,UnityEngine.SendMessageOptions)
+extern "C"  void GameObject_SendMessageUpwards_m2755854567 (GameObject_t1756533147 * __this, String_t* p0, Il2CppObject * p1, int32_t p2, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void UnityEngine.GameObject::BroadcastMessage(System.String,System.Object,UnityEngine.SendMessageOptions)
+extern "C"  void GameObject_BroadcastMessage_m3472370570 (GameObject_t1756533147 * __this, String_t* p0, Il2CppObject * p1, int32_t p2, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void UnityEngine.Events.UnityAction`2<UnityEngine.SceneManagement.Scene,UnityEngine.SceneManagement.LoadSceneMode>::.ctor(System.Object,System.IntPtr)
+#define UnityAction_2__ctor_m1085363353(__this, p0, p1, method) ((  void (*) (UnityAction_2_t1903595547 *, Il2CppObject *, IntPtr_t, const MethodInfo*))UnityAction_2__ctor_m1085363353_gshared)(__this, p0, p1, method)
+// System.Void UnityEngine.SceneManagement.SceneManager::add_sceneLoaded(UnityEngine.Events.UnityAction`2<UnityEngine.SceneManagement.Scene,UnityEngine.SceneManagement.LoadSceneMode>)
+extern "C"  void SceneManager_add_sceneLoaded_m1191442002 (Il2CppObject * __this /* static, unused */, UnityAction_2_t1903595547 * p0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Int32 UnityEngine.Time::get_frameCount()
+extern "C"  int32_t Time_get_frameCount_m1198768813 (Il2CppObject * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void UnityEngine.SceneManagement.SceneManager::remove_sceneLoaded(UnityEngine.Events.UnityAction`2<UnityEngine.SceneManagement.Scene,UnityEngine.SceneManagement.LoadSceneMode>)
+extern "C"  void SceneManager_remove_sceneLoaded_m2086364025 (Il2CppObject * __this /* static, unused */, UnityAction_2_t1903595547 * p0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void UnityEngine.Events.UnityAction`1<UnityEngine.SceneManagement.Scene>::.ctor(System.Object,System.IntPtr)
+#define UnityAction_1__ctor_m1058454129(__this, p0, p1, method) ((  void (*) (UnityAction_1_t3051495417 *, Il2CppObject *, IntPtr_t, const MethodInfo*))UnityAction_1__ctor_m1058454129_gshared)(__this, p0, p1, method)
+// System.Void UnityEngine.SceneManagement.SceneManager::add_sceneUnloaded(UnityEngine.Events.UnityAction`1<UnityEngine.SceneManagement.Scene>)
+extern "C"  void SceneManager_add_sceneUnloaded_m4039181773 (Il2CppObject * __this /* static, unused */, UnityAction_1_t3051495417 * p0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void UnityEngine.Debug::Log(System.Object)
+extern "C"  void Debug_Log_m920475918 (Il2CppObject * __this /* static, unused */, Il2CppObject * p0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void UnityEngine.SceneManagement.SceneManager::remove_sceneUnloaded(UnityEngine.Events.UnityAction`1<UnityEngine.SceneManagement.Scene>)
+extern "C"  void SceneManager_remove_sceneUnloaded_m2026397324 (Il2CppObject * __this /* static, unused */, UnityAction_1_t3051495417 * p0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void HutongGames.PlayMaker.Actions.SetActiveScene::DoSetActivate()
+extern "C"  void SetActiveScene_DoSetActivate_m3383789092 (SetActiveScene_t1943743286 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// UnityEngine.SceneManagement.Scene UnityEngine.SceneManagement.SceneManager::GetSceneAt(System.Int32)
+extern "C"  Scene_t1684909666  SceneManager_GetSceneAt_m4157291656 (Il2CppObject * __this /* static, unused */, int32_t p0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// UnityEngine.SceneManagement.Scene UnityEngine.SceneManagement.SceneManager::GetSceneByName(System.String)
+extern "C"  Scene_t1684909666  SceneManager_GetSceneByName_m3057600796 (Il2CppObject * __this /* static, unused */, String_t* p0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// UnityEngine.SceneManagement.Scene UnityEngine.SceneManagement.SceneManager::GetSceneByPath(System.String)
+extern "C"  Scene_t1684909666  SceneManager_GetSceneByPath_m9891084 (Il2CppObject * __this /* static, unused */, String_t* p0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void System.Exception::.ctor(System.String)
+extern "C"  void Exception__ctor_m485833136 (Exception_t1927440687 * __this, String_t* p0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// UnityEngine.SceneManagement.Scene UnityEngine.GameObject::get_scene()
+extern "C"  Scene_t1684909666  GameObject_get_scene_m2023687306 (GameObject_t1756533147 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Boolean UnityEngine.SceneManagement.Scene::op_Equality(UnityEngine.SceneManagement.Scene,UnityEngine.SceneManagement.Scene)
+extern "C"  bool Scene_op_Equality_m375077020 (Il2CppObject * __this /* static, unused */, Scene_t1684909666  p0, Scene_t1684909666  p1, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Boolean UnityEngine.SceneManagement.SceneManager::SetActiveScene(UnityEngine.SceneManagement.Scene)
+extern "C"  bool SceneManager_SetActiveScene_m3247381261 (Il2CppObject * __this /* static, unused */, Scene_t1684909666  p0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// UnityEngine.Color UnityEngine.Color::get_gray()
+extern "C"  Color_t2020392075  Color_get_gray_m1396712533 (Il2CppObject * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void HutongGames.PlayMaker.Actions.SetAmbientLight::DoSetAmbientColor()
+extern "C"  void SetAmbientLight_DoSetAmbientColor_m792950382 (SetAmbientLight_t243237306 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void UnityEngine.RenderSettings::set_ambientLight(UnityEngine.Color)
+extern "C"  void RenderSettings_set_ambientLight_m2849768839 (Il2CppObject * __this /* static, unused */, Color_t2020392075  p0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// HutongGames.PlayMaker.OwnerDefaultOption HutongGames.PlayMaker.FsmOwnerDefault::get_OwnerOption()
+extern "C"  int32_t FsmOwnerDefault_get_OwnerOption_m3058082974 (FsmOwnerDefault_t2023674184 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// UnityEngine.GameObject HutongGames.PlayMaker.FsmStateAction::get_Owner()
+extern "C"  GameObject_t1756533147 * FsmStateAction_get_Owner_m2345900259 (FsmStateAction_t2862378169 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// HutongGames.PlayMaker.FsmGameObject HutongGames.PlayMaker.FsmOwnerDefault::get_GameObject()
+extern "C"  FsmGameObject_t3097142863 * FsmOwnerDefault_get_GameObject_m1490419887 (FsmOwnerDefault_t2023674184 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void HutongGames.PlayMaker.Actions.SetAnimationSpeed::DoSetAnimationSpeed(UnityEngine.GameObject)
+extern "C"  void SetAnimationSpeed_DoSetAnimationSpeed_m2534932237 (SetAnimationSpeed_t3482002817 * __this, GameObject_t1756533147 * ___go0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.String System.String::Concat(System.String,System.String)
+extern "C"  String_t* String_Concat_m2596409543 (Il2CppObject * __this /* static, unused */, String_t* p0, String_t* p1, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void HutongGames.PlayMaker.FsmStateAction::LogWarning(System.String)
+extern "C"  void FsmStateAction_LogWarning_m1851739038 (FsmStateAction_t2862378169 * __this, String_t* p0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void UnityEngine.AnimationState::set_speed(System.Single)
+extern "C"  void AnimationState_set_speed_m465014523 (AnimationState_t1303741697 * __this, float p0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void HutongGames.PlayMaker.Actions.SetAnimationTime::DoSetAnimationTime(UnityEngine.GameObject)
+extern "C"  void SetAnimationTime_DoSetAnimationTime_m3951448813 (SetAnimationTime_t3526512217 * __this, GameObject_t1756533147 * ___go0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Boolean UnityEngine.Animation::Play(System.String)
+extern "C"  bool Animation_Play_m976361057 (Animation_t2068071072 * __this, String_t* p0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void UnityEngine.AnimationState::set_normalizedTime(System.Single)
+extern "C"  void AnimationState_set_normalizedTime_m3942659976 (AnimationState_t1303741697 * __this, float p0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void UnityEngine.AnimationState::set_time(System.Single)
+extern "C"  void AnimationState_set_time_m1882411177 (AnimationState_t1303741697 * __this, float p0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void HutongGames.PlayMaker.Actions.SetAnimationWeight::DoSetAnimationWeight(UnityEngine.GameObject)
+extern "C"  void SetAnimationWeight_DoSetAnimationWeight_m722090061 (SetAnimationWeight_t1672927842 * __this, GameObject_t1756533147 * ___go0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void UnityEngine.AnimationState::set_weight(System.Single)
+extern "C"  void AnimationState_set_weight_m2370306600 (AnimationState_t1303741697 * __this, float p0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// !!0 UnityEngine.GameObject::GetComponent<UnityEngine.Animator>()
+#define GameObject_GetComponent_TisAnimator_t69676727_m2717502299(__this, method) ((  Animator_t69676727 * (*) (GameObject_t1756533147 *, const MethodInfo*))GameObject_GetComponent_TisIl2CppObject_m2650145732_gshared)(__this, method)
+// System.Void HutongGames.PlayMaker.Actions.SetAnimatorApplyRootMotion::DoApplyRootMotion()
+extern "C"  void SetAnimatorApplyRootMotion_DoApplyRootMotion_m2967156894 (SetAnimatorApplyRootMotion_t4257862663 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void UnityEngine.Animator::set_applyRootMotion(System.Boolean)
+extern "C"  void Animator_set_applyRootMotion_m635228566 (Animator_t69676727 * __this, bool p0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void HutongGames.PlayMaker.Fsm::set_HandleAnimatorIK(System.Boolean)
+extern "C"  void Fsm_set_HandleAnimatorIK_m3869023658 (Fsm_t917886356 * __this, bool p0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void HutongGames.PlayMaker.Actions.SetAnimatorBody::DoSetBody()
+extern "C"  void SetAnimatorBody_DoSetBody_m2900504470 (SetAnimatorBody_t3010275605 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void UnityEngine.Animator::set_bodyPosition(UnityEngine.Vector3)
+extern "C"  void Animator_set_bodyPosition_m3816012379 (Animator_t69676727 * __this, Vector3_t2243707580  p0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// UnityEngine.Quaternion UnityEngine.Transform::get_rotation()
+extern "C"  Quaternion_t4030073918  Transform_get_rotation_m1033555130 (Transform_t3275118058 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void UnityEngine.Animator::set_bodyRotation(UnityEngine.Quaternion)
+extern "C"  void Animator_set_bodyRotation_m3092584822 (Animator_t69676727 * __this, Quaternion_t4030073918  p0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// UnityEngine.Quaternion UnityEngine.Quaternion::op_Multiply(UnityEngine.Quaternion,UnityEngine.Quaternion)
+extern "C"  Quaternion_t4030073918  Quaternion_op_Multiply_m2426727589 (Il2CppObject * __this /* static, unused */, Quaternion_t4030073918  p0, Quaternion_t4030073918  p1, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void HutongGames.PlayMaker.Actions.FsmStateActionAnimatorBase::.ctor()
+extern "C"  void FsmStateActionAnimatorBase__ctor_m3740175025 (FsmStateActionAnimatorBase_t3863144983 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void HutongGames.PlayMaker.Actions.FsmStateActionAnimatorBase::Reset()
+extern "C"  void FsmStateActionAnimatorBase_Reset_m1164231520 (FsmStateActionAnimatorBase_t3863144983 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Int32 UnityEngine.Animator::StringToHash(System.String)
+extern "C"  int32_t Animator_StringToHash_m3313850714 (Il2CppObject * __this /* static, unused */, String_t* p0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void HutongGames.PlayMaker.Actions.SetAnimatorBool::SetParameter()
+extern "C"  void SetAnimatorBool_SetParameter_m2471012474 (SetAnimatorBool_t1087961285 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void UnityEngine.Animator::SetBool(System.Int32,System.Boolean)
+extern "C"  void Animator_SetBool_m2272870950 (Animator_t69676727 * __this, int32_t p0, bool p1, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void HutongGames.PlayMaker.Actions.SetAnimatorCullingMode::SetCullingMode()
+extern "C"  void SetAnimatorCullingMode_SetCullingMode_m2215389557 (SetAnimatorCullingMode_t1528296606 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void UnityEngine.Animator::set_cullingMode(UnityEngine.AnimatorCullingMode)
+extern "C"  void Animator_set_cullingMode_m2321274215 (Animator_t69676727 * __this, int32_t p0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void HutongGames.PlayMaker.Actions.SetAnimatorFeetPivotActive::DoFeetPivotActive()
+extern "C"  void SetAnimatorFeetPivotActive_DoFeetPivotActive_m3046968450 (SetAnimatorFeetPivotActive_t3188379659 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void UnityEngine.Animator::set_feetPivotActive(System.Single)
+extern "C"  void Animator_set_feetPivotActive_m3070161808 (Animator_t69676727 * __this, float p0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void HutongGames.PlayMaker.Actions.SetAnimatorFloat::SetParameter()
+extern "C"  void SetAnimatorFloat_SetParameter_m1272420540 (SetAnimatorFloat_t1785639679 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void UnityEngine.Animator::SetFloat(System.Int32,System.Single,System.Single,System.Single)
+extern "C"  void Animator_SetFloat_m871614584 (Animator_t69676727 * __this, int32_t p0, float p1, float p2, float p3, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void UnityEngine.Animator::SetFloat(System.Int32,System.Single)
+extern "C"  void Animator_SetFloat_m2956422680 (Animator_t69676727 * __this, int32_t p0, float p1, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void HutongGames.PlayMaker.Actions.SetAnimatorIKGoal::DoSetIKGoal()
+extern "C"  void SetAnimatorIKGoal_DoSetIKGoal_m4274498532 (SetAnimatorIKGoal_t3328366004 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void UnityEngine.Animator::SetIKPosition(UnityEngine.AvatarIKGoal,UnityEngine.Vector3)
+extern "C"  void Animator_SetIKPosition_m3754744543 (Animator_t69676727 * __this, int32_t p0, Vector3_t2243707580  p1, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void UnityEngine.Animator::SetIKRotation(UnityEngine.AvatarIKGoal,UnityEngine.Quaternion)
+extern "C"  void Animator_SetIKRotation_m4119847878 (Animator_t69676727 * __this, int32_t p0, Quaternion_t4030073918  p1, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void UnityEngine.Animator::SetIKPositionWeight(UnityEngine.AvatarIKGoal,System.Single)
+extern "C"  void Animator_SetIKPositionWeight_m2782442723 (Animator_t69676727 * __this, int32_t p0, float p1, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void UnityEngine.Animator::SetIKRotationWeight(UnityEngine.AvatarIKGoal,System.Single)
+extern "C"  void Animator_SetIKRotationWeight_m3417634268 (Animator_t69676727 * __this, int32_t p0, float p1, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void HutongGames.PlayMaker.Actions.SetAnimatorInt::SetParameter()
+extern "C"  void SetAnimatorInt_SetParameter_m2100579519 (SetAnimatorInt_t620710464 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void UnityEngine.Animator::SetInteger(System.Int32,System.Int32)
+extern "C"  void Animator_SetInteger_m1464706502 (Animator_t69676727 * __this, int32_t p0, int32_t p1, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void HutongGames.PlayMaker.Actions.SetAnimatorLayersAffectMassCenter::SetAffectMassCenter()
+extern "C"  void SetAnimatorLayersAffectMassCenter_SetAffectMassCenter_m2768642441 (SetAnimatorLayersAffectMassCenter_t195665531 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void UnityEngine.Animator::set_layersAffectMassCenter(System.Boolean)
+extern "C"  void Animator_set_layersAffectMassCenter_m2611371262 (Animator_t69676727 * __this, bool p0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void HutongGames.PlayMaker.Actions.SetAnimatorLayerWeight::DoLayerWeight()
+extern "C"  void SetAnimatorLayerWeight_DoLayerWeight_m2594134044 (SetAnimatorLayerWeight_t1821312336 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void UnityEngine.Animator::SetLayerWeight(System.Int32,System.Single)
+extern "C"  void Animator_SetLayerWeight_m2914961795 (Animator_t69676727 * __this, int32_t p0, float p1, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void HutongGames.PlayMaker.Actions.SetAnimatorLookAt::DoSetLookAt()
+extern "C"  void SetAnimatorLookAt_DoSetLookAt_m1574379630 (SetAnimatorLookAt_t349070307 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void UnityEngine.Animator::SetLookAtPosition(UnityEngine.Vector3)
+extern "C"  void Animator_SetLookAtPosition_m2085986408 (Animator_t69676727 * __this, Vector3_t2243707580  p0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void UnityEngine.Animator::SetLookAtWeight(System.Single,System.Single,System.Single,System.Single,System.Single)
+extern "C"  void Animator_SetLookAtWeight_m3872681091 (Animator_t69676727 * __this, float p0, float p1, float p2, float p3, float p4, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void UnityEngine.Animator::SetLookAtWeight(System.Single,System.Single,System.Single,System.Single)
+extern "C"  void Animator_SetLookAtWeight_m2799625122 (Animator_t69676727 * __this, float p0, float p1, float p2, float p3, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void UnityEngine.Animator::SetLookAtWeight(System.Single,System.Single,System.Single)
+extern "C"  void Animator_SetLookAtWeight_m3239175203 (Animator_t69676727 * __this, float p0, float p1, float p2, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void UnityEngine.Animator::SetLookAtWeight(System.Single,System.Single)
+extern "C"  void Animator_SetLookAtWeight_m1126855746 (Animator_t69676727 * __this, float p0, float p1, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void UnityEngine.Animator::SetLookAtWeight(System.Single)
+extern "C"  void Animator_SetLookAtWeight_m3938735683 (Animator_t69676727 * __this, float p0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void HutongGames.PlayMaker.Actions.SetAnimatorPlayBackSpeed::DoPlayBackSpeed()
+extern "C"  void SetAnimatorPlayBackSpeed_DoPlayBackSpeed_m707694510 (SetAnimatorPlayBackSpeed_t3407909277 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void UnityEngine.Animator::set_speed(System.Single)
+extern "C"  void Animator_set_speed_m3511108817 (Animator_t69676727 * __this, float p0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void HutongGames.PlayMaker.Actions.SetAnimatorPlayBackTime::DoPlaybackTime()
+extern "C"  void SetAnimatorPlayBackTime_DoPlaybackTime_m4030669916 (SetAnimatorPlayBackTime_t170527177 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void UnityEngine.Animator::set_playbackTime(System.Single)
+extern "C"  void Animator_set_playbackTime_m2149309450 (Animator_t69676727 * __this, float p0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void HutongGames.PlayMaker.Actions.SetAnimatorSpeed::DoPlaybackSpeed()
+extern "C"  void SetAnimatorSpeed_DoPlaybackSpeed_m2210846151 (SetAnimatorSpeed_t2775137368 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void HutongGames.PlayMaker.Actions.SetAnimatorStabilizeFeet::DoStabilizeFeet()
+extern "C"  void SetAnimatorStabilizeFeet_DoStabilizeFeet_m2036505336 (SetAnimatorStabilizeFeet_t3575473090 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void UnityEngine.Animator::set_stabilizeFeet(System.Boolean)
+extern "C"  void Animator_set_stabilizeFeet_m224067765 (Animator_t69676727 * __this, bool p0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void HutongGames.PlayMaker.Fsm::set_HandleAnimatorMove(System.Boolean)
+extern "C"  void Fsm_set_HandleAnimatorMove_m2112503791 (Fsm_t917886356 * __this, bool p0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void HutongGames.PlayMaker.Actions.SetAnimatorTarget::SetTarget()
+extern "C"  void SetAnimatorTarget_SetTarget_m2217284069 (SetAnimatorTarget_t762350858 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void UnityEngine.Animator::SetTarget(UnityEngine.AvatarTarget,System.Single)
+extern "C"  void Animator_SetTarget_m3396402303 (Animator_t69676727 * __this, int32_t p0, float p1, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void HutongGames.PlayMaker.Actions.SetAnimatorTrigger::SetTrigger()
+extern "C"  void SetAnimatorTrigger_SetTrigger_m510368757 (SetAnimatorTrigger_t3111496129 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void UnityEngine.Animator::SetTrigger(System.String)
+extern "C"  void Animator_SetTrigger_m3418492570 (Animator_t69676727 * __this, String_t* p0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void HutongGames.PlayMaker.Actions.ComponentAction`1<UnityEngine.AudioSource>::.ctor()
+#define ComponentAction_1__ctor_m2282656970(__this, method) ((  void (*) (ComponentAction_1_t1736686362 *, const MethodInfo*))ComponentAction_1__ctor_m2818003542_gshared)(__this, method)
+// System.Boolean HutongGames.PlayMaker.Actions.ComponentAction`1<UnityEngine.AudioSource>::UpdateCache(UnityEngine.GameObject)
+#define ComponentAction_1_UpdateCache_m661482389(__this, p0, method) ((  bool (*) (ComponentAction_1_t1736686362 *, GameObject_t1756533147 *, const MethodInfo*))ComponentAction_1_UpdateCache_m929902755_gshared)(__this, p0, method)
+// UnityEngine.AudioSource HutongGames.PlayMaker.Actions.ComponentAction`1<UnityEngine.AudioSource>::get_audio()
+#define ComponentAction_1_get_audio_m2158153034(__this, method) ((  AudioSource_t1135106623 * (*) (ComponentAction_1_t1736686362 *, const MethodInfo*))ComponentAction_1_get_audio_m1942127190_gshared)(__this, method)
+// System.Void UnityEngine.AudioSource::set_clip(UnityEngine.AudioClip)
+extern "C"  void AudioSource_set_clip_m738814682 (AudioSource_t1135106623 * __this, AudioClip_t1932558630 * p0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void UnityEngine.AudioSource::set_loop(System.Boolean)
+extern "C"  void AudioSource_set_loop_m313035616 (AudioSource_t1135106623 * __this, bool p0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void HutongGames.PlayMaker.Actions.SetAudioPitch::DoSetAudioPitch()
+extern "C"  void SetAudioPitch_DoSetAudioPitch_m1394952541 (SetAudioPitch_t2843540500 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void UnityEngine.AudioSource::set_pitch(System.Single)
+extern "C"  void AudioSource_set_pitch_m3064416458 (AudioSource_t1135106623 * __this, float p0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void HutongGames.PlayMaker.Actions.SetAudioVolume::DoSetAudioVolume()
+extern "C"  void SetAudioVolume_DoSetAudioVolume_m2414347873 (SetAudioVolume_t3912171830 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void UnityEngine.AudioSource::set_volume(System.Single)
+extern "C"  void AudioSource_set_volume_m2777308722 (AudioSource_t1135106623 * __this, float p0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void HutongGames.PlayMaker.Actions.ComponentAction`1<UnityEngine.Camera>::.ctor()
+#define ComponentAction_1__ctor_m2142913070(__this, method) ((  void (*) (ComponentAction_1_t791040716 *, const MethodInfo*))ComponentAction_1__ctor_m2818003542_gshared)(__this, method)
+// UnityEngine.Color UnityEngine.Color::get_black()
+extern "C"  Color_t2020392075  Color_get_black_m2650940523 (Il2CppObject * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void HutongGames.PlayMaker.Actions.SetBackgroundColor::DoSetBackgroundColor()
+extern "C"  void SetBackgroundColor_DoSetBackgroundColor_m872035457 (SetBackgroundColor_t423384025 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Boolean HutongGames.PlayMaker.Actions.ComponentAction`1<UnityEngine.Camera>::UpdateCache(UnityEngine.GameObject)
+#define ComponentAction_1_UpdateCache_m4284851463(__this, p0, method) ((  bool (*) (ComponentAction_1_t791040716 *, GameObject_t1756533147 *, const MethodInfo*))ComponentAction_1_UpdateCache_m929902755_gshared)(__this, p0, method)
+// UnityEngine.Camera HutongGames.PlayMaker.Actions.ComponentAction`1<UnityEngine.Camera>::get_camera()
+#define ComponentAction_1_get_camera_m3499382131(__this, method) ((  Camera_t189460977 * (*) (ComponentAction_1_t791040716 *, const MethodInfo*))ComponentAction_1_get_camera_m1130907379_gshared)(__this, method)
+// System.Void UnityEngine.Camera::set_backgroundColor(UnityEngine.Color)
+extern "C"  void Camera_set_backgroundColor_m2927893592 (Camera_t189460977 * __this, Color_t2020392075  p0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void HutongGames.PlayMaker.Actions.SetCameraCullingMask::DoSetCameraCullingMask()
+extern "C"  void SetCameraCullingMask_DoSetCameraCullingMask_m1426544513 (SetCameraCullingMask_t2337594823 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void UnityEngine.Camera::set_cullingMask(System.Int32)
+extern "C"  void Camera_set_cullingMask_m2396665826 (Camera_t189460977 * __this, int32_t p0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void HutongGames.PlayMaker.Actions.SetCameraFOV::DoSetCameraFOV()
+extern "C"  void SetCameraFOV_DoSetCameraFOV_m2304958017 (SetCameraFOV_t2435366378 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void UnityEngine.Camera::set_fieldOfView(System.Single)
+extern "C"  void Camera_set_fieldOfView_m3974156396 (Camera_t189460977 * __this, float p0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void HutongGames.PlayMaker.Actions.SetCollider2dIsTrigger::DoSetIsTrigger()
+extern "C"  void SetCollider2dIsTrigger_DoSetIsTrigger_m3931150077 (SetCollider2dIsTrigger_t3962719942 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// !!0[] UnityEngine.GameObject::GetComponents<UnityEngine.Collider2D>()
+#define GameObject_GetComponents_TisCollider2D_t646061738_m3026490665(__this, method) ((  Collider2DU5BU5D_t3535523695* (*) (GameObject_t1756533147 *, const MethodInfo*))GameObject_GetComponents_TisIl2CppObject_m2259191280_gshared)(__this, method)
+// System.Void UnityEngine.Collider2D::set_isTrigger(System.Boolean)
+extern "C"  void Collider2D_set_isTrigger_m1243156937 (Collider2D_t646061738 * __this, bool p0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// !!0 UnityEngine.GameObject::GetComponent<UnityEngine.Collider2D>()
+#define GameObject_GetComponent_TisCollider2D_t646061738_m102049670(__this, method) ((  Collider2D_t646061738 * (*) (GameObject_t1756533147 *, const MethodInfo*))GameObject_GetComponent_TisIl2CppObject_m2650145732_gshared)(__this, method)
+// System.Void HutongGames.PlayMaker.Actions.SetColorRGBA::DoSetColorRGBA()
+extern "C"  void SetColorRGBA_DoSetColorRGBA_m769674369 (SetColorRGBA_t2500887559 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void HutongGames.PlayMaker.Actions.SetColorValue::DoSetColorValue()
+extern "C"  void SetColorValue_DoSetColorValue_m695182073 (SetColorValue_t3782904230 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void HutongGames.PlayMaker.Actions.ComponentAction`1<UnityEngine.Rigidbody>::.ctor()
+#define ComponentAction_1__ctor_m624387542(__this, method) ((  void (*) (ComponentAction_1_t540501634 *, const MethodInfo*))ComponentAction_1__ctor_m2818003542_gshared)(__this, method)
+// System.Void HutongGames.PlayMaker.Actions.SetDrag::DoSetDrag()
+extern "C"  void SetDrag_DoSetDrag_m1330522333 (SetDrag_t1013364552 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Boolean HutongGames.PlayMaker.Actions.ComponentAction`1<UnityEngine.Rigidbody>::UpdateCache(UnityEngine.GameObject)
+#define ComponentAction_1_UpdateCache_m135452307(__this, p0, method) ((  bool (*) (ComponentAction_1_t540501634 *, GameObject_t1756533147 *, const MethodInfo*))ComponentAction_1_UpdateCache_m929902755_gshared)(__this, p0, method)
+// UnityEngine.Rigidbody HutongGames.PlayMaker.Actions.ComponentAction`1<UnityEngine.Rigidbody>::get_rigidbody()
+#define ComponentAction_1_get_rigidbody_m1721699991(__this, method) ((  Rigidbody_t4233889191 * (*) (ComponentAction_1_t540501634 *, const MethodInfo*))ComponentAction_1_get_rigidbody_m3236782951_gshared)(__this, method)
+// System.Void UnityEngine.Rigidbody::set_drag(System.Single)
+extern "C"  void Rigidbody_set_drag_m431766562 (Rigidbody_t4233889191 * __this, float p0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void HutongGames.PlayMaker.Actions.SetEnumValue::DoSetEnumValue()
+extern "C"  void SetEnumValue_DoSetEnumValue_m4148798529 (SetEnumValue_t4139640040 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void HutongGames.PlayMaker.FsmEnum::set_Value(System.Enum)
+extern "C"  void FsmEnum_set_Value_m1697063838 (FsmEnum_t2808516103 * __this, Enum_t2459695545 * p0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void HutongGames.PlayMaker.FsmGameObject::.ctor()
+extern "C"  void FsmGameObject__ctor_m3432344422 (FsmGameObject_t3097142863 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void HutongGames.PlayMaker.FsmString::.ctor()
+extern "C"  void FsmString__ctor_m1192568582 (FsmString_t2414474701 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void HutongGames.PlayMaker.FsmBool::.ctor()
+extern "C"  void FsmBool__ctor_m1176758167 (FsmBool_t664485696 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void HutongGames.PlayMaker.FsmColor::.ctor()
+extern "C"  void FsmColor__ctor_m1940543644 (FsmColor_t118301965 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void HutongGames.PlayMaker.FsmMaterial::.ctor()
+extern "C"  void FsmMaterial__ctor_m3208408158 (FsmMaterial_t1421632035 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void HutongGames.PlayMaker.FsmTexture::.ctor()
+extern "C"  void FsmTexture__ctor_m1123765920 (FsmTexture_t3372293163 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void HutongGames.PlayMaker.FsmObject::.ctor()
+extern "C"  void FsmObject__ctor_m2731248784 (FsmObject_t2785794313 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void HutongGames.PlayMaker.Fsm::set_EventTarget(HutongGames.PlayMaker.FsmEventTarget)
+extern "C"  void Fsm_set_EventTarget_m972259304 (Fsm_t917886356 * __this, FsmEventTarget_t172293745 * p0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void HutongGames.PlayMaker.Actions.SetFlareStrength::DoSetFlareStrength()
+extern "C"  void SetFlareStrength_DoSetFlareStrength_m89931073 (SetFlareStrength_t1646161835 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void UnityEngine.RenderSettings::set_flareStrength(System.Single)
+extern "C"  void RenderSettings_set_flareStrength_m3519736811 (Il2CppObject * __this /* static, unused */, float p0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// UnityEngine.Color UnityEngine.Color::get_white()
+extern "C"  Color_t2020392075  Color_get_white_m3987539815 (Il2CppObject * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void HutongGames.PlayMaker.Actions.SetFogColor::DoSetFogColor()
+extern "C"  void SetFogColor_DoSetFogColor_m2686219629 (SetFogColor_t2065187483 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void UnityEngine.RenderSettings::set_fogColor(UnityEngine.Color)
+extern "C"  void RenderSettings_set_fogColor_m3716873294 (Il2CppObject * __this /* static, unused */, Color_t2020392075  p0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void HutongGames.PlayMaker.Actions.SetFogDensity::DoSetFogDensity()
+extern "C"  void SetFogDensity_DoSetFogDensity_m1637368249 (SetFogDensity_t3867228106 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void UnityEngine.RenderSettings::set_fogDensity(System.Single)
+extern "C"  void RenderSettings_set_fogDensity_m2940444706 (Il2CppObject * __this /* static, unused */, float p0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void HutongGames.PlayMaker.Actions.BaseFsmVariableAction::.ctor()
+extern "C"  void BaseFsmVariableAction__ctor_m2274704639 (BaseFsmVariableAction_t1849884759 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void HutongGames.PlayMaker.Actions.SetFsmArray::DoSetFsmArrayCopy()
+extern "C"  void SetFsmArray_DoSetFsmArrayCopy_m469428794 (SetFsmArray_t309067603 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Boolean HutongGames.PlayMaker.Actions.BaseFsmVariableAction::UpdateCache(UnityEngine.GameObject,System.String)
+extern "C"  bool BaseFsmVariableAction_UpdateCache_m3608133638 (BaseFsmVariableAction_t1849884759 * __this, GameObject_t1756533147 * ___go0, String_t* ___fsmName1, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// HutongGames.PlayMaker.FsmVariables PlayMakerFSM::get_FsmVariables()
+extern "C"  FsmVariables_t630687169 * PlayMakerFSM_get_FsmVariables_m2623807583 (PlayMakerFSM_t437737208 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// HutongGames.PlayMaker.FsmArray HutongGames.PlayMaker.FsmVariables::GetFsmArray(System.String)
+extern "C"  FsmArray_t527459893 * FsmVariables_GetFsmArray_m4229145173 (FsmVariables_t630687169 * __this, String_t* p0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// HutongGames.PlayMaker.VariableType HutongGames.PlayMaker.FsmArray::get_ElementType()
+extern "C"  int32_t FsmArray_get_ElementType_m2542029030 (FsmArray_t527459893 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.String System.String::Concat(System.Object[])
+extern "C"  String_t* String_Concat_m3881798623 (Il2CppObject * __this /* static, unused */, ObjectU5BU5D_t3614634134* p0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void HutongGames.PlayMaker.FsmArray::Resize(System.Int32)
+extern "C"  void FsmArray_Resize_m247957487 (FsmArray_t527459893 * __this, int32_t p0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Object System.Array::Clone()
+extern "C"  Il2CppObject * Array_Clone_m768574314 (Il2CppArray * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void HutongGames.PlayMaker.Actions.BaseFsmVariableAction::DoVariableNotFound(System.String)
+extern "C"  void BaseFsmVariableAction_DoVariableNotFound_m1061033127 (BaseFsmVariableAction_t1849884759 * __this, String_t* ___variableName0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void HutongGames.PlayMaker.Actions.BaseFsmVariableIndexAction::.ctor()
+extern "C"  void BaseFsmVariableIndexAction__ctor_m305525353 (BaseFsmVariableIndexAction_t3235583395 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void HutongGames.PlayMaker.Actions.SetFsmArrayItem::DoSetFsmArray()
+extern "C"  void SetFsmArrayItem_DoSetFsmArray_m3822892670 (SetFsmArrayItem_t1117188136 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Boolean HutongGames.PlayMaker.Actions.BaseFsmVariableIndexAction::UpdateCache(UnityEngine.GameObject,System.String)
+extern "C"  bool BaseFsmVariableIndexAction_UpdateCache_m3540055838 (BaseFsmVariableIndexAction_t3235583395 * __this, GameObject_t1756533147 * ___go0, String_t* ___fsmName1, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Int32 HutongGames.PlayMaker.FsmArray::get_Length()
+extern "C"  int32_t FsmArray_get_Length_m1940022255 (FsmArray_t527459893 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// HutongGames.PlayMaker.NamedVariable HutongGames.PlayMaker.FsmVar::get_NamedVar()
+extern "C"  NamedVariable_t3026441313 * FsmVar_get_NamedVar_m4159647311 (FsmVar_t2872592513 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void HutongGames.PlayMaker.FsmVar::UpdateValue()
+extern "C"  void FsmVar_UpdateValue_m4265045260 (FsmVar_t2872592513 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Object HutongGames.PlayMaker.FsmVar::GetValue()
+extern "C"  Il2CppObject * FsmVar_GetValue_m2514959358 (FsmVar_t2872592513 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void HutongGames.PlayMaker.FsmArray::Set(System.Int32,System.Object)
+extern "C"  void FsmArray_Set_m324686745 (FsmArray_t527459893 * __this, int32_t p0, Il2CppObject * p1, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void HutongGames.PlayMaker.Actions.BaseFsmVariableIndexAction::DoVariableNotFound(System.String)
+extern "C"  void BaseFsmVariableIndexAction_DoVariableNotFound_m1393183601 (BaseFsmVariableIndexAction_t3235583395 * __this, String_t* ___variableName0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void HutongGames.PlayMaker.Actions.SetFsmBool::DoSetFsmBool()
+extern "C"  void SetFsmBool_DoSetFsmBool_m3739246433 (SetFsmBool_t2886585218 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Boolean System.String::op_Inequality(System.String,System.String)
+extern "C"  bool String_op_Inequality_m304203149 (Il2CppObject * __this /* static, unused */, String_t* p0, String_t* p1, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// HutongGames.PlayMaker.FsmBool HutongGames.PlayMaker.FsmVariables::FindFsmBool(System.String)
+extern "C"  FsmBool_t664485696 * FsmVariables_FindFsmBool_m2600024012 (FsmVariables_t630687169 * __this, String_t* p0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void HutongGames.PlayMaker.Actions.SetFsmColor::DoSetFsmColor()
+extern "C"  void SetFsmColor_DoSetFsmColor_m3716858801 (SetFsmColor_t759142125 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// HutongGames.PlayMaker.FsmColor HutongGames.PlayMaker.FsmVariables::GetFsmColor(System.String)
+extern "C"  FsmColor_t118301965 * FsmVariables_GetFsmColor_m198518549 (FsmVariables_t630687169 * __this, String_t* p0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void HutongGames.PlayMaker.Actions.SetFsmEnum::DoSetFsmEnum()
+extern "C"  void SetFsmEnum_DoSetFsmEnum_m1383548289 (SetFsmEnum_t16539373 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// HutongGames.PlayMaker.FsmEnum HutongGames.PlayMaker.FsmVariables::GetFsmEnum(System.String)
+extern "C"  FsmEnum_t2808516103 * FsmVariables_GetFsmEnum_m221487545 (FsmVariables_t630687169 * __this, String_t* p0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void HutongGames.PlayMaker.Actions.SetFsmFloat::DoSetFsmFloat()
+extern "C"  void SetFsmFloat_DoSetFsmFloat_m317043325 (SetFsmFloat_t2903169588 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// HutongGames.PlayMaker.FsmFloat HutongGames.PlayMaker.FsmVariables::GetFsmFloat(System.String)
+extern "C"  FsmFloat_t937133978 * FsmVariables_GetFsmFloat_m1215451093 (FsmVariables_t630687169 * __this, String_t* p0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void HutongGames.PlayMaker.Actions.SetFsmGameObject::DoSetFsmGameObject()
+extern "C"  void SetFsmGameObject_DoSetFsmGameObject_m1016196609 (SetFsmGameObject_t1367964709 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// HutongGames.PlayMaker.FsmGameObject HutongGames.PlayMaker.FsmVariables::FindFsmGameObject(System.String)
+extern "C"  FsmGameObject_t3097142863 * FsmVariables_FindFsmGameObject_m1797685292 (FsmVariables_t630687169 * __this, String_t* p0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void HutongGames.PlayMaker.Actions.SetFsmInt::DoSetFsmInt()
+extern "C"  void SetFsmInt_DoSetFsmInt_m3294848813 (SetFsmInt_t1716896067 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// HutongGames.PlayMaker.FsmInt HutongGames.PlayMaker.FsmVariables::GetFsmInt(System.String)
+extern "C"  FsmInt_t1273009179 * FsmVariables_GetFsmInt_m4075723285 (FsmVariables_t630687169 * __this, String_t* p0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void HutongGames.PlayMaker.Actions.SetFsmMaterial::DoSetFsmBool()
+extern "C"  void SetFsmMaterial_DoSetFsmBool_m2270217842 (SetFsmMaterial_t3345318009 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// HutongGames.PlayMaker.FsmMaterial HutongGames.PlayMaker.FsmVariables::GetFsmMaterial(System.String)
+extern "C"  FsmMaterial_t1421632035 * FsmVariables_GetFsmMaterial_m1839896713 (FsmVariables_t630687169 * __this, String_t* p0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void HutongGames.PlayMaker.FsmMaterial::set_Value(UnityEngine.Material)
+extern "C"  void FsmMaterial_set_Value_m4198295470 (FsmMaterial_t1421632035 * __this, Material_t193706927 * p0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void HutongGames.PlayMaker.Actions.SetFsmObject::DoSetFsmBool()
+extern "C"  void SetFsmObject_DoSetFsmBool_m2735063900 (SetFsmObject_t3286560103 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// HutongGames.PlayMaker.FsmObject HutongGames.PlayMaker.FsmVariables::GetFsmObject(System.String)
+extern "C"  FsmObject_t2785794313 * FsmVariables_GetFsmObject_m703724597 (FsmVariables_t630687169 * __this, String_t* p0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void HutongGames.PlayMaker.FsmObject::set_Value(UnityEngine.Object)
+extern "C"  void FsmObject_set_Value_m4152526958 (FsmObject_t2785794313 * __this, Object_t1021602117 * p0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void HutongGames.PlayMaker.Actions.SetFsmQuaternion::DoSetFsmQuaternion()
+extern "C"  void SetFsmQuaternion_DoSetFsmQuaternion_m4057498497 (SetFsmQuaternion_t128851816 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// HutongGames.PlayMaker.FsmQuaternion HutongGames.PlayMaker.FsmVariables::GetFsmQuaternion(System.String)
+extern "C"  FsmQuaternion_t878438756 * FsmVariables_GetFsmQuaternion_m1196207457 (FsmVariables_t630687169 * __this, String_t* p0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void HutongGames.PlayMaker.Actions.SetFsmRect::DoSetFsmBool()
+extern "C"  void SetFsmRect_DoSetFsmBool_m3764728407 (SetFsmRect_t487080500 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// HutongGames.PlayMaker.FsmRect HutongGames.PlayMaker.FsmVariables::GetFsmRect(System.String)
+extern "C"  FsmRect_t19023354 * FsmVariables_GetFsmRect_m3728049889 (FsmVariables_t630687169 * __this, String_t* p0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void HutongGames.PlayMaker.FsmRect::set_Value(UnityEngine.Rect)
+extern "C"  void FsmRect_set_Value_m829547054 (FsmRect_t19023354 * __this, Rect_t3681755626  p0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void HutongGames.PlayMaker.Actions.SetFsmString::DoSetFsmString()
+extern "C"  void SetFsmString_DoSetFsmString_m474226881 (SetFsmString_t4065550381 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// HutongGames.PlayMaker.FsmString HutongGames.PlayMaker.FsmVariables::GetFsmString(System.String)
+extern "C"  FsmString_t2414474701 * FsmVariables_GetFsmString_m619955285 (FsmVariables_t630687169 * __this, String_t* p0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void HutongGames.PlayMaker.Actions.SetFsmTexture::DoSetFsmBool()
+extern "C"  void SetFsmTexture_DoSetFsmBool_m1021498382 (SetFsmTexture_t3916602097 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// HutongGames.PlayMaker.FsmTexture HutongGames.PlayMaker.FsmVariables::FindFsmTexture(System.String)
+extern "C"  FsmTexture_t3372293163 * FsmVariables_FindFsmTexture_m2285545046 (FsmVariables_t630687169 * __this, String_t* p0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void HutongGames.PlayMaker.FsmTexture::set_Value(UnityEngine.Texture)
+extern "C"  void FsmTexture_set_Value_m1312269522 (FsmTexture_t3372293163 * __this, Texture_t2243626319 * p0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// System.Void HutongGames.PlayMaker.Actions.QuaternionRotateTowards::.ctor()
+extern "C"  void QuaternionRotateTowards__ctor_m3466382535 (QuaternionRotateTowards_t3565674165 * __this, const MethodInfo* method)
+{
+	{
+		QuaternionBaseAction__ctor_m2777676569(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void HutongGames.PlayMaker.Actions.QuaternionRotateTowards::Reset()
+extern "C"  void QuaternionRotateTowards_Reset_m3352987562 (QuaternionRotateTowards_t3565674165 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (QuaternionRotateTowards_Reset_m3352987562_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	FsmQuaternion_t878438756 * V_0 = NULL;
+	{
+		FsmQuaternion_t878438756 * L_0 = (FsmQuaternion_t878438756 *)il2cpp_codegen_object_new(FsmQuaternion_t878438756_il2cpp_TypeInfo_var);
+		FsmQuaternion__ctor_m3078120561(L_0, /*hidden argument*/NULL);
+		V_0 = L_0;
+		FsmQuaternion_t878438756 * L_1 = V_0;
+		NullCheck(L_1);
+		NamedVariable_set_UseVariable_m1478981231(L_1, (bool)1, /*hidden argument*/NULL);
+		FsmQuaternion_t878438756 * L_2 = V_0;
+		__this->set_fromQuaternion_13(L_2);
+		FsmQuaternion_t878438756 * L_3 = (FsmQuaternion_t878438756 *)il2cpp_codegen_object_new(FsmQuaternion_t878438756_il2cpp_TypeInfo_var);
+		FsmQuaternion__ctor_m3078120561(L_3, /*hidden argument*/NULL);
+		V_0 = L_3;
+		FsmQuaternion_t878438756 * L_4 = V_0;
+		NullCheck(L_4);
+		NamedVariable_set_UseVariable_m1478981231(L_4, (bool)1, /*hidden argument*/NULL);
+		FsmQuaternion_t878438756 * L_5 = V_0;
+		__this->set_toQuaternion_14(L_5);
+		FsmFloat_t937133978 * L_6 = FsmFloat_op_Implicit_m475928236(NULL /*static, unused*/, (10.0f), /*hidden argument*/NULL);
+		__this->set_maxDegreesDelta_15(L_6);
+		__this->set_storeResult_16((FsmQuaternion_t878438756 *)NULL);
+		((QuaternionBaseAction_t3869353585 *)__this)->set_everyFrame_11((bool)1);
+		((QuaternionBaseAction_t3869353585 *)__this)->set_everyFrameOption_12(0);
+		return;
+	}
+}
+// System.Void HutongGames.PlayMaker.Actions.QuaternionRotateTowards::OnEnter()
+extern "C"  void QuaternionRotateTowards_OnEnter_m2702000268 (QuaternionRotateTowards_t3565674165 * __this, const MethodInfo* method)
+{
+	{
+		QuaternionRotateTowards_DoQuatRotateTowards_m2646640622(__this, /*hidden argument*/NULL);
+		bool L_0 = ((QuaternionBaseAction_t3869353585 *)__this)->get_everyFrame_11();
+		if (L_0)
+		{
+			goto IL_0017;
+		}
+	}
+	{
+		FsmStateAction_Finish_m1955744727(__this, /*hidden argument*/NULL);
+	}
+
+IL_0017:
+	{
+		return;
+	}
+}
+// System.Void HutongGames.PlayMaker.Actions.QuaternionRotateTowards::OnUpdate()
+extern "C"  void QuaternionRotateTowards_OnUpdate_m1824230567 (QuaternionRotateTowards_t3565674165 * __this, const MethodInfo* method)
+{
+	{
+		int32_t L_0 = ((QuaternionBaseAction_t3869353585 *)__this)->get_everyFrameOption_12();
+		if (L_0)
+		{
+			goto IL_0011;
+		}
+	}
+	{
+		QuaternionRotateTowards_DoQuatRotateTowards_m2646640622(__this, /*hidden argument*/NULL);
+	}
+
+IL_0011:
+	{
+		return;
+	}
+}
+// System.Void HutongGames.PlayMaker.Actions.QuaternionRotateTowards::OnLateUpdate()
+extern "C"  void QuaternionRotateTowards_OnLateUpdate_m2462791091 (QuaternionRotateTowards_t3565674165 * __this, const MethodInfo* method)
+{
+	{
+		int32_t L_0 = ((QuaternionBaseAction_t3869353585 *)__this)->get_everyFrameOption_12();
+		if ((!(((uint32_t)L_0) == ((uint32_t)2))))
+		{
+			goto IL_0012;
+		}
+	}
+	{
+		QuaternionRotateTowards_DoQuatRotateTowards_m2646640622(__this, /*hidden argument*/NULL);
+	}
+
+IL_0012:
+	{
+		return;
+	}
+}
+// System.Void HutongGames.PlayMaker.Actions.QuaternionRotateTowards::OnFixedUpdate()
+extern "C"  void QuaternionRotateTowards_OnFixedUpdate_m1927350325 (QuaternionRotateTowards_t3565674165 * __this, const MethodInfo* method)
+{
+	{
+		int32_t L_0 = ((QuaternionBaseAction_t3869353585 *)__this)->get_everyFrameOption_12();
+		if ((!(((uint32_t)L_0) == ((uint32_t)1))))
+		{
+			goto IL_0012;
+		}
+	}
+	{
+		QuaternionRotateTowards_DoQuatRotateTowards_m2646640622(__this, /*hidden argument*/NULL);
+	}
+
+IL_0012:
+	{
+		return;
+	}
+}
+// System.Void HutongGames.PlayMaker.Actions.QuaternionRotateTowards::DoQuatRotateTowards()
+extern "C"  void QuaternionRotateTowards_DoQuatRotateTowards_m2646640622 (QuaternionRotateTowards_t3565674165 * __this, const MethodInfo* method)
+{
+	{
+		FsmQuaternion_t878438756 * L_0 = __this->get_storeResult_16();
+		FsmQuaternion_t878438756 * L_1 = __this->get_fromQuaternion_13();
+		NullCheck(L_1);
+		Quaternion_t4030073918  L_2 = FsmQuaternion_get_Value_m2629833107(L_1, /*hidden argument*/NULL);
+		FsmQuaternion_t878438756 * L_3 = __this->get_toQuaternion_14();
+		NullCheck(L_3);
+		Quaternion_t4030073918  L_4 = FsmQuaternion_get_Value_m2629833107(L_3, /*hidden argument*/NULL);
+		FsmFloat_t937133978 * L_5 = __this->get_maxDegreesDelta_15();
+		NullCheck(L_5);
+		float L_6 = FsmFloat_get_Value_m1818441449(L_5, /*hidden argument*/NULL);
+		Quaternion_t4030073918  L_7 = Quaternion_RotateTowards_m83980725(NULL /*static, unused*/, L_2, L_4, L_6, /*hidden argument*/NULL);
+		NullCheck(L_0);
+		FsmQuaternion_set_Value_m1061544654(L_0, L_7, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void HutongGames.PlayMaker.Actions.QuaternionSlerp::.ctor()
+extern "C"  void QuaternionSlerp__ctor_m922547226 (QuaternionSlerp_t3176095846 * __this, const MethodInfo* method)
+{
+	{
+		QuaternionBaseAction__ctor_m2777676569(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void HutongGames.PlayMaker.Actions.QuaternionSlerp::Reset()
+extern "C"  void QuaternionSlerp_Reset_m3305049127 (QuaternionSlerp_t3176095846 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (QuaternionSlerp_Reset_m3305049127_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	FsmQuaternion_t878438756 * V_0 = NULL;
+	{
+		FsmQuaternion_t878438756 * L_0 = (FsmQuaternion_t878438756 *)il2cpp_codegen_object_new(FsmQuaternion_t878438756_il2cpp_TypeInfo_var);
+		FsmQuaternion__ctor_m3078120561(L_0, /*hidden argument*/NULL);
+		V_0 = L_0;
+		FsmQuaternion_t878438756 * L_1 = V_0;
+		NullCheck(L_1);
+		NamedVariable_set_UseVariable_m1478981231(L_1, (bool)1, /*hidden argument*/NULL);
+		FsmQuaternion_t878438756 * L_2 = V_0;
+		__this->set_fromQuaternion_13(L_2);
+		FsmQuaternion_t878438756 * L_3 = (FsmQuaternion_t878438756 *)il2cpp_codegen_object_new(FsmQuaternion_t878438756_il2cpp_TypeInfo_var);
+		FsmQuaternion__ctor_m3078120561(L_3, /*hidden argument*/NULL);
+		V_0 = L_3;
+		FsmQuaternion_t878438756 * L_4 = V_0;
+		NullCheck(L_4);
+		NamedVariable_set_UseVariable_m1478981231(L_4, (bool)1, /*hidden argument*/NULL);
+		FsmQuaternion_t878438756 * L_5 = V_0;
+		__this->set_toQuaternion_14(L_5);
+		FsmFloat_t937133978 * L_6 = FsmFloat_op_Implicit_m475928236(NULL /*static, unused*/, (0.1f), /*hidden argument*/NULL);
+		__this->set_amount_15(L_6);
+		__this->set_storeResult_16((FsmQuaternion_t878438756 *)NULL);
+		((QuaternionBaseAction_t3869353585 *)__this)->set_everyFrame_11((bool)1);
+		((QuaternionBaseAction_t3869353585 *)__this)->set_everyFrameOption_12(0);
+		return;
+	}
+}
+// System.Void HutongGames.PlayMaker.Actions.QuaternionSlerp::OnEnter()
+extern "C"  void QuaternionSlerp_OnEnter_m1164282983 (QuaternionSlerp_t3176095846 * __this, const MethodInfo* method)
+{
+	{
+		QuaternionSlerp_DoQuatSlerp_m1992206728(__this, /*hidden argument*/NULL);
+		bool L_0 = ((QuaternionBaseAction_t3869353585 *)__this)->get_everyFrame_11();
+		if (L_0)
+		{
+			goto IL_0017;
+		}
+	}
+	{
+		FsmStateAction_Finish_m1955744727(__this, /*hidden argument*/NULL);
+	}
+
+IL_0017:
+	{
+		return;
+	}
+}
+// System.Void HutongGames.PlayMaker.Actions.QuaternionSlerp::OnUpdate()
+extern "C"  void QuaternionSlerp_OnUpdate_m2387953244 (QuaternionSlerp_t3176095846 * __this, const MethodInfo* method)
+{
+	{
+		int32_t L_0 = ((QuaternionBaseAction_t3869353585 *)__this)->get_everyFrameOption_12();
+		if (L_0)
+		{
+			goto IL_0011;
+		}
+	}
+	{
+		QuaternionSlerp_DoQuatSlerp_m1992206728(__this, /*hidden argument*/NULL);
+	}
+
+IL_0011:
+	{
+		return;
+	}
+}
+// System.Void HutongGames.PlayMaker.Actions.QuaternionSlerp::OnLateUpdate()
+extern "C"  void QuaternionSlerp_OnLateUpdate_m3400249808 (QuaternionSlerp_t3176095846 * __this, const MethodInfo* method)
+{
+	{
+		int32_t L_0 = ((QuaternionBaseAction_t3869353585 *)__this)->get_everyFrameOption_12();
+		if ((!(((uint32_t)L_0) == ((uint32_t)2))))
+		{
+			goto IL_0012;
+		}
+	}
+	{
+		QuaternionSlerp_DoQuatSlerp_m1992206728(__this, /*hidden argument*/NULL);
+	}
+
+IL_0012:
+	{
+		return;
+	}
+}
+// System.Void HutongGames.PlayMaker.Actions.QuaternionSlerp::OnFixedUpdate()
+extern "C"  void QuaternionSlerp_OnFixedUpdate_m3058725214 (QuaternionSlerp_t3176095846 * __this, const MethodInfo* method)
+{
+	{
+		int32_t L_0 = ((QuaternionBaseAction_t3869353585 *)__this)->get_everyFrameOption_12();
+		if ((!(((uint32_t)L_0) == ((uint32_t)1))))
+		{
+			goto IL_0012;
+		}
+	}
+	{
+		QuaternionSlerp_DoQuatSlerp_m1992206728(__this, /*hidden argument*/NULL);
+	}
+
+IL_0012:
+	{
+		return;
+	}
+}
+// System.Void HutongGames.PlayMaker.Actions.QuaternionSlerp::DoQuatSlerp()
+extern "C"  void QuaternionSlerp_DoQuatSlerp_m1992206728 (QuaternionSlerp_t3176095846 * __this, const MethodInfo* method)
+{
+	{
+		FsmQuaternion_t878438756 * L_0 = __this->get_storeResult_16();
+		FsmQuaternion_t878438756 * L_1 = __this->get_fromQuaternion_13();
+		NullCheck(L_1);
+		Quaternion_t4030073918  L_2 = FsmQuaternion_get_Value_m2629833107(L_1, /*hidden argument*/NULL);
+		FsmQuaternion_t878438756 * L_3 = __this->get_toQuaternion_14();
+		NullCheck(L_3);
+		Quaternion_t4030073918  L_4 = FsmQuaternion_get_Value_m2629833107(L_3, /*hidden argument*/NULL);
+		FsmFloat_t937133978 * L_5 = __this->get_amount_15();
+		NullCheck(L_5);
+		float L_6 = FsmFloat_get_Value_m1818441449(L_5, /*hidden argument*/NULL);
+		Quaternion_t4030073918  L_7 = Quaternion_Slerp_m1992855400(NULL /*static, unused*/, L_2, L_4, L_6, /*hidden argument*/NULL);
+		NullCheck(L_0);
+		FsmQuaternion_set_Value_m1061544654(L_0, L_7, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void HutongGames.PlayMaker.Actions.RandomBool::.ctor()
+extern "C"  void RandomBool__ctor_m822490663 (RandomBool_t584171437 * __this, const MethodInfo* method)
+{
+	{
+		FsmStateAction__ctor_m1837021228(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void HutongGames.PlayMaker.Actions.RandomBool::Reset()
+extern "C"  void RandomBool_Reset_m4046719702 (RandomBool_t584171437 * __this, const MethodInfo* method)
+{
+	{
+		__this->set_storeResult_11((FsmBool_t664485696 *)NULL);
+		return;
+	}
+}
+// System.Void HutongGames.PlayMaker.Actions.RandomBool::OnEnter()
+extern "C"  void RandomBool_OnEnter_m878473368 (RandomBool_t584171437 * __this, const MethodInfo* method)
+{
+	{
+		FsmBool_t664485696 * L_0 = __this->get_storeResult_11();
+		int32_t L_1 = Random_Range_m694320887(NULL /*static, unused*/, 0, ((int32_t)100), /*hidden argument*/NULL);
+		NullCheck(L_0);
+		FsmBool_set_Value_m2522230142(L_0, (bool)((((int32_t)L_1) < ((int32_t)((int32_t)50)))? 1 : 0), /*hidden argument*/NULL);
+		FsmStateAction_Finish_m1955744727(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void HutongGames.PlayMaker.Actions.RandomEvent::.ctor()
+extern "C"  void RandomEvent__ctor_m4270943857 (RandomEvent_t1725515053 * __this, const MethodInfo* method)
+{
+	{
+		__this->set_lastEventIndex_15((-1));
+		FsmStateAction__ctor_m1837021228(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void HutongGames.PlayMaker.Actions.RandomEvent::Reset()
+extern "C"  void RandomEvent_Reset_m536526278 (RandomEvent_t1725515053 * __this, const MethodInfo* method)
+{
+	{
+		__this->set_delay_11((FsmFloat_t937133978 *)NULL);
+		return;
+	}
+}
+// System.Void HutongGames.PlayMaker.Actions.RandomEvent::OnEnter()
+extern "C"  void RandomEvent_OnEnter_m785253148 (RandomEvent_t1725515053 * __this, const MethodInfo* method)
+{
+	{
+		FsmState_t1643911659 * L_0 = FsmStateAction_get_State_m267961006(__this, /*hidden argument*/NULL);
+		NullCheck(L_0);
+		FsmTransitionU5BU5D_t1091630918* L_1 = FsmState_get_Transitions_m726541619(L_0, /*hidden argument*/NULL);
+		NullCheck(L_1);
+		if ((((int32_t)((int32_t)(((Il2CppArray *)L_1)->max_length)))))
+		{
+			goto IL_0013;
+		}
+	}
+	{
+		return;
+	}
+
+IL_0013:
+	{
+		int32_t L_2 = __this->get_lastEventIndex_15();
+		if ((!(((uint32_t)L_2) == ((uint32_t)(-1)))))
+		{
+			goto IL_0038;
+		}
+	}
+	{
+		FsmState_t1643911659 * L_3 = FsmStateAction_get_State_m267961006(__this, /*hidden argument*/NULL);
+		NullCheck(L_3);
+		FsmTransitionU5BU5D_t1091630918* L_4 = FsmState_get_Transitions_m726541619(L_3, /*hidden argument*/NULL);
+		NullCheck(L_4);
+		int32_t L_5 = Random_Range_m694320887(NULL /*static, unused*/, 0, (((int32_t)((int32_t)(((Il2CppArray *)L_4)->max_length)))), /*hidden argument*/NULL);
+		__this->set_lastEventIndex_15(L_5);
+	}
+
+IL_0038:
+	{
+		FsmFloat_t937133978 * L_6 = __this->get_delay_11();
+		NullCheck(L_6);
+		float L_7 = FsmFloat_get_Value_m1818441449(L_6, /*hidden argument*/NULL);
+		if ((!(((float)L_7) < ((float)(0.001f)))))
+		{
+			goto IL_0069;
+		}
+	}
+	{
+		Fsm_t917886356 * L_8 = FsmStateAction_get_Fsm_m4079598046(__this, /*hidden argument*/NULL);
+		FsmEvent_t1258573736 * L_9 = RandomEvent_GetRandomEvent_m2298737225(__this, /*hidden argument*/NULL);
+		NullCheck(L_8);
+		Fsm_Event_m4079224475(L_8, L_9, /*hidden argument*/NULL);
+		FsmStateAction_Finish_m1955744727(__this, /*hidden argument*/NULL);
+		goto IL_008b;
+	}
+
+IL_0069:
+	{
+		Fsm_t917886356 * L_10 = FsmStateAction_get_Fsm_m4079598046(__this, /*hidden argument*/NULL);
+		FsmEvent_t1258573736 * L_11 = RandomEvent_GetRandomEvent_m2298737225(__this, /*hidden argument*/NULL);
+		FsmFloat_t937133978 * L_12 = __this->get_delay_11();
+		NullCheck(L_12);
+		float L_13 = FsmFloat_get_Value_m1818441449(L_12, /*hidden argument*/NULL);
+		NullCheck(L_10);
+		DelayedEvent_t1624700828 * L_14 = Fsm_DelayedEvent_m1521897107(L_10, L_11, L_13, /*hidden argument*/NULL);
+		__this->set_delayedEvent_13(L_14);
+	}
+
+IL_008b:
+	{
+		return;
+	}
+}
+// System.Void HutongGames.PlayMaker.Actions.RandomEvent::OnUpdate()
+extern "C"  void RandomEvent_OnUpdate_m2952673333 (RandomEvent_t1725515053 * __this, const MethodInfo* method)
+{
+	{
+		DelayedEvent_t1624700828 * L_0 = __this->get_delayedEvent_13();
+		bool L_1 = DelayedEvent_WasSent_m1980822908(NULL /*static, unused*/, L_0, /*hidden argument*/NULL);
+		if (!L_1)
+		{
+			goto IL_0016;
+		}
+	}
+	{
+		FsmStateAction_Finish_m1955744727(__this, /*hidden argument*/NULL);
+	}
+
+IL_0016:
+	{
+		return;
+	}
+}
+// HutongGames.PlayMaker.FsmEvent HutongGames.PlayMaker.Actions.RandomEvent::GetRandomEvent()
+extern "C"  FsmEvent_t1258573736 * RandomEvent_GetRandomEvent_m2298737225 (RandomEvent_t1725515053 * __this, const MethodInfo* method)
+{
+
+IL_0000:
+	{
+		FsmState_t1643911659 * L_0 = FsmStateAction_get_State_m267961006(__this, /*hidden argument*/NULL);
+		NullCheck(L_0);
+		FsmTransitionU5BU5D_t1091630918* L_1 = FsmState_get_Transitions_m726541619(L_0, /*hidden argument*/NULL);
+		NullCheck(L_1);
+		int32_t L_2 = Random_Range_m694320887(NULL /*static, unused*/, 0, (((int32_t)((int32_t)(((Il2CppArray *)L_1)->max_length)))), /*hidden argument*/NULL);
+		__this->set_randomEventIndex_14(L_2);
+		FsmBool_t664485696 * L_3 = __this->get_noRepeat_12();
+		NullCheck(L_3);
+		bool L_4 = FsmBool_get_Value_m3738134001(L_3, /*hidden argument*/NULL);
+		if (!L_4)
+		{
+			goto IL_004d;
+		}
+	}
+	{
+		FsmState_t1643911659 * L_5 = FsmStateAction_get_State_m267961006(__this, /*hidden argument*/NULL);
+		NullCheck(L_5);
+		FsmTransitionU5BU5D_t1091630918* L_6 = FsmState_get_Transitions_m726541619(L_5, /*hidden argument*/NULL);
+		NullCheck(L_6);
+		if ((((int32_t)(((int32_t)((int32_t)(((Il2CppArray *)L_6)->max_length))))) <= ((int32_t)1)))
+		{
+			goto IL_004d;
+		}
+	}
+	{
+		int32_t L_7 = __this->get_randomEventIndex_14();
+		int32_t L_8 = __this->get_lastEventIndex_15();
+		if ((((int32_t)L_7) == ((int32_t)L_8)))
+		{
+			goto IL_0000;
+		}
+	}
+
+IL_004d:
+	{
+		int32_t L_9 = __this->get_randomEventIndex_14();
+		__this->set_lastEventIndex_15(L_9);
+		FsmState_t1643911659 * L_10 = FsmStateAction_get_State_m267961006(__this, /*hidden argument*/NULL);
+		NullCheck(L_10);
+		FsmTransitionU5BU5D_t1091630918* L_11 = FsmState_get_Transitions_m726541619(L_10, /*hidden argument*/NULL);
+		int32_t L_12 = __this->get_randomEventIndex_14();
+		NullCheck(L_11);
+		int32_t L_13 = L_12;
+		FsmTransition_t1534990431 * L_14 = (L_11)->GetAt(static_cast<il2cpp_array_size_t>(L_13));
+		NullCheck(L_14);
+		FsmEvent_t1258573736 * L_15 = FsmTransition_get_FsmEvent_m3818892412(L_14, /*hidden argument*/NULL);
+		return L_15;
+	}
+}
+// System.Void HutongGames.PlayMaker.Actions.RandomFloat::.ctor()
+extern "C"  void RandomFloat__ctor_m765953073 (RandomFloat_t3076278315 * __this, const MethodInfo* method)
+{
+	{
+		FsmStateAction__ctor_m1837021228(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void HutongGames.PlayMaker.Actions.RandomFloat::Reset()
+extern "C"  void RandomFloat_Reset_m807849540 (RandomFloat_t3076278315 * __this, const MethodInfo* method)
+{
+	{
+		FsmFloat_t937133978 * L_0 = FsmFloat_op_Implicit_m475928236(NULL /*static, unused*/, (0.0f), /*hidden argument*/NULL);
+		__this->set_min_11(L_0);
+		FsmFloat_t937133978 * L_1 = FsmFloat_op_Implicit_m475928236(NULL /*static, unused*/, (1.0f), /*hidden argument*/NULL);
+		__this->set_max_12(L_1);
+		__this->set_storeResult_13((FsmFloat_t937133978 *)NULL);
+		return;
+	}
+}
+// System.Void HutongGames.PlayMaker.Actions.RandomFloat::OnEnter()
+extern "C"  void RandomFloat_OnEnter_m3849631174 (RandomFloat_t3076278315 * __this, const MethodInfo* method)
+{
+	{
+		FsmFloat_t937133978 * L_0 = __this->get_storeResult_13();
+		FsmFloat_t937133978 * L_1 = __this->get_min_11();
+		NullCheck(L_1);
+		float L_2 = FsmFloat_get_Value_m1818441449(L_1, /*hidden argument*/NULL);
+		FsmFloat_t937133978 * L_3 = __this->get_max_12();
+		NullCheck(L_3);
+		float L_4 = FsmFloat_get_Value_m1818441449(L_3, /*hidden argument*/NULL);
+		float L_5 = Random_Range_m2884721203(NULL /*static, unused*/, L_2, L_4, /*hidden argument*/NULL);
+		NullCheck(L_0);
+		FsmFloat_set_Value_m3447553958(L_0, L_5, /*hidden argument*/NULL);
+		FsmStateAction_Finish_m1955744727(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void HutongGames.PlayMaker.Actions.RandomInt::.ctor()
+extern "C"  void RandomInt__ctor_m280458530 (RandomInt_t922903046 * __this, const MethodInfo* method)
+{
+	{
+		FsmStateAction__ctor_m1837021228(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void HutongGames.PlayMaker.Actions.RandomInt::Reset()
+extern "C"  void RandomInt_Reset_m134783999 (RandomInt_t922903046 * __this, const MethodInfo* method)
+{
+	{
+		FsmInt_t1273009179 * L_0 = FsmInt_op_Implicit_m2429643636(NULL /*static, unused*/, 0, /*hidden argument*/NULL);
+		__this->set_min_11(L_0);
+		FsmInt_t1273009179 * L_1 = FsmInt_op_Implicit_m2429643636(NULL /*static, unused*/, ((int32_t)100), /*hidden argument*/NULL);
+		__this->set_max_12(L_1);
+		__this->set_storeResult_13((FsmInt_t1273009179 *)NULL);
+		__this->set_inclusiveMax_14((bool)0);
+		return;
+	}
+}
+// System.Void HutongGames.PlayMaker.Actions.RandomInt::OnEnter()
+extern "C"  void RandomInt_OnEnter_m2208061079 (RandomInt_t922903046 * __this, const MethodInfo* method)
+{
+	FsmInt_t1273009179 * G_B2_0 = NULL;
+	FsmInt_t1273009179 * G_B1_0 = NULL;
+	int32_t G_B3_0 = 0;
+	FsmInt_t1273009179 * G_B3_1 = NULL;
+	{
+		FsmInt_t1273009179 * L_0 = __this->get_storeResult_13();
+		bool L_1 = __this->get_inclusiveMax_14();
+		G_B1_0 = L_0;
+		if (!L_1)
+		{
+			G_B2_0 = L_0;
+			goto IL_0033;
+		}
+	}
+	{
+		FsmInt_t1273009179 * L_2 = __this->get_min_11();
+		NullCheck(L_2);
+		int32_t L_3 = FsmInt_get_Value_m3705703582(L_2, /*hidden argument*/NULL);
+		FsmInt_t1273009179 * L_4 = __this->get_max_12();
+		NullCheck(L_4);
+		int32_t L_5 = FsmInt_get_Value_m3705703582(L_4, /*hidden argument*/NULL);
+		int32_t L_6 = Random_Range_m694320887(NULL /*static, unused*/, L_3, ((int32_t)((int32_t)L_5+(int32_t)1)), /*hidden argument*/NULL);
+		G_B3_0 = L_6;
+		G_B3_1 = G_B1_0;
+		goto IL_004e;
+	}
+
+IL_0033:
+	{
+		FsmInt_t1273009179 * L_7 = __this->get_min_11();
+		NullCheck(L_7);
+		int32_t L_8 = FsmInt_get_Value_m3705703582(L_7, /*hidden argument*/NULL);
+		FsmInt_t1273009179 * L_9 = __this->get_max_12();
+		NullCheck(L_9);
+		int32_t L_10 = FsmInt_get_Value_m3705703582(L_9, /*hidden argument*/NULL);
+		int32_t L_11 = Random_Range_m694320887(NULL /*static, unused*/, L_8, L_10, /*hidden argument*/NULL);
+		G_B3_0 = L_11;
+		G_B3_1 = G_B2_0;
+	}
+
+IL_004e:
+	{
+		NullCheck(G_B3_1);
+		FsmInt_set_Value_m4097648685(G_B3_1, G_B3_0, /*hidden argument*/NULL);
+		FsmStateAction_Finish_m1955744727(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void HutongGames.PlayMaker.Actions.RandomWait::.ctor()
+extern "C"  void RandomWait__ctor_m3890711002 (RandomWait_t3965164550 * __this, const MethodInfo* method)
+{
+	{
+		FsmStateAction__ctor_m1837021228(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void HutongGames.PlayMaker.Actions.RandomWait::Reset()
+extern "C"  void RandomWait_Reset_m3059257235 (RandomWait_t3965164550 * __this, const MethodInfo* method)
+{
+	{
+		FsmFloat_t937133978 * L_0 = FsmFloat_op_Implicit_m475928236(NULL /*static, unused*/, (0.0f), /*hidden argument*/NULL);
+		__this->set_min_11(L_0);
+		FsmFloat_t937133978 * L_1 = FsmFloat_op_Implicit_m475928236(NULL /*static, unused*/, (1.0f), /*hidden argument*/NULL);
+		__this->set_max_12(L_1);
+		__this->set_finishEvent_13((FsmEvent_t1258573736 *)NULL);
+		__this->set_realTime_14((bool)0);
+		return;
+	}
+}
+// System.Void HutongGames.PlayMaker.Actions.RandomWait::OnEnter()
+extern "C"  void RandomWait_OnEnter_m1320284203 (RandomWait_t3965164550 * __this, const MethodInfo* method)
+{
+	{
+		FsmFloat_t937133978 * L_0 = __this->get_min_11();
+		NullCheck(L_0);
+		float L_1 = FsmFloat_get_Value_m1818441449(L_0, /*hidden argument*/NULL);
+		FsmFloat_t937133978 * L_2 = __this->get_max_12();
+		NullCheck(L_2);
+		float L_3 = FsmFloat_get_Value_m1818441449(L_2, /*hidden argument*/NULL);
+		float L_4 = Random_Range_m2884721203(NULL /*static, unused*/, L_1, L_3, /*hidden argument*/NULL);
+		__this->set_time_17(L_4);
+		float L_5 = __this->get_time_17();
+		if ((!(((float)L_5) <= ((float)(0.0f)))))
+		{
+			goto IL_0049;
+		}
+	}
+	{
+		Fsm_t917886356 * L_6 = FsmStateAction_get_Fsm_m4079598046(__this, /*hidden argument*/NULL);
+		FsmEvent_t1258573736 * L_7 = __this->get_finishEvent_13();
+		NullCheck(L_6);
+		Fsm_Event_m4079224475(L_6, L_7, /*hidden argument*/NULL);
+		FsmStateAction_Finish_m1955744727(__this, /*hidden argument*/NULL);
+		return;
+	}
+
+IL_0049:
+	{
+		float L_8 = FsmTime_get_RealtimeSinceStartup_m1789542355(NULL /*static, unused*/, /*hidden argument*/NULL);
+		__this->set_startTime_15(L_8);
+		__this->set_timer_16((0.0f));
+		return;
+	}
+}
+// System.Void HutongGames.PlayMaker.Actions.RandomWait::OnUpdate()
+extern "C"  void RandomWait_OnUpdate_m2783006108 (RandomWait_t3965164550 * __this, const MethodInfo* method)
+{
+	{
+		bool L_0 = __this->get_realTime_14();
+		if (!L_0)
+		{
+			goto IL_0022;
+		}
+	}
+	{
+		float L_1 = FsmTime_get_RealtimeSinceStartup_m1789542355(NULL /*static, unused*/, /*hidden argument*/NULL);
+		float L_2 = __this->get_startTime_15();
+		__this->set_timer_16(((float)((float)L_1-(float)L_2)));
+		goto IL_0034;
+	}
+
+IL_0022:
+	{
+		float L_3 = __this->get_timer_16();
+		float L_4 = Time_get_deltaTime_m2233168104(NULL /*static, unused*/, /*hidden argument*/NULL);
+		__this->set_timer_16(((float)((float)L_3+(float)L_4)));
+	}
+
+IL_0034:
+	{
+		float L_5 = __this->get_timer_16();
+		float L_6 = __this->get_time_17();
+		if ((!(((float)L_5) >= ((float)L_6))))
+		{
+			goto IL_0067;
+		}
+	}
+	{
+		FsmStateAction_Finish_m1955744727(__this, /*hidden argument*/NULL);
+		FsmEvent_t1258573736 * L_7 = __this->get_finishEvent_13();
+		if (!L_7)
+		{
+			goto IL_0067;
+		}
+	}
+	{
+		Fsm_t917886356 * L_8 = FsmStateAction_get_Fsm_m4079598046(__this, /*hidden argument*/NULL);
+		FsmEvent_t1258573736 * L_9 = __this->get_finishEvent_13();
+		NullCheck(L_8);
+		Fsm_Event_m4079224475(L_8, L_9, /*hidden argument*/NULL);
+	}
+
+IL_0067:
+	{
+		return;
+	}
+}
+// System.Void HutongGames.PlayMaker.Actions.Raycast::.ctor()
+extern "C"  void Raycast__ctor_m2807796125 (Raycast_t2231194495 * __this, const MethodInfo* method)
+{
+	{
+		FsmStateAction__ctor_m1837021228(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void HutongGames.PlayMaker.Actions.Raycast::Reset()
+extern "C"  void Raycast_Reset_m1547411832 (Raycast_t2231194495 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (Raycast_Reset_m1547411832_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	FsmVector3_t3996534004 * V_0 = NULL;
+	{
+		__this->set_fromGameObject_11((FsmOwnerDefault_t2023674184 *)NULL);
+		FsmVector3_t3996534004 * L_0 = (FsmVector3_t3996534004 *)il2cpp_codegen_object_new(FsmVector3_t3996534004_il2cpp_TypeInfo_var);
+		FsmVector3__ctor_m2525545399(L_0, /*hidden argument*/NULL);
+		V_0 = L_0;
+		FsmVector3_t3996534004 * L_1 = V_0;
+		NullCheck(L_1);
+		NamedVariable_set_UseVariable_m1478981231(L_1, (bool)1, /*hidden argument*/NULL);
+		FsmVector3_t3996534004 * L_2 = V_0;
+		__this->set_fromPosition_12(L_2);
+		FsmVector3_t3996534004 * L_3 = (FsmVector3_t3996534004 *)il2cpp_codegen_object_new(FsmVector3_t3996534004_il2cpp_TypeInfo_var);
+		FsmVector3__ctor_m2525545399(L_3, /*hidden argument*/NULL);
+		V_0 = L_3;
+		FsmVector3_t3996534004 * L_4 = V_0;
+		NullCheck(L_4);
+		NamedVariable_set_UseVariable_m1478981231(L_4, (bool)1, /*hidden argument*/NULL);
+		FsmVector3_t3996534004 * L_5 = V_0;
+		__this->set_direction_13(L_5);
+		__this->set_space_14(1);
+		FsmFloat_t937133978 * L_6 = FsmFloat_op_Implicit_m475928236(NULL /*static, unused*/, (100.0f), /*hidden argument*/NULL);
+		__this->set_distance_15(L_6);
+		__this->set_hitEvent_16((FsmEvent_t1258573736 *)NULL);
+		__this->set_storeDidHit_17((FsmBool_t664485696 *)NULL);
+		__this->set_storeHitObject_18((FsmGameObject_t3097142863 *)NULL);
+		__this->set_storeHitPoint_19((FsmVector3_t3996534004 *)NULL);
+		__this->set_storeHitNormal_20((FsmVector3_t3996534004 *)NULL);
+		__this->set_storeHitDistance_21((FsmFloat_t937133978 *)NULL);
+		FsmInt_t1273009179 * L_7 = FsmInt_op_Implicit_m2429643636(NULL /*static, unused*/, 1, /*hidden argument*/NULL);
+		__this->set_repeatInterval_22(L_7);
+		__this->set_layerMask_23(((FsmIntU5BU5D_t2637547802*)SZArrayNew(FsmIntU5BU5D_t2637547802_il2cpp_TypeInfo_var, (uint32_t)0)));
+		FsmBool_t664485696 * L_8 = FsmBool_op_Implicit_m2342972798(NULL /*static, unused*/, (bool)0, /*hidden argument*/NULL);
+		__this->set_invertMask_24(L_8);
+		Color_t2020392075  L_9 = Color_get_yellow_m3741935494(NULL /*static, unused*/, /*hidden argument*/NULL);
+		FsmColor_t118301965 * L_10 = FsmColor_op_Implicit_m1499113597(NULL /*static, unused*/, L_9, /*hidden argument*/NULL);
+		__this->set_debugColor_25(L_10);
+		FsmBool_t664485696 * L_11 = FsmBool_op_Implicit_m2342972798(NULL /*static, unused*/, (bool)0, /*hidden argument*/NULL);
+		__this->set_debug_26(L_11);
+		return;
+	}
+}
+// System.Void HutongGames.PlayMaker.Actions.Raycast::OnEnter()
+extern "C"  void Raycast_OnEnter_m3394131994 (Raycast_t2231194495 * __this, const MethodInfo* method)
+{
+	{
+		Raycast_DoRaycast_m2881878705(__this, /*hidden argument*/NULL);
+		FsmInt_t1273009179 * L_0 = __this->get_repeatInterval_22();
+		NullCheck(L_0);
+		int32_t L_1 = FsmInt_get_Value_m3705703582(L_0, /*hidden argument*/NULL);
+		if (L_1)
+		{
+			goto IL_001c;
+		}
+	}
+	{
+		FsmStateAction_Finish_m1955744727(__this, /*hidden argument*/NULL);
+	}
+
+IL_001c:
+	{
+		return;
+	}
+}
+// System.Void HutongGames.PlayMaker.Actions.Raycast::OnUpdate()
+extern "C"  void Raycast_OnUpdate_m2665023001 (Raycast_t2231194495 * __this, const MethodInfo* method)
+{
+	{
+		int32_t L_0 = __this->get_repeat_27();
+		__this->set_repeat_27(((int32_t)((int32_t)L_0-(int32_t)1)));
+		int32_t L_1 = __this->get_repeat_27();
+		if (L_1)
+		{
+			goto IL_001f;
+		}
+	}
+	{
+		Raycast_DoRaycast_m2881878705(__this, /*hidden argument*/NULL);
+	}
+
+IL_001f:
+	{
+		return;
+	}
+}
+// System.Void HutongGames.PlayMaker.Actions.Raycast::DoRaycast()
+extern "C"  void Raycast_DoRaycast_m2881878705 (Raycast_t2231194495 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (Raycast_DoRaycast_m2881878705_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	GameObject_t1756533147 * V_0 = NULL;
+	Vector3_t2243707580  V_1;
+	memset(&V_1, 0, sizeof(V_1));
+	float V_2 = 0.0f;
+	Vector3_t2243707580  V_3;
+	memset(&V_3, 0, sizeof(V_3));
+	RaycastHit_t87180320  V_4;
+	memset(&V_4, 0, sizeof(V_4));
+	bool V_5 = false;
+	RaycastHit_t87180320  V_6;
+	memset(&V_6, 0, sizeof(V_6));
+	RaycastHit_t87180320  V_7;
+	memset(&V_7, 0, sizeof(V_7));
+	RaycastHit_t87180320  V_8;
+	memset(&V_8, 0, sizeof(V_8));
+	float V_9 = 0.0f;
+	Vector3_t2243707580  G_B5_0;
+	memset(&G_B5_0, 0, sizeof(G_B5_0));
+	{
+		FsmInt_t1273009179 * L_0 = __this->get_repeatInterval_22();
+		NullCheck(L_0);
+		int32_t L_1 = FsmInt_get_Value_m3705703582(L_0, /*hidden argument*/NULL);
+		__this->set_repeat_27(L_1);
+		FsmFloat_t937133978 * L_2 = __this->get_distance_15();
+		NullCheck(L_2);
+		float L_3 = FsmFloat_get_Value_m1818441449(L_2, /*hidden argument*/NULL);
+		if ((!(((float)L_3) == ((float)(0.0f)))))
+		{
+			goto IL_0027;
+		}
+	}
+	{
+		return;
+	}
+
+IL_0027:
+	{
+		Fsm_t917886356 * L_4 = FsmStateAction_get_Fsm_m4079598046(__this, /*hidden argument*/NULL);
+		FsmOwnerDefault_t2023674184 * L_5 = __this->get_fromGameObject_11();
+		NullCheck(L_4);
+		GameObject_t1756533147 * L_6 = Fsm_GetOwnerDefaultTarget_m1045900479(L_4, L_5, /*hidden argument*/NULL);
+		V_0 = L_6;
+		GameObject_t1756533147 * L_7 = V_0;
+		IL2CPP_RUNTIME_CLASS_INIT(Object_t1021602117_il2cpp_TypeInfo_var);
+		bool L_8 = Object_op_Inequality_m2402264703(NULL /*static, unused*/, L_7, (Object_t1021602117 *)NULL, /*hidden argument*/NULL);
+		if (!L_8)
+		{
+			goto IL_0055;
+		}
+	}
+	{
+		GameObject_t1756533147 * L_9 = V_0;
+		NullCheck(L_9);
+		Transform_t3275118058 * L_10 = GameObject_get_transform_m909382139(L_9, /*hidden argument*/NULL);
+		NullCheck(L_10);
+		Vector3_t2243707580  L_11 = Transform_get_position_m1104419803(L_10, /*hidden argument*/NULL);
+		G_B5_0 = L_11;
+		goto IL_0060;
+	}
+
+IL_0055:
+	{
+		FsmVector3_t3996534004 * L_12 = __this->get_fromPosition_12();
+		NullCheck(L_12);
+		Vector3_t2243707580  L_13 = FsmVector3_get_Value_m4242600139(L_12, /*hidden argument*/NULL);
+		G_B5_0 = L_13;
+	}
+
+IL_0060:
+	{
+		V_1 = G_B5_0;
+		V_2 = (std::numeric_limits<float>::infinity());
+		FsmFloat_t937133978 * L_14 = __this->get_distance_15();
+		NullCheck(L_14);
+		float L_15 = FsmFloat_get_Value_m1818441449(L_14, /*hidden argument*/NULL);
+		if ((!(((float)L_15) > ((float)(0.0f)))))
+		{
+			goto IL_0088;
+		}
+	}
+	{
+		FsmFloat_t937133978 * L_16 = __this->get_distance_15();
+		NullCheck(L_16);
+		float L_17 = FsmFloat_get_Value_m1818441449(L_16, /*hidden argument*/NULL);
+		V_2 = L_17;
+	}
+
+IL_0088:
+	{
+		FsmVector3_t3996534004 * L_18 = __this->get_direction_13();
+		NullCheck(L_18);
+		Vector3_t2243707580  L_19 = FsmVector3_get_Value_m4242600139(L_18, /*hidden argument*/NULL);
+		V_3 = L_19;
+		GameObject_t1756533147 * L_20 = V_0;
+		IL2CPP_RUNTIME_CLASS_INIT(Object_t1021602117_il2cpp_TypeInfo_var);
+		bool L_21 = Object_op_Inequality_m2402264703(NULL /*static, unused*/, L_20, (Object_t1021602117 *)NULL, /*hidden argument*/NULL);
+		if (!L_21)
+		{
+			goto IL_00c3;
+		}
+	}
+	{
+		int32_t L_22 = __this->get_space_14();
+		if ((!(((uint32_t)L_22) == ((uint32_t)1))))
+		{
+			goto IL_00c3;
+		}
+	}
+	{
+		GameObject_t1756533147 * L_23 = V_0;
+		NullCheck(L_23);
+		Transform_t3275118058 * L_24 = GameObject_get_transform_m909382139(L_23, /*hidden argument*/NULL);
+		FsmVector3_t3996534004 * L_25 = __this->get_direction_13();
+		NullCheck(L_25);
+		Vector3_t2243707580  L_26 = FsmVector3_get_Value_m4242600139(L_25, /*hidden argument*/NULL);
+		NullCheck(L_24);
+		Vector3_t2243707580  L_27 = Transform_TransformDirection_m1639585047(L_24, L_26, /*hidden argument*/NULL);
+		V_3 = L_27;
+	}
+
+IL_00c3:
+	{
+		Vector3_t2243707580  L_28 = V_1;
+		Vector3_t2243707580  L_29 = V_3;
+		float L_30 = V_2;
+		FsmIntU5BU5D_t2637547802* L_31 = __this->get_layerMask_23();
+		FsmBool_t664485696 * L_32 = __this->get_invertMask_24();
+		NullCheck(L_32);
+		bool L_33 = FsmBool_get_Value_m3738134001(L_32, /*hidden argument*/NULL);
+		int32_t L_34 = ActionHelpers_LayerArrayToLayerMask_m4230506674(NULL /*static, unused*/, L_31, L_33, /*hidden argument*/NULL);
+		Physics_Raycast_m1929115794(NULL /*static, unused*/, L_28, L_29, (&V_4), L_30, L_34, /*hidden argument*/NULL);
+		Fsm_t917886356 * L_35 = FsmStateAction_get_Fsm_m4079598046(__this, /*hidden argument*/NULL);
+		RaycastHit_t87180320  L_36 = V_4;
+		NullCheck(L_35);
+		Fsm_set_RaycastHitInfo_m3536322337(L_35, L_36, /*hidden argument*/NULL);
+		Collider_t3497673348 * L_37 = RaycastHit_get_collider_m301198172((&V_4), /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(Object_t1021602117_il2cpp_TypeInfo_var);
+		bool L_38 = Object_op_Inequality_m2402264703(NULL /*static, unused*/, L_37, (Object_t1021602117 *)NULL, /*hidden argument*/NULL);
+		V_5 = L_38;
+		FsmBool_t664485696 * L_39 = __this->get_storeDidHit_17();
+		bool L_40 = V_5;
+		NullCheck(L_39);
+		FsmBool_set_Value_m2522230142(L_39, L_40, /*hidden argument*/NULL);
+		bool L_41 = V_5;
+		if (!L_41)
+		{
+			goto IL_0199;
+		}
+	}
+	{
+		FsmGameObject_t3097142863 * L_42 = __this->get_storeHitObject_18();
+		Collider_t3497673348 * L_43 = RaycastHit_get_collider_m301198172((&V_4), /*hidden argument*/NULL);
+		NullCheck(L_43);
+		GameObject_t1756533147 * L_44 = Component_get_gameObject_m3105766835(L_43, /*hidden argument*/NULL);
+		NullCheck(L_42);
+		FsmGameObject_set_Value_m1923169006(L_42, L_44, /*hidden argument*/NULL);
+		FsmVector3_t3996534004 * L_45 = __this->get_storeHitPoint_19();
+		Fsm_t917886356 * L_46 = FsmStateAction_get_Fsm_m4079598046(__this, /*hidden argument*/NULL);
+		NullCheck(L_46);
+		RaycastHit_t87180320  L_47 = Fsm_get_RaycastHitInfo_m2871237254(L_46, /*hidden argument*/NULL);
+		V_6 = L_47;
+		Vector3_t2243707580  L_48 = RaycastHit_get_point_m326143462((&V_6), /*hidden argument*/NULL);
+		NullCheck(L_45);
+		FsmVector3_set_Value_m1785770740(L_45, L_48, /*hidden argument*/NULL);
+		FsmVector3_t3996534004 * L_49 = __this->get_storeHitNormal_20();
+		Fsm_t917886356 * L_50 = FsmStateAction_get_Fsm_m4079598046(__this, /*hidden argument*/NULL);
+		NullCheck(L_50);
+		RaycastHit_t87180320  L_51 = Fsm_get_RaycastHitInfo_m2871237254(L_50, /*hidden argument*/NULL);
+		V_7 = L_51;
+		Vector3_t2243707580  L_52 = RaycastHit_get_normal_m817665579((&V_7), /*hidden argument*/NULL);
+		NullCheck(L_49);
+		FsmVector3_set_Value_m1785770740(L_49, L_52, /*hidden argument*/NULL);
+		FsmFloat_t937133978 * L_53 = __this->get_storeHitDistance_21();
+		Fsm_t917886356 * L_54 = FsmStateAction_get_Fsm_m4079598046(__this, /*hidden argument*/NULL);
+		NullCheck(L_54);
+		RaycastHit_t87180320  L_55 = Fsm_get_RaycastHitInfo_m2871237254(L_54, /*hidden argument*/NULL);
+		V_8 = L_55;
+		float L_56 = RaycastHit_get_distance_m1178709367((&V_8), /*hidden argument*/NULL);
+		NullCheck(L_53);
+		FsmFloat_set_Value_m3447553958(L_53, L_56, /*hidden argument*/NULL);
+		Fsm_t917886356 * L_57 = FsmStateAction_get_Fsm_m4079598046(__this, /*hidden argument*/NULL);
+		FsmEvent_t1258573736 * L_58 = __this->get_hitEvent_16();
+		NullCheck(L_57);
+		Fsm_Event_m4079224475(L_57, L_58, /*hidden argument*/NULL);
+	}
+
+IL_0199:
+	{
+		FsmBool_t664485696 * L_59 = __this->get_debug_26();
+		NullCheck(L_59);
+		bool L_60 = FsmBool_get_Value_m3738134001(L_59, /*hidden argument*/NULL);
+		if (!L_60)
+		{
+			goto IL_01d5;
+		}
+	}
+	{
+		float L_61 = V_2;
+		IL2CPP_RUNTIME_CLASS_INIT(Mathf_t2336485820_il2cpp_TypeInfo_var);
+		float L_62 = Mathf_Min_m1648492575(NULL /*static, unused*/, L_61, (1000.0f), /*hidden argument*/NULL);
+		V_9 = L_62;
+		Vector3_t2243707580  L_63 = V_1;
+		Vector3_t2243707580  L_64 = V_1;
+		Vector3_t2243707580  L_65 = V_3;
+		float L_66 = V_9;
+		Vector3_t2243707580  L_67 = Vector3_op_Multiply_m1351554733(NULL /*static, unused*/, L_65, L_66, /*hidden argument*/NULL);
+		Vector3_t2243707580  L_68 = Vector3_op_Addition_m3146764857(NULL /*static, unused*/, L_64, L_67, /*hidden argument*/NULL);
+		FsmColor_t118301965 * L_69 = __this->get_debugColor_25();
+		NullCheck(L_69);
+		Color_t2020392075  L_70 = FsmColor_get_Value_m687626399(L_69, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(Debug_t1368543263_il2cpp_TypeInfo_var);
+		Debug_DrawLine_m3455422326(NULL /*static, unused*/, L_63, L_68, L_70, /*hidden argument*/NULL);
+	}
+
+IL_01d5:
+	{
+		return;
+	}
+}
+// System.Void HutongGames.PlayMaker.Actions.RayCast2d::.ctor()
+extern "C"  void RayCast2d__ctor_m216357407 (RayCast2d_t3646134017 * __this, const MethodInfo* method)
+{
+	{
+		FsmStateAction__ctor_m1837021228(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void HutongGames.PlayMaker.Actions.RayCast2d::Reset()
+extern "C"  void RayCast2d_Reset_m839132578 (RayCast2d_t3646134017 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (RayCast2d_Reset_m839132578_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	FsmVector2_t2430450063 * V_0 = NULL;
+	FsmInt_t1273009179 * V_1 = NULL;
+	{
+		__this->set_fromGameObject_11((FsmOwnerDefault_t2023674184 *)NULL);
+		FsmVector2_t2430450063 * L_0 = (FsmVector2_t2430450063 *)il2cpp_codegen_object_new(FsmVector2_t2430450063_il2cpp_TypeInfo_var);
+		FsmVector2__ctor_m39699932(L_0, /*hidden argument*/NULL);
+		V_0 = L_0;
+		FsmVector2_t2430450063 * L_1 = V_0;
+		NullCheck(L_1);
+		NamedVariable_set_UseVariable_m1478981231(L_1, (bool)1, /*hidden argument*/NULL);
+		FsmVector2_t2430450063 * L_2 = V_0;
+		__this->set_fromPosition_12(L_2);
+		FsmVector2_t2430450063 * L_3 = (FsmVector2_t2430450063 *)il2cpp_codegen_object_new(FsmVector2_t2430450063_il2cpp_TypeInfo_var);
+		FsmVector2__ctor_m39699932(L_3, /*hidden argument*/NULL);
+		V_0 = L_3;
+		FsmVector2_t2430450063 * L_4 = V_0;
+		NullCheck(L_4);
+		NamedVariable_set_UseVariable_m1478981231(L_4, (bool)1, /*hidden argument*/NULL);
+		FsmVector2_t2430450063 * L_5 = V_0;
+		__this->set_direction_13(L_5);
+		__this->set_space_14(1);
+		FsmInt_t1273009179 * L_6 = (FsmInt_t1273009179 *)il2cpp_codegen_object_new(FsmInt_t1273009179_il2cpp_TypeInfo_var);
+		FsmInt__ctor_m3152485982(L_6, /*hidden argument*/NULL);
+		V_1 = L_6;
+		FsmInt_t1273009179 * L_7 = V_1;
+		NullCheck(L_7);
+		NamedVariable_set_UseVariable_m1478981231(L_7, (bool)1, /*hidden argument*/NULL);
+		FsmInt_t1273009179 * L_8 = V_1;
+		__this->set_minDepth_16(L_8);
+		FsmInt_t1273009179 * L_9 = (FsmInt_t1273009179 *)il2cpp_codegen_object_new(FsmInt_t1273009179_il2cpp_TypeInfo_var);
+		FsmInt__ctor_m3152485982(L_9, /*hidden argument*/NULL);
+		V_1 = L_9;
+		FsmInt_t1273009179 * L_10 = V_1;
+		NullCheck(L_10);
+		NamedVariable_set_UseVariable_m1478981231(L_10, (bool)1, /*hidden argument*/NULL);
+		FsmInt_t1273009179 * L_11 = V_1;
+		__this->set_maxDepth_17(L_11);
+		FsmFloat_t937133978 * L_12 = FsmFloat_op_Implicit_m475928236(NULL /*static, unused*/, (100.0f), /*hidden argument*/NULL);
+		__this->set_distance_15(L_12);
+		__this->set_hitEvent_18((FsmEvent_t1258573736 *)NULL);
+		__this->set_storeDidHit_19((FsmBool_t664485696 *)NULL);
+		__this->set_storeHitObject_20((FsmGameObject_t3097142863 *)NULL);
+		__this->set_storeHitPoint_21((FsmVector2_t2430450063 *)NULL);
+		__this->set_storeHitNormal_22((FsmVector2_t2430450063 *)NULL);
+		__this->set_storeHitDistance_23((FsmFloat_t937133978 *)NULL);
+		__this->set_storeHitFraction_24((FsmFloat_t937133978 *)NULL);
+		FsmInt_t1273009179 * L_13 = FsmInt_op_Implicit_m2429643636(NULL /*static, unused*/, 1, /*hidden argument*/NULL);
+		__this->set_repeatInterval_25(L_13);
+		__this->set_layerMask_26(((FsmIntU5BU5D_t2637547802*)SZArrayNew(FsmIntU5BU5D_t2637547802_il2cpp_TypeInfo_var, (uint32_t)0)));
+		FsmBool_t664485696 * L_14 = FsmBool_op_Implicit_m2342972798(NULL /*static, unused*/, (bool)0, /*hidden argument*/NULL);
+		__this->set_invertMask_27(L_14);
+		Color_t2020392075  L_15 = Color_get_yellow_m3741935494(NULL /*static, unused*/, /*hidden argument*/NULL);
+		FsmColor_t118301965 * L_16 = FsmColor_op_Implicit_m1499113597(NULL /*static, unused*/, L_15, /*hidden argument*/NULL);
+		__this->set_debugColor_28(L_16);
+		FsmBool_t664485696 * L_17 = FsmBool_op_Implicit_m2342972798(NULL /*static, unused*/, (bool)0, /*hidden argument*/NULL);
+		__this->set_debug_29(L_17);
+		return;
+	}
+}
+// System.Void HutongGames.PlayMaker.Actions.RayCast2d::OnEnter()
+extern "C"  void RayCast2d_OnEnter_m892330396 (RayCast2d_t3646134017 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (RayCast2d_OnEnter_m892330396_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	GameObject_t1756533147 * V_0 = NULL;
+	{
+		Fsm_t917886356 * L_0 = FsmStateAction_get_Fsm_m4079598046(__this, /*hidden argument*/NULL);
+		FsmOwnerDefault_t2023674184 * L_1 = __this->get_fromGameObject_11();
+		NullCheck(L_0);
+		GameObject_t1756533147 * L_2 = Fsm_GetOwnerDefaultTarget_m1045900479(L_0, L_1, /*hidden argument*/NULL);
+		V_0 = L_2;
+		GameObject_t1756533147 * L_3 = V_0;
+		IL2CPP_RUNTIME_CLASS_INIT(Object_t1021602117_il2cpp_TypeInfo_var);
+		bool L_4 = Object_op_Inequality_m2402264703(NULL /*static, unused*/, L_3, (Object_t1021602117 *)NULL, /*hidden argument*/NULL);
+		if (!L_4)
+		{
+			goto IL_002a;
+		}
+	}
+	{
+		GameObject_t1756533147 * L_5 = V_0;
+		NullCheck(L_5);
+		Transform_t3275118058 * L_6 = GameObject_get_transform_m909382139(L_5, /*hidden argument*/NULL);
+		__this->set__transform_30(L_6);
+	}
+
+IL_002a:
+	{
+		RayCast2d_DoRaycast_m2728306279(__this, /*hidden argument*/NULL);
+		FsmInt_t1273009179 * L_7 = __this->get_repeatInterval_25();
+		NullCheck(L_7);
+		int32_t L_8 = FsmInt_get_Value_m3705703582(L_7, /*hidden argument*/NULL);
+		if (L_8)
+		{
+			goto IL_0046;
+		}
+	}
+	{
+		FsmStateAction_Finish_m1955744727(__this, /*hidden argument*/NULL);
+	}
+
+IL_0046:
+	{
+		return;
+	}
+}
+// System.Void HutongGames.PlayMaker.Actions.RayCast2d::OnUpdate()
+extern "C"  void RayCast2d_OnUpdate_m2694360695 (RayCast2d_t3646134017 * __this, const MethodInfo* method)
+{
+	{
+		int32_t L_0 = __this->get_repeat_31();
+		__this->set_repeat_31(((int32_t)((int32_t)L_0-(int32_t)1)));
+		int32_t L_1 = __this->get_repeat_31();
+		if (L_1)
+		{
+			goto IL_001f;
+		}
+	}
+	{
+		RayCast2d_DoRaycast_m2728306279(__this, /*hidden argument*/NULL);
+	}
+
+IL_001f:
+	{
+		return;
+	}
+}
+// System.Void HutongGames.PlayMaker.Actions.RayCast2d::DoRaycast()
+extern "C"  void RayCast2d_DoRaycast_m2728306279 (RayCast2d_t3646134017 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (RayCast2d_DoRaycast_m2728306279_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	Vector2_t2243707579  V_0;
+	memset(&V_0, 0, sizeof(V_0));
+	Vector3_t2243707580  V_1;
+	memset(&V_1, 0, sizeof(V_1));
+	Vector3_t2243707580  V_2;
+	memset(&V_2, 0, sizeof(V_2));
+	float V_3 = 0.0f;
+	Vector2_t2243707579  V_4;
+	memset(&V_4, 0, sizeof(V_4));
+	Vector2_t2243707579  V_5;
+	memset(&V_5, 0, sizeof(V_5));
+	Vector3_t2243707580  V_6;
+	memset(&V_6, 0, sizeof(V_6));
+	Vector2_t2243707579  V_7;
+	memset(&V_7, 0, sizeof(V_7));
+	Vector2_t2243707579  V_8;
+	memset(&V_8, 0, sizeof(V_8));
+	RaycastHit2D_t4063908774  V_9;
+	memset(&V_9, 0, sizeof(V_9));
+	float V_10 = 0.0f;
+	float V_11 = 0.0f;
+	bool V_12 = false;
+	float V_13 = 0.0f;
+	Vector3_t2243707580  V_14;
+	memset(&V_14, 0, sizeof(V_14));
+	Vector3_t2243707580  V_15;
+	memset(&V_15, 0, sizeof(V_15));
+	Vector3_t2243707580  V_16;
+	memset(&V_16, 0, sizeof(V_16));
+	float G_B15_0 = 0.0f;
+	float G_B18_0 = 0.0f;
+	{
+		FsmInt_t1273009179 * L_0 = __this->get_repeatInterval_25();
+		NullCheck(L_0);
+		int32_t L_1 = FsmInt_get_Value_m3705703582(L_0, /*hidden argument*/NULL);
+		__this->set_repeat_31(L_1);
+		FsmFloat_t937133978 * L_2 = __this->get_distance_15();
+		NullCheck(L_2);
+		float L_3 = FsmFloat_get_Value_m1818441449(L_2, /*hidden argument*/NULL);
+		float L_4 = fabsf(L_3);
+		IL2CPP_RUNTIME_CLASS_INIT(Mathf_t2336485820_il2cpp_TypeInfo_var);
+		float L_5 = ((Mathf_t2336485820_StaticFields*)Mathf_t2336485820_il2cpp_TypeInfo_var->static_fields)->get_Epsilon_0();
+		if ((!(((float)L_4) < ((float)L_5))))
+		{
+			goto IL_002c;
+		}
+	}
+	{
+		return;
+	}
+
+IL_002c:
+	{
+		FsmVector2_t2430450063 * L_6 = __this->get_fromPosition_12();
+		NullCheck(L_6);
+		Vector2_t2243707579  L_7 = FsmVector2_get_Value_m2589490767(L_6, /*hidden argument*/NULL);
+		V_0 = L_7;
+		Transform_t3275118058 * L_8 = __this->get__transform_30();
+		IL2CPP_RUNTIME_CLASS_INIT(Object_t1021602117_il2cpp_TypeInfo_var);
+		bool L_9 = Object_op_Inequality_m2402264703(NULL /*static, unused*/, L_8, (Object_t1021602117 *)NULL, /*hidden argument*/NULL);
+		if (!L_9)
+		{
+			goto IL_008b;
+		}
+	}
+	{
+		Vector2_t2243707579 * L_10 = (&V_0);
+		float L_11 = L_10->get_x_0();
+		Transform_t3275118058 * L_12 = __this->get__transform_30();
+		NullCheck(L_12);
+		Vector3_t2243707580  L_13 = Transform_get_position_m1104419803(L_12, /*hidden argument*/NULL);
+		V_1 = L_13;
+		float L_14 = (&V_1)->get_x_1();
+		L_10->set_x_0(((float)((float)L_11+(float)L_14)));
+		Vector2_t2243707579 * L_15 = (&V_0);
+		float L_16 = L_15->get_y_1();
+		Transform_t3275118058 * L_17 = __this->get__transform_30();
+		NullCheck(L_17);
+		Vector3_t2243707580  L_18 = Transform_get_position_m1104419803(L_17, /*hidden argument*/NULL);
+		V_2 = L_18;
+		float L_19 = (&V_2)->get_y_2();
+		L_15->set_y_1(((float)((float)L_16+(float)L_19)));
+	}
+
+IL_008b:
+	{
+		V_3 = (std::numeric_limits<float>::infinity());
+		FsmFloat_t937133978 * L_20 = __this->get_distance_15();
+		NullCheck(L_20);
+		float L_21 = FsmFloat_get_Value_m1818441449(L_20, /*hidden argument*/NULL);
+		if ((!(((float)L_21) > ((float)(0.0f)))))
+		{
+			goto IL_00b2;
+		}
+	}
+	{
+		FsmFloat_t937133978 * L_22 = __this->get_distance_15();
+		NullCheck(L_22);
+		float L_23 = FsmFloat_get_Value_m1818441449(L_22, /*hidden argument*/NULL);
+		V_3 = L_23;
+	}
+
+IL_00b2:
+	{
+		FsmVector2_t2430450063 * L_24 = __this->get_direction_13();
+		NullCheck(L_24);
+		Vector2_t2243707579  L_25 = FsmVector2_get_Value_m2589490767(L_24, /*hidden argument*/NULL);
+		V_5 = L_25;
+		Vector2_t2243707579  L_26 = Vector2_get_normalized_m2985402409((&V_5), /*hidden argument*/NULL);
+		V_4 = L_26;
+		Transform_t3275118058 * L_27 = __this->get__transform_30();
+		IL2CPP_RUNTIME_CLASS_INIT(Object_t1021602117_il2cpp_TypeInfo_var);
+		bool L_28 = Object_op_Inequality_m2402264703(NULL /*static, unused*/, L_27, (Object_t1021602117 *)NULL, /*hidden argument*/NULL);
+		if (!L_28)
+		{
+			goto IL_0140;
+		}
+	}
+	{
+		int32_t L_29 = __this->get_space_14();
+		if ((!(((uint32_t)L_29) == ((uint32_t)1))))
+		{
+			goto IL_0140;
+		}
+	}
+	{
+		Transform_t3275118058 * L_30 = __this->get__transform_30();
+		FsmVector2_t2430450063 * L_31 = __this->get_direction_13();
+		NullCheck(L_31);
+		Vector2_t2243707579  L_32 = FsmVector2_get_Value_m2589490767(L_31, /*hidden argument*/NULL);
+		V_7 = L_32;
+		float L_33 = (&V_7)->get_x_0();
+		FsmVector2_t2430450063 * L_34 = __this->get_direction_13();
+		NullCheck(L_34);
+		Vector2_t2243707579  L_35 = FsmVector2_get_Value_m2589490767(L_34, /*hidden argument*/NULL);
+		V_8 = L_35;
+		float L_36 = (&V_8)->get_y_1();
+		Vector3_t2243707580  L_37;
+		memset(&L_37, 0, sizeof(L_37));
+		Vector3__ctor_m2638739322(&L_37, L_33, L_36, (0.0f), /*hidden argument*/NULL);
+		NullCheck(L_30);
+		Vector3_t2243707580  L_38 = Transform_TransformDirection_m1639585047(L_30, L_37, /*hidden argument*/NULL);
+		V_6 = L_38;
+		float L_39 = (&V_6)->get_x_1();
+		(&V_4)->set_x_0(L_39);
+		float L_40 = (&V_6)->get_y_2();
+		(&V_4)->set_y_1(L_40);
+	}
+
+IL_0140:
+	{
+		FsmInt_t1273009179 * L_41 = __this->get_minDepth_16();
+		NullCheck(L_41);
+		bool L_42 = NamedVariable_get_IsNone_m1506066313(L_41, /*hidden argument*/NULL);
+		if (!L_42)
+		{
+			goto IL_0186;
+		}
+	}
+	{
+		FsmInt_t1273009179 * L_43 = __this->get_maxDepth_17();
+		NullCheck(L_43);
+		bool L_44 = NamedVariable_get_IsNone_m1506066313(L_43, /*hidden argument*/NULL);
+		if (!L_44)
+		{
+			goto IL_0186;
+		}
+	}
+	{
+		Vector2_t2243707579  L_45 = V_0;
+		Vector2_t2243707579  L_46 = V_4;
+		float L_47 = V_3;
+		FsmIntU5BU5D_t2637547802* L_48 = __this->get_layerMask_26();
+		FsmBool_t664485696 * L_49 = __this->get_invertMask_27();
+		NullCheck(L_49);
+		bool L_50 = FsmBool_get_Value_m3738134001(L_49, /*hidden argument*/NULL);
+		int32_t L_51 = ActionHelpers_LayerArrayToLayerMask_m4230506674(NULL /*static, unused*/, L_48, L_50, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(Physics2D_t2540166467_il2cpp_TypeInfo_var);
+		RaycastHit2D_t4063908774  L_52 = Physics2D_Raycast_m122312471(NULL /*static, unused*/, L_45, L_46, L_47, L_51, /*hidden argument*/NULL);
+		V_9 = L_52;
+		goto IL_01fb;
+	}
+
+IL_0186:
+	{
+		FsmInt_t1273009179 * L_53 = __this->get_minDepth_16();
+		NullCheck(L_53);
+		bool L_54 = NamedVariable_get_IsNone_m1506066313(L_53, /*hidden argument*/NULL);
+		if (!L_54)
+		{
+			goto IL_01a0;
+		}
+	}
+	{
+		G_B15_0 = (-std::numeric_limits<float>::infinity());
+		goto IL_01ac;
+	}
+
+IL_01a0:
+	{
+		FsmInt_t1273009179 * L_55 = __this->get_minDepth_16();
+		NullCheck(L_55);
+		int32_t L_56 = FsmInt_get_Value_m3705703582(L_55, /*hidden argument*/NULL);
+		G_B15_0 = (((float)((float)L_56)));
+	}
+
+IL_01ac:
+	{
+		V_10 = G_B15_0;
+		FsmInt_t1273009179 * L_57 = __this->get_maxDepth_17();
+		NullCheck(L_57);
+		bool L_58 = NamedVariable_get_IsNone_m1506066313(L_57, /*hidden argument*/NULL);
+		if (!L_58)
+		{
+			goto IL_01c8;
+		}
+	}
+	{
+		G_B18_0 = (std::numeric_limits<float>::infinity());
+		goto IL_01d4;
+	}
+
+IL_01c8:
+	{
+		FsmInt_t1273009179 * L_59 = __this->get_maxDepth_17();
+		NullCheck(L_59);
+		int32_t L_60 = FsmInt_get_Value_m3705703582(L_59, /*hidden argument*/NULL);
+		G_B18_0 = (((float)((float)L_60)));
+	}
+
+IL_01d4:
+	{
+		V_11 = G_B18_0;
+		Vector2_t2243707579  L_61 = V_0;
+		Vector2_t2243707579  L_62 = V_4;
+		float L_63 = V_3;
+		FsmIntU5BU5D_t2637547802* L_64 = __this->get_layerMask_26();
+		FsmBool_t664485696 * L_65 = __this->get_invertMask_27();
+		NullCheck(L_65);
+		bool L_66 = FsmBool_get_Value_m3738134001(L_65, /*hidden argument*/NULL);
+		int32_t L_67 = ActionHelpers_LayerArrayToLayerMask_m4230506674(NULL /*static, unused*/, L_64, L_66, /*hidden argument*/NULL);
+		float L_68 = V_10;
+		float L_69 = V_11;
+		IL2CPP_RUNTIME_CLASS_INIT(Physics2D_t2540166467_il2cpp_TypeInfo_var);
+		RaycastHit2D_t4063908774  L_70 = Physics2D_Raycast_m2303387255(NULL /*static, unused*/, L_61, L_62, L_63, L_67, L_68, L_69, /*hidden argument*/NULL);
+		V_9 = L_70;
+	}
+
+IL_01fb:
+	{
+		Fsm_t917886356 * L_71 = FsmStateAction_get_Fsm_m4079598046(__this, /*hidden argument*/NULL);
+		RaycastHit2D_t4063908774  L_72 = V_9;
+		IL2CPP_RUNTIME_CLASS_INIT(Fsm_t917886356_il2cpp_TypeInfo_var);
+		Fsm_RecordLastRaycastHit2DInfo_m756800341(NULL /*static, unused*/, L_71, L_72, /*hidden argument*/NULL);
+		Collider2D_t646061738 * L_73 = RaycastHit2D_get_collider_m2568504212((&V_9), /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(Object_t1021602117_il2cpp_TypeInfo_var);
+		bool L_74 = Object_op_Inequality_m2402264703(NULL /*static, unused*/, L_73, (Object_t1021602117 *)NULL, /*hidden argument*/NULL);
+		V_12 = L_74;
+		FsmBool_t664485696 * L_75 = __this->get_storeDidHit_19();
+		bool L_76 = V_12;
+		NullCheck(L_75);
+		FsmBool_set_Value_m2522230142(L_75, L_76, /*hidden argument*/NULL);
+		bool L_77 = V_12;
+		if (!L_77)
+		{
+			goto IL_029b;
+		}
+	}
+	{
+		FsmGameObject_t3097142863 * L_78 = __this->get_storeHitObject_20();
+		Collider2D_t646061738 * L_79 = RaycastHit2D_get_collider_m2568504212((&V_9), /*hidden argument*/NULL);
+		NullCheck(L_79);
+		GameObject_t1756533147 * L_80 = Component_get_gameObject_m3105766835(L_79, /*hidden argument*/NULL);
+		NullCheck(L_78);
+		FsmGameObject_set_Value_m1923169006(L_78, L_80, /*hidden argument*/NULL);
+		FsmVector2_t2430450063 * L_81 = __this->get_storeHitPoint_21();
+		Vector2_t2243707579  L_82 = RaycastHit2D_get_point_m442317739((&V_9), /*hidden argument*/NULL);
+		NullCheck(L_81);
+		FsmVector2_set_Value_m1294693978(L_81, L_82, /*hidden argument*/NULL);
+		FsmVector2_t2430450063 * L_83 = __this->get_storeHitNormal_22();
+		Vector2_t2243707579  L_84 = RaycastHit2D_get_normal_m3768105386((&V_9), /*hidden argument*/NULL);
+		NullCheck(L_83);
+		FsmVector2_set_Value_m1294693978(L_83, L_84, /*hidden argument*/NULL);
+		FsmFloat_t937133978 * L_85 = __this->get_storeHitDistance_23();
+		float L_86 = RaycastHit2D_get_distance_m4065977169((&V_9), /*hidden argument*/NULL);
+		NullCheck(L_85);
+		FsmFloat_set_Value_m3447553958(L_85, L_86, /*hidden argument*/NULL);
+		FsmFloat_t937133978 * L_87 = __this->get_storeHitFraction_24();
+		float L_88 = RaycastHit2D_get_fraction_m1296150410((&V_9), /*hidden argument*/NULL);
+		NullCheck(L_87);
+		FsmFloat_set_Value_m3447553958(L_87, L_88, /*hidden argument*/NULL);
+		Fsm_t917886356 * L_89 = FsmStateAction_get_Fsm_m4079598046(__this, /*hidden argument*/NULL);
+		FsmEvent_t1258573736 * L_90 = __this->get_hitEvent_18();
+		NullCheck(L_89);
+		Fsm_Event_m4079224475(L_89, L_90, /*hidden argument*/NULL);
+	}
+
+IL_029b:
+	{
+		FsmBool_t664485696 * L_91 = __this->get_debug_29();
+		NullCheck(L_91);
+		bool L_92 = FsmBool_get_Value_m3738134001(L_91, /*hidden argument*/NULL);
+		if (!L_92)
+		{
+			goto IL_0312;
+		}
+	}
+	{
+		float L_93 = V_3;
+		IL2CPP_RUNTIME_CLASS_INIT(Mathf_t2336485820_il2cpp_TypeInfo_var);
+		float L_94 = Mathf_Min_m1648492575(NULL /*static, unused*/, L_93, (1000.0f), /*hidden argument*/NULL);
+		V_13 = L_94;
+		float L_95 = (&V_0)->get_x_0();
+		float L_96 = (&V_0)->get_y_1();
+		Vector3__ctor_m2638739322((&V_14), L_95, L_96, (0.0f), /*hidden argument*/NULL);
+		float L_97 = (&V_4)->get_x_0();
+		float L_98 = (&V_4)->get_y_1();
+		Vector3__ctor_m2638739322((&V_15), L_97, L_98, (0.0f), /*hidden argument*/NULL);
+		Vector3_t2243707580  L_99 = V_14;
+		Vector3_t2243707580  L_100 = V_15;
+		float L_101 = V_13;
+		Vector3_t2243707580  L_102 = Vector3_op_Multiply_m1351554733(NULL /*static, unused*/, L_100, L_101, /*hidden argument*/NULL);
+		Vector3_t2243707580  L_103 = Vector3_op_Addition_m3146764857(NULL /*static, unused*/, L_99, L_102, /*hidden argument*/NULL);
+		V_16 = L_103;
+		Vector3_t2243707580  L_104 = V_14;
+		Vector3_t2243707580  L_105 = V_16;
+		FsmColor_t118301965 * L_106 = __this->get_debugColor_28();
+		NullCheck(L_106);
+		Color_t2020392075  L_107 = FsmColor_get_Value_m687626399(L_106, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(Debug_t1368543263_il2cpp_TypeInfo_var);
+		Debug_DrawLine_m3455422326(NULL /*static, unused*/, L_104, L_105, L_107, /*hidden argument*/NULL);
+	}
+
+IL_0312:
+	{
+		return;
+	}
+}
+// System.Void HutongGames.PlayMaker.Actions.RaycastAll::.ctor()
+extern "C"  void RaycastAll__ctor_m3545728606 (RaycastAll_t2103133324 * __this, const MethodInfo* method)
+{
+	{
+		FsmStateAction__ctor_m1837021228(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void HutongGames.PlayMaker.Actions.RaycastAll::Reset()
+extern "C"  void RaycastAll_Reset_m2711891741 (RaycastAll_t2103133324 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (RaycastAll_Reset_m2711891741_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	FsmVector3_t3996534004 * V_0 = NULL;
+	{
+		__this->set_fromGameObject_12((FsmOwnerDefault_t2023674184 *)NULL);
+		FsmVector3_t3996534004 * L_0 = (FsmVector3_t3996534004 *)il2cpp_codegen_object_new(FsmVector3_t3996534004_il2cpp_TypeInfo_var);
+		FsmVector3__ctor_m2525545399(L_0, /*hidden argument*/NULL);
+		V_0 = L_0;
+		FsmVector3_t3996534004 * L_1 = V_0;
+		NullCheck(L_1);
+		NamedVariable_set_UseVariable_m1478981231(L_1, (bool)1, /*hidden argument*/NULL);
+		FsmVector3_t3996534004 * L_2 = V_0;
+		__this->set_fromPosition_13(L_2);
+		FsmVector3_t3996534004 * L_3 = (FsmVector3_t3996534004 *)il2cpp_codegen_object_new(FsmVector3_t3996534004_il2cpp_TypeInfo_var);
+		FsmVector3__ctor_m2525545399(L_3, /*hidden argument*/NULL);
+		V_0 = L_3;
+		FsmVector3_t3996534004 * L_4 = V_0;
+		NullCheck(L_4);
+		NamedVariable_set_UseVariable_m1478981231(L_4, (bool)1, /*hidden argument*/NULL);
+		FsmVector3_t3996534004 * L_5 = V_0;
+		__this->set_direction_14(L_5);
+		__this->set_space_15(1);
+		FsmFloat_t937133978 * L_6 = FsmFloat_op_Implicit_m475928236(NULL /*static, unused*/, (100.0f), /*hidden argument*/NULL);
+		__this->set_distance_16(L_6);
+		__this->set_hitEvent_17((FsmEvent_t1258573736 *)NULL);
+		__this->set_storeDidHit_18((FsmBool_t664485696 *)NULL);
+		__this->set_storeHitObjects_19((FsmArray_t527459893 *)NULL);
+		__this->set_storeHitPoint_20((FsmVector3_t3996534004 *)NULL);
+		__this->set_storeHitNormal_21((FsmVector3_t3996534004 *)NULL);
+		__this->set_storeHitDistance_22((FsmFloat_t937133978 *)NULL);
+		FsmInt_t1273009179 * L_7 = FsmInt_op_Implicit_m2429643636(NULL /*static, unused*/, 1, /*hidden argument*/NULL);
+		__this->set_repeatInterval_23(L_7);
+		__this->set_layerMask_24(((FsmIntU5BU5D_t2637547802*)SZArrayNew(FsmIntU5BU5D_t2637547802_il2cpp_TypeInfo_var, (uint32_t)0)));
+		FsmBool_t664485696 * L_8 = FsmBool_op_Implicit_m2342972798(NULL /*static, unused*/, (bool)0, /*hidden argument*/NULL);
+		__this->set_invertMask_25(L_8);
+		Color_t2020392075  L_9 = Color_get_yellow_m3741935494(NULL /*static, unused*/, /*hidden argument*/NULL);
+		FsmColor_t118301965 * L_10 = FsmColor_op_Implicit_m1499113597(NULL /*static, unused*/, L_9, /*hidden argument*/NULL);
+		__this->set_debugColor_26(L_10);
+		FsmBool_t664485696 * L_11 = FsmBool_op_Implicit_m2342972798(NULL /*static, unused*/, (bool)0, /*hidden argument*/NULL);
+		__this->set_debug_27(L_11);
+		return;
+	}
+}
+// System.Void HutongGames.PlayMaker.Actions.RaycastAll::OnEnter()
+extern "C"  void RaycastAll_OnEnter_m2128572445 (RaycastAll_t2103133324 * __this, const MethodInfo* method)
+{
+	{
+		RaycastAll_DoRaycast_m2883002290(__this, /*hidden argument*/NULL);
+		FsmInt_t1273009179 * L_0 = __this->get_repeatInterval_23();
+		NullCheck(L_0);
+		int32_t L_1 = FsmInt_get_Value_m3705703582(L_0, /*hidden argument*/NULL);
+		if (L_1)
+		{
+			goto IL_001c;
+		}
+	}
+	{
+		FsmStateAction_Finish_m1955744727(__this, /*hidden argument*/NULL);
+	}
+
+IL_001c:
+	{
+		return;
+	}
+}
+// System.Void HutongGames.PlayMaker.Actions.RaycastAll::OnUpdate()
+extern "C"  void RaycastAll_OnUpdate_m1422396080 (RaycastAll_t2103133324 * __this, const MethodInfo* method)
+{
+	{
+		int32_t L_0 = __this->get_repeat_28();
+		__this->set_repeat_28(((int32_t)((int32_t)L_0-(int32_t)1)));
+		int32_t L_1 = __this->get_repeat_28();
+		if (L_1)
+		{
+			goto IL_001f;
+		}
+	}
+	{
+		RaycastAll_DoRaycast_m2883002290(__this, /*hidden argument*/NULL);
+	}
+
+IL_001f:
+	{
+		return;
+	}
+}
+// System.Void HutongGames.PlayMaker.Actions.RaycastAll::DoRaycast()
+extern "C"  void RaycastAll_DoRaycast_m2883002290 (RaycastAll_t2103133324 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (RaycastAll_DoRaycast_m2883002290_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	GameObject_t1756533147 * V_0 = NULL;
+	Vector3_t2243707580  V_1;
+	memset(&V_1, 0, sizeof(V_1));
+	float V_2 = 0.0f;
+	Vector3_t2243707580  V_3;
+	memset(&V_3, 0, sizeof(V_3));
+	bool V_4 = false;
+	GameObjectU5BU5D_t3057952154* V_5 = NULL;
+	int32_t V_6 = 0;
+	RaycastHit_t87180320  V_7;
+	memset(&V_7, 0, sizeof(V_7));
+	RaycastHit_t87180320  V_8;
+	memset(&V_8, 0, sizeof(V_8));
+	RaycastHit_t87180320  V_9;
+	memset(&V_9, 0, sizeof(V_9));
+	RaycastHit_t87180320  V_10;
+	memset(&V_10, 0, sizeof(V_10));
+	float V_11 = 0.0f;
+	Vector3_t2243707580  G_B5_0;
+	memset(&G_B5_0, 0, sizeof(G_B5_0));
+	{
+		FsmInt_t1273009179 * L_0 = __this->get_repeatInterval_23();
+		NullCheck(L_0);
+		int32_t L_1 = FsmInt_get_Value_m3705703582(L_0, /*hidden argument*/NULL);
+		__this->set_repeat_28(L_1);
+		FsmFloat_t937133978 * L_2 = __this->get_distance_16();
+		NullCheck(L_2);
+		float L_3 = FsmFloat_get_Value_m1818441449(L_2, /*hidden argument*/NULL);
+		if ((!(((float)L_3) == ((float)(0.0f)))))
+		{
+			goto IL_0027;
+		}
+	}
+	{
+		return;
+	}
+
+IL_0027:
+	{
+		Fsm_t917886356 * L_4 = FsmStateAction_get_Fsm_m4079598046(__this, /*hidden argument*/NULL);
+		FsmOwnerDefault_t2023674184 * L_5 = __this->get_fromGameObject_12();
+		NullCheck(L_4);
+		GameObject_t1756533147 * L_6 = Fsm_GetOwnerDefaultTarget_m1045900479(L_4, L_5, /*hidden argument*/NULL);
+		V_0 = L_6;
+		GameObject_t1756533147 * L_7 = V_0;
+		IL2CPP_RUNTIME_CLASS_INIT(Object_t1021602117_il2cpp_TypeInfo_var);
+		bool L_8 = Object_op_Inequality_m2402264703(NULL /*static, unused*/, L_7, (Object_t1021602117 *)NULL, /*hidden argument*/NULL);
+		if (!L_8)
+		{
+			goto IL_0055;
+		}
+	}
+	{
+		GameObject_t1756533147 * L_9 = V_0;
+		NullCheck(L_9);
+		Transform_t3275118058 * L_10 = GameObject_get_transform_m909382139(L_9, /*hidden argument*/NULL);
+		NullCheck(L_10);
+		Vector3_t2243707580  L_11 = Transform_get_position_m1104419803(L_10, /*hidden argument*/NULL);
+		G_B5_0 = L_11;
+		goto IL_0060;
+	}
+
+IL_0055:
+	{
+		FsmVector3_t3996534004 * L_12 = __this->get_fromPosition_13();
+		NullCheck(L_12);
+		Vector3_t2243707580  L_13 = FsmVector3_get_Value_m4242600139(L_12, /*hidden argument*/NULL);
+		G_B5_0 = L_13;
+	}
+
+IL_0060:
+	{
+		V_1 = G_B5_0;
+		V_2 = (std::numeric_limits<float>::infinity());
+		FsmFloat_t937133978 * L_14 = __this->get_distance_16();
+		NullCheck(L_14);
+		float L_15 = FsmFloat_get_Value_m1818441449(L_14, /*hidden argument*/NULL);
+		if ((!(((float)L_15) > ((float)(0.0f)))))
+		{
+			goto IL_0088;
+		}
+	}
+	{
+		FsmFloat_t937133978 * L_16 = __this->get_distance_16();
+		NullCheck(L_16);
+		float L_17 = FsmFloat_get_Value_m1818441449(L_16, /*hidden argument*/NULL);
+		V_2 = L_17;
+	}
+
+IL_0088:
+	{
+		FsmVector3_t3996534004 * L_18 = __this->get_direction_14();
+		NullCheck(L_18);
+		Vector3_t2243707580  L_19 = FsmVector3_get_Value_m4242600139(L_18, /*hidden argument*/NULL);
+		V_3 = L_19;
+		GameObject_t1756533147 * L_20 = V_0;
+		IL2CPP_RUNTIME_CLASS_INIT(Object_t1021602117_il2cpp_TypeInfo_var);
+		bool L_21 = Object_op_Inequality_m2402264703(NULL /*static, unused*/, L_20, (Object_t1021602117 *)NULL, /*hidden argument*/NULL);
+		if (!L_21)
+		{
+			goto IL_00c3;
+		}
+	}
+	{
+		int32_t L_22 = __this->get_space_15();
+		if ((!(((uint32_t)L_22) == ((uint32_t)1))))
+		{
+			goto IL_00c3;
+		}
+	}
+	{
+		GameObject_t1756533147 * L_23 = V_0;
+		NullCheck(L_23);
+		Transform_t3275118058 * L_24 = GameObject_get_transform_m909382139(L_23, /*hidden argument*/NULL);
+		FsmVector3_t3996534004 * L_25 = __this->get_direction_14();
+		NullCheck(L_25);
+		Vector3_t2243707580  L_26 = FsmVector3_get_Value_m4242600139(L_25, /*hidden argument*/NULL);
+		NullCheck(L_24);
+		Vector3_t2243707580  L_27 = Transform_TransformDirection_m1639585047(L_24, L_26, /*hidden argument*/NULL);
+		V_3 = L_27;
+	}
+
+IL_00c3:
+	{
+		Vector3_t2243707580  L_28 = V_1;
+		Vector3_t2243707580  L_29 = V_3;
+		float L_30 = V_2;
+		FsmIntU5BU5D_t2637547802* L_31 = __this->get_layerMask_24();
+		FsmBool_t664485696 * L_32 = __this->get_invertMask_25();
+		NullCheck(L_32);
+		bool L_33 = FsmBool_get_Value_m3738134001(L_32, /*hidden argument*/NULL);
+		int32_t L_34 = ActionHelpers_LayerArrayToLayerMask_m4230506674(NULL /*static, unused*/, L_31, L_33, /*hidden argument*/NULL);
+		RaycastHitU5BU5D_t1214023521* L_35 = Physics_RaycastAll_m3256436970(NULL /*static, unused*/, L_28, L_29, L_30, L_34, /*hidden argument*/NULL);
+		((RaycastAll_t2103133324_StaticFields*)RaycastAll_t2103133324_il2cpp_TypeInfo_var->static_fields)->set_RaycastAllHitInfo_11(L_35);
+		RaycastHitU5BU5D_t1214023521* L_36 = ((RaycastAll_t2103133324_StaticFields*)RaycastAll_t2103133324_il2cpp_TypeInfo_var->static_fields)->get_RaycastAllHitInfo_11();
+		NullCheck(L_36);
+		V_4 = (bool)((((int32_t)(((int32_t)((int32_t)(((Il2CppArray *)L_36)->max_length))))) > ((int32_t)0))? 1 : 0);
+		FsmBool_t664485696 * L_37 = __this->get_storeDidHit_18();
+		bool L_38 = V_4;
+		NullCheck(L_37);
+		FsmBool_set_Value_m2522230142(L_37, L_38, /*hidden argument*/NULL);
+		bool L_39 = V_4;
+		if (!L_39)
+		{
+			goto IL_01cf;
+		}
+	}
+	{
+		RaycastHitU5BU5D_t1214023521* L_40 = ((RaycastAll_t2103133324_StaticFields*)RaycastAll_t2103133324_il2cpp_TypeInfo_var->static_fields)->get_RaycastAllHitInfo_11();
+		NullCheck(L_40);
+		V_5 = ((GameObjectU5BU5D_t3057952154*)SZArrayNew(GameObjectU5BU5D_t3057952154_il2cpp_TypeInfo_var, (uint32_t)(((int32_t)((int32_t)(((Il2CppArray *)L_40)->max_length))))));
+		V_6 = 0;
+		goto IL_0146;
+	}
+
+IL_011c:
+	{
+		RaycastHitU5BU5D_t1214023521* L_41 = ((RaycastAll_t2103133324_StaticFields*)RaycastAll_t2103133324_il2cpp_TypeInfo_var->static_fields)->get_RaycastAllHitInfo_11();
+		int32_t L_42 = V_6;
+		NullCheck(L_41);
+		V_7 = (*(RaycastHit_t87180320 *)((L_41)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_42))));
+		GameObjectU5BU5D_t3057952154* L_43 = V_5;
+		int32_t L_44 = V_6;
+		Collider_t3497673348 * L_45 = RaycastHit_get_collider_m301198172((&V_7), /*hidden argument*/NULL);
+		NullCheck(L_45);
+		GameObject_t1756533147 * L_46 = Component_get_gameObject_m3105766835(L_45, /*hidden argument*/NULL);
+		NullCheck(L_43);
+		ArrayElementTypeCheck (L_43, L_46);
+		(L_43)->SetAt(static_cast<il2cpp_array_size_t>(L_44), (GameObject_t1756533147 *)L_46);
+		int32_t L_47 = V_6;
+		V_6 = ((int32_t)((int32_t)L_47+(int32_t)1));
+	}
+
+IL_0146:
+	{
+		int32_t L_48 = V_6;
+		RaycastHitU5BU5D_t1214023521* L_49 = ((RaycastAll_t2103133324_StaticFields*)RaycastAll_t2103133324_il2cpp_TypeInfo_var->static_fields)->get_RaycastAllHitInfo_11();
+		NullCheck(L_49);
+		if ((((int32_t)L_48) < ((int32_t)(((int32_t)((int32_t)(((Il2CppArray *)L_49)->max_length)))))))
+		{
+			goto IL_011c;
+		}
+	}
+	{
+		FsmArray_t527459893 * L_50 = __this->get_storeHitObjects_19();
+		GameObjectU5BU5D_t3057952154* L_51 = V_5;
+		NullCheck(L_50);
+		FsmArray_set_Values_m2545008121(L_50, (ObjectU5BU5D_t3614634134*)(ObjectU5BU5D_t3614634134*)L_51, /*hidden argument*/NULL);
+		FsmVector3_t3996534004 * L_52 = __this->get_storeHitPoint_20();
+		Fsm_t917886356 * L_53 = FsmStateAction_get_Fsm_m4079598046(__this, /*hidden argument*/NULL);
+		NullCheck(L_53);
+		RaycastHit_t87180320  L_54 = Fsm_get_RaycastHitInfo_m2871237254(L_53, /*hidden argument*/NULL);
+		V_8 = L_54;
+		Vector3_t2243707580  L_55 = RaycastHit_get_point_m326143462((&V_8), /*hidden argument*/NULL);
+		NullCheck(L_52);
+		FsmVector3_set_Value_m1785770740(L_52, L_55, /*hidden argument*/NULL);
+		FsmVector3_t3996534004 * L_56 = __this->get_storeHitNormal_21();
+		Fsm_t917886356 * L_57 = FsmStateAction_get_Fsm_m4079598046(__this, /*hidden argument*/NULL);
+		NullCheck(L_57);
+		RaycastHit_t87180320  L_58 = Fsm_get_RaycastHitInfo_m2871237254(L_57, /*hidden argument*/NULL);
+		V_9 = L_58;
+		Vector3_t2243707580  L_59 = RaycastHit_get_normal_m817665579((&V_9), /*hidden argument*/NULL);
+		NullCheck(L_56);
+		FsmVector3_set_Value_m1785770740(L_56, L_59, /*hidden argument*/NULL);
+		FsmFloat_t937133978 * L_60 = __this->get_storeHitDistance_22();
+		Fsm_t917886356 * L_61 = FsmStateAction_get_Fsm_m4079598046(__this, /*hidden argument*/NULL);
+		NullCheck(L_61);
+		RaycastHit_t87180320  L_62 = Fsm_get_RaycastHitInfo_m2871237254(L_61, /*hidden argument*/NULL);
+		V_10 = L_62;
+		float L_63 = RaycastHit_get_distance_m1178709367((&V_10), /*hidden argument*/NULL);
+		NullCheck(L_60);
+		FsmFloat_set_Value_m3447553958(L_60, L_63, /*hidden argument*/NULL);
+		Fsm_t917886356 * L_64 = FsmStateAction_get_Fsm_m4079598046(__this, /*hidden argument*/NULL);
+		FsmEvent_t1258573736 * L_65 = __this->get_hitEvent_17();
+		NullCheck(L_64);
+		Fsm_Event_m4079224475(L_64, L_65, /*hidden argument*/NULL);
+	}
+
+IL_01cf:
+	{
+		FsmBool_t664485696 * L_66 = __this->get_debug_27();
+		NullCheck(L_66);
+		bool L_67 = FsmBool_get_Value_m3738134001(L_66, /*hidden argument*/NULL);
+		if (!L_67)
+		{
+			goto IL_020b;
+		}
+	}
+	{
+		float L_68 = V_2;
+		IL2CPP_RUNTIME_CLASS_INIT(Mathf_t2336485820_il2cpp_TypeInfo_var);
+		float L_69 = Mathf_Min_m1648492575(NULL /*static, unused*/, L_68, (1000.0f), /*hidden argument*/NULL);
+		V_11 = L_69;
+		Vector3_t2243707580  L_70 = V_1;
+		Vector3_t2243707580  L_71 = V_1;
+		Vector3_t2243707580  L_72 = V_3;
+		float L_73 = V_11;
+		Vector3_t2243707580  L_74 = Vector3_op_Multiply_m1351554733(NULL /*static, unused*/, L_72, L_73, /*hidden argument*/NULL);
+		Vector3_t2243707580  L_75 = Vector3_op_Addition_m3146764857(NULL /*static, unused*/, L_71, L_74, /*hidden argument*/NULL);
+		FsmColor_t118301965 * L_76 = __this->get_debugColor_26();
+		NullCheck(L_76);
+		Color_t2020392075  L_77 = FsmColor_get_Value_m687626399(L_76, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(Debug_t1368543263_il2cpp_TypeInfo_var);
+		Debug_DrawLine_m3455422326(NULL /*static, unused*/, L_70, L_75, L_77, /*hidden argument*/NULL);
+	}
+
+IL_020b:
+	{
+		return;
+	}
+}
+// System.Void HutongGames.PlayMaker.Actions.RebuildTextures::.ctor()
+extern "C"  void RebuildTextures__ctor_m3580276951 (RebuildTextures_t3983555943 * __this, const MethodInfo* method)
+{
+	{
+		FsmStateAction__ctor_m1837021228(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void HutongGames.PlayMaker.Actions.RebuildTextures::Reset()
+extern "C"  void RebuildTextures_Reset_m2580824220 (RebuildTextures_t3983555943 * __this, const MethodInfo* method)
+{
+	{
+		__this->set_substanceMaterial_11((FsmMaterial_t1421632035 *)NULL);
+		FsmBool_t664485696 * L_0 = FsmBool_op_Implicit_m2342972798(NULL /*static, unused*/, (bool)0, /*hidden argument*/NULL);
+		__this->set_immediately_12(L_0);
+		__this->set_everyFrame_13((bool)0);
+		return;
+	}
+}
+// System.Void HutongGames.PlayMaker.Actions.RebuildTextures::OnEnter()
+extern "C"  void RebuildTextures_OnEnter_m3356007122 (RebuildTextures_t3983555943 * __this, const MethodInfo* method)
+{
+	{
+		RebuildTextures_DoRebuildTextures_m517064349(__this, /*hidden argument*/NULL);
+		bool L_0 = __this->get_everyFrame_13();
+		if (L_0)
+		{
+			goto IL_0017;
+		}
+	}
+	{
+		FsmStateAction_Finish_m1955744727(__this, /*hidden argument*/NULL);
+	}
+
+IL_0017:
+	{
+		return;
+	}
+}
+// System.Void HutongGames.PlayMaker.Actions.RebuildTextures::OnUpdate()
+extern "C"  void RebuildTextures_OnUpdate_m1265206751 (RebuildTextures_t3983555943 * __this, const MethodInfo* method)
+{
+	{
+		RebuildTextures_DoRebuildTextures_m517064349(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void HutongGames.PlayMaker.Actions.RebuildTextures::DoRebuildTextures()
+extern "C"  void RebuildTextures_DoRebuildTextures_m517064349 (RebuildTextures_t3983555943 * __this, const MethodInfo* method)
+{
+	{
+		return;
+	}
+}
+// System.Void HutongGames.PlayMaker.Actions.RectContains::.ctor()
+extern "C"  void RectContains__ctor_m1575816537 (RectContains_t3461006553 * __this, const MethodInfo* method)
+{
+	{
+		FsmStateAction__ctor_m1837021228(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void HutongGames.PlayMaker.Actions.RectContains::Reset()
+extern "C"  void RectContains_Reset_m3298359522 (RectContains_t3461006553 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (RectContains_Reset_m3298359522_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	FsmRect_t19023354 * V_0 = NULL;
+	FsmVector3_t3996534004 * V_1 = NULL;
+	FsmFloat_t937133978 * V_2 = NULL;
+	{
+		FsmRect_t19023354 * L_0 = (FsmRect_t19023354 *)il2cpp_codegen_object_new(FsmRect_t19023354_il2cpp_TypeInfo_var);
+		FsmRect__ctor_m2863765477(L_0, /*hidden argument*/NULL);
+		V_0 = L_0;
+		FsmRect_t19023354 * L_1 = V_0;
+		NullCheck(L_1);
+		NamedVariable_set_UseVariable_m1478981231(L_1, (bool)1, /*hidden argument*/NULL);
+		FsmRect_t19023354 * L_2 = V_0;
+		__this->set_rectangle_11(L_2);
+		FsmVector3_t3996534004 * L_3 = (FsmVector3_t3996534004 *)il2cpp_codegen_object_new(FsmVector3_t3996534004_il2cpp_TypeInfo_var);
+		FsmVector3__ctor_m2525545399(L_3, /*hidden argument*/NULL);
+		V_1 = L_3;
+		FsmVector3_t3996534004 * L_4 = V_1;
+		NullCheck(L_4);
+		NamedVariable_set_UseVariable_m1478981231(L_4, (bool)1, /*hidden argument*/NULL);
+		FsmVector3_t3996534004 * L_5 = V_1;
+		__this->set_point_12(L_5);
+		FsmFloat_t937133978 * L_6 = (FsmFloat_t937133978 *)il2cpp_codegen_object_new(FsmFloat_t937133978_il2cpp_TypeInfo_var);
+		FsmFloat__ctor_m2608255745(L_6, /*hidden argument*/NULL);
+		V_2 = L_6;
+		FsmFloat_t937133978 * L_7 = V_2;
+		NullCheck(L_7);
+		NamedVariable_set_UseVariable_m1478981231(L_7, (bool)1, /*hidden argument*/NULL);
+		FsmFloat_t937133978 * L_8 = V_2;
+		__this->set_x_13(L_8);
+		FsmFloat_t937133978 * L_9 = (FsmFloat_t937133978 *)il2cpp_codegen_object_new(FsmFloat_t937133978_il2cpp_TypeInfo_var);
+		FsmFloat__ctor_m2608255745(L_9, /*hidden argument*/NULL);
+		V_2 = L_9;
+		FsmFloat_t937133978 * L_10 = V_2;
+		NullCheck(L_10);
+		NamedVariable_set_UseVariable_m1478981231(L_10, (bool)1, /*hidden argument*/NULL);
+		FsmFloat_t937133978 * L_11 = V_2;
+		__this->set_y_14(L_11);
+		__this->set_storeResult_17((FsmBool_t664485696 *)NULL);
+		__this->set_trueEvent_15((FsmEvent_t1258573736 *)NULL);
+		__this->set_falseEvent_16((FsmEvent_t1258573736 *)NULL);
+		__this->set_everyFrame_18((bool)0);
+		return;
+	}
+}
+// System.Void HutongGames.PlayMaker.Actions.RectContains::OnEnter()
+extern "C"  void RectContains_OnEnter_m2163968680 (RectContains_t3461006553 * __this, const MethodInfo* method)
+{
+	{
+		RectContains_DoRectContains_m1800739905(__this, /*hidden argument*/NULL);
+		bool L_0 = __this->get_everyFrame_18();
+		if (L_0)
+		{
+			goto IL_0017;
+		}
+	}
+	{
+		FsmStateAction_Finish_m1955744727(__this, /*hidden argument*/NULL);
+	}
+
+IL_0017:
+	{
+		return;
+	}
+}
+// System.Void HutongGames.PlayMaker.Actions.RectContains::OnUpdate()
+extern "C"  void RectContains_OnUpdate_m637108069 (RectContains_t3461006553 * __this, const MethodInfo* method)
+{
+	{
+		RectContains_DoRectContains_m1800739905(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void HutongGames.PlayMaker.Actions.RectContains::DoRectContains()
+extern "C"  void RectContains_DoRectContains_m1800739905 (RectContains_t3461006553 * __this, const MethodInfo* method)
+{
+	Vector3_t2243707580  V_0;
+	memset(&V_0, 0, sizeof(V_0));
+	bool V_1 = false;
+	Rect_t3681755626  V_2;
+	memset(&V_2, 0, sizeof(V_2));
+	Fsm_t917886356 * G_B8_0 = NULL;
+	Fsm_t917886356 * G_B7_0 = NULL;
+	FsmEvent_t1258573736 * G_B9_0 = NULL;
+	Fsm_t917886356 * G_B9_1 = NULL;
+	{
+		FsmRect_t19023354 * L_0 = __this->get_rectangle_11();
+		NullCheck(L_0);
+		bool L_1 = NamedVariable_get_IsNone_m1506066313(L_0, /*hidden argument*/NULL);
+		if (!L_1)
+		{
+			goto IL_0011;
+		}
+	}
+	{
+		return;
+	}
+
+IL_0011:
+	{
+		FsmVector3_t3996534004 * L_2 = __this->get_point_12();
+		NullCheck(L_2);
+		Vector3_t2243707580  L_3 = FsmVector3_get_Value_m4242600139(L_2, /*hidden argument*/NULL);
+		V_0 = L_3;
+		FsmFloat_t937133978 * L_4 = __this->get_x_13();
+		NullCheck(L_4);
+		bool L_5 = NamedVariable_get_IsNone_m1506066313(L_4, /*hidden argument*/NULL);
+		if (L_5)
+		{
+			goto IL_003f;
+		}
+	}
+	{
+		FsmFloat_t937133978 * L_6 = __this->get_x_13();
+		NullCheck(L_6);
+		float L_7 = FsmFloat_get_Value_m1818441449(L_6, /*hidden argument*/NULL);
+		(&V_0)->set_x_1(L_7);
+	}
+
+IL_003f:
+	{
+		FsmFloat_t937133978 * L_8 = __this->get_y_14();
+		NullCheck(L_8);
+		bool L_9 = NamedVariable_get_IsNone_m1506066313(L_8, /*hidden argument*/NULL);
+		if (L_9)
+		{
+			goto IL_0061;
+		}
+	}
+	{
+		FsmFloat_t937133978 * L_10 = __this->get_y_14();
+		NullCheck(L_10);
+		float L_11 = FsmFloat_get_Value_m1818441449(L_10, /*hidden argument*/NULL);
+		(&V_0)->set_y_2(L_11);
+	}
+
+IL_0061:
+	{
+		FsmRect_t19023354 * L_12 = __this->get_rectangle_11();
+		NullCheck(L_12);
+		Rect_t3681755626  L_13 = FsmRect_get_Value_m3959922771(L_12, /*hidden argument*/NULL);
+		V_2 = L_13;
+		Vector3_t2243707580  L_14 = V_0;
+		bool L_15 = Rect_Contains_m1334685291((&V_2), L_14, /*hidden argument*/NULL);
+		V_1 = L_15;
+		FsmBool_t664485696 * L_16 = __this->get_storeResult_17();
+		bool L_17 = V_1;
+		NullCheck(L_16);
+		FsmBool_set_Value_m2522230142(L_16, L_17, /*hidden argument*/NULL);
+		Fsm_t917886356 * L_18 = FsmStateAction_get_Fsm_m4079598046(__this, /*hidden argument*/NULL);
+		bool L_19 = V_1;
+		G_B7_0 = L_18;
+		if (!L_19)
+		{
+			G_B8_0 = L_18;
+			goto IL_0099;
+		}
+	}
+	{
+		FsmEvent_t1258573736 * L_20 = __this->get_trueEvent_15();
+		G_B9_0 = L_20;
+		G_B9_1 = G_B7_0;
+		goto IL_009f;
+	}
+
+IL_0099:
+	{
+		FsmEvent_t1258573736 * L_21 = __this->get_falseEvent_16();
+		G_B9_0 = L_21;
+		G_B9_1 = G_B8_0;
+	}
+
+IL_009f:
+	{
+		NullCheck(G_B9_1);
+		Fsm_Event_m4079224475(G_B9_1, G_B9_0, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void HutongGames.PlayMaker.Actions.RectOverlaps::.ctor()
+extern "C"  void RectOverlaps__ctor_m2709176882 (RectOverlaps_t2454060090 * __this, const MethodInfo* method)
+{
+	{
+		FsmStateAction__ctor_m1837021228(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void HutongGames.PlayMaker.Actions.RectOverlaps::Reset()
+extern "C"  void RectOverlaps_Reset_m375760843 (RectOverlaps_t2454060090 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (RectOverlaps_Reset_m375760843_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	FsmRect_t19023354 * V_0 = NULL;
+	{
+		FsmRect_t19023354 * L_0 = (FsmRect_t19023354 *)il2cpp_codegen_object_new(FsmRect_t19023354_il2cpp_TypeInfo_var);
+		FsmRect__ctor_m2863765477(L_0, /*hidden argument*/NULL);
+		V_0 = L_0;
+		FsmRect_t19023354 * L_1 = V_0;
+		NullCheck(L_1);
+		NamedVariable_set_UseVariable_m1478981231(L_1, (bool)1, /*hidden argument*/NULL);
+		FsmRect_t19023354 * L_2 = V_0;
+		__this->set_rect1_11(L_2);
+		FsmRect_t19023354 * L_3 = (FsmRect_t19023354 *)il2cpp_codegen_object_new(FsmRect_t19023354_il2cpp_TypeInfo_var);
+		FsmRect__ctor_m2863765477(L_3, /*hidden argument*/NULL);
+		V_0 = L_3;
+		FsmRect_t19023354 * L_4 = V_0;
+		NullCheck(L_4);
+		NamedVariable_set_UseVariable_m1478981231(L_4, (bool)1, /*hidden argument*/NULL);
+		FsmRect_t19023354 * L_5 = V_0;
+		__this->set_rect2_12(L_5);
+		__this->set_storeResult_15((FsmBool_t664485696 *)NULL);
+		__this->set_trueEvent_13((FsmEvent_t1258573736 *)NULL);
+		__this->set_falseEvent_14((FsmEvent_t1258573736 *)NULL);
+		__this->set_everyFrame_16((bool)0);
+		return;
+	}
+}
+// System.Void HutongGames.PlayMaker.Actions.RectOverlaps::OnEnter()
+extern "C"  void RectOverlaps_OnEnter_m1847869363 (RectOverlaps_t2454060090 * __this, const MethodInfo* method)
+{
+	{
+		RectOverlaps_DoRectOverlap_m1093712508(__this, /*hidden argument*/NULL);
+		bool L_0 = __this->get_everyFrame_16();
+		if (L_0)
+		{
+			goto IL_0017;
+		}
+	}
+	{
+		FsmStateAction_Finish_m1955744727(__this, /*hidden argument*/NULL);
+	}
+
+IL_0017:
+	{
+		return;
+	}
+}
+// System.Void HutongGames.PlayMaker.Actions.RectOverlaps::OnUpdate()
+extern "C"  void RectOverlaps_OnUpdate_m3481321252 (RectOverlaps_t2454060090 * __this, const MethodInfo* method)
+{
+	{
+		RectOverlaps_DoRectOverlap_m1093712508(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void HutongGames.PlayMaker.Actions.RectOverlaps::DoRectOverlap()
+extern "C"  void RectOverlaps_DoRectOverlap_m1093712508 (RectOverlaps_t2454060090 * __this, const MethodInfo* method)
+{
+	bool V_0 = false;
+	Fsm_t917886356 * G_B5_0 = NULL;
+	Fsm_t917886356 * G_B4_0 = NULL;
+	FsmEvent_t1258573736 * G_B6_0 = NULL;
+	Fsm_t917886356 * G_B6_1 = NULL;
+	{
+		FsmRect_t19023354 * L_0 = __this->get_rect1_11();
+		NullCheck(L_0);
+		bool L_1 = NamedVariable_get_IsNone_m1506066313(L_0, /*hidden argument*/NULL);
+		if (L_1)
+		{
+			goto IL_0020;
+		}
+	}
+	{
+		FsmRect_t19023354 * L_2 = __this->get_rect2_12();
+		NullCheck(L_2);
+		bool L_3 = NamedVariable_get_IsNone_m1506066313(L_2, /*hidden argument*/NULL);
+		if (!L_3)
+		{
+			goto IL_0021;
+		}
+	}
+
+IL_0020:
+	{
+		return;
+	}
+
+IL_0021:
+	{
+		FsmRect_t19023354 * L_4 = __this->get_rect1_11();
+		NullCheck(L_4);
+		Rect_t3681755626  L_5 = FsmRect_get_Value_m3959922771(L_4, /*hidden argument*/NULL);
+		FsmRect_t19023354 * L_6 = __this->get_rect2_12();
+		NullCheck(L_6);
+		Rect_t3681755626  L_7 = FsmRect_get_Value_m3959922771(L_6, /*hidden argument*/NULL);
+		bool L_8 = RectOverlaps_Intersect_m718150195(NULL /*static, unused*/, L_5, L_7, /*hidden argument*/NULL);
+		V_0 = L_8;
+		FsmBool_t664485696 * L_9 = __this->get_storeResult_15();
+		bool L_10 = V_0;
+		NullCheck(L_9);
+		FsmBool_set_Value_m2522230142(L_9, L_10, /*hidden argument*/NULL);
+		Fsm_t917886356 * L_11 = FsmStateAction_get_Fsm_m4079598046(__this, /*hidden argument*/NULL);
+		bool L_12 = V_0;
+		G_B4_0 = L_11;
+		if (!L_12)
+		{
+			G_B5_0 = L_11;
+			goto IL_0060;
+		}
+	}
+	{
+		FsmEvent_t1258573736 * L_13 = __this->get_trueEvent_13();
+		G_B6_0 = L_13;
+		G_B6_1 = G_B4_0;
+		goto IL_0066;
+	}
+
+IL_0060:
+	{
+		FsmEvent_t1258573736 * L_14 = __this->get_falseEvent_14();
+		G_B6_0 = L_14;
+		G_B6_1 = G_B5_0;
+	}
+
+IL_0066:
+	{
+		NullCheck(G_B6_1);
+		Fsm_Event_m4079224475(G_B6_1, G_B6_0, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Boolean HutongGames.PlayMaker.Actions.RectOverlaps::Intersect(UnityEngine.Rect,UnityEngine.Rect)
+extern "C"  bool RectOverlaps_Intersect_m718150195 (Il2CppObject * __this /* static, unused */, Rect_t3681755626  ___a0, Rect_t3681755626  ___b1, const MethodInfo* method)
+{
+	bool V_0 = false;
+	bool V_1 = false;
+	bool V_2 = false;
+	bool V_3 = false;
+	int32_t G_B5_0 = 0;
+	{
+		RectOverlaps_FlipNegative_m343564847(NULL /*static, unused*/, (&___a0), /*hidden argument*/NULL);
+		RectOverlaps_FlipNegative_m343564847(NULL /*static, unused*/, (&___b1), /*hidden argument*/NULL);
+		float L_0 = Rect_get_xMin_m1161102488((&___a0), /*hidden argument*/NULL);
+		float L_1 = Rect_get_xMax_m2915145014((&___b1), /*hidden argument*/NULL);
+		V_0 = (bool)((((float)L_0) < ((float)L_1))? 1 : 0);
+		float L_2 = Rect_get_xMax_m2915145014((&___a0), /*hidden argument*/NULL);
+		float L_3 = Rect_get_xMin_m1161102488((&___b1), /*hidden argument*/NULL);
+		V_1 = (bool)((((float)L_2) > ((float)L_3))? 1 : 0);
+		float L_4 = Rect_get_yMin_m1161103577((&___a0), /*hidden argument*/NULL);
+		float L_5 = Rect_get_yMax_m2915146103((&___b1), /*hidden argument*/NULL);
+		V_2 = (bool)((((float)L_4) < ((float)L_5))? 1 : 0);
+		float L_6 = Rect_get_yMax_m2915146103((&___a0), /*hidden argument*/NULL);
+		float L_7 = Rect_get_yMin_m1161103577((&___b1), /*hidden argument*/NULL);
+		V_3 = (bool)((((float)L_6) > ((float)L_7))? 1 : 0);
+		bool L_8 = V_0;
+		if (!L_8)
+		{
+			goto IL_0067;
+		}
+	}
+	{
+		bool L_9 = V_1;
+		if (!L_9)
+		{
+			goto IL_0067;
+		}
+	}
+	{
+		bool L_10 = V_2;
+		if (!L_10)
+		{
+			goto IL_0067;
+		}
+	}
+	{
+		bool L_11 = V_3;
+		G_B5_0 = ((int32_t)(L_11));
+		goto IL_0068;
+	}
+
+IL_0067:
+	{
+		G_B5_0 = 0;
+	}
+
+IL_0068:
+	{
+		return (bool)G_B5_0;
+	}
+}
+// System.Void HutongGames.PlayMaker.Actions.RectOverlaps::FlipNegative(UnityEngine.Rect&)
+extern "C"  void RectOverlaps_FlipNegative_m343564847 (Il2CppObject * __this /* static, unused */, Rect_t3681755626 * ___r0, const MethodInfo* method)
+{
+	float V_0 = 0.0f;
+	{
+		Rect_t3681755626 * L_0 = ___r0;
+		float L_1 = Rect_get_width_m1138015702(L_0, /*hidden argument*/NULL);
+		if ((!(((float)L_1) < ((float)(0.0f)))))
+		{
+			goto IL_0032;
+		}
+	}
+	{
+		Rect_t3681755626 * L_2 = ___r0;
+		Rect_t3681755626 * L_3 = L_2;
+		float L_4 = Rect_get_x_m1393582490(L_3, /*hidden argument*/NULL);
+		Rect_t3681755626 * L_5 = ___r0;
+		Rect_t3681755626 * L_6 = L_5;
+		float L_7 = Rect_get_width_m1138015702(L_6, /*hidden argument*/NULL);
+		float L_8 = ((float)((float)L_7*(float)(-1.0f)));
+		V_0 = L_8;
+		Rect_set_width_m1921257731(L_6, L_8, /*hidden argument*/NULL);
+		float L_9 = V_0;
+		Rect_set_x_m3783700513(L_3, ((float)((float)L_4-(float)L_9)), /*hidden argument*/NULL);
+	}
+
+IL_0032:
+	{
+		Rect_t3681755626 * L_10 = ___r0;
+		float L_11 = Rect_get_height_m3128694305(L_10, /*hidden argument*/NULL);
+		if ((!(((float)L_11) < ((float)(0.0f)))))
+		{
+			goto IL_0064;
+		}
+	}
+	{
+		Rect_t3681755626 * L_12 = ___r0;
+		Rect_t3681755626 * L_13 = L_12;
+		float L_14 = Rect_get_y_m1393582395(L_13, /*hidden argument*/NULL);
+		Rect_t3681755626 * L_15 = ___r0;
+		Rect_t3681755626 * L_16 = L_15;
+		float L_17 = Rect_get_height_m3128694305(L_16, /*hidden argument*/NULL);
+		float L_18 = ((float)((float)L_17*(float)(-1.0f)));
+		V_0 = L_18;
+		Rect_set_height_m2019122814(L_16, L_18, /*hidden argument*/NULL);
+		float L_19 = V_0;
+		Rect_set_y_m4294916608(L_13, ((float)((float)L_14-(float)L_19)), /*hidden argument*/NULL);
+	}
+
+IL_0064:
+	{
+		return;
+	}
+}
+// System.Void HutongGames.PlayMaker.Actions.RemoveMixingTransform::.ctor()
+extern "C"  void RemoveMixingTransform__ctor_m1674071184 (RemoveMixingTransform_t2841934220 * __this, const MethodInfo* method)
+{
+	{
+		BaseAnimationAction__ctor_m2023490959(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void HutongGames.PlayMaker.Actions.RemoveMixingTransform::Reset()
+extern "C"  void RemoveMixingTransform_Reset_m674614725 (RemoveMixingTransform_t2841934220 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (RemoveMixingTransform_Reset_m674614725_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		__this->set_gameObject_13((FsmOwnerDefault_t2023674184 *)NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+		String_t* L_0 = ((String_t_StaticFields*)String_t_il2cpp_TypeInfo_var->static_fields)->get_Empty_2();
+		FsmString_t2414474701 * L_1 = FsmString_op_Implicit_m1196227529(NULL /*static, unused*/, L_0, /*hidden argument*/NULL);
+		__this->set_animationName_14(L_1);
+		return;
+	}
+}
+// System.Void HutongGames.PlayMaker.Actions.RemoveMixingTransform::OnEnter()
+extern "C"  void RemoveMixingTransform_OnEnter_m580009245 (RemoveMixingTransform_t2841934220 * __this, const MethodInfo* method)
+{
+	{
+		RemoveMixingTransform_DoRemoveMixingTransform_m3431249005(__this, /*hidden argument*/NULL);
+		FsmStateAction_Finish_m1955744727(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void HutongGames.PlayMaker.Actions.RemoveMixingTransform::DoRemoveMixingTransform()
+extern "C"  void RemoveMixingTransform_DoRemoveMixingTransform_m3431249005 (RemoveMixingTransform_t2841934220 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (RemoveMixingTransform_DoRemoveMixingTransform_m3431249005_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	GameObject_t1756533147 * V_0 = NULL;
+	AnimationState_t1303741697 * V_1 = NULL;
+	Transform_t3275118058 * V_2 = NULL;
+	{
+		Fsm_t917886356 * L_0 = FsmStateAction_get_Fsm_m4079598046(__this, /*hidden argument*/NULL);
+		FsmOwnerDefault_t2023674184 * L_1 = __this->get_gameObject_13();
+		NullCheck(L_0);
+		GameObject_t1756533147 * L_2 = Fsm_GetOwnerDefaultTarget_m1045900479(L_0, L_1, /*hidden argument*/NULL);
+		V_0 = L_2;
+		GameObject_t1756533147 * L_3 = V_0;
+		bool L_4 = ComponentAction_1_UpdateCache_m2558231994(__this, L_3, /*hidden argument*/ComponentAction_1_UpdateCache_m2558231994_MethodInfo_var);
+		if (L_4)
+		{
+			goto IL_001f;
+		}
+	}
+	{
+		return;
+	}
+
+IL_001f:
+	{
+		Animation_t2068071072 * L_5 = ComponentAction_1_get_animation_m1902480922(__this, /*hidden argument*/ComponentAction_1_get_animation_m1902480922_MethodInfo_var);
+		FsmString_t2414474701 * L_6 = __this->get_animationName_14();
+		NullCheck(L_6);
+		String_t* L_7 = FsmString_get_Value_m3775166715(L_6, /*hidden argument*/NULL);
+		NullCheck(L_5);
+		AnimationState_t1303741697 * L_8 = Animation_get_Item_m4198128320(L_5, L_7, /*hidden argument*/NULL);
+		V_1 = L_8;
+		AnimationState_t1303741697 * L_9 = V_1;
+		bool L_10 = TrackedReference_op_Equality_m3491334086(NULL /*static, unused*/, L_9, (TrackedReference_t1045890189 *)NULL, /*hidden argument*/NULL);
+		if (!L_10)
+		{
+			goto IL_0043;
+		}
+	}
+	{
+		return;
+	}
+
+IL_0043:
+	{
+		GameObject_t1756533147 * L_11 = V_0;
+		NullCheck(L_11);
+		Transform_t3275118058 * L_12 = GameObject_get_transform_m909382139(L_11, /*hidden argument*/NULL);
+		FsmString_t2414474701 * L_13 = __this->get_transfrom_15();
+		NullCheck(L_13);
+		String_t* L_14 = FsmString_get_Value_m3775166715(L_13, /*hidden argument*/NULL);
+		NullCheck(L_12);
+		Transform_t3275118058 * L_15 = Transform_Find_m3323476454(L_12, L_14, /*hidden argument*/NULL);
+		V_2 = L_15;
+		AnimationState_t1303741697 * L_16 = V_1;
+		Transform_t3275118058 * L_17 = V_2;
+		NullCheck(L_16);
+		AnimationState_AddMixingTransform_m668666486(L_16, L_17, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void HutongGames.PlayMaker.Actions.ResetGUIMatrix::.ctor()
+extern "C"  void ResetGUIMatrix__ctor_m1124395855 (ResetGUIMatrix_t1993943153 * __this, const MethodInfo* method)
+{
+	{
+		FsmStateAction__ctor_m1837021228(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void HutongGames.PlayMaker.Actions.ResetGUIMatrix::OnGUI()
+extern "C"  void ResetGUIMatrix_OnGUI_m3030653573 (ResetGUIMatrix_t1993943153 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (ResetGUIMatrix_OnGUI_m3030653573_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	Matrix4x4_t2933234003  V_0;
+	memset(&V_0, 0, sizeof(V_0));
+	{
+		Matrix4x4_t2933234003  L_0 = Matrix4x4_get_identity_m3039560904(NULL /*static, unused*/, /*hidden argument*/NULL);
+		V_0 = L_0;
+		Matrix4x4_t2933234003  L_1 = V_0;
+		IL2CPP_RUNTIME_CLASS_INIT(GUI_t4082743951_il2cpp_TypeInfo_var);
+		GUI_set_matrix_m3701966918(NULL /*static, unused*/, L_1, /*hidden argument*/NULL);
+		Matrix4x4_t2933234003  L_2 = V_0;
+		IL2CPP_RUNTIME_CLASS_INIT(PlayMakerGUI_t2662579489_il2cpp_TypeInfo_var);
+		PlayMakerGUI_set_GUIMatrix_m1989428149(NULL /*static, unused*/, L_2, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void HutongGames.PlayMaker.Actions.ResetInputAxes::.ctor()
+extern "C"  void ResetInputAxes__ctor_m3331000628 (ResetInputAxes_t1955623714 * __this, const MethodInfo* method)
+{
+	{
+		FsmStateAction__ctor_m1837021228(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void HutongGames.PlayMaker.Actions.ResetInputAxes::Reset()
+extern "C"  void ResetInputAxes_Reset_m997294419 (ResetInputAxes_t1955623714 * __this, const MethodInfo* method)
+{
+	{
+		return;
+	}
+}
+// System.Void HutongGames.PlayMaker.Actions.ResetInputAxes::OnEnter()
+extern "C"  void ResetInputAxes_OnEnter_m1102490147 (ResetInputAxes_t1955623714 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (ResetInputAxes_OnEnter_m1102490147_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(Input_t1785128008_il2cpp_TypeInfo_var);
+		Input_ResetInputAxes_m3212187783(NULL /*static, unused*/, /*hidden argument*/NULL);
+		FsmStateAction_Finish_m1955744727(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void HutongGames.PlayMaker.Actions.RestartLevel::.ctor()
+extern "C"  void RestartLevel__ctor_m2893322363 (RestartLevel_t2595084709 * __this, const MethodInfo* method)
+{
+	{
+		FsmStateAction__ctor_m1837021228(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void HutongGames.PlayMaker.Actions.RestartLevel::OnEnter()
+extern "C"  void RestartLevel_OnEnter_m943110492 (RestartLevel_t2595084709 * __this, const MethodInfo* method)
+{
+	Scene_t1684909666  V_0;
+	memset(&V_0, 0, sizeof(V_0));
+	{
+		Scene_t1684909666  L_0 = SceneManager_GetActiveScene_m2964039490(NULL /*static, unused*/, /*hidden argument*/NULL);
+		V_0 = L_0;
+		String_t* L_1 = Scene_get_name_m745914591((&V_0), /*hidden argument*/NULL);
+		SceneManager_LoadScene_m1386820036(NULL /*static, unused*/, L_1, 0, /*hidden argument*/NULL);
+		FsmStateAction_Finish_m1955744727(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void HutongGames.PlayMaker.Actions.RewindAnimation::.ctor()
+extern "C"  void RewindAnimation__ctor_m2429130319 (RewindAnimation_t3150139471 * __this, const MethodInfo* method)
+{
+	{
+		BaseAnimationAction__ctor_m2023490959(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void HutongGames.PlayMaker.Actions.RewindAnimation::Reset()
+extern "C"  void RewindAnimation_Reset_m435432932 (RewindAnimation_t3150139471 * __this, const MethodInfo* method)
+{
+	{
+		__this->set_gameObject_13((FsmOwnerDefault_t2023674184 *)NULL);
+		__this->set_animName_14((FsmString_t2414474701 *)NULL);
+		return;
+	}
+}
+// System.Void HutongGames.PlayMaker.Actions.RewindAnimation::OnEnter()
+extern "C"  void RewindAnimation_OnEnter_m3549698554 (RewindAnimation_t3150139471 * __this, const MethodInfo* method)
+{
+	{
+		RewindAnimation_DoRewindAnimation_m1834574813(__this, /*hidden argument*/NULL);
+		FsmStateAction_Finish_m1955744727(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void HutongGames.PlayMaker.Actions.RewindAnimation::DoRewindAnimation()
+extern "C"  void RewindAnimation_DoRewindAnimation_m1834574813 (RewindAnimation_t3150139471 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (RewindAnimation_DoRewindAnimation_m1834574813_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	GameObject_t1756533147 * V_0 = NULL;
+	{
+		FsmString_t2414474701 * L_0 = __this->get_animName_14();
+		NullCheck(L_0);
+		String_t* L_1 = FsmString_get_Value_m3775166715(L_0, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+		bool L_2 = String_IsNullOrEmpty_m2802126737(NULL /*static, unused*/, L_1, /*hidden argument*/NULL);
+		if (!L_2)
+		{
+			goto IL_0016;
+		}
+	}
+	{
+		return;
+	}
+
+IL_0016:
+	{
+		Fsm_t917886356 * L_3 = FsmStateAction_get_Fsm_m4079598046(__this, /*hidden argument*/NULL);
+		FsmOwnerDefault_t2023674184 * L_4 = __this->get_gameObject_13();
+		NullCheck(L_3);
+		GameObject_t1756533147 * L_5 = Fsm_GetOwnerDefaultTarget_m1045900479(L_3, L_4, /*hidden argument*/NULL);
+		V_0 = L_5;
+		GameObject_t1756533147 * L_6 = V_0;
+		bool L_7 = ComponentAction_1_UpdateCache_m2558231994(__this, L_6, /*hidden argument*/ComponentAction_1_UpdateCache_m2558231994_MethodInfo_var);
+		if (!L_7)
+		{
+			goto IL_004a;
+		}
+	}
+	{
+		Animation_t2068071072 * L_8 = ComponentAction_1_get_animation_m1902480922(__this, /*hidden argument*/ComponentAction_1_get_animation_m1902480922_MethodInfo_var);
+		FsmString_t2414474701 * L_9 = __this->get_animName_14();
+		NullCheck(L_9);
+		String_t* L_10 = FsmString_get_Value_m3775166715(L_9, /*hidden argument*/NULL);
+		NullCheck(L_8);
+		Animation_Rewind_m1869730758(L_8, L_10, /*hidden argument*/NULL);
+	}
+
+IL_004a:
+	{
+		return;
+	}
+}
+// System.Void HutongGames.PlayMaker.Actions.Rotate::.ctor()
+extern "C"  void Rotate__ctor_m4265028563 (Rotate_t177341313 * __this, const MethodInfo* method)
+{
+	{
+		FsmStateAction__ctor_m1837021228(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void HutongGames.PlayMaker.Actions.Rotate::Reset()
+extern "C"  void Rotate_Reset_m3188657962 (Rotate_t177341313 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (Rotate_Reset_m3188657962_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	FsmFloat_t937133978 * V_0 = NULL;
+	{
+		__this->set_gameObject_11((FsmOwnerDefault_t2023674184 *)NULL);
+		__this->set_vector_12((FsmVector3_t3996534004 *)NULL);
+		FsmFloat_t937133978 * L_0 = (FsmFloat_t937133978 *)il2cpp_codegen_object_new(FsmFloat_t937133978_il2cpp_TypeInfo_var);
+		FsmFloat__ctor_m2608255745(L_0, /*hidden argument*/NULL);
+		V_0 = L_0;
+		FsmFloat_t937133978 * L_1 = V_0;
+		NullCheck(L_1);
+		NamedVariable_set_UseVariable_m1478981231(L_1, (bool)1, /*hidden argument*/NULL);
+		FsmFloat_t937133978 * L_2 = V_0;
+		__this->set_xAngle_13(L_2);
+		FsmFloat_t937133978 * L_3 = (FsmFloat_t937133978 *)il2cpp_codegen_object_new(FsmFloat_t937133978_il2cpp_TypeInfo_var);
+		FsmFloat__ctor_m2608255745(L_3, /*hidden argument*/NULL);
+		V_0 = L_3;
+		FsmFloat_t937133978 * L_4 = V_0;
+		NullCheck(L_4);
+		NamedVariable_set_UseVariable_m1478981231(L_4, (bool)1, /*hidden argument*/NULL);
+		FsmFloat_t937133978 * L_5 = V_0;
+		__this->set_yAngle_14(L_5);
+		FsmFloat_t937133978 * L_6 = (FsmFloat_t937133978 *)il2cpp_codegen_object_new(FsmFloat_t937133978_il2cpp_TypeInfo_var);
+		FsmFloat__ctor_m2608255745(L_6, /*hidden argument*/NULL);
+		V_0 = L_6;
+		FsmFloat_t937133978 * L_7 = V_0;
+		NullCheck(L_7);
+		NamedVariable_set_UseVariable_m1478981231(L_7, (bool)1, /*hidden argument*/NULL);
+		FsmFloat_t937133978 * L_8 = V_0;
+		__this->set_zAngle_15(L_8);
+		__this->set_space_16(1);
+		__this->set_perSecond_17((bool)0);
+		__this->set_everyFrame_18((bool)1);
+		__this->set_lateUpdate_19((bool)0);
+		__this->set_fixedUpdate_20((bool)0);
+		return;
+	}
+}
+// System.Void HutongGames.PlayMaker.Actions.Rotate::OnPreprocess()
+extern "C"  void Rotate_OnPreprocess_m3604473370 (Rotate_t177341313 * __this, const MethodInfo* method)
+{
+	{
+		Fsm_t917886356 * L_0 = FsmStateAction_get_Fsm_m4079598046(__this, /*hidden argument*/NULL);
+		NullCheck(L_0);
+		Fsm_set_HandleFixedUpdate_m1286405006(L_0, (bool)1, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void HutongGames.PlayMaker.Actions.Rotate::OnEnter()
+extern "C"  void Rotate_OnEnter_m2591993596 (Rotate_t177341313 * __this, const MethodInfo* method)
+{
+	{
+		bool L_0 = __this->get_everyFrame_18();
+		if (L_0)
+		{
+			goto IL_002d;
+		}
+	}
+	{
+		bool L_1 = __this->get_lateUpdate_19();
+		if (L_1)
+		{
+			goto IL_002d;
+		}
+	}
+	{
+		bool L_2 = __this->get_fixedUpdate_20();
+		if (L_2)
+		{
+			goto IL_002d;
+		}
+	}
+	{
+		Rotate_DoRotate_m4026921729(__this, /*hidden argument*/NULL);
+		FsmStateAction_Finish_m1955744727(__this, /*hidden argument*/NULL);
+	}
+
+IL_002d:
+	{
+		return;
+	}
+}
+// System.Void HutongGames.PlayMaker.Actions.Rotate::OnUpdate()
+extern "C"  void Rotate_OnUpdate_m3140593083 (Rotate_t177341313 * __this, const MethodInfo* method)
+{
+	{
+		bool L_0 = __this->get_lateUpdate_19();
+		if (L_0)
+		{
+			goto IL_001c;
+		}
+	}
+	{
+		bool L_1 = __this->get_fixedUpdate_20();
+		if (L_1)
+		{
+			goto IL_001c;
+		}
+	}
+	{
+		Rotate_DoRotate_m4026921729(__this, /*hidden argument*/NULL);
+	}
+
+IL_001c:
+	{
+		return;
+	}
+}
+// System.Void HutongGames.PlayMaker.Actions.Rotate::OnLateUpdate()
+extern "C"  void Rotate_OnLateUpdate_m1407208759 (Rotate_t177341313 * __this, const MethodInfo* method)
+{
+	{
+		bool L_0 = __this->get_lateUpdate_19();
+		if (!L_0)
+		{
+			goto IL_0011;
+		}
+	}
+	{
+		Rotate_DoRotate_m4026921729(__this, /*hidden argument*/NULL);
+	}
+
+IL_0011:
+	{
+		bool L_1 = __this->get_everyFrame_18();
+		if (L_1)
+		{
+			goto IL_0022;
+		}
+	}
+	{
+		FsmStateAction_Finish_m1955744727(__this, /*hidden argument*/NULL);
+	}
+
+IL_0022:
+	{
+		return;
+	}
+}
+// System.Void HutongGames.PlayMaker.Actions.Rotate::OnFixedUpdate()
+extern "C"  void Rotate_OnFixedUpdate_m3824521313 (Rotate_t177341313 * __this, const MethodInfo* method)
+{
+	{
+		bool L_0 = __this->get_fixedUpdate_20();
+		if (!L_0)
+		{
+			goto IL_0011;
+		}
+	}
+	{
+		Rotate_DoRotate_m4026921729(__this, /*hidden argument*/NULL);
+	}
+
+IL_0011:
+	{
+		bool L_1 = __this->get_everyFrame_18();
+		if (L_1)
+		{
+			goto IL_0022;
+		}
+	}
+	{
+		FsmStateAction_Finish_m1955744727(__this, /*hidden argument*/NULL);
+	}
+
+IL_0022:
+	{
+		return;
+	}
+}
+// System.Void HutongGames.PlayMaker.Actions.Rotate::DoRotate()
+extern "C"  void Rotate_DoRotate_m4026921729 (Rotate_t177341313 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (Rotate_DoRotate_m4026921729_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	GameObject_t1756533147 * V_0 = NULL;
+	Vector3_t2243707580  V_1;
+	memset(&V_1, 0, sizeof(V_1));
+	Vector3_t2243707580  G_B5_0;
+	memset(&G_B5_0, 0, sizeof(G_B5_0));
+	{
+		Fsm_t917886356 * L_0 = FsmStateAction_get_Fsm_m4079598046(__this, /*hidden argument*/NULL);
+		FsmOwnerDefault_t2023674184 * L_1 = __this->get_gameObject_11();
+		NullCheck(L_0);
+		GameObject_t1756533147 * L_2 = Fsm_GetOwnerDefaultTarget_m1045900479(L_0, L_1, /*hidden argument*/NULL);
+		V_0 = L_2;
+		GameObject_t1756533147 * L_3 = V_0;
+		IL2CPP_RUNTIME_CLASS_INIT(Object_t1021602117_il2cpp_TypeInfo_var);
+		bool L_4 = Object_op_Equality_m3764089466(NULL /*static, unused*/, L_3, (Object_t1021602117 *)NULL, /*hidden argument*/NULL);
+		if (!L_4)
+		{
+			goto IL_001f;
+		}
+	}
+	{
+		return;
+	}
+
+IL_001f:
+	{
+		FsmVector3_t3996534004 * L_5 = __this->get_vector_12();
+		NullCheck(L_5);
+		bool L_6 = NamedVariable_get_IsNone_m1506066313(L_5, /*hidden argument*/NULL);
+		if (!L_6)
+		{
+			goto IL_005a;
+		}
+	}
+	{
+		FsmFloat_t937133978 * L_7 = __this->get_xAngle_13();
+		NullCheck(L_7);
+		float L_8 = FsmFloat_get_Value_m1818441449(L_7, /*hidden argument*/NULL);
+		FsmFloat_t937133978 * L_9 = __this->get_yAngle_14();
+		NullCheck(L_9);
+		float L_10 = FsmFloat_get_Value_m1818441449(L_9, /*hidden argument*/NULL);
+		FsmFloat_t937133978 * L_11 = __this->get_zAngle_15();
+		NullCheck(L_11);
+		float L_12 = FsmFloat_get_Value_m1818441449(L_11, /*hidden argument*/NULL);
+		Vector3_t2243707580  L_13;
+		memset(&L_13, 0, sizeof(L_13));
+		Vector3__ctor_m2638739322(&L_13, L_8, L_10, L_12, /*hidden argument*/NULL);
+		G_B5_0 = L_13;
+		goto IL_0065;
+	}
+
+IL_005a:
+	{
+		FsmVector3_t3996534004 * L_14 = __this->get_vector_12();
+		NullCheck(L_14);
+		Vector3_t2243707580  L_15 = FsmVector3_get_Value_m4242600139(L_14, /*hidden argument*/NULL);
+		G_B5_0 = L_15;
+	}
+
+IL_0065:
+	{
+		V_1 = G_B5_0;
+		FsmFloat_t937133978 * L_16 = __this->get_xAngle_13();
+		NullCheck(L_16);
+		bool L_17 = NamedVariable_get_IsNone_m1506066313(L_16, /*hidden argument*/NULL);
+		if (L_17)
+		{
+			goto IL_0088;
+		}
+	}
+	{
+		FsmFloat_t937133978 * L_18 = __this->get_xAngle_13();
+		NullCheck(L_18);
+		float L_19 = FsmFloat_get_Value_m1818441449(L_18, /*hidden argument*/NULL);
+		(&V_1)->set_x_1(L_19);
+	}
+
+IL_0088:
+	{
+		FsmFloat_t937133978 * L_20 = __this->get_yAngle_14();
+		NullCheck(L_20);
+		bool L_21 = NamedVariable_get_IsNone_m1506066313(L_20, /*hidden argument*/NULL);
+		if (L_21)
+		{
+			goto IL_00aa;
+		}
+	}
+	{
+		FsmFloat_t937133978 * L_22 = __this->get_yAngle_14();
+		NullCheck(L_22);
+		float L_23 = FsmFloat_get_Value_m1818441449(L_22, /*hidden argument*/NULL);
+		(&V_1)->set_y_2(L_23);
+	}
+
+IL_00aa:
+	{
+		FsmFloat_t937133978 * L_24 = __this->get_zAngle_15();
+		NullCheck(L_24);
+		bool L_25 = NamedVariable_get_IsNone_m1506066313(L_24, /*hidden argument*/NULL);
+		if (L_25)
+		{
+			goto IL_00cc;
+		}
+	}
+	{
+		FsmFloat_t937133978 * L_26 = __this->get_zAngle_15();
+		NullCheck(L_26);
+		float L_27 = FsmFloat_get_Value_m1818441449(L_26, /*hidden argument*/NULL);
+		(&V_1)->set_z_3(L_27);
+	}
+
+IL_00cc:
+	{
+		bool L_28 = __this->get_perSecond_17();
+		if (L_28)
+		{
+			goto IL_00ee;
+		}
+	}
+	{
+		GameObject_t1756533147 * L_29 = V_0;
+		NullCheck(L_29);
+		Transform_t3275118058 * L_30 = GameObject_get_transform_m909382139(L_29, /*hidden argument*/NULL);
+		Vector3_t2243707580  L_31 = V_1;
+		int32_t L_32 = __this->get_space_16();
+		NullCheck(L_30);
+		Transform_Rotate_m2612876682(L_30, L_31, L_32, /*hidden argument*/NULL);
+		goto IL_010a;
+	}
+
+IL_00ee:
+	{
+		GameObject_t1756533147 * L_33 = V_0;
+		NullCheck(L_33);
+		Transform_t3275118058 * L_34 = GameObject_get_transform_m909382139(L_33, /*hidden argument*/NULL);
+		Vector3_t2243707580  L_35 = V_1;
+		float L_36 = Time_get_deltaTime_m2233168104(NULL /*static, unused*/, /*hidden argument*/NULL);
+		Vector3_t2243707580  L_37 = Vector3_op_Multiply_m1351554733(NULL /*static, unused*/, L_35, L_36, /*hidden argument*/NULL);
+		int32_t L_38 = __this->get_space_16();
+		NullCheck(L_34);
+		Transform_Rotate_m2612876682(L_34, L_37, L_38, /*hidden argument*/NULL);
+	}
+
+IL_010a:
+	{
+		return;
+	}
+}
+// System.Void HutongGames.PlayMaker.Actions.RotateGUI::.ctor()
+extern "C"  void RotateGUI__ctor_m396401752 (RotateGUI_t586588880 * __this, const MethodInfo* method)
+{
+	{
+		FsmStateAction__ctor_m1837021228(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void HutongGames.PlayMaker.Actions.RotateGUI::Reset()
+extern "C"  void RotateGUI_Reset_m34219557 (RotateGUI_t586588880 * __this, const MethodInfo* method)
+{
+	{
+		FsmFloat_t937133978 * L_0 = FsmFloat_op_Implicit_m475928236(NULL /*static, unused*/, (0.0f), /*hidden argument*/NULL);
+		__this->set_angle_11(L_0);
+		FsmFloat_t937133978 * L_1 = FsmFloat_op_Implicit_m475928236(NULL /*static, unused*/, (0.5f), /*hidden argument*/NULL);
+		__this->set_pivotX_12(L_1);
+		FsmFloat_t937133978 * L_2 = FsmFloat_op_Implicit_m475928236(NULL /*static, unused*/, (0.5f), /*hidden argument*/NULL);
+		__this->set_pivotY_13(L_2);
+		__this->set_normalized_14((bool)1);
+		__this->set_applyGlobally_15((bool)0);
+		return;
+	}
+}
+// System.Void HutongGames.PlayMaker.Actions.RotateGUI::OnGUI()
+extern "C"  void RotateGUI_OnGUI_m377144660 (RotateGUI_t586588880 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (RotateGUI_OnGUI_m377144660_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	Vector2_t2243707579  V_0;
+	memset(&V_0, 0, sizeof(V_0));
+	{
+		bool L_0 = __this->get_applied_16();
+		if (!L_0)
+		{
+			goto IL_000c;
+		}
+	}
+	{
+		return;
+	}
+
+IL_000c:
+	{
+		FsmFloat_t937133978 * L_1 = __this->get_pivotX_12();
+		NullCheck(L_1);
+		float L_2 = FsmFloat_get_Value_m1818441449(L_1, /*hidden argument*/NULL);
+		FsmFloat_t937133978 * L_3 = __this->get_pivotY_13();
+		NullCheck(L_3);
+		float L_4 = FsmFloat_get_Value_m1818441449(L_3, /*hidden argument*/NULL);
+		Vector2__ctor_m3067419446((&V_0), L_2, L_4, /*hidden argument*/NULL);
+		bool L_5 = __this->get_normalized_14();
+		if (!L_5)
+		{
+			goto IL_005c;
+		}
+	}
+	{
+		Vector2_t2243707579 * L_6 = (&V_0);
+		float L_7 = L_6->get_x_0();
+		int32_t L_8 = Screen_get_width_m41137238(NULL /*static, unused*/, /*hidden argument*/NULL);
+		L_6->set_x_0(((float)((float)L_7*(float)(((float)((float)L_8))))));
+		Vector2_t2243707579 * L_9 = (&V_0);
+		float L_10 = L_9->get_y_1();
+		int32_t L_11 = Screen_get_height_m1051800773(NULL /*static, unused*/, /*hidden argument*/NULL);
+		L_9->set_y_1(((float)((float)L_10*(float)(((float)((float)L_11))))));
+	}
+
+IL_005c:
+	{
+		FsmFloat_t937133978 * L_12 = __this->get_angle_11();
+		NullCheck(L_12);
+		float L_13 = FsmFloat_get_Value_m1818441449(L_12, /*hidden argument*/NULL);
+		Vector2_t2243707579  L_14 = V_0;
+		IL2CPP_RUNTIME_CLASS_INIT(GUIUtility_t3275770671_il2cpp_TypeInfo_var);
+		GUIUtility_RotateAroundPivot_m2075646761(NULL /*static, unused*/, L_13, L_14, /*hidden argument*/NULL);
+		bool L_15 = __this->get_applyGlobally_15();
+		if (!L_15)
+		{
+			goto IL_0089;
+		}
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(GUI_t4082743951_il2cpp_TypeInfo_var);
+		Matrix4x4_t2933234003  L_16 = GUI_get_matrix_m976981075(NULL /*static, unused*/, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(PlayMakerGUI_t2662579489_il2cpp_TypeInfo_var);
+		PlayMakerGUI_set_GUIMatrix_m1989428149(NULL /*static, unused*/, L_16, /*hidden argument*/NULL);
+		__this->set_applied_16((bool)1);
+	}
+
+IL_0089:
+	{
+		return;
+	}
+}
+// System.Void HutongGames.PlayMaker.Actions.RotateGUI::OnUpdate()
+extern "C"  void RotateGUI_OnUpdate_m1311272854 (RotateGUI_t586588880 * __this, const MethodInfo* method)
+{
+	{
+		__this->set_applied_16((bool)0);
+		return;
+	}
+}
+// System.Void HutongGames.PlayMaker.Actions.RunFSM::.ctor()
+extern "C"  void RunFSM__ctor_m1553634871 (RunFSM_t3880618399 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (RunFSM__ctor_m1553634871_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		FsmTemplateControl_t924276959 * L_0 = (FsmTemplateControl_t924276959 *)il2cpp_codegen_object_new(FsmTemplateControl_t924276959_il2cpp_TypeInfo_var);
+		FsmTemplateControl__ctor_m2769513368(L_0, /*hidden argument*/NULL);
+		__this->set_fsmTemplateControl_12(L_0);
+		RunFSMAction__ctor_m1919854561(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void HutongGames.PlayMaker.Actions.RunFSM::Reset()
+extern "C"  void RunFSM_Reset_m2352803504 (RunFSM_t3880618399 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (RunFSM_Reset_m2352803504_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		FsmTemplateControl_t924276959 * L_0 = (FsmTemplateControl_t924276959 *)il2cpp_codegen_object_new(FsmTemplateControl_t924276959_il2cpp_TypeInfo_var);
+		FsmTemplateControl__ctor_m2769513368(L_0, /*hidden argument*/NULL);
+		__this->set_fsmTemplateControl_12(L_0);
+		__this->set_storeID_13((FsmInt_t1273009179 *)NULL);
+		((RunFSMAction_t720811133 *)__this)->set_runFsm_11((Fsm_t917886356 *)NULL);
+		return;
+	}
+}
+// System.Void HutongGames.PlayMaker.Actions.RunFSM::Awake()
+extern "C"  void RunFSM_Awake_m3443362260 (RunFSM_t3880618399 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (RunFSM_Awake_m3443362260_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		FsmTemplateControl_t924276959 * L_0 = __this->get_fsmTemplateControl_12();
+		NullCheck(L_0);
+		FsmTemplate_t1285897084 * L_1 = L_0->get_fsmTemplate_0();
+		IL2CPP_RUNTIME_CLASS_INIT(Object_t1021602117_il2cpp_TypeInfo_var);
+		bool L_2 = Object_op_Inequality_m2402264703(NULL /*static, unused*/, L_1, (Object_t1021602117 *)NULL, /*hidden argument*/NULL);
+		if (!L_2)
+		{
+			goto IL_0037;
+		}
+	}
+	{
+		bool L_3 = Application_get_isPlaying_m4091950718(NULL /*static, unused*/, /*hidden argument*/NULL);
+		if (!L_3)
+		{
+			goto IL_0037;
+		}
+	}
+	{
+		Fsm_t917886356 * L_4 = FsmStateAction_get_Fsm_m4079598046(__this, /*hidden argument*/NULL);
+		FsmTemplateControl_t924276959 * L_5 = __this->get_fsmTemplateControl_12();
+		NullCheck(L_4);
+		Fsm_t917886356 * L_6 = Fsm_CreateSubFsm_m2497459229(L_4, L_5, /*hidden argument*/NULL);
+		((RunFSMAction_t720811133 *)__this)->set_runFsm_11(L_6);
+	}
+
+IL_0037:
+	{
+		return;
+	}
+}
+// System.Void HutongGames.PlayMaker.Actions.RunFSM::OnEnter()
+extern "C"  void RunFSM_OnEnter_m403925278 (RunFSM_t3880618399 * __this, const MethodInfo* method)
+{
+	{
+		Fsm_t917886356 * L_0 = ((RunFSMAction_t720811133 *)__this)->get_runFsm_11();
+		if (L_0)
+		{
+			goto IL_0012;
+		}
+	}
+	{
+		FsmStateAction_Finish_m1955744727(__this, /*hidden argument*/NULL);
+		return;
+	}
+
+IL_0012:
+	{
+		FsmTemplateControl_t924276959 * L_1 = __this->get_fsmTemplateControl_12();
+		NullCheck(L_1);
+		FsmTemplateControl_UpdateValues_m3784608603(L_1, /*hidden argument*/NULL);
+		FsmTemplateControl_t924276959 * L_2 = __this->get_fsmTemplateControl_12();
+		Fsm_t917886356 * L_3 = ((RunFSMAction_t720811133 *)__this)->get_runFsm_11();
+		NullCheck(L_2);
+		FsmTemplateControl_ApplyOverrides_m2902926407(L_2, L_3, /*hidden argument*/NULL);
+		Fsm_t917886356 * L_4 = ((RunFSMAction_t720811133 *)__this)->get_runFsm_11();
+		NullCheck(L_4);
+		Fsm_OnEnable_m1500513457(L_4, /*hidden argument*/NULL);
+		Fsm_t917886356 * L_5 = ((RunFSMAction_t720811133 *)__this)->get_runFsm_11();
+		NullCheck(L_5);
+		bool L_6 = Fsm_get_Started_m2972087901(L_5, /*hidden argument*/NULL);
+		if (L_6)
+		{
+			goto IL_0054;
+		}
+	}
+	{
+		Fsm_t917886356 * L_7 = ((RunFSMAction_t720811133 *)__this)->get_runFsm_11();
+		NullCheck(L_7);
+		Fsm_Start_m2000538737(L_7, /*hidden argument*/NULL);
+	}
+
+IL_0054:
+	{
+		FsmInt_t1273009179 * L_8 = __this->get_storeID_13();
+		FsmTemplateControl_t924276959 * L_9 = __this->get_fsmTemplateControl_12();
+		NullCheck(L_9);
+		int32_t L_10 = FsmTemplateControl_get_ID_m858283904(L_9, /*hidden argument*/NULL);
+		NullCheck(L_8);
+		FsmInt_set_Value_m4097648685(L_8, L_10, /*hidden argument*/NULL);
+		VirtActionInvoker0::Invoke(60 /* System.Void HutongGames.PlayMaker.Actions.RunFSMAction::CheckIfFinished() */, __this);
+		return;
+	}
+}
+// System.Void HutongGames.PlayMaker.Actions.RunFSM::CheckIfFinished()
+extern "C"  void RunFSM_CheckIfFinished_m735059890 (RunFSM_t3880618399 * __this, const MethodInfo* method)
+{
+	{
+		Fsm_t917886356 * L_0 = ((RunFSMAction_t720811133 *)__this)->get_runFsm_11();
+		if (!L_0)
+		{
+			goto IL_001b;
+		}
+	}
+	{
+		Fsm_t917886356 * L_1 = ((RunFSMAction_t720811133 *)__this)->get_runFsm_11();
+		NullCheck(L_1);
+		bool L_2 = Fsm_get_Finished_m3585713968(L_1, /*hidden argument*/NULL);
+		if (!L_2)
+		{
+			goto IL_0032;
+		}
+	}
+
+IL_001b:
+	{
+		FsmStateAction_Finish_m1955744727(__this, /*hidden argument*/NULL);
+		Fsm_t917886356 * L_3 = FsmStateAction_get_Fsm_m4079598046(__this, /*hidden argument*/NULL);
+		FsmEvent_t1258573736 * L_4 = __this->get_finishEvent_14();
+		NullCheck(L_3);
+		Fsm_Event_m4079224475(L_3, L_4, /*hidden argument*/NULL);
+	}
+
+IL_0032:
+	{
+		return;
+	}
+}
+// System.Void HutongGames.PlayMaker.Actions.RunFSMAction::.ctor()
+extern "C"  void RunFSMAction__ctor_m1919854561 (RunFSMAction_t720811133 * __this, const MethodInfo* method)
+{
+	{
+		FsmStateAction__ctor_m1837021228(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void HutongGames.PlayMaker.Actions.RunFSMAction::Reset()
+extern "C"  void RunFSMAction_Reset_m842924354 (RunFSMAction_t720811133 * __this, const MethodInfo* method)
+{
+	{
+		__this->set_runFsm_11((Fsm_t917886356 *)NULL);
+		return;
+	}
+}
+// System.Boolean HutongGames.PlayMaker.Actions.RunFSMAction::Event(HutongGames.PlayMaker.FsmEvent)
+extern "C"  bool RunFSMAction_Event_m677726639 (RunFSMAction_t720811133 * __this, FsmEvent_t1258573736 * ___fsmEvent0, const MethodInfo* method)
+{
+	{
+		Fsm_t917886356 * L_0 = __this->get_runFsm_11();
+		if (!L_0)
+		{
+			goto IL_002d;
+		}
+	}
+	{
+		FsmEvent_t1258573736 * L_1 = ___fsmEvent0;
+		NullCheck(L_1);
+		bool L_2 = FsmEvent_get_IsGlobal_m1271230613(L_1, /*hidden argument*/NULL);
+		if (L_2)
+		{
+			goto IL_0021;
+		}
+	}
+	{
+		FsmEvent_t1258573736 * L_3 = ___fsmEvent0;
+		NullCheck(L_3);
+		bool L_4 = FsmEvent_get_IsSystemEvent_m369228735(L_3, /*hidden argument*/NULL);
+		if (!L_4)
+		{
+			goto IL_002d;
+		}
+	}
+
+IL_0021:
+	{
+		Fsm_t917886356 * L_5 = __this->get_runFsm_11();
+		FsmEvent_t1258573736 * L_6 = ___fsmEvent0;
+		NullCheck(L_5);
+		Fsm_Event_m4079224475(L_5, L_6, /*hidden argument*/NULL);
+	}
+
+IL_002d:
+	{
+		return (bool)0;
+	}
+}
+// System.Void HutongGames.PlayMaker.Actions.RunFSMAction::OnEnter()
+extern "C"  void RunFSMAction_OnEnter_m1881808264 (RunFSMAction_t720811133 * __this, const MethodInfo* method)
+{
+	{
+		Fsm_t917886356 * L_0 = __this->get_runFsm_11();
+		if (L_0)
+		{
+			goto IL_0012;
+		}
+	}
+	{
+		FsmStateAction_Finish_m1955744727(__this, /*hidden argument*/NULL);
+		return;
+	}
+
+IL_0012:
+	{
+		Fsm_t917886356 * L_1 = __this->get_runFsm_11();
+		NullCheck(L_1);
+		Fsm_OnEnable_m1500513457(L_1, /*hidden argument*/NULL);
+		Fsm_t917886356 * L_2 = __this->get_runFsm_11();
+		NullCheck(L_2);
+		bool L_3 = Fsm_get_Started_m2972087901(L_2, /*hidden argument*/NULL);
+		if (L_3)
+		{
+			goto IL_0038;
+		}
+	}
+	{
+		Fsm_t917886356 * L_4 = __this->get_runFsm_11();
+		NullCheck(L_4);
+		Fsm_Start_m2000538737(L_4, /*hidden argument*/NULL);
+	}
+
+IL_0038:
+	{
+		VirtActionInvoker0::Invoke(60 /* System.Void HutongGames.PlayMaker.Actions.RunFSMAction::CheckIfFinished() */, __this);
+		return;
+	}
+}
+// System.Void HutongGames.PlayMaker.Actions.RunFSMAction::OnUpdate()
+extern "C"  void RunFSMAction_OnUpdate_m2982491589 (RunFSMAction_t720811133 * __this, const MethodInfo* method)
+{
+	{
+		Fsm_t917886356 * L_0 = __this->get_runFsm_11();
+		if (!L_0)
+		{
+			goto IL_0021;
+		}
+	}
+	{
+		Fsm_t917886356 * L_1 = __this->get_runFsm_11();
+		NullCheck(L_1);
+		Fsm_Update_m1801256204(L_1, /*hidden argument*/NULL);
+		VirtActionInvoker0::Invoke(60 /* System.Void HutongGames.PlayMaker.Actions.RunFSMAction::CheckIfFinished() */, __this);
+		goto IL_0027;
+	}
+
+IL_0021:
+	{
+		FsmStateAction_Finish_m1955744727(__this, /*hidden argument*/NULL);
+	}
+
+IL_0027:
+	{
+		return;
+	}
+}
+// System.Void HutongGames.PlayMaker.Actions.RunFSMAction::OnFixedUpdate()
+extern "C"  void RunFSMAction_OnFixedUpdate_m2088576487 (RunFSMAction_t720811133 * __this, const MethodInfo* method)
+{
+	{
+		Fsm_t917886356 * L_0 = __this->get_runFsm_11();
+		if (!L_0)
+		{
+			goto IL_0021;
+		}
+	}
+	{
+		Fsm_t917886356 * L_1 = __this->get_runFsm_11();
+		NullCheck(L_1);
+		Fsm_FixedUpdate_m4175912806(L_1, /*hidden argument*/NULL);
+		VirtActionInvoker0::Invoke(60 /* System.Void HutongGames.PlayMaker.Actions.RunFSMAction::CheckIfFinished() */, __this);
+		goto IL_0027;
+	}
+
+IL_0021:
+	{
+		FsmStateAction_Finish_m1955744727(__this, /*hidden argument*/NULL);
+	}
+
+IL_0027:
+	{
+		return;
+	}
+}
+// System.Void HutongGames.PlayMaker.Actions.RunFSMAction::OnLateUpdate()
+extern "C"  void RunFSMAction_OnLateUpdate_m3103257409 (RunFSMAction_t720811133 * __this, const MethodInfo* method)
+{
+	{
+		Fsm_t917886356 * L_0 = __this->get_runFsm_11();
+		if (!L_0)
+		{
+			goto IL_0021;
+		}
+	}
+	{
+		Fsm_t917886356 * L_1 = __this->get_runFsm_11();
+		NullCheck(L_1);
+		Fsm_LateUpdate_m459470616(L_1, /*hidden argument*/NULL);
+		VirtActionInvoker0::Invoke(60 /* System.Void HutongGames.PlayMaker.Actions.RunFSMAction::CheckIfFinished() */, __this);
+		goto IL_0027;
+	}
+
+IL_0021:
+	{
+		FsmStateAction_Finish_m1955744727(__this, /*hidden argument*/NULL);
+	}
+
+IL_0027:
+	{
+		return;
+	}
+}
+// System.Void HutongGames.PlayMaker.Actions.RunFSMAction::DoTriggerEnter(UnityEngine.Collider)
+extern "C"  void RunFSMAction_DoTriggerEnter_m493813307 (RunFSMAction_t720811133 * __this, Collider_t3497673348 * ___other0, const MethodInfo* method)
+{
+	{
+		Fsm_t917886356 * L_0 = __this->get_runFsm_11();
+		NullCheck(L_0);
+		bool L_1 = Fsm_get_HandleTriggerEnter_m790156034(L_0, /*hidden argument*/NULL);
+		if (!L_1)
+		{
+			goto IL_001c;
+		}
+	}
+	{
+		Fsm_t917886356 * L_2 = __this->get_runFsm_11();
+		Collider_t3497673348 * L_3 = ___other0;
+		NullCheck(L_2);
+		Fsm_OnTriggerEnter_m2846356605(L_2, L_3, /*hidden argument*/NULL);
+	}
+
+IL_001c:
+	{
+		return;
+	}
+}
+// System.Void HutongGames.PlayMaker.Actions.RunFSMAction::DoTriggerStay(UnityEngine.Collider)
+extern "C"  void RunFSMAction_DoTriggerStay_m1562750898 (RunFSMAction_t720811133 * __this, Collider_t3497673348 * ___other0, const MethodInfo* method)
+{
+	{
+		Fsm_t917886356 * L_0 = __this->get_runFsm_11();
+		NullCheck(L_0);
+		bool L_1 = Fsm_get_HandleTriggerStay_m3688276885(L_0, /*hidden argument*/NULL);
+		if (!L_1)
+		{
+			goto IL_001c;
+		}
+	}
+	{
+		Fsm_t917886356 * L_2 = __this->get_runFsm_11();
+		Collider_t3497673348 * L_3 = ___other0;
+		NullCheck(L_2);
+		Fsm_OnTriggerStay_m3815556686(L_2, L_3, /*hidden argument*/NULL);
+	}
+
+IL_001c:
+	{
+		return;
+	}
+}
+// System.Void HutongGames.PlayMaker.Actions.RunFSMAction::DoTriggerExit(UnityEngine.Collider)
+extern "C"  void RunFSMAction_DoTriggerExit_m976147767 (RunFSMAction_t720811133 * __this, Collider_t3497673348 * ___other0, const MethodInfo* method)
+{
+	{
+		Fsm_t917886356 * L_0 = __this->get_runFsm_11();
+		NullCheck(L_0);
+		bool L_1 = Fsm_get_HandleTriggerExit_m362350026(L_0, /*hidden argument*/NULL);
+		if (!L_1)
+		{
+			goto IL_001c;
+		}
+	}
+	{
+		Fsm_t917886356 * L_2 = __this->get_runFsm_11();
+		Collider_t3497673348 * L_3 = ___other0;
+		NullCheck(L_2);
+		Fsm_OnTriggerExit_m3786251381(L_2, L_3, /*hidden argument*/NULL);
+	}
+
+IL_001c:
+	{
+		return;
+	}
+}
+// System.Void HutongGames.PlayMaker.Actions.RunFSMAction::DoCollisionEnter(UnityEngine.Collision)
+extern "C"  void RunFSMAction_DoCollisionEnter_m2285247269 (RunFSMAction_t720811133 * __this, Collision_t2876846408 * ___collisionInfo0, const MethodInfo* method)
+{
+	{
+		Fsm_t917886356 * L_0 = __this->get_runFsm_11();
+		NullCheck(L_0);
+		bool L_1 = Fsm_get_HandleCollisionEnter_m1456631574(L_0, /*hidden argument*/NULL);
+		if (!L_1)
+		{
+			goto IL_001c;
+		}
+	}
+	{
+		Fsm_t917886356 * L_2 = __this->get_runFsm_11();
+		Collision_t2876846408 * L_3 = ___collisionInfo0;
+		NullCheck(L_2);
+		Fsm_OnCollisionEnter_m809557319(L_2, L_3, /*hidden argument*/NULL);
+	}
+
+IL_001c:
+	{
+		return;
+	}
+}
+// System.Void HutongGames.PlayMaker.Actions.RunFSMAction::DoCollisionStay(UnityEngine.Collision)
+extern "C"  void RunFSMAction_DoCollisionStay_m1535880480 (RunFSMAction_t720811133 * __this, Collision_t2876846408 * ___collisionInfo0, const MethodInfo* method)
+{
+	{
+		Fsm_t917886356 * L_0 = __this->get_runFsm_11();
+		NullCheck(L_0);
+		bool L_1 = Fsm_get_HandleCollisionStay_m1380478791(L_0, /*hidden argument*/NULL);
+		if (!L_1)
+		{
+			goto IL_001c;
+		}
+	}
+	{
+		Fsm_t917886356 * L_2 = __this->get_runFsm_11();
+		Collision_t2876846408 * L_3 = ___collisionInfo0;
+		NullCheck(L_2);
+		Fsm_OnCollisionStay_m3817365356(L_2, L_3, /*hidden argument*/NULL);
+	}
+
+IL_001c:
+	{
+		return;
+	}
+}
+// System.Void HutongGames.PlayMaker.Actions.RunFSMAction::DoCollisionExit(UnityEngine.Collision)
+extern "C"  void RunFSMAction_DoCollisionExit_m781549773 (RunFSMAction_t720811133 * __this, Collision_t2876846408 * ___collisionInfo0, const MethodInfo* method)
+{
+	{
+		Fsm_t917886356 * L_0 = __this->get_runFsm_11();
+		NullCheck(L_0);
+		bool L_1 = Fsm_get_HandleCollisionExit_m3450142898(L_0, /*hidden argument*/NULL);
+		if (!L_1)
+		{
+			goto IL_001c;
+		}
+	}
+	{
+		Fsm_t917886356 * L_2 = __this->get_runFsm_11();
+		Collision_t2876846408 * L_3 = ___collisionInfo0;
+		NullCheck(L_2);
+		Fsm_OnCollisionExit_m2954176683(L_2, L_3, /*hidden argument*/NULL);
+	}
+
+IL_001c:
+	{
+		return;
+	}
+}
+// System.Void HutongGames.PlayMaker.Actions.RunFSMAction::DoParticleCollision(UnityEngine.GameObject)
+extern "C"  void RunFSMAction_DoParticleCollision_m3648415010 (RunFSMAction_t720811133 * __this, GameObject_t1756533147 * ___other0, const MethodInfo* method)
+{
+	{
+		Fsm_t917886356 * L_0 = __this->get_runFsm_11();
+		NullCheck(L_0);
+		bool L_1 = Fsm_get_HandleParticleCollision_m2116271836(L_0, /*hidden argument*/NULL);
+		if (!L_1)
+		{
+			goto IL_001c;
+		}
+	}
+	{
+		Fsm_t917886356 * L_2 = __this->get_runFsm_11();
+		GameObject_t1756533147 * L_3 = ___other0;
+		NullCheck(L_2);
+		Fsm_OnParticleCollision_m784661054(L_2, L_3, /*hidden argument*/NULL);
+	}
+
+IL_001c:
+	{
+		return;
+	}
+}
+// System.Void HutongGames.PlayMaker.Actions.RunFSMAction::DoControllerColliderHit(UnityEngine.ControllerColliderHit)
+extern "C"  void RunFSMAction_DoControllerColliderHit_m1283032413 (RunFSMAction_t720811133 * __this, ControllerColliderHit_t4070855101 * ___collisionInfo0, const MethodInfo* method)
+{
+	{
+		Fsm_t917886356 * L_0 = __this->get_runFsm_11();
+		ControllerColliderHit_t4070855101 * L_1 = ___collisionInfo0;
+		NullCheck(L_0);
+		Fsm_OnControllerColliderHit_m450115771(L_0, L_1, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void HutongGames.PlayMaker.Actions.RunFSMAction::DoTriggerEnter2D(UnityEngine.Collider2D)
+extern "C"  void RunFSMAction_DoTriggerEnter2D_m2462700219 (RunFSMAction_t720811133 * __this, Collider2D_t646061738 * ___other0, const MethodInfo* method)
+{
+	{
+		Fsm_t917886356 * L_0 = __this->get_runFsm_11();
+		NullCheck(L_0);
+		bool L_1 = Fsm_get_HandleTriggerEnter_m790156034(L_0, /*hidden argument*/NULL);
+		if (!L_1)
+		{
+			goto IL_001c;
+		}
+	}
+	{
+		Fsm_t917886356 * L_2 = __this->get_runFsm_11();
+		Collider2D_t646061738 * L_3 = ___other0;
+		NullCheck(L_2);
+		Fsm_OnTriggerEnter2D_m774284857(L_2, L_3, /*hidden argument*/NULL);
+	}
+
+IL_001c:
+	{
+		return;
+	}
+}
+// System.Void HutongGames.PlayMaker.Actions.RunFSMAction::DoTriggerStay2D(UnityEngine.Collider2D)
+extern "C"  void RunFSMAction_DoTriggerStay2D_m1816540878 (RunFSMAction_t720811133 * __this, Collider2D_t646061738 * ___other0, const MethodInfo* method)
+{
+	{
+		Fsm_t917886356 * L_0 = __this->get_runFsm_11();
+		NullCheck(L_0);
+		bool L_1 = Fsm_get_HandleTriggerStay_m3688276885(L_0, /*hidden argument*/NULL);
+		if (!L_1)
+		{
+			goto IL_001c;
+		}
+	}
+	{
+		Fsm_t917886356 * L_2 = __this->get_runFsm_11();
+		Collider2D_t646061738 * L_3 = ___other0;
+		NullCheck(L_2);
+		Fsm_OnTriggerStay2D_m1827537318(L_2, L_3, /*hidden argument*/NULL);
+	}
+
+IL_001c:
+	{
+		return;
+	}
+}
+// System.Void HutongGames.PlayMaker.Actions.RunFSMAction::DoTriggerExit2D(UnityEngine.Collider2D)
+extern "C"  void RunFSMAction_DoTriggerExit2D_m1937701879 (RunFSMAction_t720811133 * __this, Collider2D_t646061738 * ___other0, const MethodInfo* method)
+{
+	{
+		Fsm_t917886356 * L_0 = __this->get_runFsm_11();
+		NullCheck(L_0);
+		bool L_1 = Fsm_get_HandleTriggerExit_m362350026(L_0, /*hidden argument*/NULL);
+		if (!L_1)
+		{
+			goto IL_001c;
+		}
+	}
+	{
+		Fsm_t917886356 * L_2 = __this->get_runFsm_11();
+		Collider2D_t646061738 * L_3 = ___other0;
+		NullCheck(L_2);
+		Fsm_OnTriggerExit2D_m616971321(L_2, L_3, /*hidden argument*/NULL);
+	}
+
+IL_001c:
+	{
+		return;
+	}
+}
+// System.Void HutongGames.PlayMaker.Actions.RunFSMAction::DoCollisionEnter2D(UnityEngine.Collision2D)
+extern "C"  void RunFSMAction_DoCollisionEnter2D_m2096631557 (RunFSMAction_t720811133 * __this, Collision2D_t1539500754 * ___collisionInfo0, const MethodInfo* method)
+{
+	{
+		Fsm_t917886356 * L_0 = __this->get_runFsm_11();
+		NullCheck(L_0);
+		bool L_1 = Fsm_get_HandleCollisionEnter_m1456631574(L_0, /*hidden argument*/NULL);
+		if (!L_1)
+		{
+			goto IL_001c;
+		}
+	}
+	{
+		Fsm_t917886356 * L_2 = __this->get_runFsm_11();
+		Collision2D_t1539500754 * L_3 = ___collisionInfo0;
+		NullCheck(L_2);
+		Fsm_OnCollisionEnter2D_m1740000423(L_2, L_3, /*hidden argument*/NULL);
+	}
+
+IL_001c:
+	{
+		return;
+	}
+}
+// System.Void HutongGames.PlayMaker.Actions.RunFSMAction::DoCollisionStay2D(UnityEngine.Collision2D)
+extern "C"  void RunFSMAction_DoCollisionStay2D_m2230195840 (RunFSMAction_t720811133 * __this, Collision2D_t1539500754 * ___collisionInfo0, const MethodInfo* method)
+{
+	{
+		Fsm_t917886356 * L_0 = __this->get_runFsm_11();
+		NullCheck(L_0);
+		bool L_1 = Fsm_get_HandleCollisionStay_m1380478791(L_0, /*hidden argument*/NULL);
+		if (!L_1)
+		{
+			goto IL_001c;
+		}
+	}
+	{
+		Fsm_t917886356 * L_2 = __this->get_runFsm_11();
+		Collision2D_t1539500754 * L_3 = ___collisionInfo0;
+		NullCheck(L_2);
+		Fsm_OnCollisionStay2D_m1881561292(L_2, L_3, /*hidden argument*/NULL);
+	}
+
+IL_001c:
+	{
+		return;
+	}
+}
+// System.Void HutongGames.PlayMaker.Actions.RunFSMAction::DoCollisionExit2D(UnityEngine.Collision2D)
+extern "C"  void RunFSMAction_DoCollisionExit2D_m4143467181 (RunFSMAction_t720811133 * __this, Collision2D_t1539500754 * ___collisionInfo0, const MethodInfo* method)
+{
+	{
+		Fsm_t917886356 * L_0 = __this->get_runFsm_11();
+		NullCheck(L_0);
+		bool L_1 = Fsm_get_HandleCollisionExit_m3450142898(L_0, /*hidden argument*/NULL);
+		if (!L_1)
+		{
+			goto IL_001c;
+		}
+	}
+	{
+		Fsm_t917886356 * L_2 = __this->get_runFsm_11();
+		Collision2D_t1539500754 * L_3 = ___collisionInfo0;
+		NullCheck(L_2);
+		Fsm_OnCollisionExit2D_m1642132107(L_2, L_3, /*hidden argument*/NULL);
+	}
+
+IL_001c:
+	{
+		return;
+	}
+}
+// System.Void HutongGames.PlayMaker.Actions.RunFSMAction::OnGUI()
+extern "C"  void RunFSMAction_OnGUI_m455929691 (RunFSMAction_t720811133 * __this, const MethodInfo* method)
+{
+	{
+		Fsm_t917886356 * L_0 = __this->get_runFsm_11();
+		if (!L_0)
+		{
+			goto IL_0026;
+		}
+	}
+	{
+		Fsm_t917886356 * L_1 = __this->get_runFsm_11();
+		NullCheck(L_1);
+		bool L_2 = Fsm_get_HandleOnGUI_m1667477422(L_1, /*hidden argument*/NULL);
+		if (!L_2)
+		{
+			goto IL_0026;
+		}
+	}
+	{
+		Fsm_t917886356 * L_3 = __this->get_runFsm_11();
+		NullCheck(L_3);
+		Fsm_OnGUI_m3260270399(L_3, /*hidden argument*/NULL);
+	}
+
+IL_0026:
+	{
+		return;
+	}
+}
+// System.Void HutongGames.PlayMaker.Actions.RunFSMAction::OnExit()
+extern "C"  void RunFSMAction_OnExit_m2915330164 (RunFSMAction_t720811133 * __this, const MethodInfo* method)
+{
+	{
+		Fsm_t917886356 * L_0 = __this->get_runFsm_11();
+		if (!L_0)
+		{
+			goto IL_0016;
+		}
+	}
+	{
+		Fsm_t917886356 * L_1 = __this->get_runFsm_11();
+		NullCheck(L_1);
+		Fsm_Stop_m3650953385(L_1, /*hidden argument*/NULL);
+	}
+
+IL_0016:
+	{
+		return;
+	}
+}
+// System.Void HutongGames.PlayMaker.Actions.RunFSMAction::CheckIfFinished()
+extern "C"  void RunFSMAction_CheckIfFinished_m1247002192 (RunFSMAction_t720811133 * __this, const MethodInfo* method)
+{
+	{
+		Fsm_t917886356 * L_0 = __this->get_runFsm_11();
+		if (!L_0)
+		{
+			goto IL_001b;
+		}
+	}
+	{
+		Fsm_t917886356 * L_1 = __this->get_runFsm_11();
+		NullCheck(L_1);
+		bool L_2 = Fsm_get_Finished_m3585713968(L_1, /*hidden argument*/NULL);
+		if (!L_2)
+		{
+			goto IL_0021;
+		}
+	}
+
+IL_001b:
+	{
+		FsmStateAction_Finish_m1955744727(__this, /*hidden argument*/NULL);
+	}
+
+IL_0021:
+	{
+		return;
+	}
+}
+// System.Void HutongGames.PlayMaker.Actions.SampleCurve::.ctor()
+extern "C"  void SampleCurve__ctor_m423861119 (SampleCurve_t702362601 * __this, const MethodInfo* method)
+{
+	{
+		FsmStateAction__ctor_m1837021228(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void HutongGames.PlayMaker.Actions.SampleCurve::Reset()
+extern "C"  void SampleCurve_Reset_m2814989730 (SampleCurve_t702362601 * __this, const MethodInfo* method)
+{
+	{
+		__this->set_curve_11((FsmAnimationCurve_t326747561 *)NULL);
+		__this->set_sampleAt_12((FsmFloat_t937133978 *)NULL);
+		__this->set_storeValue_13((FsmFloat_t937133978 *)NULL);
+		__this->set_everyFrame_14((bool)0);
+		return;
+	}
+}
+// System.Void HutongGames.PlayMaker.Actions.SampleCurve::OnEnter()
+extern "C"  void SampleCurve_OnEnter_m3421227332 (SampleCurve_t702362601 * __this, const MethodInfo* method)
+{
+	{
+		SampleCurve_DoSampleCurve_m2326468173(__this, /*hidden argument*/NULL);
+		bool L_0 = __this->get_everyFrame_14();
+		if (L_0)
+		{
+			goto IL_0017;
+		}
+	}
+	{
+		FsmStateAction_Finish_m1955744727(__this, /*hidden argument*/NULL);
+	}
+
+IL_0017:
+	{
+		return;
+	}
+}
+// System.Void HutongGames.PlayMaker.Actions.SampleCurve::OnUpdate()
+extern "C"  void SampleCurve_OnUpdate_m458739823 (SampleCurve_t702362601 * __this, const MethodInfo* method)
+{
+	{
+		SampleCurve_DoSampleCurve_m2326468173(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void HutongGames.PlayMaker.Actions.SampleCurve::DoSampleCurve()
+extern "C"  void SampleCurve_DoSampleCurve_m2326468173 (SampleCurve_t702362601 * __this, const MethodInfo* method)
+{
+	{
+		FsmAnimationCurve_t326747561 * L_0 = __this->get_curve_11();
+		if (!L_0)
+		{
+			goto IL_0026;
+		}
+	}
+	{
+		FsmAnimationCurve_t326747561 * L_1 = __this->get_curve_11();
+		NullCheck(L_1);
+		AnimationCurve_t3306541151 * L_2 = L_1->get_curve_0();
+		if (!L_2)
+		{
+			goto IL_0026;
+		}
+	}
+	{
+		FsmFloat_t937133978 * L_3 = __this->get_storeValue_13();
+		if (L_3)
+		{
+			goto IL_0027;
+		}
+	}
+
+IL_0026:
+	{
+		return;
+	}
+
+IL_0027:
+	{
+		FsmFloat_t937133978 * L_4 = __this->get_storeValue_13();
+		FsmAnimationCurve_t326747561 * L_5 = __this->get_curve_11();
+		NullCheck(L_5);
+		AnimationCurve_t3306541151 * L_6 = L_5->get_curve_0();
+		FsmFloat_t937133978 * L_7 = __this->get_sampleAt_12();
+		NullCheck(L_7);
+		float L_8 = FsmFloat_get_Value_m1818441449(L_7, /*hidden argument*/NULL);
+		NullCheck(L_6);
+		float L_9 = AnimationCurve_Evaluate_m3698879322(L_6, L_8, /*hidden argument*/NULL);
+		NullCheck(L_4);
+		FsmFloat_set_Value_m3447553958(L_4, L_9, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void HutongGames.PlayMaker.Actions.ScaleGUI::.ctor()
+extern "C"  void ScaleGUI__ctor_m3763331221 (ScaleGUI_t2599920435 * __this, const MethodInfo* method)
+{
+	{
+		FsmStateAction__ctor_m1837021228(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void HutongGames.PlayMaker.Actions.ScaleGUI::Reset()
+extern "C"  void ScaleGUI_Reset_m1187666236 (ScaleGUI_t2599920435 * __this, const MethodInfo* method)
+{
+	{
+		FsmFloat_t937133978 * L_0 = FsmFloat_op_Implicit_m475928236(NULL /*static, unused*/, (1.0f), /*hidden argument*/NULL);
+		__this->set_scaleX_11(L_0);
+		FsmFloat_t937133978 * L_1 = FsmFloat_op_Implicit_m475928236(NULL /*static, unused*/, (1.0f), /*hidden argument*/NULL);
+		__this->set_scaleY_12(L_1);
+		FsmFloat_t937133978 * L_2 = FsmFloat_op_Implicit_m475928236(NULL /*static, unused*/, (0.5f), /*hidden argument*/NULL);
+		__this->set_pivotX_13(L_2);
+		FsmFloat_t937133978 * L_3 = FsmFloat_op_Implicit_m475928236(NULL /*static, unused*/, (0.5f), /*hidden argument*/NULL);
+		__this->set_pivotY_14(L_3);
+		__this->set_normalized_15((bool)1);
+		__this->set_applyGlobally_16((bool)0);
+		return;
+	}
+}
+// System.Void HutongGames.PlayMaker.Actions.ScaleGUI::OnGUI()
+extern "C"  void ScaleGUI_OnGUI_m240692131 (ScaleGUI_t2599920435 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (ScaleGUI_OnGUI_m240692131_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	Vector2_t2243707579  V_0;
+	memset(&V_0, 0, sizeof(V_0));
+	Vector2_t2243707579  V_1;
+	memset(&V_1, 0, sizeof(V_1));
+	{
+		bool L_0 = __this->get_applied_17();
+		if (!L_0)
+		{
+			goto IL_000c;
+		}
+	}
+	{
+		return;
+	}
+
+IL_000c:
+	{
+		FsmFloat_t937133978 * L_1 = __this->get_scaleX_11();
+		NullCheck(L_1);
+		float L_2 = FsmFloat_get_Value_m1818441449(L_1, /*hidden argument*/NULL);
+		FsmFloat_t937133978 * L_3 = __this->get_scaleY_12();
+		NullCheck(L_3);
+		float L_4 = FsmFloat_get_Value_m1818441449(L_3, /*hidden argument*/NULL);
+		Vector2__ctor_m3067419446((&V_0), L_2, L_4, /*hidden argument*/NULL);
+		float L_5 = (&V_0)->get_x_0();
+		float L_6 = L_5;
+		Il2CppObject * L_7 = Box(Single_t2076509932_il2cpp_TypeInfo_var, &L_6);
+		int32_t L_8 = 0;
+		Il2CppObject * L_9 = Box(Int32_t2071877448_il2cpp_TypeInfo_var, &L_8);
+		bool L_10 = Object_Equals_m969736273(NULL /*static, unused*/, L_7, L_9, /*hidden argument*/NULL);
+		if (!L_10)
+		{
+			goto IL_0051;
+		}
+	}
+	{
+		(&V_0)->set_x_0((0.0001f));
+	}
+
+IL_0051:
+	{
+		float L_11 = (&V_0)->get_y_1();
+		float L_12 = L_11;
+		Il2CppObject * L_13 = Box(Single_t2076509932_il2cpp_TypeInfo_var, &L_12);
+		int32_t L_14 = 0;
+		Il2CppObject * L_15 = Box(Int32_t2071877448_il2cpp_TypeInfo_var, &L_14);
+		bool L_16 = Object_Equals_m969736273(NULL /*static, unused*/, L_13, L_15, /*hidden argument*/NULL);
+		if (!L_16)
+		{
+			goto IL_0079;
+		}
+	}
+	{
+		(&V_0)->set_x_0((0.0001f));
+	}
+
+IL_0079:
+	{
+		FsmFloat_t937133978 * L_17 = __this->get_pivotX_13();
+		NullCheck(L_17);
+		float L_18 = FsmFloat_get_Value_m1818441449(L_17, /*hidden argument*/NULL);
+		FsmFloat_t937133978 * L_19 = __this->get_pivotY_14();
+		NullCheck(L_19);
+		float L_20 = FsmFloat_get_Value_m1818441449(L_19, /*hidden argument*/NULL);
+		Vector2__ctor_m3067419446((&V_1), L_18, L_20, /*hidden argument*/NULL);
+		bool L_21 = __this->get_normalized_15();
+		if (!L_21)
+		{
+			goto IL_00c9;
+		}
+	}
+	{
+		Vector2_t2243707579 * L_22 = (&V_1);
+		float L_23 = L_22->get_x_0();
+		int32_t L_24 = Screen_get_width_m41137238(NULL /*static, unused*/, /*hidden argument*/NULL);
+		L_22->set_x_0(((float)((float)L_23*(float)(((float)((float)L_24))))));
+		Vector2_t2243707579 * L_25 = (&V_1);
+		float L_26 = L_25->get_y_1();
+		int32_t L_27 = Screen_get_height_m1051800773(NULL /*static, unused*/, /*hidden argument*/NULL);
+		L_25->set_y_1(((float)((float)L_26*(float)(((float)((float)L_27))))));
+	}
+
+IL_00c9:
+	{
+		Vector2_t2243707579  L_28 = V_0;
+		Vector2_t2243707579  L_29 = V_1;
+		IL2CPP_RUNTIME_CLASS_INIT(GUIUtility_t3275770671_il2cpp_TypeInfo_var);
+		GUIUtility_ScaleAroundPivot_m2804228701(NULL /*static, unused*/, L_28, L_29, /*hidden argument*/NULL);
+		bool L_30 = __this->get_applyGlobally_16();
+		if (!L_30)
+		{
+			goto IL_00ec;
+		}
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(GUI_t4082743951_il2cpp_TypeInfo_var);
+		Matrix4x4_t2933234003  L_31 = GUI_get_matrix_m976981075(NULL /*static, unused*/, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(PlayMakerGUI_t2662579489_il2cpp_TypeInfo_var);
+		PlayMakerGUI_set_GUIMatrix_m1989428149(NULL /*static, unused*/, L_31, /*hidden argument*/NULL);
+		__this->set_applied_17((bool)1);
+	}
+
+IL_00ec:
+	{
+		return;
+	}
+}
+// System.Void HutongGames.PlayMaker.Actions.ScaleGUI::OnUpdate()
+extern "C"  void ScaleGUI_OnUpdate_m1779581033 (ScaleGUI_t2599920435 * __this, const MethodInfo* method)
+{
+	{
+		__this->set_applied_17((bool)0);
+		return;
+	}
+}
+// System.Void HutongGames.PlayMaker.Actions.ScaleTime::.ctor()
+extern "C"  void ScaleTime__ctor_m2234279935 (ScaleTime_t3218346659 * __this, const MethodInfo* method)
+{
+	{
+		FsmStateAction__ctor_m1837021228(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void HutongGames.PlayMaker.Actions.ScaleTime::Reset()
+extern "C"  void ScaleTime_Reset_m1933309508 (ScaleTime_t3218346659 * __this, const MethodInfo* method)
+{
+	{
+		FsmFloat_t937133978 * L_0 = FsmFloat_op_Implicit_m475928236(NULL /*static, unused*/, (1.0f), /*hidden argument*/NULL);
+		__this->set_timeScale_11(L_0);
+		FsmBool_t664485696 * L_1 = FsmBool_op_Implicit_m2342972798(NULL /*static, unused*/, (bool)1, /*hidden argument*/NULL);
+		__this->set_adjustFixedDeltaTime_12(L_1);
+		__this->set_everyFrame_13((bool)0);
+		return;
+	}
+}
+// System.Void HutongGames.PlayMaker.Actions.ScaleTime::OnEnter()
+extern "C"  void ScaleTime_OnEnter_m2192647378 (ScaleTime_t3218346659 * __this, const MethodInfo* method)
+{
+	{
+		ScaleTime_DoTimeScale_m60958537(__this, /*hidden argument*/NULL);
+		bool L_0 = __this->get_everyFrame_13();
+		if (L_0)
+		{
+			goto IL_0017;
+		}
+	}
+	{
+		FsmStateAction_Finish_m1955744727(__this, /*hidden argument*/NULL);
+	}
+
+IL_0017:
+	{
+		return;
+	}
+}
+// System.Void HutongGames.PlayMaker.Actions.ScaleTime::OnUpdate()
+extern "C"  void ScaleTime_OnUpdate_m149372159 (ScaleTime_t3218346659 * __this, const MethodInfo* method)
+{
+	{
+		ScaleTime_DoTimeScale_m60958537(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void HutongGames.PlayMaker.Actions.ScaleTime::DoTimeScale()
+extern "C"  void ScaleTime_DoTimeScale_m60958537 (ScaleTime_t3218346659 * __this, const MethodInfo* method)
+{
+	{
+		FsmFloat_t937133978 * L_0 = __this->get_timeScale_11();
+		NullCheck(L_0);
+		float L_1 = FsmFloat_get_Value_m1818441449(L_0, /*hidden argument*/NULL);
+		Time_set_timeScale_m2194722837(NULL /*static, unused*/, L_1, /*hidden argument*/NULL);
+		FsmBool_t664485696 * L_2 = __this->get_adjustFixedDeltaTime_12();
+		NullCheck(L_2);
+		bool L_3 = FsmBool_get_Value_m3738134001(L_2, /*hidden argument*/NULL);
+		if (!L_3)
+		{
+			goto IL_0030;
+		}
+	}
+	{
+		float L_4 = Time_get_timeScale_m3151482970(NULL /*static, unused*/, /*hidden argument*/NULL);
+		Time_set_fixedDeltaTime_m3972646343(NULL /*static, unused*/, ((float)((float)(0.02f)*(float)L_4)), /*hidden argument*/NULL);
+	}
+
+IL_0030:
+	{
+		return;
+	}
+}
+// System.Void HutongGames.PlayMaker.Actions.ScreenPick::.ctor()
+extern "C"  void ScreenPick__ctor_m2060448851 (ScreenPick_t3182193451 * __this, const MethodInfo* method)
+{
+	{
+		FsmFloat_t937133978 * L_0 = FsmFloat_op_Implicit_m475928236(NULL /*static, unused*/, (100.0f), /*hidden argument*/NULL);
+		__this->set_rayDistance_15(L_0);
+		FsmStateAction__ctor_m1837021228(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void HutongGames.PlayMaker.Actions.ScreenPick::Reset()
+extern "C"  void ScreenPick_Reset_m990566516 (ScreenPick_t3182193451 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (ScreenPick_Reset_m990566516_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	FsmVector3_t3996534004 * V_0 = NULL;
+	FsmFloat_t937133978 * V_1 = NULL;
+	{
+		FsmVector3_t3996534004 * L_0 = (FsmVector3_t3996534004 *)il2cpp_codegen_object_new(FsmVector3_t3996534004_il2cpp_TypeInfo_var);
+		FsmVector3__ctor_m2525545399(L_0, /*hidden argument*/NULL);
+		V_0 = L_0;
+		FsmVector3_t3996534004 * L_1 = V_0;
+		NullCheck(L_1);
+		NamedVariable_set_UseVariable_m1478981231(L_1, (bool)1, /*hidden argument*/NULL);
+		FsmVector3_t3996534004 * L_2 = V_0;
+		__this->set_screenVector_11(L_2);
+		FsmFloat_t937133978 * L_3 = (FsmFloat_t937133978 *)il2cpp_codegen_object_new(FsmFloat_t937133978_il2cpp_TypeInfo_var);
+		FsmFloat__ctor_m2608255745(L_3, /*hidden argument*/NULL);
+		V_1 = L_3;
+		FsmFloat_t937133978 * L_4 = V_1;
+		NullCheck(L_4);
+		NamedVariable_set_UseVariable_m1478981231(L_4, (bool)1, /*hidden argument*/NULL);
+		FsmFloat_t937133978 * L_5 = V_1;
+		__this->set_screenX_12(L_5);
+		FsmFloat_t937133978 * L_6 = (FsmFloat_t937133978 *)il2cpp_codegen_object_new(FsmFloat_t937133978_il2cpp_TypeInfo_var);
+		FsmFloat__ctor_m2608255745(L_6, /*hidden argument*/NULL);
+		V_1 = L_6;
+		FsmFloat_t937133978 * L_7 = V_1;
+		NullCheck(L_7);
+		NamedVariable_set_UseVariable_m1478981231(L_7, (bool)1, /*hidden argument*/NULL);
+		FsmFloat_t937133978 * L_8 = V_1;
+		__this->set_screenY_13(L_8);
+		FsmBool_t664485696 * L_9 = FsmBool_op_Implicit_m2342972798(NULL /*static, unused*/, (bool)0, /*hidden argument*/NULL);
+		__this->set_normalized_14(L_9);
+		FsmFloat_t937133978 * L_10 = FsmFloat_op_Implicit_m475928236(NULL /*static, unused*/, (100.0f), /*hidden argument*/NULL);
+		__this->set_rayDistance_15(L_10);
+		__this->set_storeDidPickObject_16((FsmBool_t664485696 *)NULL);
+		__this->set_storeGameObject_17((FsmGameObject_t3097142863 *)NULL);
+		__this->set_storePoint_18((FsmVector3_t3996534004 *)NULL);
+		__this->set_storeNormal_19((FsmVector3_t3996534004 *)NULL);
+		__this->set_storeDistance_20((FsmFloat_t937133978 *)NULL);
+		__this->set_layerMask_21(((FsmIntU5BU5D_t2637547802*)SZArrayNew(FsmIntU5BU5D_t2637547802_il2cpp_TypeInfo_var, (uint32_t)0)));
+		FsmBool_t664485696 * L_11 = FsmBool_op_Implicit_m2342972798(NULL /*static, unused*/, (bool)0, /*hidden argument*/NULL);
+		__this->set_invertMask_22(L_11);
+		__this->set_everyFrame_23((bool)0);
+		return;
+	}
+}
+// System.Void HutongGames.PlayMaker.Actions.ScreenPick::OnEnter()
+extern "C"  void ScreenPick_OnEnter_m435834938 (ScreenPick_t3182193451 * __this, const MethodInfo* method)
+{
+	{
+		ScreenPick_DoScreenPick_m1980130241(__this, /*hidden argument*/NULL);
+		bool L_0 = __this->get_everyFrame_23();
+		if (L_0)
+		{
+			goto IL_0017;
+		}
+	}
+	{
+		FsmStateAction_Finish_m1955744727(__this, /*hidden argument*/NULL);
+	}
+
+IL_0017:
+	{
+		return;
+	}
+}
+// System.Void HutongGames.PlayMaker.Actions.ScreenPick::OnUpdate()
+extern "C"  void ScreenPick_OnUpdate_m3814250835 (ScreenPick_t3182193451 * __this, const MethodInfo* method)
+{
+	{
+		ScreenPick_DoScreenPick_m1980130241(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void HutongGames.PlayMaker.Actions.ScreenPick::DoScreenPick()
+extern "C"  void ScreenPick_DoScreenPick_m1980130241 (ScreenPick_t3182193451 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (ScreenPick_DoScreenPick_m1980130241_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	Vector3_t2243707580  V_0;
+	memset(&V_0, 0, sizeof(V_0));
+	RaycastHit_t87180320  V_1;
+	memset(&V_1, 0, sizeof(V_1));
+	Ray_t2469606224  V_2;
+	memset(&V_2, 0, sizeof(V_2));
+	bool V_3 = false;
+	{
+		Camera_t189460977 * L_0 = Camera_get_main_m475173995(NULL /*static, unused*/, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(Object_t1021602117_il2cpp_TypeInfo_var);
+		bool L_1 = Object_op_Equality_m3764089466(NULL /*static, unused*/, L_0, (Object_t1021602117 *)NULL, /*hidden argument*/NULL);
+		if (!L_1)
+		{
+			goto IL_0022;
+		}
+	}
+	{
+		FsmStateAction_LogError_m3656178960(__this, _stringLiteral300472843, /*hidden argument*/NULL);
+		FsmStateAction_Finish_m1955744727(__this, /*hidden argument*/NULL);
+		return;
+	}
+
+IL_0022:
+	{
+		Vector3_t2243707580  L_2 = Vector3_get_zero_m1527993324(NULL /*static, unused*/, /*hidden argument*/NULL);
+		V_0 = L_2;
+		FsmVector3_t3996534004 * L_3 = __this->get_screenVector_11();
+		NullCheck(L_3);
+		bool L_4 = NamedVariable_get_IsNone_m1506066313(L_3, /*hidden argument*/NULL);
+		if (L_4)
+		{
+			goto IL_0044;
+		}
+	}
+	{
+		FsmVector3_t3996534004 * L_5 = __this->get_screenVector_11();
+		NullCheck(L_5);
+		Vector3_t2243707580  L_6 = FsmVector3_get_Value_m4242600139(L_5, /*hidden argument*/NULL);
+		V_0 = L_6;
+	}
+
+IL_0044:
+	{
+		FsmFloat_t937133978 * L_7 = __this->get_screenX_12();
+		NullCheck(L_7);
+		bool L_8 = NamedVariable_get_IsNone_m1506066313(L_7, /*hidden argument*/NULL);
+		if (L_8)
+		{
+			goto IL_0066;
+		}
+	}
+	{
+		FsmFloat_t937133978 * L_9 = __this->get_screenX_12();
+		NullCheck(L_9);
+		float L_10 = FsmFloat_get_Value_m1818441449(L_9, /*hidden argument*/NULL);
+		(&V_0)->set_x_1(L_10);
+	}
+
+IL_0066:
+	{
+		FsmFloat_t937133978 * L_11 = __this->get_screenY_13();
+		NullCheck(L_11);
+		bool L_12 = NamedVariable_get_IsNone_m1506066313(L_11, /*hidden argument*/NULL);
+		if (L_12)
+		{
+			goto IL_0088;
+		}
+	}
+	{
+		FsmFloat_t937133978 * L_13 = __this->get_screenY_13();
+		NullCheck(L_13);
+		float L_14 = FsmFloat_get_Value_m1818441449(L_13, /*hidden argument*/NULL);
+		(&V_0)->set_y_2(L_14);
+	}
+
+IL_0088:
+	{
+		FsmBool_t664485696 * L_15 = __this->get_normalized_14();
+		NullCheck(L_15);
+		bool L_16 = FsmBool_get_Value_m3738134001(L_15, /*hidden argument*/NULL);
+		if (!L_16)
+		{
+			goto IL_00c0;
+		}
+	}
+	{
+		Vector3_t2243707580 * L_17 = (&V_0);
+		float L_18 = L_17->get_x_1();
+		int32_t L_19 = Screen_get_width_m41137238(NULL /*static, unused*/, /*hidden argument*/NULL);
+		L_17->set_x_1(((float)((float)L_18*(float)(((float)((float)L_19))))));
+		Vector3_t2243707580 * L_20 = (&V_0);
+		float L_21 = L_20->get_y_2();
+		int32_t L_22 = Screen_get_height_m1051800773(NULL /*static, unused*/, /*hidden argument*/NULL);
+		L_20->set_y_2(((float)((float)L_21*(float)(((float)((float)L_22))))));
+	}
+
+IL_00c0:
+	{
+		Camera_t189460977 * L_23 = Camera_get_main_m475173995(NULL /*static, unused*/, /*hidden argument*/NULL);
+		Vector3_t2243707580  L_24 = V_0;
+		NullCheck(L_23);
+		Ray_t2469606224  L_25 = Camera_ScreenPointToRay_m614889538(L_23, L_24, /*hidden argument*/NULL);
+		V_2 = L_25;
+		Ray_t2469606224  L_26 = V_2;
+		FsmFloat_t937133978 * L_27 = __this->get_rayDistance_15();
+		NullCheck(L_27);
+		float L_28 = FsmFloat_get_Value_m1818441449(L_27, /*hidden argument*/NULL);
+		FsmIntU5BU5D_t2637547802* L_29 = __this->get_layerMask_21();
+		FsmBool_t664485696 * L_30 = __this->get_invertMask_22();
+		NullCheck(L_30);
+		bool L_31 = FsmBool_get_Value_m3738134001(L_30, /*hidden argument*/NULL);
+		int32_t L_32 = ActionHelpers_LayerArrayToLayerMask_m4230506674(NULL /*static, unused*/, L_29, L_31, /*hidden argument*/NULL);
+		Physics_Raycast_m2009151399(NULL /*static, unused*/, L_26, (&V_1), L_28, L_32, /*hidden argument*/NULL);
+		Collider_t3497673348 * L_33 = RaycastHit_get_collider_m301198172((&V_1), /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(Object_t1021602117_il2cpp_TypeInfo_var);
+		bool L_34 = Object_op_Inequality_m2402264703(NULL /*static, unused*/, L_33, (Object_t1021602117 *)NULL, /*hidden argument*/NULL);
+		V_3 = L_34;
+		FsmBool_t664485696 * L_35 = __this->get_storeDidPickObject_16();
+		bool L_36 = V_3;
+		NullCheck(L_35);
+		FsmBool_set_Value_m2522230142(L_35, L_36, /*hidden argument*/NULL);
+		bool L_37 = V_3;
+		if (!L_37)
+		{
+			goto IL_0168;
+		}
+	}
+	{
+		FsmGameObject_t3097142863 * L_38 = __this->get_storeGameObject_17();
+		Collider_t3497673348 * L_39 = RaycastHit_get_collider_m301198172((&V_1), /*hidden argument*/NULL);
+		NullCheck(L_39);
+		GameObject_t1756533147 * L_40 = Component_get_gameObject_m3105766835(L_39, /*hidden argument*/NULL);
+		NullCheck(L_38);
+		FsmGameObject_set_Value_m1923169006(L_38, L_40, /*hidden argument*/NULL);
+		FsmFloat_t937133978 * L_41 = __this->get_storeDistance_20();
+		float L_42 = RaycastHit_get_distance_m1178709367((&V_1), /*hidden argument*/NULL);
+		NullCheck(L_41);
+		FsmFloat_set_Value_m3447553958(L_41, L_42, /*hidden argument*/NULL);
+		FsmVector3_t3996534004 * L_43 = __this->get_storePoint_18();
+		Vector3_t2243707580  L_44 = RaycastHit_get_point_m326143462((&V_1), /*hidden argument*/NULL);
+		NullCheck(L_43);
+		FsmVector3_set_Value_m1785770740(L_43, L_44, /*hidden argument*/NULL);
+		FsmVector3_t3996534004 * L_45 = __this->get_storeNormal_19();
+		Vector3_t2243707580  L_46 = RaycastHit_get_normal_m817665579((&V_1), /*hidden argument*/NULL);
+		NullCheck(L_45);
+		FsmVector3_set_Value_m1785770740(L_45, L_46, /*hidden argument*/NULL);
+		goto IL_01a4;
+	}
+
+IL_0168:
+	{
+		FsmGameObject_t3097142863 * L_47 = __this->get_storeGameObject_17();
+		NullCheck(L_47);
+		FsmGameObject_set_Value_m1923169006(L_47, (GameObject_t1756533147 *)NULL, /*hidden argument*/NULL);
+		FsmFloat_t937133978 * L_48 = FsmFloat_op_Implicit_m475928236(NULL /*static, unused*/, (std::numeric_limits<float>::infinity()), /*hidden argument*/NULL);
+		__this->set_storeDistance_20(L_48);
+		FsmVector3_t3996534004 * L_49 = __this->get_storePoint_18();
+		Vector3_t2243707580  L_50 = Vector3_get_zero_m1527993324(NULL /*static, unused*/, /*hidden argument*/NULL);
+		NullCheck(L_49);
+		FsmVector3_set_Value_m1785770740(L_49, L_50, /*hidden argument*/NULL);
+		FsmVector3_t3996534004 * L_51 = __this->get_storeNormal_19();
+		Vector3_t2243707580  L_52 = Vector3_get_zero_m1527993324(NULL /*static, unused*/, /*hidden argument*/NULL);
+		NullCheck(L_51);
+		FsmVector3_set_Value_m1785770740(L_51, L_52, /*hidden argument*/NULL);
+	}
+
+IL_01a4:
+	{
+		return;
+	}
+}
+// System.Void HutongGames.PlayMaker.Actions.ScreenPick2d::.ctor()
+extern "C"  void ScreenPick2d__ctor_m2081740077 (ScreenPick2d_t3932806665 * __this, const MethodInfo* method)
+{
+	{
+		FsmStateAction__ctor_m1837021228(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void HutongGames.PlayMaker.Actions.ScreenPick2d::Reset()
+extern "C"  void ScreenPick2d_Reset_m2881479446 (ScreenPick2d_t3932806665 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (ScreenPick2d_Reset_m2881479446_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	FsmVector3_t3996534004 * V_0 = NULL;
+	FsmFloat_t937133978 * V_1 = NULL;
+	{
+		FsmVector3_t3996534004 * L_0 = (FsmVector3_t3996534004 *)il2cpp_codegen_object_new(FsmVector3_t3996534004_il2cpp_TypeInfo_var);
+		FsmVector3__ctor_m2525545399(L_0, /*hidden argument*/NULL);
+		V_0 = L_0;
+		FsmVector3_t3996534004 * L_1 = V_0;
+		NullCheck(L_1);
+		NamedVariable_set_UseVariable_m1478981231(L_1, (bool)1, /*hidden argument*/NULL);
+		FsmVector3_t3996534004 * L_2 = V_0;
+		__this->set_screenVector_11(L_2);
+		FsmFloat_t937133978 * L_3 = (FsmFloat_t937133978 *)il2cpp_codegen_object_new(FsmFloat_t937133978_il2cpp_TypeInfo_var);
+		FsmFloat__ctor_m2608255745(L_3, /*hidden argument*/NULL);
+		V_1 = L_3;
+		FsmFloat_t937133978 * L_4 = V_1;
+		NullCheck(L_4);
+		NamedVariable_set_UseVariable_m1478981231(L_4, (bool)1, /*hidden argument*/NULL);
+		FsmFloat_t937133978 * L_5 = V_1;
+		__this->set_screenX_12(L_5);
+		FsmFloat_t937133978 * L_6 = (FsmFloat_t937133978 *)il2cpp_codegen_object_new(FsmFloat_t937133978_il2cpp_TypeInfo_var);
+		FsmFloat__ctor_m2608255745(L_6, /*hidden argument*/NULL);
+		V_1 = L_6;
+		FsmFloat_t937133978 * L_7 = V_1;
+		NullCheck(L_7);
+		NamedVariable_set_UseVariable_m1478981231(L_7, (bool)1, /*hidden argument*/NULL);
+		FsmFloat_t937133978 * L_8 = V_1;
+		__this->set_screenY_13(L_8);
+		FsmBool_t664485696 * L_9 = FsmBool_op_Implicit_m2342972798(NULL /*static, unused*/, (bool)0, /*hidden argument*/NULL);
+		__this->set_normalized_14(L_9);
+		__this->set_storeDidPickObject_15((FsmBool_t664485696 *)NULL);
+		__this->set_storeGameObject_16((FsmGameObject_t3097142863 *)NULL);
+		__this->set_storePoint_17((FsmVector3_t3996534004 *)NULL);
+		__this->set_layerMask_18(((FsmIntU5BU5D_t2637547802*)SZArrayNew(FsmIntU5BU5D_t2637547802_il2cpp_TypeInfo_var, (uint32_t)0)));
+		FsmBool_t664485696 * L_10 = FsmBool_op_Implicit_m2342972798(NULL /*static, unused*/, (bool)0, /*hidden argument*/NULL);
+		__this->set_invertMask_19(L_10);
+		__this->set_everyFrame_20((bool)0);
+		return;
+	}
+}
+// System.Void HutongGames.PlayMaker.Actions.ScreenPick2d::OnEnter()
+extern "C"  void ScreenPick2d_OnEnter_m660735700 (ScreenPick2d_t3932806665 * __this, const MethodInfo* method)
+{
+	{
+		ScreenPick2d_DoScreenPick_m766231039(__this, /*hidden argument*/NULL);
+		bool L_0 = __this->get_everyFrame_20();
+		if (L_0)
+		{
+			goto IL_0017;
+		}
+	}
+	{
+		FsmStateAction_Finish_m1955744727(__this, /*hidden argument*/NULL);
+	}
+
+IL_0017:
+	{
+		return;
+	}
+}
+// System.Void HutongGames.PlayMaker.Actions.ScreenPick2d::OnUpdate()
+extern "C"  void ScreenPick2d_OnUpdate_m1176534169 (ScreenPick2d_t3932806665 * __this, const MethodInfo* method)
+{
+	{
+		ScreenPick2d_DoScreenPick_m766231039(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void HutongGames.PlayMaker.Actions.ScreenPick2d::DoScreenPick()
+extern "C"  void ScreenPick2d_DoScreenPick_m766231039 (ScreenPick2d_t3932806665 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (ScreenPick2d_DoScreenPick_m766231039_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	Vector3_t2243707580  V_0;
+	memset(&V_0, 0, sizeof(V_0));
+	RaycastHit2D_t4063908774  V_1;
+	memset(&V_1, 0, sizeof(V_1));
+	bool V_2 = false;
+	{
+		Camera_t189460977 * L_0 = Camera_get_main_m475173995(NULL /*static, unused*/, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(Object_t1021602117_il2cpp_TypeInfo_var);
+		bool L_1 = Object_op_Equality_m3764089466(NULL /*static, unused*/, L_0, (Object_t1021602117 *)NULL, /*hidden argument*/NULL);
+		if (!L_1)
+		{
+			goto IL_0022;
+		}
+	}
+	{
+		FsmStateAction_LogError_m3656178960(__this, _stringLiteral300472843, /*hidden argument*/NULL);
+		FsmStateAction_Finish_m1955744727(__this, /*hidden argument*/NULL);
+		return;
+	}
+
+IL_0022:
+	{
+		Vector3_t2243707580  L_2 = Vector3_get_zero_m1527993324(NULL /*static, unused*/, /*hidden argument*/NULL);
+		V_0 = L_2;
+		FsmVector3_t3996534004 * L_3 = __this->get_screenVector_11();
+		NullCheck(L_3);
+		bool L_4 = NamedVariable_get_IsNone_m1506066313(L_3, /*hidden argument*/NULL);
+		if (L_4)
+		{
+			goto IL_0044;
+		}
+	}
+	{
+		FsmVector3_t3996534004 * L_5 = __this->get_screenVector_11();
+		NullCheck(L_5);
+		Vector3_t2243707580  L_6 = FsmVector3_get_Value_m4242600139(L_5, /*hidden argument*/NULL);
+		V_0 = L_6;
+	}
+
+IL_0044:
+	{
+		FsmFloat_t937133978 * L_7 = __this->get_screenX_12();
+		NullCheck(L_7);
+		bool L_8 = NamedVariable_get_IsNone_m1506066313(L_7, /*hidden argument*/NULL);
+		if (L_8)
+		{
+			goto IL_0066;
+		}
+	}
+	{
+		FsmFloat_t937133978 * L_9 = __this->get_screenX_12();
+		NullCheck(L_9);
+		float L_10 = FsmFloat_get_Value_m1818441449(L_9, /*hidden argument*/NULL);
+		(&V_0)->set_x_1(L_10);
+	}
+
+IL_0066:
+	{
+		FsmFloat_t937133978 * L_11 = __this->get_screenY_13();
+		NullCheck(L_11);
+		bool L_12 = NamedVariable_get_IsNone_m1506066313(L_11, /*hidden argument*/NULL);
+		if (L_12)
+		{
+			goto IL_0088;
+		}
+	}
+	{
+		FsmFloat_t937133978 * L_13 = __this->get_screenY_13();
+		NullCheck(L_13);
+		float L_14 = FsmFloat_get_Value_m1818441449(L_13, /*hidden argument*/NULL);
+		(&V_0)->set_y_2(L_14);
+	}
+
+IL_0088:
+	{
+		FsmBool_t664485696 * L_15 = __this->get_normalized_14();
+		NullCheck(L_15);
+		bool L_16 = FsmBool_get_Value_m3738134001(L_15, /*hidden argument*/NULL);
+		if (!L_16)
+		{
+			goto IL_00c0;
+		}
+	}
+	{
+		Vector3_t2243707580 * L_17 = (&V_0);
+		float L_18 = L_17->get_x_1();
+		int32_t L_19 = Screen_get_width_m41137238(NULL /*static, unused*/, /*hidden argument*/NULL);
+		L_17->set_x_1(((float)((float)L_18*(float)(((float)((float)L_19))))));
+		Vector3_t2243707580 * L_20 = (&V_0);
+		float L_21 = L_20->get_y_2();
+		int32_t L_22 = Screen_get_height_m1051800773(NULL /*static, unused*/, /*hidden argument*/NULL);
+		L_20->set_y_2(((float)((float)L_21*(float)(((float)((float)L_22))))));
+	}
+
+IL_00c0:
+	{
+		Camera_t189460977 * L_23 = Camera_get_main_m475173995(NULL /*static, unused*/, /*hidden argument*/NULL);
+		Vector3_t2243707580  L_24 = V_0;
+		NullCheck(L_23);
+		Ray_t2469606224  L_25 = Camera_ScreenPointToRay_m614889538(L_23, L_24, /*hidden argument*/NULL);
+		FsmIntU5BU5D_t2637547802* L_26 = __this->get_layerMask_18();
+		FsmBool_t664485696 * L_27 = __this->get_invertMask_19();
+		NullCheck(L_27);
+		bool L_28 = FsmBool_get_Value_m3738134001(L_27, /*hidden argument*/NULL);
+		int32_t L_29 = ActionHelpers_LayerArrayToLayerMask_m4230506674(NULL /*static, unused*/, L_26, L_28, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(Physics2D_t2540166467_il2cpp_TypeInfo_var);
+		RaycastHit2D_t4063908774  L_30 = Physics2D_GetRayIntersection_m1570215952(NULL /*static, unused*/, L_25, (std::numeric_limits<float>::infinity()), L_29, /*hidden argument*/NULL);
+		V_1 = L_30;
+		Collider2D_t646061738 * L_31 = RaycastHit2D_get_collider_m2568504212((&V_1), /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(Object_t1021602117_il2cpp_TypeInfo_var);
+		bool L_32 = Object_op_Inequality_m2402264703(NULL /*static, unused*/, L_31, (Object_t1021602117 *)NULL, /*hidden argument*/NULL);
+		V_2 = L_32;
+		FsmBool_t664485696 * L_33 = __this->get_storeDidPickObject_15();
+		bool L_34 = V_2;
+		NullCheck(L_33);
+		FsmBool_set_Value_m2522230142(L_33, L_34, /*hidden argument*/NULL);
+		bool L_35 = V_2;
+		if (!L_35)
+		{
+			goto IL_013f;
+		}
+	}
+	{
+		FsmGameObject_t3097142863 * L_36 = __this->get_storeGameObject_16();
+		Collider2D_t646061738 * L_37 = RaycastHit2D_get_collider_m2568504212((&V_1), /*hidden argument*/NULL);
+		NullCheck(L_37);
+		GameObject_t1756533147 * L_38 = Component_get_gameObject_m3105766835(L_37, /*hidden argument*/NULL);
+		NullCheck(L_36);
+		FsmGameObject_set_Value_m1923169006(L_36, L_38, /*hidden argument*/NULL);
+		FsmVector3_t3996534004 * L_39 = __this->get_storePoint_17();
+		Vector2_t2243707579  L_40 = RaycastHit2D_get_point_m442317739((&V_1), /*hidden argument*/NULL);
+		Vector3_t2243707580  L_41 = Vector2_op_Implicit_m176791411(NULL /*static, unused*/, L_40, /*hidden argument*/NULL);
+		NullCheck(L_39);
+		FsmVector3_set_Value_m1785770740(L_39, L_41, /*hidden argument*/NULL);
+		goto IL_015b;
+	}
+
+IL_013f:
+	{
+		FsmGameObject_t3097142863 * L_42 = __this->get_storeGameObject_16();
+		NullCheck(L_42);
+		FsmGameObject_set_Value_m1923169006(L_42, (GameObject_t1756533147 *)NULL, /*hidden argument*/NULL);
+		FsmVector3_t3996534004 * L_43 = __this->get_storePoint_17();
+		Vector3_t2243707580  L_44 = Vector3_get_zero_m1527993324(NULL /*static, unused*/, /*hidden argument*/NULL);
+		NullCheck(L_43);
+		FsmVector3_set_Value_m1785770740(L_43, L_44, /*hidden argument*/NULL);
+	}
+
+IL_015b:
+	{
+		return;
+	}
+}
+// System.Void HutongGames.PlayMaker.Actions.ScreenToWorldPoint::.ctor()
+extern "C"  void ScreenToWorldPoint__ctor_m2185184219 (ScreenToWorldPoint_t1519632141 * __this, const MethodInfo* method)
+{
+	{
+		FsmStateAction__ctor_m1837021228(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void HutongGames.PlayMaker.Actions.ScreenToWorldPoint::Reset()
+extern "C"  void ScreenToWorldPoint_Reset_m221764338 (ScreenToWorldPoint_t1519632141 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (ScreenToWorldPoint_Reset_m221764338_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	FsmFloat_t937133978 * V_0 = NULL;
+	{
+		__this->set_screenVector_11((FsmVector3_t3996534004 *)NULL);
+		FsmFloat_t937133978 * L_0 = (FsmFloat_t937133978 *)il2cpp_codegen_object_new(FsmFloat_t937133978_il2cpp_TypeInfo_var);
+		FsmFloat__ctor_m2608255745(L_0, /*hidden argument*/NULL);
+		V_0 = L_0;
+		FsmFloat_t937133978 * L_1 = V_0;
+		NullCheck(L_1);
+		NamedVariable_set_UseVariable_m1478981231(L_1, (bool)1, /*hidden argument*/NULL);
+		FsmFloat_t937133978 * L_2 = V_0;
+		__this->set_screenX_12(L_2);
+		FsmFloat_t937133978 * L_3 = (FsmFloat_t937133978 *)il2cpp_codegen_object_new(FsmFloat_t937133978_il2cpp_TypeInfo_var);
+		FsmFloat__ctor_m2608255745(L_3, /*hidden argument*/NULL);
+		V_0 = L_3;
+		FsmFloat_t937133978 * L_4 = V_0;
+		NullCheck(L_4);
+		NamedVariable_set_UseVariable_m1478981231(L_4, (bool)1, /*hidden argument*/NULL);
+		FsmFloat_t937133978 * L_5 = V_0;
+		__this->set_screenY_13(L_5);
+		FsmFloat_t937133978 * L_6 = FsmFloat_op_Implicit_m475928236(NULL /*static, unused*/, (1.0f), /*hidden argument*/NULL);
+		__this->set_screenZ_14(L_6);
+		FsmBool_t664485696 * L_7 = FsmBool_op_Implicit_m2342972798(NULL /*static, unused*/, (bool)0, /*hidden argument*/NULL);
+		__this->set_normalized_15(L_7);
+		__this->set_storeWorldVector_16((FsmVector3_t3996534004 *)NULL);
+		__this->set_storeWorldX_17((FsmFloat_t937133978 *)NULL);
+		__this->set_storeWorldY_18((FsmFloat_t937133978 *)NULL);
+		__this->set_storeWorldZ_19((FsmFloat_t937133978 *)NULL);
+		__this->set_everyFrame_20((bool)0);
+		return;
+	}
+}
+// System.Void HutongGames.PlayMaker.Actions.ScreenToWorldPoint::OnEnter()
+extern "C"  void ScreenToWorldPoint_OnEnter_m1356141828 (ScreenToWorldPoint_t1519632141 * __this, const MethodInfo* method)
+{
+	{
+		ScreenToWorldPoint_DoScreenToWorldPoint_m3535202433(__this, /*hidden argument*/NULL);
+		bool L_0 = __this->get_everyFrame_20();
+		if (L_0)
+		{
+			goto IL_0017;
+		}
+	}
+	{
+		FsmStateAction_Finish_m1955744727(__this, /*hidden argument*/NULL);
+	}
+
+IL_0017:
+	{
+		return;
+	}
+}
+// System.Void HutongGames.PlayMaker.Actions.ScreenToWorldPoint::OnUpdate()
+extern "C"  void ScreenToWorldPoint_OnUpdate_m1745062579 (ScreenToWorldPoint_t1519632141 * __this, const MethodInfo* method)
+{
+	{
+		ScreenToWorldPoint_DoScreenToWorldPoint_m3535202433(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void HutongGames.PlayMaker.Actions.ScreenToWorldPoint::DoScreenToWorldPoint()
+extern "C"  void ScreenToWorldPoint_DoScreenToWorldPoint_m3535202433 (ScreenToWorldPoint_t1519632141 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (ScreenToWorldPoint_DoScreenToWorldPoint_m3535202433_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	Vector3_t2243707580  V_0;
+	memset(&V_0, 0, sizeof(V_0));
+	{
+		Camera_t189460977 * L_0 = Camera_get_main_m475173995(NULL /*static, unused*/, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(Object_t1021602117_il2cpp_TypeInfo_var);
+		bool L_1 = Object_op_Equality_m3764089466(NULL /*static, unused*/, L_0, (Object_t1021602117 *)NULL, /*hidden argument*/NULL);
+		if (!L_1)
+		{
+			goto IL_0022;
+		}
+	}
+	{
+		FsmStateAction_LogError_m3656178960(__this, _stringLiteral300472843, /*hidden argument*/NULL);
+		FsmStateAction_Finish_m1955744727(__this, /*hidden argument*/NULL);
+		return;
+	}
+
+IL_0022:
+	{
+		Vector3_t2243707580  L_2 = Vector3_get_zero_m1527993324(NULL /*static, unused*/, /*hidden argument*/NULL);
+		V_0 = L_2;
+		FsmVector3_t3996534004 * L_3 = __this->get_screenVector_11();
+		NullCheck(L_3);
+		bool L_4 = NamedVariable_get_IsNone_m1506066313(L_3, /*hidden argument*/NULL);
+		if (L_4)
+		{
+			goto IL_0044;
+		}
+	}
+	{
+		FsmVector3_t3996534004 * L_5 = __this->get_screenVector_11();
+		NullCheck(L_5);
+		Vector3_t2243707580  L_6 = FsmVector3_get_Value_m4242600139(L_5, /*hidden argument*/NULL);
+		V_0 = L_6;
+	}
+
+IL_0044:
+	{
+		FsmFloat_t937133978 * L_7 = __this->get_screenX_12();
+		NullCheck(L_7);
+		bool L_8 = NamedVariable_get_IsNone_m1506066313(L_7, /*hidden argument*/NULL);
+		if (L_8)
+		{
+			goto IL_0066;
+		}
+	}
+	{
+		FsmFloat_t937133978 * L_9 = __this->get_screenX_12();
+		NullCheck(L_9);
+		float L_10 = FsmFloat_get_Value_m1818441449(L_9, /*hidden argument*/NULL);
+		(&V_0)->set_x_1(L_10);
+	}
+
+IL_0066:
+	{
+		FsmFloat_t937133978 * L_11 = __this->get_screenY_13();
+		NullCheck(L_11);
+		bool L_12 = NamedVariable_get_IsNone_m1506066313(L_11, /*hidden argument*/NULL);
+		if (L_12)
+		{
+			goto IL_0088;
+		}
+	}
+	{
+		FsmFloat_t937133978 * L_13 = __this->get_screenY_13();
+		NullCheck(L_13);
+		float L_14 = FsmFloat_get_Value_m1818441449(L_13, /*hidden argument*/NULL);
+		(&V_0)->set_y_2(L_14);
+	}
+
+IL_0088:
+	{
+		FsmFloat_t937133978 * L_15 = __this->get_screenZ_14();
+		NullCheck(L_15);
+		bool L_16 = NamedVariable_get_IsNone_m1506066313(L_15, /*hidden argument*/NULL);
+		if (L_16)
+		{
+			goto IL_00aa;
+		}
+	}
+	{
+		FsmFloat_t937133978 * L_17 = __this->get_screenZ_14();
+		NullCheck(L_17);
+		float L_18 = FsmFloat_get_Value_m1818441449(L_17, /*hidden argument*/NULL);
+		(&V_0)->set_z_3(L_18);
+	}
+
+IL_00aa:
+	{
+		FsmBool_t664485696 * L_19 = __this->get_normalized_15();
+		NullCheck(L_19);
+		bool L_20 = FsmBool_get_Value_m3738134001(L_19, /*hidden argument*/NULL);
+		if (!L_20)
+		{
+			goto IL_00e2;
+		}
+	}
+	{
+		Vector3_t2243707580 * L_21 = (&V_0);
+		float L_22 = L_21->get_x_1();
+		int32_t L_23 = Screen_get_width_m41137238(NULL /*static, unused*/, /*hidden argument*/NULL);
+		L_21->set_x_1(((float)((float)L_22*(float)(((float)((float)L_23))))));
+		Vector3_t2243707580 * L_24 = (&V_0);
+		float L_25 = L_24->get_y_2();
+		int32_t L_26 = Screen_get_height_m1051800773(NULL /*static, unused*/, /*hidden argument*/NULL);
+		L_24->set_y_2(((float)((float)L_25*(float)(((float)((float)L_26))))));
+	}
+
+IL_00e2:
+	{
+		Camera_t189460977 * L_27 = Camera_get_main_m475173995(NULL /*static, unused*/, /*hidden argument*/NULL);
+		Vector3_t2243707580  L_28 = V_0;
+		NullCheck(L_27);
+		Vector3_t2243707580  L_29 = Camera_ScreenToWorldPoint_m929392728(L_27, L_28, /*hidden argument*/NULL);
+		V_0 = L_29;
+		FsmVector3_t3996534004 * L_30 = __this->get_storeWorldVector_16();
+		Vector3_t2243707580  L_31 = V_0;
+		NullCheck(L_30);
+		FsmVector3_set_Value_m1785770740(L_30, L_31, /*hidden argument*/NULL);
+		FsmFloat_t937133978 * L_32 = __this->get_storeWorldX_17();
+		float L_33 = (&V_0)->get_x_1();
+		NullCheck(L_32);
+		FsmFloat_set_Value_m3447553958(L_32, L_33, /*hidden argument*/NULL);
+		FsmFloat_t937133978 * L_34 = __this->get_storeWorldY_18();
+		float L_35 = (&V_0)->get_y_2();
+		NullCheck(L_34);
+		FsmFloat_set_Value_m3447553958(L_34, L_35, /*hidden argument*/NULL);
+		FsmFloat_t937133978 * L_36 = __this->get_storeWorldZ_19();
+		float L_37 = (&V_0)->get_z_3();
+		NullCheck(L_36);
+		FsmFloat_set_Value_m3447553958(L_36, L_37, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void HutongGames.PlayMaker.Actions.SelectRandomColor::.ctor()
+extern "C"  void SelectRandomColor__ctor_m3267412616 (SelectRandomColor_t1687601772 * __this, const MethodInfo* method)
+{
+	{
+		FsmStateAction__ctor_m1837021228(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void HutongGames.PlayMaker.Actions.SelectRandomColor::Reset()
+extern "C"  void SelectRandomColor_Reset_m3831295373 (SelectRandomColor_t1687601772 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (SelectRandomColor_Reset_m3831295373_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		__this->set_colors_11(((FsmColorU5BU5D_t4100123680*)SZArrayNew(FsmColorU5BU5D_t4100123680_il2cpp_TypeInfo_var, (uint32_t)3)));
+		FsmFloatU5BU5D_t4177556671* L_0 = ((FsmFloatU5BU5D_t4177556671*)SZArrayNew(FsmFloatU5BU5D_t4177556671_il2cpp_TypeInfo_var, (uint32_t)3));
+		FsmFloat_t937133978 * L_1 = FsmFloat_op_Implicit_m475928236(NULL /*static, unused*/, (1.0f), /*hidden argument*/NULL);
+		NullCheck(L_0);
+		ArrayElementTypeCheck (L_0, L_1);
+		(L_0)->SetAt(static_cast<il2cpp_array_size_t>(0), (FsmFloat_t937133978 *)L_1);
+		FsmFloatU5BU5D_t4177556671* L_2 = L_0;
+		FsmFloat_t937133978 * L_3 = FsmFloat_op_Implicit_m475928236(NULL /*static, unused*/, (1.0f), /*hidden argument*/NULL);
+		NullCheck(L_2);
+		ArrayElementTypeCheck (L_2, L_3);
+		(L_2)->SetAt(static_cast<il2cpp_array_size_t>(1), (FsmFloat_t937133978 *)L_3);
+		FsmFloatU5BU5D_t4177556671* L_4 = L_2;
+		FsmFloat_t937133978 * L_5 = FsmFloat_op_Implicit_m475928236(NULL /*static, unused*/, (1.0f), /*hidden argument*/NULL);
+		NullCheck(L_4);
+		ArrayElementTypeCheck (L_4, L_5);
+		(L_4)->SetAt(static_cast<il2cpp_array_size_t>(2), (FsmFloat_t937133978 *)L_5);
+		__this->set_weights_12(L_4);
+		__this->set_storeColor_13((FsmColor_t118301965 *)NULL);
+		return;
+	}
+}
+// System.Void HutongGames.PlayMaker.Actions.SelectRandomColor::OnEnter()
+extern "C"  void SelectRandomColor_OnEnter_m601626989 (SelectRandomColor_t1687601772 * __this, const MethodInfo* method)
+{
+	{
+		SelectRandomColor_DoSelectRandomColor_m3893593773(__this, /*hidden argument*/NULL);
+		FsmStateAction_Finish_m1955744727(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void HutongGames.PlayMaker.Actions.SelectRandomColor::DoSelectRandomColor()
+extern "C"  void SelectRandomColor_DoSelectRandomColor_m3893593773 (SelectRandomColor_t1687601772 * __this, const MethodInfo* method)
+{
+	int32_t V_0 = 0;
+	{
+		FsmColorU5BU5D_t4100123680* L_0 = __this->get_colors_11();
+		if (L_0)
+		{
+			goto IL_000c;
+		}
+	}
+	{
+		return;
+	}
+
+IL_000c:
+	{
+		FsmColorU5BU5D_t4100123680* L_1 = __this->get_colors_11();
+		NullCheck(L_1);
+		if ((((int32_t)((int32_t)(((Il2CppArray *)L_1)->max_length)))))
+		{
+			goto IL_001a;
+		}
+	}
+	{
+		return;
+	}
+
+IL_001a:
+	{
+		FsmColor_t118301965 * L_2 = __this->get_storeColor_13();
+		if (L_2)
+		{
+			goto IL_0026;
+		}
+	}
+	{
+		return;
+	}
+
+IL_0026:
+	{
+		FsmFloatU5BU5D_t4177556671* L_3 = __this->get_weights_12();
+		int32_t L_4 = ActionHelpers_GetRandomWeightedIndex_m3581206222(NULL /*static, unused*/, L_3, /*hidden argument*/NULL);
+		V_0 = L_4;
+		int32_t L_5 = V_0;
+		if ((((int32_t)L_5) == ((int32_t)(-1))))
+		{
+			goto IL_0051;
+		}
+	}
+	{
+		FsmColor_t118301965 * L_6 = __this->get_storeColor_13();
+		FsmColorU5BU5D_t4100123680* L_7 = __this->get_colors_11();
+		int32_t L_8 = V_0;
+		NullCheck(L_7);
+		int32_t L_9 = L_8;
+		FsmColor_t118301965 * L_10 = (L_7)->GetAt(static_cast<il2cpp_array_size_t>(L_9));
+		NullCheck(L_10);
+		Color_t2020392075  L_11 = FsmColor_get_Value_m687626399(L_10, /*hidden argument*/NULL);
+		NullCheck(L_6);
+		FsmColor_set_Value_m92994086(L_6, L_11, /*hidden argument*/NULL);
+	}
+
+IL_0051:
+	{
+		return;
+	}
+}
+// System.Void HutongGames.PlayMaker.Actions.SelectRandomGameObject::.ctor()
+extern "C"  void SelectRandomGameObject__ctor_m2720516738 (SelectRandomGameObject_t435281682 * __this, const MethodInfo* method)
+{
+	{
+		FsmStateAction__ctor_m1837021228(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void HutongGames.PlayMaker.Actions.SelectRandomGameObject::Reset()
+extern "C"  void SelectRandomGameObject_Reset_m1651995323 (SelectRandomGameObject_t435281682 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (SelectRandomGameObject_Reset_m1651995323_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		__this->set_gameObjects_11(((FsmGameObjectU5BU5D_t3601875862*)SZArrayNew(FsmGameObjectU5BU5D_t3601875862_il2cpp_TypeInfo_var, (uint32_t)3)));
+		FsmFloatU5BU5D_t4177556671* L_0 = ((FsmFloatU5BU5D_t4177556671*)SZArrayNew(FsmFloatU5BU5D_t4177556671_il2cpp_TypeInfo_var, (uint32_t)3));
+		FsmFloat_t937133978 * L_1 = FsmFloat_op_Implicit_m475928236(NULL /*static, unused*/, (1.0f), /*hidden argument*/NULL);
+		NullCheck(L_0);
+		ArrayElementTypeCheck (L_0, L_1);
+		(L_0)->SetAt(static_cast<il2cpp_array_size_t>(0), (FsmFloat_t937133978 *)L_1);
+		FsmFloatU5BU5D_t4177556671* L_2 = L_0;
+		FsmFloat_t937133978 * L_3 = FsmFloat_op_Implicit_m475928236(NULL /*static, unused*/, (1.0f), /*hidden argument*/NULL);
+		NullCheck(L_2);
+		ArrayElementTypeCheck (L_2, L_3);
+		(L_2)->SetAt(static_cast<il2cpp_array_size_t>(1), (FsmFloat_t937133978 *)L_3);
+		FsmFloatU5BU5D_t4177556671* L_4 = L_2;
+		FsmFloat_t937133978 * L_5 = FsmFloat_op_Implicit_m475928236(NULL /*static, unused*/, (1.0f), /*hidden argument*/NULL);
+		NullCheck(L_4);
+		ArrayElementTypeCheck (L_4, L_5);
+		(L_4)->SetAt(static_cast<il2cpp_array_size_t>(2), (FsmFloat_t937133978 *)L_5);
+		__this->set_weights_12(L_4);
+		__this->set_storeGameObject_13((FsmGameObject_t3097142863 *)NULL);
+		return;
+	}
+}
+// System.Void HutongGames.PlayMaker.Actions.SelectRandomGameObject::OnEnter()
+extern "C"  void SelectRandomGameObject_OnEnter_m3378101259 (SelectRandomGameObject_t435281682 * __this, const MethodInfo* method)
+{
+	{
+		SelectRandomGameObject_DoSelectRandomGameObject_m1064615393(__this, /*hidden argument*/NULL);
+		FsmStateAction_Finish_m1955744727(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void HutongGames.PlayMaker.Actions.SelectRandomGameObject::DoSelectRandomGameObject()
+extern "C"  void SelectRandomGameObject_DoSelectRandomGameObject_m1064615393 (SelectRandomGameObject_t435281682 * __this, const MethodInfo* method)
+{
+	int32_t V_0 = 0;
+	{
+		FsmGameObjectU5BU5D_t3601875862* L_0 = __this->get_gameObjects_11();
+		if (L_0)
+		{
+			goto IL_000c;
+		}
+	}
+	{
+		return;
+	}
+
+IL_000c:
+	{
+		FsmGameObjectU5BU5D_t3601875862* L_1 = __this->get_gameObjects_11();
+		NullCheck(L_1);
+		if ((((int32_t)((int32_t)(((Il2CppArray *)L_1)->max_length)))))
+		{
+			goto IL_001a;
+		}
+	}
+	{
+		return;
+	}
+
+IL_001a:
+	{
+		FsmGameObject_t3097142863 * L_2 = __this->get_storeGameObject_13();
+		if (L_2)
+		{
+			goto IL_0026;
+		}
+	}
+	{
+		return;
+	}
+
+IL_0026:
+	{
+		FsmFloatU5BU5D_t4177556671* L_3 = __this->get_weights_12();
+		int32_t L_4 = ActionHelpers_GetRandomWeightedIndex_m3581206222(NULL /*static, unused*/, L_3, /*hidden argument*/NULL);
+		V_0 = L_4;
+		int32_t L_5 = V_0;
+		if ((((int32_t)L_5) == ((int32_t)(-1))))
+		{
+			goto IL_0051;
+		}
+	}
+	{
+		FsmGameObject_t3097142863 * L_6 = __this->get_storeGameObject_13();
+		FsmGameObjectU5BU5D_t3601875862* L_7 = __this->get_gameObjects_11();
+		int32_t L_8 = V_0;
+		NullCheck(L_7);
+		int32_t L_9 = L_8;
+		FsmGameObject_t3097142863 * L_10 = (L_7)->GetAt(static_cast<il2cpp_array_size_t>(L_9));
+		NullCheck(L_10);
+		GameObject_t1756533147 * L_11 = FsmGameObject_get_Value_m15585107(L_10, /*hidden argument*/NULL);
+		NullCheck(L_6);
+		FsmGameObject_set_Value_m1923169006(L_6, L_11, /*hidden argument*/NULL);
+	}
+
+IL_0051:
+	{
+		return;
+	}
+}
+// System.Void HutongGames.PlayMaker.Actions.SelectRandomString::.ctor()
+extern "C"  void SelectRandomString__ctor_m2436301178 (SelectRandomString_t2820022428 * __this, const MethodInfo* method)
+{
+	{
+		FsmStateAction__ctor_m1837021228(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void HutongGames.PlayMaker.Actions.SelectRandomString::Reset()
+extern "C"  void SelectRandomString_Reset_m102886921 (SelectRandomString_t2820022428 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (SelectRandomString_Reset_m102886921_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		__this->set_strings_11(((FsmStringU5BU5D_t2699231328*)SZArrayNew(FsmStringU5BU5D_t2699231328_il2cpp_TypeInfo_var, (uint32_t)3)));
+		FsmFloatU5BU5D_t4177556671* L_0 = ((FsmFloatU5BU5D_t4177556671*)SZArrayNew(FsmFloatU5BU5D_t4177556671_il2cpp_TypeInfo_var, (uint32_t)3));
+		FsmFloat_t937133978 * L_1 = FsmFloat_op_Implicit_m475928236(NULL /*static, unused*/, (1.0f), /*hidden argument*/NULL);
+		NullCheck(L_0);
+		ArrayElementTypeCheck (L_0, L_1);
+		(L_0)->SetAt(static_cast<il2cpp_array_size_t>(0), (FsmFloat_t937133978 *)L_1);
+		FsmFloatU5BU5D_t4177556671* L_2 = L_0;
+		FsmFloat_t937133978 * L_3 = FsmFloat_op_Implicit_m475928236(NULL /*static, unused*/, (1.0f), /*hidden argument*/NULL);
+		NullCheck(L_2);
+		ArrayElementTypeCheck (L_2, L_3);
+		(L_2)->SetAt(static_cast<il2cpp_array_size_t>(1), (FsmFloat_t937133978 *)L_3);
+		FsmFloatU5BU5D_t4177556671* L_4 = L_2;
+		FsmFloat_t937133978 * L_5 = FsmFloat_op_Implicit_m475928236(NULL /*static, unused*/, (1.0f), /*hidden argument*/NULL);
+		NullCheck(L_4);
+		ArrayElementTypeCheck (L_4, L_5);
+		(L_4)->SetAt(static_cast<il2cpp_array_size_t>(2), (FsmFloat_t937133978 *)L_5);
+		__this->set_weights_12(L_4);
+		__this->set_storeString_13((FsmString_t2414474701 *)NULL);
+		return;
+	}
+}
+// System.Void HutongGames.PlayMaker.Actions.SelectRandomString::OnEnter()
+extern "C"  void SelectRandomString_OnEnter_m1642187305 (SelectRandomString_t2820022428 * __this, const MethodInfo* method)
+{
+	{
+		SelectRandomString_DoSelectRandomString_m147476385(__this, /*hidden argument*/NULL);
+		FsmStateAction_Finish_m1955744727(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void HutongGames.PlayMaker.Actions.SelectRandomString::DoSelectRandomString()
+extern "C"  void SelectRandomString_DoSelectRandomString_m147476385 (SelectRandomString_t2820022428 * __this, const MethodInfo* method)
+{
+	int32_t V_0 = 0;
+	{
+		FsmStringU5BU5D_t2699231328* L_0 = __this->get_strings_11();
+		if (L_0)
+		{
+			goto IL_000c;
+		}
+	}
+	{
+		return;
+	}
+
+IL_000c:
+	{
+		FsmStringU5BU5D_t2699231328* L_1 = __this->get_strings_11();
+		NullCheck(L_1);
+		if ((((int32_t)((int32_t)(((Il2CppArray *)L_1)->max_length)))))
+		{
+			goto IL_001a;
+		}
+	}
+	{
+		return;
+	}
+
+IL_001a:
+	{
+		FsmString_t2414474701 * L_2 = __this->get_storeString_13();
+		if (L_2)
+		{
+			goto IL_0026;
+		}
+	}
+	{
+		return;
+	}
+
+IL_0026:
+	{
+		FsmFloatU5BU5D_t4177556671* L_3 = __this->get_weights_12();
+		int32_t L_4 = ActionHelpers_GetRandomWeightedIndex_m3581206222(NULL /*static, unused*/, L_3, /*hidden argument*/NULL);
+		V_0 = L_4;
+		int32_t L_5 = V_0;
+		if ((((int32_t)L_5) == ((int32_t)(-1))))
+		{
+			goto IL_0051;
+		}
+	}
+	{
+		FsmString_t2414474701 * L_6 = __this->get_storeString_13();
+		FsmStringU5BU5D_t2699231328* L_7 = __this->get_strings_11();
+		int32_t L_8 = V_0;
+		NullCheck(L_7);
+		int32_t L_9 = L_8;
+		FsmString_t2414474701 * L_10 = (L_7)->GetAt(static_cast<il2cpp_array_size_t>(L_9));
+		NullCheck(L_10);
+		String_t* L_11 = FsmString_get_Value_m3775166715(L_10, /*hidden argument*/NULL);
+		NullCheck(L_6);
+		FsmString_set_Value_m1767060322(L_6, L_11, /*hidden argument*/NULL);
+	}
+
+IL_0051:
+	{
+		return;
+	}
+}
+// System.Void HutongGames.PlayMaker.Actions.SelectRandomVector2::.ctor()
+extern "C"  void SelectRandomVector2__ctor_m4058370360 (SelectRandomVector2_t3542404786 * __this, const MethodInfo* method)
+{
+	{
+		FsmStateAction__ctor_m1837021228(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void HutongGames.PlayMaker.Actions.SelectRandomVector2::Reset()
+extern "C"  void SelectRandomVector2_Reset_m1912388395 (SelectRandomVector2_t3542404786 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (SelectRandomVector2_Reset_m1912388395_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		__this->set_vector2Array_11(((FsmVector2U5BU5D_t381696854*)SZArrayNew(FsmVector2U5BU5D_t381696854_il2cpp_TypeInfo_var, (uint32_t)3)));
+		FsmFloatU5BU5D_t4177556671* L_0 = ((FsmFloatU5BU5D_t4177556671*)SZArrayNew(FsmFloatU5BU5D_t4177556671_il2cpp_TypeInfo_var, (uint32_t)3));
+		FsmFloat_t937133978 * L_1 = FsmFloat_op_Implicit_m475928236(NULL /*static, unused*/, (1.0f), /*hidden argument*/NULL);
+		NullCheck(L_0);
+		ArrayElementTypeCheck (L_0, L_1);
+		(L_0)->SetAt(static_cast<il2cpp_array_size_t>(0), (FsmFloat_t937133978 *)L_1);
+		FsmFloatU5BU5D_t4177556671* L_2 = L_0;
+		FsmFloat_t937133978 * L_3 = FsmFloat_op_Implicit_m475928236(NULL /*static, unused*/, (1.0f), /*hidden argument*/NULL);
+		NullCheck(L_2);
+		ArrayElementTypeCheck (L_2, L_3);
+		(L_2)->SetAt(static_cast<il2cpp_array_size_t>(1), (FsmFloat_t937133978 *)L_3);
+		FsmFloatU5BU5D_t4177556671* L_4 = L_2;
+		FsmFloat_t937133978 * L_5 = FsmFloat_op_Implicit_m475928236(NULL /*static, unused*/, (1.0f), /*hidden argument*/NULL);
+		NullCheck(L_4);
+		ArrayElementTypeCheck (L_4, L_5);
+		(L_4)->SetAt(static_cast<il2cpp_array_size_t>(2), (FsmFloat_t937133978 *)L_5);
+		__this->set_weights_12(L_4);
+		__this->set_storeVector2_13((FsmVector2_t2430450063 *)NULL);
+		return;
+	}
+}
+// System.Void HutongGames.PlayMaker.Actions.SelectRandomVector2::OnEnter()
+extern "C"  void SelectRandomVector2_OnEnter_m3121324187 (SelectRandomVector2_t3542404786 * __this, const MethodInfo* method)
+{
+	{
+		SelectRandomVector2_DoSelectRandomColor_m1587375559(__this, /*hidden argument*/NULL);
+		FsmStateAction_Finish_m1955744727(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void HutongGames.PlayMaker.Actions.SelectRandomVector2::DoSelectRandomColor()
+extern "C"  void SelectRandomVector2_DoSelectRandomColor_m1587375559 (SelectRandomVector2_t3542404786 * __this, const MethodInfo* method)
+{
+	int32_t V_0 = 0;
+	{
+		FsmVector2U5BU5D_t381696854* L_0 = __this->get_vector2Array_11();
+		if (L_0)
+		{
+			goto IL_000c;
+		}
+	}
+	{
+		return;
+	}
+
+IL_000c:
+	{
+		FsmVector2U5BU5D_t381696854* L_1 = __this->get_vector2Array_11();
+		NullCheck(L_1);
+		if ((((int32_t)((int32_t)(((Il2CppArray *)L_1)->max_length)))))
+		{
+			goto IL_001a;
+		}
+	}
+	{
+		return;
+	}
+
+IL_001a:
+	{
+		FsmVector2_t2430450063 * L_2 = __this->get_storeVector2_13();
+		if (L_2)
+		{
+			goto IL_0026;
+		}
+	}
+	{
+		return;
+	}
+
+IL_0026:
+	{
+		FsmFloatU5BU5D_t4177556671* L_3 = __this->get_weights_12();
+		int32_t L_4 = ActionHelpers_GetRandomWeightedIndex_m3581206222(NULL /*static, unused*/, L_3, /*hidden argument*/NULL);
+		V_0 = L_4;
+		int32_t L_5 = V_0;
+		if ((((int32_t)L_5) == ((int32_t)(-1))))
+		{
+			goto IL_0051;
+		}
+	}
+	{
+		FsmVector2_t2430450063 * L_6 = __this->get_storeVector2_13();
+		FsmVector2U5BU5D_t381696854* L_7 = __this->get_vector2Array_11();
+		int32_t L_8 = V_0;
+		NullCheck(L_7);
+		int32_t L_9 = L_8;
+		FsmVector2_t2430450063 * L_10 = (L_7)->GetAt(static_cast<il2cpp_array_size_t>(L_9));
+		NullCheck(L_10);
+		Vector2_t2243707579  L_11 = FsmVector2_get_Value_m2589490767(L_10, /*hidden argument*/NULL);
+		NullCheck(L_6);
+		FsmVector2_set_Value_m1294693978(L_6, L_11, /*hidden argument*/NULL);
+	}
+
+IL_0051:
+	{
+		return;
+	}
+}
+// System.Void HutongGames.PlayMaker.Actions.SelectRandomVector3::.ctor()
+extern "C"  void SelectRandomVector3__ctor_m4054884471 (SelectRandomVector3_t3542404785 * __this, const MethodInfo* method)
+{
+	{
+		FsmStateAction__ctor_m1837021228(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void HutongGames.PlayMaker.Actions.SelectRandomVector3::Reset()
+extern "C"  void SelectRandomVector3_Reset_m1908910954 (SelectRandomVector3_t3542404785 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (SelectRandomVector3_Reset_m1908910954_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		__this->set_vector3Array_11(((FsmVector3U5BU5D_t643261629*)SZArrayNew(FsmVector3U5BU5D_t643261629_il2cpp_TypeInfo_var, (uint32_t)3)));
+		FsmFloatU5BU5D_t4177556671* L_0 = ((FsmFloatU5BU5D_t4177556671*)SZArrayNew(FsmFloatU5BU5D_t4177556671_il2cpp_TypeInfo_var, (uint32_t)3));
+		FsmFloat_t937133978 * L_1 = FsmFloat_op_Implicit_m475928236(NULL /*static, unused*/, (1.0f), /*hidden argument*/NULL);
+		NullCheck(L_0);
+		ArrayElementTypeCheck (L_0, L_1);
+		(L_0)->SetAt(static_cast<il2cpp_array_size_t>(0), (FsmFloat_t937133978 *)L_1);
+		FsmFloatU5BU5D_t4177556671* L_2 = L_0;
+		FsmFloat_t937133978 * L_3 = FsmFloat_op_Implicit_m475928236(NULL /*static, unused*/, (1.0f), /*hidden argument*/NULL);
+		NullCheck(L_2);
+		ArrayElementTypeCheck (L_2, L_3);
+		(L_2)->SetAt(static_cast<il2cpp_array_size_t>(1), (FsmFloat_t937133978 *)L_3);
+		FsmFloatU5BU5D_t4177556671* L_4 = L_2;
+		FsmFloat_t937133978 * L_5 = FsmFloat_op_Implicit_m475928236(NULL /*static, unused*/, (1.0f), /*hidden argument*/NULL);
+		NullCheck(L_4);
+		ArrayElementTypeCheck (L_4, L_5);
+		(L_4)->SetAt(static_cast<il2cpp_array_size_t>(2), (FsmFloat_t937133978 *)L_5);
+		__this->set_weights_12(L_4);
+		__this->set_storeVector3_13((FsmVector3_t3996534004 *)NULL);
+		return;
+	}
+}
+// System.Void HutongGames.PlayMaker.Actions.SelectRandomVector3::OnEnter()
+extern "C"  void SelectRandomVector3_OnEnter_m3006359676 (SelectRandomVector3_t3542404785 * __this, const MethodInfo* method)
+{
+	{
+		SelectRandomVector3_DoSelectRandomColor_m904214824(__this, /*hidden argument*/NULL);
+		FsmStateAction_Finish_m1955744727(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void HutongGames.PlayMaker.Actions.SelectRandomVector3::DoSelectRandomColor()
+extern "C"  void SelectRandomVector3_DoSelectRandomColor_m904214824 (SelectRandomVector3_t3542404785 * __this, const MethodInfo* method)
+{
+	int32_t V_0 = 0;
+	{
+		FsmVector3U5BU5D_t643261629* L_0 = __this->get_vector3Array_11();
+		if (L_0)
+		{
+			goto IL_000c;
+		}
+	}
+	{
+		return;
+	}
+
+IL_000c:
+	{
+		FsmVector3U5BU5D_t643261629* L_1 = __this->get_vector3Array_11();
+		NullCheck(L_1);
+		if ((((int32_t)((int32_t)(((Il2CppArray *)L_1)->max_length)))))
+		{
+			goto IL_001a;
+		}
+	}
+	{
+		return;
+	}
+
+IL_001a:
+	{
+		FsmVector3_t3996534004 * L_2 = __this->get_storeVector3_13();
+		if (L_2)
+		{
+			goto IL_0026;
+		}
+	}
+	{
+		return;
+	}
+
+IL_0026:
+	{
+		FsmFloatU5BU5D_t4177556671* L_3 = __this->get_weights_12();
+		int32_t L_4 = ActionHelpers_GetRandomWeightedIndex_m3581206222(NULL /*static, unused*/, L_3, /*hidden argument*/NULL);
+		V_0 = L_4;
+		int32_t L_5 = V_0;
+		if ((((int32_t)L_5) == ((int32_t)(-1))))
+		{
+			goto IL_0051;
+		}
+	}
+	{
+		FsmVector3_t3996534004 * L_6 = __this->get_storeVector3_13();
+		FsmVector3U5BU5D_t643261629* L_7 = __this->get_vector3Array_11();
+		int32_t L_8 = V_0;
+		NullCheck(L_7);
+		int32_t L_9 = L_8;
+		FsmVector3_t3996534004 * L_10 = (L_7)->GetAt(static_cast<il2cpp_array_size_t>(L_9));
+		NullCheck(L_10);
+		Vector3_t2243707580  L_11 = FsmVector3_get_Value_m4242600139(L_10, /*hidden argument*/NULL);
+		NullCheck(L_6);
+		FsmVector3_set_Value_m1785770740(L_6, L_11, /*hidden argument*/NULL);
+	}
+
+IL_0051:
+	{
+		return;
+	}
+}
+// System.Void HutongGames.PlayMaker.Actions.SendActiveSceneChangedEvent::.ctor()
+extern "C"  void SendActiveSceneChangedEvent__ctor_m1667162050 (SendActiveSceneChangedEvent_t3095845534 * __this, const MethodInfo* method)
+{
+	{
+		FsmStateAction__ctor_m1837021228(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void HutongGames.PlayMaker.Actions.SendActiveSceneChangedEvent::Reset()
+extern "C"  void SendActiveSceneChangedEvent_Reset_m3894367295 (SendActiveSceneChangedEvent_t3095845534 * __this, const MethodInfo* method)
+{
+	{
+		__this->set_activeSceneChanged_11((FsmEvent_t1258573736 *)NULL);
+		return;
+	}
+}
+// System.Void HutongGames.PlayMaker.Actions.SendActiveSceneChangedEvent::OnEnter()
+extern "C"  void SendActiveSceneChangedEvent_OnEnter_m4195327071 (SendActiveSceneChangedEvent_t3095845534 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (SendActiveSceneChangedEvent_OnEnter_m4195327071_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		IntPtr_t L_0;
+		L_0.set_m_value_0((void*)(void*)SendActiveSceneChangedEvent_SceneManager_activeSceneChanged_m489784890_MethodInfo_var);
+		UnityAction_2_t606618774 * L_1 = (UnityAction_2_t606618774 *)il2cpp_codegen_object_new(UnityAction_2_t606618774_il2cpp_TypeInfo_var);
+		UnityAction_2__ctor_m1700527340(L_1, __this, L_0, /*hidden argument*/UnityAction_2__ctor_m1700527340_MethodInfo_var);
+		SceneManager_add_activeSceneChanged_m3462240628(NULL /*static, unused*/, L_1, /*hidden argument*/NULL);
+		FsmStateAction_Finish_m1955744727(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void HutongGames.PlayMaker.Actions.SendActiveSceneChangedEvent::SceneManager_activeSceneChanged(UnityEngine.SceneManagement.Scene,UnityEngine.SceneManagement.Scene)
+extern "C"  void SendActiveSceneChangedEvent_SceneManager_activeSceneChanged_m489784890 (SendActiveSceneChangedEvent_t3095845534 * __this, Scene_t1684909666  ___previousActiveScene0, Scene_t1684909666  ___activeScene1, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (SendActiveSceneChangedEvent_SceneManager_activeSceneChanged_m489784890_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		Scene_t1684909666  L_0 = ___activeScene1;
+		((SendActiveSceneChangedEvent_t3095845534_StaticFields*)SendActiveSceneChangedEvent_t3095845534_il2cpp_TypeInfo_var->static_fields)->set_lastNewActiveScene_13(L_0);
+		Scene_t1684909666  L_1 = ___previousActiveScene0;
+		((SendActiveSceneChangedEvent_t3095845534_StaticFields*)SendActiveSceneChangedEvent_t3095845534_il2cpp_TypeInfo_var->static_fields)->set_lastPreviousActiveScene_12(L_1);
+		Fsm_t917886356 * L_2 = FsmStateAction_get_Fsm_m4079598046(__this, /*hidden argument*/NULL);
+		FsmEvent_t1258573736 * L_3 = __this->get_activeSceneChanged_11();
+		NullCheck(L_2);
+		Fsm_Event_m4079224475(L_2, L_3, /*hidden argument*/NULL);
+		FsmStateAction_Finish_m1955744727(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void HutongGames.PlayMaker.Actions.SendActiveSceneChangedEvent::OnExit()
+extern "C"  void SendActiveSceneChangedEvent_OnExit_m533019903 (SendActiveSceneChangedEvent_t3095845534 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (SendActiveSceneChangedEvent_OnExit_m533019903_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		IntPtr_t L_0;
+		L_0.set_m_value_0((void*)(void*)SendActiveSceneChangedEvent_SceneManager_activeSceneChanged_m489784890_MethodInfo_var);
+		UnityAction_2_t606618774 * L_1 = (UnityAction_2_t606618774 *)il2cpp_codegen_object_new(UnityAction_2_t606618774_il2cpp_TypeInfo_var);
+		UnityAction_2__ctor_m1700527340(L_1, __this, L_0, /*hidden argument*/UnityAction_2__ctor_m1700527340_MethodInfo_var);
+		SceneManager_remove_activeSceneChanged_m4267832693(NULL /*static, unused*/, L_1, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void HutongGames.PlayMaker.Actions.SendEvent::.ctor()
+extern "C"  void SendEvent__ctor_m2446685344 (SendEvent_t2137460182 * __this, const MethodInfo* method)
+{
+	{
+		FsmStateAction__ctor_m1837021228(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void HutongGames.PlayMaker.Actions.SendEvent::Reset()
+extern "C"  void SendEvent_Reset_m2318929875 (SendEvent_t2137460182 * __this, const MethodInfo* method)
+{
+	{
+		__this->set_eventTarget_11((FsmEventTarget_t172293745 *)NULL);
+		__this->set_sendEvent_12((FsmEvent_t1258573736 *)NULL);
+		__this->set_delay_13((FsmFloat_t937133978 *)NULL);
+		__this->set_everyFrame_14((bool)0);
+		return;
+	}
+}
+// System.Void HutongGames.PlayMaker.Actions.SendEvent::OnEnter()
+extern "C"  void SendEvent_OnEnter_m2605175355 (SendEvent_t2137460182 * __this, const MethodInfo* method)
+{
+	{
+		FsmFloat_t937133978 * L_0 = __this->get_delay_13();
+		NullCheck(L_0);
+		float L_1 = FsmFloat_get_Value_m1818441449(L_0, /*hidden argument*/NULL);
+		if ((!(((float)L_1) < ((float)(0.001f)))))
+		{
+			goto IL_0042;
+		}
+	}
+	{
+		Fsm_t917886356 * L_2 = FsmStateAction_get_Fsm_m4079598046(__this, /*hidden argument*/NULL);
+		FsmEventTarget_t172293745 * L_3 = __this->get_eventTarget_11();
+		FsmEvent_t1258573736 * L_4 = __this->get_sendEvent_12();
+		NullCheck(L_2);
+		Fsm_Event_m135555812(L_2, L_3, L_4, /*hidden argument*/NULL);
+		bool L_5 = __this->get_everyFrame_14();
+		if (L_5)
+		{
+			goto IL_003d;
+		}
+	}
+	{
+		FsmStateAction_Finish_m1955744727(__this, /*hidden argument*/NULL);
+	}
+
+IL_003d:
+	{
+		goto IL_006a;
+	}
+
+IL_0042:
+	{
+		Fsm_t917886356 * L_6 = FsmStateAction_get_Fsm_m4079598046(__this, /*hidden argument*/NULL);
+		FsmEventTarget_t172293745 * L_7 = __this->get_eventTarget_11();
+		FsmEvent_t1258573736 * L_8 = __this->get_sendEvent_12();
+		FsmFloat_t937133978 * L_9 = __this->get_delay_13();
+		NullCheck(L_9);
+		float L_10 = FsmFloat_get_Value_m1818441449(L_9, /*hidden argument*/NULL);
+		NullCheck(L_6);
+		DelayedEvent_t1624700828 * L_11 = Fsm_DelayedEvent_m1247884586(L_6, L_7, L_8, L_10, /*hidden argument*/NULL);
+		__this->set_delayedEvent_15(L_11);
+	}
+
+IL_006a:
+	{
+		return;
+	}
+}
+// System.Void HutongGames.PlayMaker.Actions.SendEvent::OnUpdate()
+extern "C"  void SendEvent_OnUpdate_m395627974 (SendEvent_t2137460182 * __this, const MethodInfo* method)
+{
+	{
+		bool L_0 = __this->get_everyFrame_14();
+		if (L_0)
+		{
+			goto IL_0026;
+		}
+	}
+	{
+		DelayedEvent_t1624700828 * L_1 = __this->get_delayedEvent_15();
+		bool L_2 = DelayedEvent_WasSent_m1980822908(NULL /*static, unused*/, L_1, /*hidden argument*/NULL);
+		if (!L_2)
+		{
+			goto IL_0021;
+		}
+	}
+	{
+		FsmStateAction_Finish_m1955744727(__this, /*hidden argument*/NULL);
+	}
+
+IL_0021:
+	{
+		goto IL_003d;
+	}
+
+IL_0026:
+	{
+		Fsm_t917886356 * L_3 = FsmStateAction_get_Fsm_m4079598046(__this, /*hidden argument*/NULL);
+		FsmEventTarget_t172293745 * L_4 = __this->get_eventTarget_11();
+		FsmEvent_t1258573736 * L_5 = __this->get_sendEvent_12();
+		NullCheck(L_3);
+		Fsm_Event_m135555812(L_3, L_4, L_5, /*hidden argument*/NULL);
+	}
+
+IL_003d:
+	{
+		return;
+	}
+}
+// System.Void HutongGames.PlayMaker.Actions.SendEventByName::.ctor()
+extern "C"  void SendEventByName__ctor_m1607059190 (SendEventByName_t239596870 * __this, const MethodInfo* method)
+{
+	{
+		FsmStateAction__ctor_m1837021228(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void HutongGames.PlayMaker.Actions.SendEventByName::Reset()
+extern "C"  void SendEventByName_Reset_m465370011 (SendEventByName_t239596870 * __this, const MethodInfo* method)
+{
+	{
+		__this->set_eventTarget_11((FsmEventTarget_t172293745 *)NULL);
+		__this->set_sendEvent_12((FsmString_t2414474701 *)NULL);
+		__this->set_delay_13((FsmFloat_t937133978 *)NULL);
+		__this->set_everyFrame_14((bool)0);
+		return;
+	}
+}
+// System.Void HutongGames.PlayMaker.Actions.SendEventByName::OnEnter()
+extern "C"  void SendEventByName_OnEnter_m257003715 (SendEventByName_t239596870 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (SendEventByName_OnEnter_m257003715_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		FsmFloat_t937133978 * L_0 = __this->get_delay_13();
+		NullCheck(L_0);
+		float L_1 = FsmFloat_get_Value_m1818441449(L_0, /*hidden argument*/NULL);
+		if ((!(((float)L_1) < ((float)(0.001f)))))
+		{
+			goto IL_0047;
+		}
+	}
+	{
+		Fsm_t917886356 * L_2 = FsmStateAction_get_Fsm_m4079598046(__this, /*hidden argument*/NULL);
+		FsmEventTarget_t172293745 * L_3 = __this->get_eventTarget_11();
+		FsmString_t2414474701 * L_4 = __this->get_sendEvent_12();
+		NullCheck(L_4);
+		String_t* L_5 = FsmString_get_Value_m3775166715(L_4, /*hidden argument*/NULL);
+		NullCheck(L_2);
+		Fsm_Event_m1156864510(L_2, L_3, L_5, /*hidden argument*/NULL);
+		bool L_6 = __this->get_everyFrame_14();
+		if (L_6)
+		{
+			goto IL_0042;
+		}
+	}
+	{
+		FsmStateAction_Finish_m1955744727(__this, /*hidden argument*/NULL);
+	}
+
+IL_0042:
+	{
+		goto IL_0079;
+	}
+
+IL_0047:
+	{
+		Fsm_t917886356 * L_7 = FsmStateAction_get_Fsm_m4079598046(__this, /*hidden argument*/NULL);
+		FsmEventTarget_t172293745 * L_8 = __this->get_eventTarget_11();
+		FsmString_t2414474701 * L_9 = __this->get_sendEvent_12();
+		NullCheck(L_9);
+		String_t* L_10 = FsmString_get_Value_m3775166715(L_9, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(FsmEvent_t1258573736_il2cpp_TypeInfo_var);
+		FsmEvent_t1258573736 * L_11 = FsmEvent_GetFsmEvent_m128779372(NULL /*static, unused*/, L_10, /*hidden argument*/NULL);
+		FsmFloat_t937133978 * L_12 = __this->get_delay_13();
+		NullCheck(L_12);
+		float L_13 = FsmFloat_get_Value_m1818441449(L_12, /*hidden argument*/NULL);
+		NullCheck(L_7);
+		DelayedEvent_t1624700828 * L_14 = Fsm_DelayedEvent_m1247884586(L_7, L_8, L_11, L_13, /*hidden argument*/NULL);
+		__this->set_delayedEvent_15(L_14);
+	}
+
+IL_0079:
+	{
+		return;
+	}
+}
+// System.Void HutongGames.PlayMaker.Actions.SendEventByName::OnUpdate()
+extern "C"  void SendEventByName_OnUpdate_m3823099424 (SendEventByName_t239596870 * __this, const MethodInfo* method)
+{
+	{
+		bool L_0 = __this->get_everyFrame_14();
+		if (L_0)
+		{
+			goto IL_0026;
+		}
+	}
+	{
+		DelayedEvent_t1624700828 * L_1 = __this->get_delayedEvent_15();
+		bool L_2 = DelayedEvent_WasSent_m1980822908(NULL /*static, unused*/, L_1, /*hidden argument*/NULL);
+		if (!L_2)
+		{
+			goto IL_0021;
+		}
+	}
+	{
+		FsmStateAction_Finish_m1955744727(__this, /*hidden argument*/NULL);
+	}
+
+IL_0021:
+	{
+		goto IL_0042;
+	}
+
+IL_0026:
+	{
+		Fsm_t917886356 * L_3 = FsmStateAction_get_Fsm_m4079598046(__this, /*hidden argument*/NULL);
+		FsmEventTarget_t172293745 * L_4 = __this->get_eventTarget_11();
+		FsmString_t2414474701 * L_5 = __this->get_sendEvent_12();
+		NullCheck(L_5);
+		String_t* L_6 = FsmString_get_Value_m3775166715(L_5, /*hidden argument*/NULL);
+		NullCheck(L_3);
+		Fsm_Event_m1156864510(L_3, L_4, L_6, /*hidden argument*/NULL);
+	}
+
+IL_0042:
+	{
+		return;
+	}
+}
+// System.Void HutongGames.PlayMaker.Actions.SendEventToFsm::.ctor()
+extern "C"  void SendEventToFsm__ctor_m1773923173 (SendEventToFsm_t102492465 * __this, const MethodInfo* method)
+{
+	{
+		FsmStateAction__ctor_m1837021228(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void HutongGames.PlayMaker.Actions.SendEventToFsm::Reset()
+extern "C"  void SendEventToFsm_Reset_m3734387806 (SendEventToFsm_t102492465 * __this, const MethodInfo* method)
+{
+	{
+		__this->set_gameObject_11((FsmOwnerDefault_t2023674184 *)NULL);
+		__this->set_fsmName_12((FsmString_t2414474701 *)NULL);
+		__this->set_sendEvent_13((FsmString_t2414474701 *)NULL);
+		__this->set_delay_14((FsmFloat_t937133978 *)NULL);
+		__this->set_requireReceiver_15((bool)0);
+		return;
+	}
+}
+// System.Void HutongGames.PlayMaker.Actions.SendEventToFsm::OnEnter()
+extern "C"  void SendEventToFsm_OnEnter_m1255039804 (SendEventToFsm_t102492465 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (SendEventToFsm_OnEnter_m1255039804_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	PlayMakerFSM_t437737208 * V_0 = NULL;
+	{
+		Fsm_t917886356 * L_0 = FsmStateAction_get_Fsm_m4079598046(__this, /*hidden argument*/NULL);
+		FsmOwnerDefault_t2023674184 * L_1 = __this->get_gameObject_11();
+		NullCheck(L_0);
+		GameObject_t1756533147 * L_2 = Fsm_GetOwnerDefaultTarget_m1045900479(L_0, L_1, /*hidden argument*/NULL);
+		__this->set_go_16(L_2);
+		GameObject_t1756533147 * L_3 = __this->get_go_16();
+		IL2CPP_RUNTIME_CLASS_INIT(Object_t1021602117_il2cpp_TypeInfo_var);
+		bool L_4 = Object_op_Equality_m3764089466(NULL /*static, unused*/, L_3, (Object_t1021602117 *)NULL, /*hidden argument*/NULL);
+		if (!L_4)
+		{
+			goto IL_002f;
+		}
+	}
+	{
+		FsmStateAction_Finish_m1955744727(__this, /*hidden argument*/NULL);
+		return;
+	}
+
+IL_002f:
+	{
+		GameObject_t1756533147 * L_5 = __this->get_go_16();
+		FsmString_t2414474701 * L_6 = __this->get_fsmName_12();
+		NullCheck(L_6);
+		String_t* L_7 = FsmString_get_Value_m3775166715(L_6, /*hidden argument*/NULL);
+		PlayMakerFSM_t437737208 * L_8 = ActionHelpers_GetGameObjectFsm_m2570111466(NULL /*static, unused*/, L_5, L_7, /*hidden argument*/NULL);
+		V_0 = L_8;
+		PlayMakerFSM_t437737208 * L_9 = V_0;
+		IL2CPP_RUNTIME_CLASS_INIT(Object_t1021602117_il2cpp_TypeInfo_var);
+		bool L_10 = Object_op_Equality_m3764089466(NULL /*static, unused*/, L_9, (Object_t1021602117 *)NULL, /*hidden argument*/NULL);
+		if (!L_10)
+		{
+			goto IL_0089;
+		}
+	}
+	{
+		bool L_11 = __this->get_requireReceiver_15();
+		if (!L_11)
+		{
+			goto IL_0088;
+		}
+	}
+	{
+		GameObject_t1756533147 * L_12 = __this->get_go_16();
+		NullCheck(L_12);
+		String_t* L_13 = Object_get_name_m2079638459(L_12, /*hidden argument*/NULL);
+		FsmString_t2414474701 * L_14 = __this->get_fsmName_12();
+		NullCheck(L_14);
+		String_t* L_15 = FsmString_get_Value_m3775166715(L_14, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+		String_t* L_16 = String_Concat_m1561703559(NULL /*static, unused*/, _stringLiteral4271151420, L_13, _stringLiteral372029310, L_15, /*hidden argument*/NULL);
+		FsmStateAction_LogError_m3656178960(__this, L_16, /*hidden argument*/NULL);
+	}
+
+IL_0088:
+	{
+		return;
+	}
+
+IL_0089:
+	{
+		FsmFloat_t937133978 * L_17 = __this->get_delay_14();
+		NullCheck(L_17);
+		float L_18 = FsmFloat_get_Value_m1818441449(L_17, /*hidden argument*/NULL);
+		if ((!(((double)(((double)((double)L_18)))) < ((double)(0.001)))))
+		{
+			goto IL_00c4;
+		}
+	}
+	{
+		PlayMakerFSM_t437737208 * L_19 = V_0;
+		NullCheck(L_19);
+		Fsm_t917886356 * L_20 = PlayMakerFSM_get_Fsm_m3359411247(L_19, /*hidden argument*/NULL);
+		FsmString_t2414474701 * L_21 = __this->get_sendEvent_13();
+		NullCheck(L_21);
+		String_t* L_22 = FsmString_get_Value_m3775166715(L_21, /*hidden argument*/NULL);
+		NullCheck(L_20);
+		Fsm_Event_m603178779(L_20, L_22, /*hidden argument*/NULL);
+		FsmStateAction_Finish_m1955744727(__this, /*hidden argument*/NULL);
+		goto IL_00f0;
+	}
+
+IL_00c4:
+	{
+		PlayMakerFSM_t437737208 * L_23 = V_0;
+		NullCheck(L_23);
+		Fsm_t917886356 * L_24 = PlayMakerFSM_get_Fsm_m3359411247(L_23, /*hidden argument*/NULL);
+		FsmString_t2414474701 * L_25 = __this->get_sendEvent_13();
+		NullCheck(L_25);
+		String_t* L_26 = FsmString_get_Value_m3775166715(L_25, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(FsmEvent_t1258573736_il2cpp_TypeInfo_var);
+		FsmEvent_t1258573736 * L_27 = FsmEvent_GetFsmEvent_m128779372(NULL /*static, unused*/, L_26, /*hidden argument*/NULL);
+		FsmFloat_t937133978 * L_28 = __this->get_delay_14();
+		NullCheck(L_28);
+		float L_29 = FsmFloat_get_Value_m1818441449(L_28, /*hidden argument*/NULL);
+		NullCheck(L_24);
+		DelayedEvent_t1624700828 * L_30 = Fsm_DelayedEvent_m1521897107(L_24, L_27, L_29, /*hidden argument*/NULL);
+		__this->set_delayedEvent_17(L_30);
+	}
+
+IL_00f0:
+	{
+		return;
+	}
+}
+// System.Void HutongGames.PlayMaker.Actions.SendEventToFsm::OnUpdate()
+extern "C"  void SendEventToFsm_OnUpdate_m178561745 (SendEventToFsm_t102492465 * __this, const MethodInfo* method)
+{
+	{
+		DelayedEvent_t1624700828 * L_0 = __this->get_delayedEvent_17();
+		bool L_1 = DelayedEvent_WasSent_m1980822908(NULL /*static, unused*/, L_0, /*hidden argument*/NULL);
+		if (!L_1)
+		{
+			goto IL_0016;
+		}
+	}
+	{
+		FsmStateAction_Finish_m1955744727(__this, /*hidden argument*/NULL);
+	}
+
+IL_0016:
+	{
+		return;
+	}
+}
+// System.Void HutongGames.PlayMaker.Actions.SendMessage::.ctor()
+extern "C"  void SendMessage__ctor_m1424318385 (SendMessage_t2292102445 * __this, const MethodInfo* method)
+{
+	{
+		FsmStateAction__ctor_m1837021228(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void HutongGames.PlayMaker.Actions.SendMessage::Reset()
+extern "C"  void SendMessage_Reset_m269574214 (SendMessage_t2292102445 * __this, const MethodInfo* method)
+{
+	{
+		__this->set_gameObject_11((FsmOwnerDefault_t2023674184 *)NULL);
+		__this->set_delivery_12(0);
+		__this->set_options_13(1);
+		__this->set_functionCall_14((FunctionCall_t2754669930 *)NULL);
+		return;
+	}
+}
+// System.Void HutongGames.PlayMaker.Actions.SendMessage::OnEnter()
+extern "C"  void SendMessage_OnEnter_m861365468 (SendMessage_t2292102445 * __this, const MethodInfo* method)
+{
+	{
+		SendMessage_DoSendMessage_m1290580433(__this, /*hidden argument*/NULL);
+		FsmStateAction_Finish_m1955744727(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void HutongGames.PlayMaker.Actions.SendMessage::DoSendMessage()
+extern "C"  void SendMessage_DoSendMessage_m1290580433 (SendMessage_t2292102445 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (SendMessage_DoSendMessage_m1290580433_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	GameObject_t1756533147 * V_0 = NULL;
+	Il2CppObject * V_1 = NULL;
+	String_t* V_2 = NULL;
+	Dictionary_2_t3986656710 * V_3 = NULL;
+	int32_t V_4 = 0;
+	int32_t V_5 = 0;
+	{
+		Fsm_t917886356 * L_0 = FsmStateAction_get_Fsm_m4079598046(__this, /*hidden argument*/NULL);
+		FsmOwnerDefault_t2023674184 * L_1 = __this->get_gameObject_11();
+		NullCheck(L_0);
+		GameObject_t1756533147 * L_2 = Fsm_GetOwnerDefaultTarget_m1045900479(L_0, L_1, /*hidden argument*/NULL);
+		V_0 = L_2;
+		GameObject_t1756533147 * L_3 = V_0;
+		IL2CPP_RUNTIME_CLASS_INIT(Object_t1021602117_il2cpp_TypeInfo_var);
+		bool L_4 = Object_op_Equality_m3764089466(NULL /*static, unused*/, L_3, (Object_t1021602117 *)NULL, /*hidden argument*/NULL);
+		if (!L_4)
+		{
+			goto IL_001f;
+		}
+	}
+	{
+		return;
+	}
+
+IL_001f:
+	{
+		V_1 = NULL;
+		FunctionCall_t2754669930 * L_5 = __this->get_functionCall_14();
+		NullCheck(L_5);
+		String_t* L_6 = FunctionCall_get_ParameterType_m2201785492(L_5, /*hidden argument*/NULL);
+		V_2 = L_6;
+		String_t* L_7 = V_2;
+		if (!L_7)
+		{
+			goto IL_02e7;
+		}
+	}
+	{
+		Dictionary_2_t3986656710 * L_8 = ((SendMessage_t2292102445_StaticFields*)SendMessage_t2292102445_il2cpp_TypeInfo_var->static_fields)->get_U3CU3Ef__switchU24map0_15();
+		if (L_8)
+		{
+			goto IL_0112;
+		}
+	}
+	{
+		Dictionary_2_t3986656710 * L_9 = (Dictionary_2_t3986656710 *)il2cpp_codegen_object_new(Dictionary_2_t3986656710_il2cpp_TypeInfo_var);
+		Dictionary_2__ctor_m2118310873(L_9, ((int32_t)16), /*hidden argument*/Dictionary_2__ctor_m2118310873_MethodInfo_var);
+		V_3 = L_9;
+		Dictionary_2_t3986656710 * L_10 = V_3;
+		NullCheck(L_10);
+		Dictionary_2_Add_m1209957957(L_10, _stringLiteral1414246128, 0, /*hidden argument*/Dictionary_2_Add_m1209957957_MethodInfo_var);
+		Dictionary_2_t3986656710 * L_11 = V_3;
+		NullCheck(L_11);
+		Dictionary_2_Add_m1209957957(L_11, _stringLiteral204391430, 1, /*hidden argument*/Dictionary_2_Add_m1209957957_MethodInfo_var);
+		Dictionary_2_t3986656710 * L_12 = V_3;
+		NullCheck(L_12);
+		Dictionary_2_Add_m1209957957(L_12, _stringLiteral3068682575, 2, /*hidden argument*/Dictionary_2_Add_m1209957957_MethodInfo_var);
+		Dictionary_2_t3986656710 * L_13 = V_3;
+		NullCheck(L_13);
+		Dictionary_2_Add_m1209957957(L_13, _stringLiteral613657440, 3, /*hidden argument*/Dictionary_2_Add_m1209957957_MethodInfo_var);
+		Dictionary_2_t3986656710 * L_14 = V_3;
+		NullCheck(L_14);
+		Dictionary_2_Add_m1209957957(L_14, _stringLiteral3311014053, 4, /*hidden argument*/Dictionary_2_Add_m1209957957_MethodInfo_var);
+		Dictionary_2_t3986656710 * L_15 = V_3;
+		NullCheck(L_15);
+		Dictionary_2_Add_m1209957957(L_15, _stringLiteral1335531435, 5, /*hidden argument*/Dictionary_2_Add_m1209957957_MethodInfo_var);
+		Dictionary_2_t3986656710 * L_16 = V_3;
+		NullCheck(L_16);
+		Dictionary_2_Add_m1209957957(L_16, _stringLiteral1335531434, 6, /*hidden argument*/Dictionary_2_Add_m1209957957_MethodInfo_var);
+		Dictionary_2_t3986656710 * L_17 = V_3;
+		NullCheck(L_17);
+		Dictionary_2_Add_m1209957957(L_17, _stringLiteral3423762616, 7, /*hidden argument*/Dictionary_2_Add_m1209957957_MethodInfo_var);
+		Dictionary_2_t3986656710 * L_18 = V_3;
+		NullCheck(L_18);
+		Dictionary_2_Add_m1209957957(L_18, _stringLiteral2236113155, 8, /*hidden argument*/Dictionary_2_Add_m1209957957_MethodInfo_var);
+		Dictionary_2_t3986656710 * L_19 = V_3;
+		NullCheck(L_19);
+		Dictionary_2_Add_m1209957957(L_19, _stringLiteral3067252259, ((int32_t)9), /*hidden argument*/Dictionary_2_Add_m1209957957_MethodInfo_var);
+		Dictionary_2_t3986656710 * L_20 = V_3;
+		NullCheck(L_20);
+		Dictionary_2_Add_m1209957957(L_20, _stringLiteral1335595703, ((int32_t)10), /*hidden argument*/Dictionary_2_Add_m1209957957_MethodInfo_var);
+		Dictionary_2_t3986656710 * L_21 = V_3;
+		NullCheck(L_21);
+		Dictionary_2_Add_m1209957957(L_21, _stringLiteral3120862801, ((int32_t)11), /*hidden argument*/Dictionary_2_Add_m1209957957_MethodInfo_var);
+		Dictionary_2_t3986656710 * L_22 = V_3;
+		NullCheck(L_22);
+		Dictionary_2_Add_m1209957957(L_22, _stringLiteral953520486, ((int32_t)12), /*hidden argument*/Dictionary_2_Add_m1209957957_MethodInfo_var);
+		Dictionary_2_t3986656710 * L_23 = V_3;
+		NullCheck(L_23);
+		Dictionary_2_Add_m1209957957(L_23, _stringLiteral2051284657, ((int32_t)13), /*hidden argument*/Dictionary_2_Add_m1209957957_MethodInfo_var);
+		Dictionary_2_t3986656710 * L_24 = V_3;
+		NullCheck(L_24);
+		Dictionary_2_Add_m1209957957(L_24, _stringLiteral1629313587, ((int32_t)14), /*hidden argument*/Dictionary_2_Add_m1209957957_MethodInfo_var);
+		Dictionary_2_t3986656710 * L_25 = V_3;
+		NullCheck(L_25);
+		Dictionary_2_Add_m1209957957(L_25, _stringLiteral1185245981, ((int32_t)15), /*hidden argument*/Dictionary_2_Add_m1209957957_MethodInfo_var);
+		Dictionary_2_t3986656710 * L_26 = V_3;
+		((SendMessage_t2292102445_StaticFields*)SendMessage_t2292102445_il2cpp_TypeInfo_var->static_fields)->set_U3CU3Ef__switchU24map0_15(L_26);
+	}
+
+IL_0112:
+	{
+		Dictionary_2_t3986656710 * L_27 = ((SendMessage_t2292102445_StaticFields*)SendMessage_t2292102445_il2cpp_TypeInfo_var->static_fields)->get_U3CU3Ef__switchU24map0_15();
+		String_t* L_28 = V_2;
+		NullCheck(L_27);
+		bool L_29 = Dictionary_2_TryGetValue_m2977303364(L_27, L_28, (&V_4), /*hidden argument*/Dictionary_2_TryGetValue_m2977303364_MethodInfo_var);
+		if (!L_29)
+		{
+			goto IL_02e7;
+		}
+	}
+	{
+		int32_t L_30 = V_4;
+		switch (L_30)
+		{
+			case 0:
+			{
+				goto IL_0170;
+			}
+			case 1:
+			{
+				goto IL_0175;
+			}
+			case 2:
+			{
+				goto IL_0190;
+			}
+			case 3:
+			{
+				goto IL_01ab;
+			}
+			case 4:
+			{
+				goto IL_01c6;
+			}
+			case 5:
+			{
+				goto IL_01dc;
+			}
+			case 6:
+			{
+				goto IL_01f7;
+			}
+			case 7:
+			{
+				goto IL_0212;
+			}
+			case 8:
+			{
+				goto IL_022d;
+			}
+			case 9:
+			{
+				goto IL_0243;
+			}
+			case 10:
+			{
+				goto IL_0259;
+			}
+			case 11:
+			{
+				goto IL_026f;
+			}
+			case 12:
+			{
+				goto IL_028a;
+			}
+			case 13:
+			{
+				goto IL_02a5;
+			}
+			case 14:
+			{
+				goto IL_02bb;
+			}
+			case 15:
+			{
+				goto IL_02d1;
+			}
+		}
+	}
+	{
+		goto IL_02e7;
+	}
+
+IL_0170:
+	{
+		goto IL_02e7;
+	}
+
+IL_0175:
+	{
+		FunctionCall_t2754669930 * L_31 = __this->get_functionCall_14();
+		NullCheck(L_31);
+		FsmBool_t664485696 * L_32 = L_31->get_BoolParameter_2();
+		NullCheck(L_32);
+		bool L_33 = FsmBool_get_Value_m3738134001(L_32, /*hidden argument*/NULL);
+		bool L_34 = L_33;
+		Il2CppObject * L_35 = Box(Boolean_t3825574718_il2cpp_TypeInfo_var, &L_34);
+		V_1 = L_35;
+		goto IL_02e7;
+	}
+
+IL_0190:
+	{
+		FunctionCall_t2754669930 * L_36 = __this->get_functionCall_14();
+		NullCheck(L_36);
+		FsmInt_t1273009179 * L_37 = L_36->get_IntParameter_4();
+		NullCheck(L_37);
+		int32_t L_38 = FsmInt_get_Value_m3705703582(L_37, /*hidden argument*/NULL);
+		int32_t L_39 = L_38;
+		Il2CppObject * L_40 = Box(Int32_t2071877448_il2cpp_TypeInfo_var, &L_39);
+		V_1 = L_40;
+		goto IL_02e7;
+	}
+
+IL_01ab:
+	{
+		FunctionCall_t2754669930 * L_41 = __this->get_functionCall_14();
+		NullCheck(L_41);
+		FsmFloat_t937133978 * L_42 = L_41->get_FloatParameter_3();
+		NullCheck(L_42);
+		float L_43 = FsmFloat_get_Value_m1818441449(L_42, /*hidden argument*/NULL);
+		float L_44 = L_43;
+		Il2CppObject * L_45 = Box(Single_t2076509932_il2cpp_TypeInfo_var, &L_44);
+		V_1 = L_45;
+		goto IL_02e7;
+	}
+
+IL_01c6:
+	{
+		FunctionCall_t2754669930 * L_46 = __this->get_functionCall_14();
+		NullCheck(L_46);
+		FsmString_t2414474701 * L_47 = L_46->get_StringParameter_7();
+		NullCheck(L_47);
+		String_t* L_48 = FsmString_get_Value_m3775166715(L_47, /*hidden argument*/NULL);
+		V_1 = L_48;
+		goto IL_02e7;
+	}
+
+IL_01dc:
+	{
+		FunctionCall_t2754669930 * L_49 = __this->get_functionCall_14();
+		NullCheck(L_49);
+		FsmVector2_t2430450063 * L_50 = L_49->get_Vector2Parameter_8();
+		NullCheck(L_50);
+		Vector2_t2243707579  L_51 = FsmVector2_get_Value_m2589490767(L_50, /*hidden argument*/NULL);
+		Vector2_t2243707579  L_52 = L_51;
+		Il2CppObject * L_53 = Box(Vector2_t2243707579_il2cpp_TypeInfo_var, &L_52);
+		V_1 = L_53;
+		goto IL_02e7;
+	}
+
+IL_01f7:
+	{
+		FunctionCall_t2754669930 * L_54 = __this->get_functionCall_14();
+		NullCheck(L_54);
+		FsmVector3_t3996534004 * L_55 = L_54->get_Vector3Parameter_9();
+		NullCheck(L_55);
+		Vector3_t2243707580  L_56 = FsmVector3_get_Value_m4242600139(L_55, /*hidden argument*/NULL);
+		Vector3_t2243707580  L_57 = L_56;
+		Il2CppObject * L_58 = Box(Vector3_t2243707580_il2cpp_TypeInfo_var, &L_57);
+		V_1 = L_58;
+		goto IL_02e7;
+	}
+
+IL_0212:
+	{
+		FunctionCall_t2754669930 * L_59 = __this->get_functionCall_14();
+		NullCheck(L_59);
+		FsmRect_t19023354 * L_60 = L_59->get_RectParamater_10();
+		NullCheck(L_60);
+		Rect_t3681755626  L_61 = FsmRect_get_Value_m3959922771(L_60, /*hidden argument*/NULL);
+		Rect_t3681755626  L_62 = L_61;
+		Il2CppObject * L_63 = Box(Rect_t3681755626_il2cpp_TypeInfo_var, &L_62);
+		V_1 = L_63;
+		goto IL_02e7;
+	}
+
+IL_022d:
+	{
+		FunctionCall_t2754669930 * L_64 = __this->get_functionCall_14();
+		NullCheck(L_64);
+		FsmGameObject_t3097142863 * L_65 = L_64->get_GameObjectParameter_5();
+		NullCheck(L_65);
+		GameObject_t1756533147 * L_66 = FsmGameObject_get_Value_m15585107(L_65, /*hidden argument*/NULL);
+		V_1 = L_66;
+		goto IL_02e7;
+	}
+
+IL_0243:
+	{
+		FunctionCall_t2754669930 * L_67 = __this->get_functionCall_14();
+		NullCheck(L_67);
+		FsmMaterial_t1421632035 * L_68 = L_67->get_MaterialParameter_12();
+		NullCheck(L_68);
+		Material_t193706927 * L_69 = FsmMaterial_get_Value_m361239091(L_68, /*hidden argument*/NULL);
+		V_1 = L_69;
+		goto IL_02e7;
+	}
+
+IL_0259:
+	{
+		FunctionCall_t2754669930 * L_70 = __this->get_functionCall_14();
+		NullCheck(L_70);
+		FsmTexture_t3372293163 * L_71 = L_70->get_TextureParameter_13();
+		NullCheck(L_71);
+		Texture_t2243626319 * L_72 = FsmTexture_get_Value_m2325441495(L_71, /*hidden argument*/NULL);
+		V_1 = L_72;
+		goto IL_02e7;
+	}
+
+IL_026f:
+	{
+		FunctionCall_t2754669930 * L_73 = __this->get_functionCall_14();
+		NullCheck(L_73);
+		FsmColor_t118301965 * L_74 = L_73->get_ColorParameter_14();
+		NullCheck(L_74);
+		Color_t2020392075  L_75 = FsmColor_get_Value_m687626399(L_74, /*hidden argument*/NULL);
+		Color_t2020392075  L_76 = L_75;
+		Il2CppObject * L_77 = Box(Color_t2020392075_il2cpp_TypeInfo_var, &L_76);
+		V_1 = L_77;
+		goto IL_02e7;
+	}
+
+IL_028a:
+	{
+		FunctionCall_t2754669930 * L_78 = __this->get_functionCall_14();
+		NullCheck(L_78);
+		FsmQuaternion_t878438756 * L_79 = L_78->get_QuaternionParameter_11();
+		NullCheck(L_79);
+		Quaternion_t4030073918  L_80 = FsmQuaternion_get_Value_m2629833107(L_79, /*hidden argument*/NULL);
+		Quaternion_t4030073918  L_81 = L_80;
+		Il2CppObject * L_82 = Box(Quaternion_t4030073918_il2cpp_TypeInfo_var, &L_81);
+		V_1 = L_82;
+		goto IL_02e7;
+	}
+
+IL_02a5:
+	{
+		FunctionCall_t2754669930 * L_83 = __this->get_functionCall_14();
+		NullCheck(L_83);
+		FsmObject_t2785794313 * L_84 = L_83->get_ObjectParameter_6();
+		NullCheck(L_84);
+		Object_t1021602117 * L_85 = FsmObject_get_Value_m1585581971(L_84, /*hidden argument*/NULL);
+		V_1 = L_85;
+		goto IL_02e7;
+	}
+
+IL_02bb:
+	{
+		FunctionCall_t2754669930 * L_86 = __this->get_functionCall_14();
+		NullCheck(L_86);
+		FsmEnum_t2808516103 * L_87 = L_86->get_EnumParameter_15();
+		NullCheck(L_87);
+		Enum_t2459695545 * L_88 = FsmEnum_get_Value_m3904328091(L_87, /*hidden argument*/NULL);
+		V_1 = L_88;
+		goto IL_02e7;
+	}
+
+IL_02d1:
+	{
+		FunctionCall_t2754669930 * L_89 = __this->get_functionCall_14();
+		NullCheck(L_89);
+		FsmArray_t527459893 * L_90 = L_89->get_ArrayParameter_16();
+		NullCheck(L_90);
+		ObjectU5BU5D_t3614634134* L_91 = FsmArray_get_Values_m592566460(L_90, /*hidden argument*/NULL);
+		V_1 = (Il2CppObject *)L_91;
+		goto IL_02e7;
+	}
+
+IL_02e7:
+	{
+		int32_t L_92 = __this->get_delivery_12();
+		V_5 = L_92;
+		int32_t L_93 = V_5;
+		if (!L_93)
+		{
+			goto IL_030b;
+		}
+	}
+	{
+		int32_t L_94 = V_5;
+		if ((((int32_t)L_94) == ((int32_t)1)))
+		{
+			goto IL_0324;
+		}
+	}
+	{
+		int32_t L_95 = V_5;
+		if ((((int32_t)L_95) == ((int32_t)2)))
+		{
+			goto IL_033d;
+		}
+	}
+	{
+		goto IL_0356;
+	}
+
+IL_030b:
+	{
+		GameObject_t1756533147 * L_96 = V_0;
+		FunctionCall_t2754669930 * L_97 = __this->get_functionCall_14();
+		NullCheck(L_97);
+		String_t* L_98 = L_97->get_FunctionName_0();
+		Il2CppObject * L_99 = V_1;
+		int32_t L_100 = __this->get_options_13();
+		NullCheck(L_96);
+		GameObject_SendMessage_m71956653(L_96, L_98, L_99, L_100, /*hidden argument*/NULL);
+		return;
+	}
+
+IL_0324:
+	{
+		GameObject_t1756533147 * L_101 = V_0;
+		FunctionCall_t2754669930 * L_102 = __this->get_functionCall_14();
+		NullCheck(L_102);
+		String_t* L_103 = L_102->get_FunctionName_0();
+		Il2CppObject * L_104 = V_1;
+		int32_t L_105 = __this->get_options_13();
+		NullCheck(L_101);
+		GameObject_SendMessageUpwards_m2755854567(L_101, L_103, L_104, L_105, /*hidden argument*/NULL);
+		return;
+	}
+
+IL_033d:
+	{
+		GameObject_t1756533147 * L_106 = V_0;
+		FunctionCall_t2754669930 * L_107 = __this->get_functionCall_14();
+		NullCheck(L_107);
+		String_t* L_108 = L_107->get_FunctionName_0();
+		Il2CppObject * L_109 = V_1;
+		int32_t L_110 = __this->get_options_13();
+		NullCheck(L_106);
+		GameObject_BroadcastMessage_m3472370570(L_106, L_108, L_109, L_110, /*hidden argument*/NULL);
+		return;
+	}
+
+IL_0356:
+	{
+		return;
+	}
+}
+// System.Void HutongGames.PlayMaker.Actions.SendRandomEvent::.ctor()
+extern "C"  void SendRandomEvent__ctor_m3025564409 (SendRandomEvent_t685549595 * __this, const MethodInfo* method)
+{
+	{
+		FsmStateAction__ctor_m1837021228(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void HutongGames.PlayMaker.Actions.SendRandomEvent::Reset()
+extern "C"  void SendRandomEvent_Reset_m1827739932 (SendRandomEvent_t685549595 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (SendRandomEvent_Reset_m1827739932_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		__this->set_events_11(((FsmEventU5BU5D_t287863993*)SZArrayNew(FsmEventU5BU5D_t287863993_il2cpp_TypeInfo_var, (uint32_t)3)));
+		FsmFloatU5BU5D_t4177556671* L_0 = ((FsmFloatU5BU5D_t4177556671*)SZArrayNew(FsmFloatU5BU5D_t4177556671_il2cpp_TypeInfo_var, (uint32_t)3));
+		FsmFloat_t937133978 * L_1 = FsmFloat_op_Implicit_m475928236(NULL /*static, unused*/, (1.0f), /*hidden argument*/NULL);
+		NullCheck(L_0);
+		ArrayElementTypeCheck (L_0, L_1);
+		(L_0)->SetAt(static_cast<il2cpp_array_size_t>(0), (FsmFloat_t937133978 *)L_1);
+		FsmFloatU5BU5D_t4177556671* L_2 = L_0;
+		FsmFloat_t937133978 * L_3 = FsmFloat_op_Implicit_m475928236(NULL /*static, unused*/, (1.0f), /*hidden argument*/NULL);
+		NullCheck(L_2);
+		ArrayElementTypeCheck (L_2, L_3);
+		(L_2)->SetAt(static_cast<il2cpp_array_size_t>(1), (FsmFloat_t937133978 *)L_3);
+		FsmFloatU5BU5D_t4177556671* L_4 = L_2;
+		FsmFloat_t937133978 * L_5 = FsmFloat_op_Implicit_m475928236(NULL /*static, unused*/, (1.0f), /*hidden argument*/NULL);
+		NullCheck(L_4);
+		ArrayElementTypeCheck (L_4, L_5);
+		(L_4)->SetAt(static_cast<il2cpp_array_size_t>(2), (FsmFloat_t937133978 *)L_5);
+		__this->set_weights_12(L_4);
+		__this->set_delay_13((FsmFloat_t937133978 *)NULL);
+		return;
+	}
+}
+// System.Void HutongGames.PlayMaker.Actions.SendRandomEvent::OnEnter()
+extern "C"  void SendRandomEvent_OnEnter_m2081268022 (SendRandomEvent_t685549595 * __this, const MethodInfo* method)
+{
+	int32_t V_0 = 0;
+	{
+		FsmEventU5BU5D_t287863993* L_0 = __this->get_events_11();
+		NullCheck(L_0);
+		if ((((int32_t)(((int32_t)((int32_t)(((Il2CppArray *)L_0)->max_length))))) <= ((int32_t)0)))
+		{
+			goto IL_0079;
+		}
+	}
+	{
+		FsmFloatU5BU5D_t4177556671* L_1 = __this->get_weights_12();
+		int32_t L_2 = ActionHelpers_GetRandomWeightedIndex_m3581206222(NULL /*static, unused*/, L_1, /*hidden argument*/NULL);
+		V_0 = L_2;
+		int32_t L_3 = V_0;
+		if ((((int32_t)L_3) == ((int32_t)(-1))))
+		{
+			goto IL_0079;
+		}
+	}
+	{
+		FsmFloat_t937133978 * L_4 = __this->get_delay_13();
+		NullCheck(L_4);
+		float L_5 = FsmFloat_get_Value_m1818441449(L_4, /*hidden argument*/NULL);
+		if ((!(((float)L_5) < ((float)(0.001f)))))
+		{
+			goto IL_0054;
+		}
+	}
+	{
+		Fsm_t917886356 * L_6 = FsmStateAction_get_Fsm_m4079598046(__this, /*hidden argument*/NULL);
+		FsmEventU5BU5D_t287863993* L_7 = __this->get_events_11();
+		int32_t L_8 = V_0;
+		NullCheck(L_7);
+		int32_t L_9 = L_8;
+		FsmEvent_t1258573736 * L_10 = (L_7)->GetAt(static_cast<il2cpp_array_size_t>(L_9));
+		NullCheck(L_6);
+		Fsm_Event_m4079224475(L_6, L_10, /*hidden argument*/NULL);
+		FsmStateAction_Finish_m1955744727(__this, /*hidden argument*/NULL);
+		goto IL_0078;
+	}
+
+IL_0054:
+	{
+		Fsm_t917886356 * L_11 = FsmStateAction_get_Fsm_m4079598046(__this, /*hidden argument*/NULL);
+		FsmEventU5BU5D_t287863993* L_12 = __this->get_events_11();
+		int32_t L_13 = V_0;
+		NullCheck(L_12);
+		int32_t L_14 = L_13;
+		FsmEvent_t1258573736 * L_15 = (L_12)->GetAt(static_cast<il2cpp_array_size_t>(L_14));
+		FsmFloat_t937133978 * L_16 = __this->get_delay_13();
+		NullCheck(L_16);
+		float L_17 = FsmFloat_get_Value_m1818441449(L_16, /*hidden argument*/NULL);
+		NullCheck(L_11);
+		DelayedEvent_t1624700828 * L_18 = Fsm_DelayedEvent_m1521897107(L_11, L_15, L_17, /*hidden argument*/NULL);
+		__this->set_delayedEvent_14(L_18);
+	}
+
+IL_0078:
+	{
+		return;
+	}
+
+IL_0079:
+	{
+		FsmStateAction_Finish_m1955744727(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void HutongGames.PlayMaker.Actions.SendRandomEvent::OnUpdate()
+extern "C"  void SendRandomEvent_OnUpdate_m1966395069 (SendRandomEvent_t685549595 * __this, const MethodInfo* method)
+{
+	{
+		DelayedEvent_t1624700828 * L_0 = __this->get_delayedEvent_14();
+		bool L_1 = DelayedEvent_WasSent_m1980822908(NULL /*static, unused*/, L_0, /*hidden argument*/NULL);
+		if (!L_1)
+		{
+			goto IL_0016;
+		}
+	}
+	{
+		FsmStateAction_Finish_m1955744727(__this, /*hidden argument*/NULL);
+	}
+
+IL_0016:
+	{
+		return;
+	}
+}
+// System.Void HutongGames.PlayMaker.Actions.SendSceneLoadedEvent::.ctor()
+extern "C"  void SendSceneLoadedEvent__ctor_m2482550415 (SendSceneLoadedEvent_t4158827811 * __this, const MethodInfo* method)
+{
+	{
+		__this->set__loaded_15((-1));
+		FsmStateAction__ctor_m1837021228(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void HutongGames.PlayMaker.Actions.SendSceneLoadedEvent::Reset()
+extern "C"  void SendSceneLoadedEvent_Reset_m4202349544 (SendSceneLoadedEvent_t4158827811 * __this, const MethodInfo* method)
+{
+	{
+		__this->set_sceneLoaded_11((FsmEvent_t1258573736 *)NULL);
+		return;
+	}
+}
+// System.Void HutongGames.PlayMaker.Actions.SendSceneLoadedEvent::OnEnter()
+extern "C"  void SendSceneLoadedEvent_OnEnter_m1387032222 (SendSceneLoadedEvent_t4158827811 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (SendSceneLoadedEvent_OnEnter_m1387032222_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		__this->set__loaded_15((-1));
+		IntPtr_t L_0;
+		L_0.set_m_value_0((void*)(void*)SendSceneLoadedEvent_SceneManager_sceneLoaded_m2978163357_MethodInfo_var);
+		UnityAction_2_t1903595547 * L_1 = (UnityAction_2_t1903595547 *)il2cpp_codegen_object_new(UnityAction_2_t1903595547_il2cpp_TypeInfo_var);
+		UnityAction_2__ctor_m1085363353(L_1, __this, L_0, /*hidden argument*/UnityAction_2__ctor_m1085363353_MethodInfo_var);
+		SceneManager_add_sceneLoaded_m1191442002(NULL /*static, unused*/, L_1, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void HutongGames.PlayMaker.Actions.SendSceneLoadedEvent::SceneManager_sceneLoaded(UnityEngine.SceneManagement.Scene,UnityEngine.SceneManagement.LoadSceneMode)
+extern "C"  void SendSceneLoadedEvent_SceneManager_sceneLoaded_m2978163357 (SendSceneLoadedEvent_t4158827811 * __this, Scene_t1684909666  ___scene0, int32_t ___mode1, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (SendSceneLoadedEvent_SceneManager_sceneLoaded_m2978163357_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		Scene_t1684909666  L_0 = ___scene0;
+		((SendSceneLoadedEvent_t4158827811_StaticFields*)SendSceneLoadedEvent_t4158827811_il2cpp_TypeInfo_var->static_fields)->set_lastLoadedScene_13(L_0);
+		int32_t L_1 = ___mode1;
+		((SendSceneLoadedEvent_t4158827811_StaticFields*)SendSceneLoadedEvent_t4158827811_il2cpp_TypeInfo_var->static_fields)->set_lastLoadedMode_14(L_1);
+		Fsm_t917886356 * L_2 = FsmStateAction_get_Fsm_m4079598046(__this, /*hidden argument*/NULL);
+		FsmEvent_t1258573736 * L_3 = __this->get_sceneLoaded_11();
+		NullCheck(L_2);
+		Fsm_Event_m4079224475(L_2, L_3, /*hidden argument*/NULL);
+		int32_t L_4 = Time_get_frameCount_m1198768813(NULL /*static, unused*/, /*hidden argument*/NULL);
+		__this->set__loaded_15(L_4);
+		FsmEvent_t1258573736 * L_5 = __this->get_sceneLoadedSafe_12();
+		if (L_5)
+		{
+			goto IL_0039;
+		}
+	}
+	{
+		FsmStateAction_Finish_m1955744727(__this, /*hidden argument*/NULL);
+	}
+
+IL_0039:
+	{
+		return;
+	}
+}
+// System.Void HutongGames.PlayMaker.Actions.SendSceneLoadedEvent::OnUpdate()
+extern "C"  void SendSceneLoadedEvent_OnUpdate_m1212290719 (SendSceneLoadedEvent_t4158827811 * __this, const MethodInfo* method)
+{
+	{
+		int32_t L_0 = __this->get__loaded_15();
+		if ((((int32_t)L_0) <= ((int32_t)(-1))))
+		{
+			goto IL_003a;
+		}
+	}
+	{
+		int32_t L_1 = Time_get_frameCount_m1198768813(NULL /*static, unused*/, /*hidden argument*/NULL);
+		int32_t L_2 = __this->get__loaded_15();
+		if ((((int32_t)L_1) <= ((int32_t)L_2)))
+		{
+			goto IL_003a;
+		}
+	}
+	{
+		__this->set__loaded_15((-1));
+		Fsm_t917886356 * L_3 = FsmStateAction_get_Fsm_m4079598046(__this, /*hidden argument*/NULL);
+		FsmEvent_t1258573736 * L_4 = __this->get_sceneLoadedSafe_12();
+		NullCheck(L_3);
+		Fsm_Event_m4079224475(L_3, L_4, /*hidden argument*/NULL);
+		FsmStateAction_Finish_m1955744727(__this, /*hidden argument*/NULL);
+	}
+
+IL_003a:
+	{
+		return;
+	}
+}
+// System.Void HutongGames.PlayMaker.Actions.SendSceneLoadedEvent::OnExit()
+extern "C"  void SendSceneLoadedEvent_OnExit_m3336778574 (SendSceneLoadedEvent_t4158827811 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (SendSceneLoadedEvent_OnExit_m3336778574_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		IntPtr_t L_0;
+		L_0.set_m_value_0((void*)(void*)SendSceneLoadedEvent_SceneManager_sceneLoaded_m2978163357_MethodInfo_var);
+		UnityAction_2_t1903595547 * L_1 = (UnityAction_2_t1903595547 *)il2cpp_codegen_object_new(UnityAction_2_t1903595547_il2cpp_TypeInfo_var);
+		UnityAction_2__ctor_m1085363353(L_1, __this, L_0, /*hidden argument*/UnityAction_2__ctor_m1085363353_MethodInfo_var);
+		SceneManager_remove_sceneLoaded_m2086364025(NULL /*static, unused*/, L_1, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.String HutongGames.PlayMaker.Actions.SendSceneLoadedEvent::ErrorCheck()
+extern "C"  String_t* SendSceneLoadedEvent_ErrorCheck_m2030403260 (SendSceneLoadedEvent_t4158827811 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (SendSceneLoadedEvent_ErrorCheck_m2030403260_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		FsmEvent_t1258573736 * L_0 = __this->get_sceneLoaded_11();
+		if (L_0)
+		{
+			goto IL_001c;
+		}
+	}
+	{
+		FsmEvent_t1258573736 * L_1 = __this->get_sceneLoadedSafe_12();
+		if (L_1)
+		{
+			goto IL_001c;
+		}
+	}
+	{
+		return _stringLiteral1054710414;
+	}
+
+IL_001c:
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+		String_t* L_2 = ((String_t_StaticFields*)String_t_il2cpp_TypeInfo_var->static_fields)->get_Empty_2();
+		return L_2;
+	}
+}
+// System.Void HutongGames.PlayMaker.Actions.SendSceneUnloadedEvent::.ctor()
+extern "C"  void SendSceneUnloadedEvent__ctor_m1318791660 (SendSceneUnloadedEvent_t2523336820 * __this, const MethodInfo* method)
+{
+	{
+		FsmStateAction__ctor_m1837021228(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void HutongGames.PlayMaker.Actions.SendSceneUnloadedEvent::Reset()
+extern "C"  void SendSceneUnloadedEvent_Reset_m2387894309 (SendSceneUnloadedEvent_t2523336820 * __this, const MethodInfo* method)
+{
+	{
+		__this->set_sceneUnloaded_11((FsmEvent_t1258573736 *)NULL);
+		return;
+	}
+}
+// System.Void HutongGames.PlayMaker.Actions.SendSceneUnloadedEvent::OnEnter()
+extern "C"  void SendSceneUnloadedEvent_OnEnter_m292929261 (SendSceneUnloadedEvent_t2523336820 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (SendSceneUnloadedEvent_OnEnter_m292929261_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		IntPtr_t L_0;
+		L_0.set_m_value_0((void*)(void*)SendSceneUnloadedEvent_SceneManager_sceneUnloaded_m2291888182_MethodInfo_var);
+		UnityAction_1_t3051495417 * L_1 = (UnityAction_1_t3051495417 *)il2cpp_codegen_object_new(UnityAction_1_t3051495417_il2cpp_TypeInfo_var);
+		UnityAction_1__ctor_m1058454129(L_1, __this, L_0, /*hidden argument*/UnityAction_1__ctor_m1058454129_MethodInfo_var);
+		SceneManager_add_sceneUnloaded_m4039181773(NULL /*static, unused*/, L_1, /*hidden argument*/NULL);
+		FsmStateAction_Finish_m1955744727(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void HutongGames.PlayMaker.Actions.SendSceneUnloadedEvent::SceneManager_sceneUnloaded(UnityEngine.SceneManagement.Scene)
+extern "C"  void SendSceneUnloadedEvent_SceneManager_sceneUnloaded_m2291888182 (SendSceneUnloadedEvent_t2523336820 * __this, Scene_t1684909666  ___scene0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (SendSceneUnloadedEvent_SceneManager_sceneUnloaded_m2291888182_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		String_t* L_0 = Scene_get_name_m745914591((&___scene0), /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(Debug_t1368543263_il2cpp_TypeInfo_var);
+		Debug_Log_m920475918(NULL /*static, unused*/, L_0, /*hidden argument*/NULL);
+		Scene_t1684909666  L_1 = ___scene0;
+		((SendSceneUnloadedEvent_t2523336820_StaticFields*)SendSceneUnloadedEvent_t2523336820_il2cpp_TypeInfo_var->static_fields)->set_lastUnLoadedScene_12(L_1);
+		Fsm_t917886356 * L_2 = FsmStateAction_get_Fsm_m4079598046(__this, /*hidden argument*/NULL);
+		FsmEvent_t1258573736 * L_3 = __this->get_sceneUnloaded_11();
+		NullCheck(L_2);
+		Fsm_Event_m4079224475(L_2, L_3, /*hidden argument*/NULL);
+		FsmStateAction_Finish_m1955744727(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void HutongGames.PlayMaker.Actions.SendSceneUnloadedEvent::OnExit()
+extern "C"  void SendSceneUnloadedEvent_OnExit_m2040453481 (SendSceneUnloadedEvent_t2523336820 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (SendSceneUnloadedEvent_OnExit_m2040453481_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		IntPtr_t L_0;
+		L_0.set_m_value_0((void*)(void*)SendSceneUnloadedEvent_SceneManager_sceneUnloaded_m2291888182_MethodInfo_var);
+		UnityAction_1_t3051495417 * L_1 = (UnityAction_1_t3051495417 *)il2cpp_codegen_object_new(UnityAction_1_t3051495417_il2cpp_TypeInfo_var);
+		UnityAction_1__ctor_m1058454129(L_1, __this, L_0, /*hidden argument*/UnityAction_1__ctor_m1058454129_MethodInfo_var);
+		SceneManager_remove_sceneUnloaded_m2026397324(NULL /*static, unused*/, L_1, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void HutongGames.PlayMaker.Actions.SequenceEvent::.ctor()
+extern "C"  void SequenceEvent__ctor_m3744469381 (SequenceEvent_t1656293595 * __this, const MethodInfo* method)
+{
+	{
+		FsmStateAction__ctor_m1837021228(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void HutongGames.PlayMaker.Actions.SequenceEvent::Reset()
+extern "C"  void SequenceEvent_Reset_m290330104 (SequenceEvent_t1656293595 * __this, const MethodInfo* method)
+{
+	{
+		__this->set_delay_11((FsmFloat_t937133978 *)NULL);
+		return;
+	}
+}
+// System.Void HutongGames.PlayMaker.Actions.SequenceEvent::OnEnter()
+extern "C"  void SequenceEvent_OnEnter_m10749298 (SequenceEvent_t1656293595 * __this, const MethodInfo* method)
+{
+	int32_t V_0 = 0;
+	FsmEvent_t1258573736 * V_1 = NULL;
+	{
+		FsmState_t1643911659 * L_0 = FsmStateAction_get_State_m267961006(__this, /*hidden argument*/NULL);
+		NullCheck(L_0);
+		FsmTransitionU5BU5D_t1091630918* L_1 = FsmState_get_Transitions_m726541619(L_0, /*hidden argument*/NULL);
+		NullCheck(L_1);
+		V_0 = (((int32_t)((int32_t)(((Il2CppArray *)L_1)->max_length))));
+		int32_t L_2 = V_0;
+		if ((((int32_t)L_2) <= ((int32_t)0)))
+		{
+			goto IL_0097;
+		}
+	}
+	{
+		FsmState_t1643911659 * L_3 = FsmStateAction_get_State_m267961006(__this, /*hidden argument*/NULL);
+		NullCheck(L_3);
+		FsmTransitionU5BU5D_t1091630918* L_4 = FsmState_get_Transitions_m726541619(L_3, /*hidden argument*/NULL);
+		int32_t L_5 = __this->get_eventIndex_13();
+		NullCheck(L_4);
+		int32_t L_6 = L_5;
+		FsmTransition_t1534990431 * L_7 = (L_4)->GetAt(static_cast<il2cpp_array_size_t>(L_6));
+		NullCheck(L_7);
+		FsmEvent_t1258573736 * L_8 = FsmTransition_get_FsmEvent_m3818892412(L_7, /*hidden argument*/NULL);
+		V_1 = L_8;
+		FsmFloat_t937133978 * L_9 = __this->get_delay_11();
+		NullCheck(L_9);
+		float L_10 = FsmFloat_get_Value_m1818441449(L_9, /*hidden argument*/NULL);
+		if ((!(((float)L_10) < ((float)(0.001f)))))
+		{
+			goto IL_0059;
+		}
+	}
+	{
+		Fsm_t917886356 * L_11 = FsmStateAction_get_Fsm_m4079598046(__this, /*hidden argument*/NULL);
+		FsmEvent_t1258573736 * L_12 = V_1;
+		NullCheck(L_11);
+		Fsm_Event_m4079224475(L_11, L_12, /*hidden argument*/NULL);
+		FsmStateAction_Finish_m1955744727(__this, /*hidden argument*/NULL);
+		goto IL_0076;
+	}
+
+IL_0059:
+	{
+		Fsm_t917886356 * L_13 = FsmStateAction_get_Fsm_m4079598046(__this, /*hidden argument*/NULL);
+		FsmEvent_t1258573736 * L_14 = V_1;
+		FsmFloat_t937133978 * L_15 = __this->get_delay_11();
+		NullCheck(L_15);
+		float L_16 = FsmFloat_get_Value_m1818441449(L_15, /*hidden argument*/NULL);
+		NullCheck(L_13);
+		DelayedEvent_t1624700828 * L_17 = Fsm_DelayedEvent_m1521897107(L_13, L_14, L_16, /*hidden argument*/NULL);
+		__this->set_delayedEvent_12(L_17);
+	}
+
+IL_0076:
+	{
+		int32_t L_18 = __this->get_eventIndex_13();
+		__this->set_eventIndex_13(((int32_t)((int32_t)L_18+(int32_t)1)));
+		int32_t L_19 = __this->get_eventIndex_13();
+		int32_t L_20 = V_0;
+		if ((!(((uint32_t)L_19) == ((uint32_t)L_20))))
+		{
+			goto IL_0097;
+		}
+	}
+	{
+		__this->set_eventIndex_13(0);
+	}
+
+IL_0097:
+	{
+		return;
+	}
+}
+// System.Void HutongGames.PlayMaker.Actions.SequenceEvent::OnUpdate()
+extern "C"  void SequenceEvent_OnUpdate_m2419077729 (SequenceEvent_t1656293595 * __this, const MethodInfo* method)
+{
+	{
+		DelayedEvent_t1624700828 * L_0 = __this->get_delayedEvent_12();
+		bool L_1 = DelayedEvent_WasSent_m1980822908(NULL /*static, unused*/, L_0, /*hidden argument*/NULL);
+		if (!L_1)
+		{
+			goto IL_0016;
+		}
+	}
+	{
+		FsmStateAction_Finish_m1955744727(__this, /*hidden argument*/NULL);
+	}
+
+IL_0016:
+	{
+		return;
+	}
+}
+// System.Void HutongGames.PlayMaker.Actions.SetActiveScene::.ctor()
+extern "C"  void SetActiveScene__ctor_m3467988842 (SetActiveScene_t1943743286 * __this, const MethodInfo* method)
+{
+	{
+		FsmStateAction__ctor_m1837021228(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void HutongGames.PlayMaker.Actions.SetActiveScene::Reset()
+extern "C"  void SetActiveScene_Reset_m243202371 (SetActiveScene_t1943743286 * __this, const MethodInfo* method)
+{
+	{
+		__this->set_sceneReference_11(1);
+		__this->set_sceneByName_12((FsmString_t2414474701 *)NULL);
+		__this->set_sceneAtBuildIndex_13((FsmInt_t1273009179 *)NULL);
+		__this->set_sceneAtIndex_14((FsmInt_t1273009179 *)NULL);
+		__this->set_sceneByPath_15((FsmString_t2414474701 *)NULL);
+		__this->set_sceneByGameObject_16((FsmOwnerDefault_t2023674184 *)NULL);
+		__this->set_success_17((FsmBool_t664485696 *)NULL);
+		__this->set_successEvent_18((FsmEvent_t1258573736 *)NULL);
+		__this->set_sceneFound_19((FsmBool_t664485696 *)NULL);
+		__this->set_sceneNotActivatedEvent_20((FsmEvent_t1258573736 *)NULL);
+		__this->set_sceneNotFoundEvent_21((FsmEvent_t1258573736 *)NULL);
+		return;
+	}
+}
+// System.Void HutongGames.PlayMaker.Actions.SetActiveScene::OnEnter()
+extern "C"  void SetActiveScene_OnEnter_m2495878187 (SetActiveScene_t1943743286 * __this, const MethodInfo* method)
+{
+	{
+		SetActiveScene_DoSetActivate_m3383789092(__this, /*hidden argument*/NULL);
+		FsmBool_t664485696 * L_0 = __this->get_success_17();
+		NullCheck(L_0);
+		bool L_1 = NamedVariable_get_IsNone_m1506066313(L_0, /*hidden argument*/NULL);
+		if (L_1)
+		{
+			goto IL_0027;
+		}
+	}
+	{
+		FsmBool_t664485696 * L_2 = __this->get_success_17();
+		bool L_3 = __this->get__success_24();
+		NullCheck(L_2);
+		FsmBool_set_Value_m2522230142(L_2, L_3, /*hidden argument*/NULL);
+	}
+
+IL_0027:
+	{
+		FsmBool_t664485696 * L_4 = __this->get_sceneFound_19();
+		NullCheck(L_4);
+		bool L_5 = NamedVariable_get_IsNone_m1506066313(L_4, /*hidden argument*/NULL);
+		if (L_5)
+		{
+			goto IL_0048;
+		}
+	}
+	{
+		FsmBool_t664485696 * L_6 = __this->get_sceneFound_19();
+		bool L_7 = __this->get__sceneFound_23();
+		NullCheck(L_6);
+		FsmBool_set_Value_m2522230142(L_6, L_7, /*hidden argument*/NULL);
+	}
+
+IL_0048:
+	{
+		bool L_8 = __this->get__success_24();
+		if (!L_8)
+		{
+			goto IL_0064;
+		}
+	}
+	{
+		Fsm_t917886356 * L_9 = FsmStateAction_get_Fsm_m4079598046(__this, /*hidden argument*/NULL);
+		FsmEvent_t1258573736 * L_10 = __this->get_successEvent_18();
+		NullCheck(L_9);
+		Fsm_Event_m4079224475(L_9, L_10, /*hidden argument*/NULL);
+	}
+
+IL_0064:
+	{
+		return;
+	}
+}
+// System.Void HutongGames.PlayMaker.Actions.SetActiveScene::DoSetActivate()
+extern "C"  void SetActiveScene_DoSetActivate_m3383789092 (SetActiveScene_t1943743286 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (SetActiveScene_DoSetActivate_m3383789092_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	int32_t V_0 = 0;
+	GameObject_t1756533147 * V_1 = NULL;
+	Exception_t1927440687 * V_2 = NULL;
+	Scene_t1684909666  V_3;
+	memset(&V_3, 0, sizeof(V_3));
+	Exception_t1927440687 * __last_unhandled_exception = 0;
+	NO_UNUSED_WARNING (__last_unhandled_exception);
+	Exception_t1927440687 * __exception_local = 0;
+	NO_UNUSED_WARNING (__exception_local);
+	int32_t __leave_target = 0;
+	NO_UNUSED_WARNING (__leave_target);
+
+IL_0000:
+	try
+	{ // begin try (depth: 1)
+		{
+			int32_t L_0 = __this->get_sceneReference_11();
+			V_0 = L_0;
+			int32_t L_1 = V_0;
+			switch (((int32_t)((int32_t)L_1-(int32_t)1)))
+			{
+				case 0:
+				{
+					goto IL_0024;
+				}
+				case 1:
+				{
+					goto IL_003f;
+				}
+				case 2:
+				{
+					goto IL_005a;
+				}
+				case 3:
+				{
+					goto IL_0075;
+				}
+			}
+		}
+
+IL_001f:
+		{
+			goto IL_00af;
+		}
+
+IL_0024:
+		{
+			FsmInt_t1273009179 * L_2 = __this->get_sceneAtIndex_14();
+			NullCheck(L_2);
+			int32_t L_3 = FsmInt_get_Value_m3705703582(L_2, /*hidden argument*/NULL);
+			Scene_t1684909666  L_4 = SceneManager_GetSceneAt_m4157291656(NULL /*static, unused*/, L_3, /*hidden argument*/NULL);
+			__this->set__scene_22(L_4);
+			goto IL_00af;
+		}
+
+IL_003f:
+		{
+			FsmString_t2414474701 * L_5 = __this->get_sceneByName_12();
+			NullCheck(L_5);
+			String_t* L_6 = FsmString_get_Value_m3775166715(L_5, /*hidden argument*/NULL);
+			Scene_t1684909666  L_7 = SceneManager_GetSceneByName_m3057600796(NULL /*static, unused*/, L_6, /*hidden argument*/NULL);
+			__this->set__scene_22(L_7);
+			goto IL_00af;
+		}
+
+IL_005a:
+		{
+			FsmString_t2414474701 * L_8 = __this->get_sceneByPath_15();
+			NullCheck(L_8);
+			String_t* L_9 = FsmString_get_Value_m3775166715(L_8, /*hidden argument*/NULL);
+			Scene_t1684909666  L_10 = SceneManager_GetSceneByPath_m9891084(NULL /*static, unused*/, L_9, /*hidden argument*/NULL);
+			__this->set__scene_22(L_10);
+			goto IL_00af;
+		}
+
+IL_0075:
+		{
+			Fsm_t917886356 * L_11 = FsmStateAction_get_Fsm_m4079598046(__this, /*hidden argument*/NULL);
+			FsmOwnerDefault_t2023674184 * L_12 = __this->get_sceneByGameObject_16();
+			NullCheck(L_11);
+			GameObject_t1756533147 * L_13 = Fsm_GetOwnerDefaultTarget_m1045900479(L_11, L_12, /*hidden argument*/NULL);
+			V_1 = L_13;
+			GameObject_t1756533147 * L_14 = V_1;
+			IL2CPP_RUNTIME_CLASS_INIT(Object_t1021602117_il2cpp_TypeInfo_var);
+			bool L_15 = Object_op_Equality_m3764089466(NULL /*static, unused*/, L_14, (Object_t1021602117 *)NULL, /*hidden argument*/NULL);
+			if (!L_15)
+			{
+				goto IL_009e;
+			}
+		}
+
+IL_0093:
+		{
+			Exception_t1927440687 * L_16 = (Exception_t1927440687 *)il2cpp_codegen_object_new(Exception_t1927440687_il2cpp_TypeInfo_var);
+			Exception__ctor_m485833136(L_16, _stringLiteral3792612384, /*hidden argument*/NULL);
+			IL2CPP_RAISE_MANAGED_EXCEPTION(L_16);
+		}
+
+IL_009e:
+		{
+			GameObject_t1756533147 * L_17 = V_1;
+			NullCheck(L_17);
+			Scene_t1684909666  L_18 = GameObject_get_scene_m2023687306(L_17, /*hidden argument*/NULL);
+			__this->set__scene_22(L_18);
+			goto IL_00af;
+		}
+
+IL_00af:
+		{
+			goto IL_00de;
+		}
+	} // end try (depth: 1)
+	catch(Il2CppExceptionWrapper& e)
+	{
+		__exception_local = (Exception_t1927440687 *)e.ex;
+		if(il2cpp_codegen_class_is_assignable_from (Exception_t1927440687_il2cpp_TypeInfo_var, e.ex->klass))
+			goto CATCH_00b4;
+		throw e;
+	}
+
+CATCH_00b4:
+	{ // begin catch(System.Exception)
+		V_2 = ((Exception_t1927440687 *)__exception_local);
+		Exception_t1927440687 * L_19 = V_2;
+		NullCheck(L_19);
+		String_t* L_20 = VirtFuncInvoker0< String_t* >::Invoke(6 /* System.String System.Exception::get_Message() */, L_19);
+		FsmStateAction_LogError_m3656178960(__this, L_20, /*hidden argument*/NULL);
+		__this->set__sceneFound_23((bool)0);
+		Fsm_t917886356 * L_21 = FsmStateAction_get_Fsm_m4079598046(__this, /*hidden argument*/NULL);
+		FsmEvent_t1258573736 * L_22 = __this->get_sceneNotFoundEvent_21();
+		NullCheck(L_21);
+		Fsm_Event_m4079224475(L_21, L_22, /*hidden argument*/NULL);
+		goto IL_012c;
+	} // end catch (depth: 1)
+
+IL_00de:
+	{
+		Scene_t1684909666  L_23 = __this->get__scene_22();
+		Initobj (Scene_t1684909666_il2cpp_TypeInfo_var, (&V_3));
+		Scene_t1684909666  L_24 = V_3;
+		bool L_25 = Scene_op_Equality_m375077020(NULL /*static, unused*/, L_23, L_24, /*hidden argument*/NULL);
+		if (!L_25)
+		{
+			goto IL_0114;
+		}
+	}
+	{
+		__this->set__sceneFound_23((bool)0);
+		Fsm_t917886356 * L_26 = FsmStateAction_get_Fsm_m4079598046(__this, /*hidden argument*/NULL);
+		FsmEvent_t1258573736 * L_27 = __this->get_sceneNotFoundEvent_21();
+		NullCheck(L_26);
+		Fsm_Event_m4079224475(L_26, L_27, /*hidden argument*/NULL);
+		goto IL_012c;
+	}
+
+IL_0114:
+	{
+		Scene_t1684909666  L_28 = __this->get__scene_22();
+		bool L_29 = SceneManager_SetActiveScene_m3247381261(NULL /*static, unused*/, L_28, /*hidden argument*/NULL);
+		__this->set__success_24(L_29);
+		__this->set__sceneFound_23((bool)1);
+	}
+
+IL_012c:
+	{
+		return;
+	}
+}
+// System.Void HutongGames.PlayMaker.Actions.SetAllFsmGameObject::.ctor()
+extern "C"  void SetAllFsmGameObject__ctor_m3700396688 (SetAllFsmGameObject_t4080893434 * __this, const MethodInfo* method)
+{
+	{
+		FsmStateAction__ctor_m1837021228(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void HutongGames.PlayMaker.Actions.SetAllFsmGameObject::Reset()
+extern "C"  void SetAllFsmGameObject_Reset_m1859117555 (SetAllFsmGameObject_t4080893434 * __this, const MethodInfo* method)
+{
+	{
+		return;
+	}
+}
+// System.Void HutongGames.PlayMaker.Actions.SetAllFsmGameObject::OnEnter()
+extern "C"  void SetAllFsmGameObject_OnEnter_m807885107 (SetAllFsmGameObject_t4080893434 * __this, const MethodInfo* method)
+{
+	{
+		bool L_0 = __this->get_everyFrame_12();
+		if (L_0)
+		{
+			goto IL_0011;
+		}
+	}
+	{
+		FsmStateAction_Finish_m1955744727(__this, /*hidden argument*/NULL);
+	}
+
+IL_0011:
+	{
+		return;
+	}
+}
+// System.Void HutongGames.PlayMaker.Actions.SetAllFsmGameObject::DoSetFsmGameObject()
+extern "C"  void SetAllFsmGameObject_DoSetFsmGameObject_m783074828 (SetAllFsmGameObject_t4080893434 * __this, const MethodInfo* method)
+{
+	{
+		return;
+	}
+}
+// System.Void HutongGames.PlayMaker.Actions.SetAmbientLight::.ctor()
+extern "C"  void SetAmbientLight__ctor_m3532360614 (SetAmbientLight_t243237306 * __this, const MethodInfo* method)
+{
+	{
+		FsmStateAction__ctor_m1837021228(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void HutongGames.PlayMaker.Actions.SetAmbientLight::Reset()
+extern "C"  void SetAmbientLight_Reset_m614571355 (SetAmbientLight_t243237306 * __this, const MethodInfo* method)
+{
+	{
+		Color_t2020392075  L_0 = Color_get_gray_m1396712533(NULL /*static, unused*/, /*hidden argument*/NULL);
+		FsmColor_t118301965 * L_1 = FsmColor_op_Implicit_m1499113597(NULL /*static, unused*/, L_0, /*hidden argument*/NULL);
+		__this->set_ambientColor_11(L_1);
+		__this->set_everyFrame_12((bool)0);
+		return;
+	}
+}
+// System.Void HutongGames.PlayMaker.Actions.SetAmbientLight::OnEnter()
+extern "C"  void SetAmbientLight_OnEnter_m1052305099 (SetAmbientLight_t243237306 * __this, const MethodInfo* method)
+{
+	{
+		SetAmbientLight_DoSetAmbientColor_m792950382(__this, /*hidden argument*/NULL);
+		bool L_0 = __this->get_everyFrame_12();
+		if (L_0)
+		{
+			goto IL_0017;
+		}
+	}
+	{
+		FsmStateAction_Finish_m1955744727(__this, /*hidden argument*/NULL);
+	}
+
+IL_0017:
+	{
+		return;
+	}
+}
+// System.Void HutongGames.PlayMaker.Actions.SetAmbientLight::OnUpdate()
+extern "C"  void SetAmbientLight_OnUpdate_m2652230056 (SetAmbientLight_t243237306 * __this, const MethodInfo* method)
+{
+	{
+		SetAmbientLight_DoSetAmbientColor_m792950382(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void HutongGames.PlayMaker.Actions.SetAmbientLight::DoSetAmbientColor()
+extern "C"  void SetAmbientLight_DoSetAmbientColor_m792950382 (SetAmbientLight_t243237306 * __this, const MethodInfo* method)
+{
+	{
+		FsmColor_t118301965 * L_0 = __this->get_ambientColor_11();
+		NullCheck(L_0);
+		Color_t2020392075  L_1 = FsmColor_get_Value_m687626399(L_0, /*hidden argument*/NULL);
+		RenderSettings_set_ambientLight_m2849768839(NULL /*static, unused*/, L_1, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void HutongGames.PlayMaker.Actions.SetAnimationSpeed::.ctor()
+extern "C"  void SetAnimationSpeed__ctor_m4204169609 (SetAnimationSpeed_t3482002817 * __this, const MethodInfo* method)
+{
+	{
+		FsmFloat_t937133978 * L_0 = FsmFloat_op_Implicit_m475928236(NULL /*static, unused*/, (1.0f), /*hidden argument*/NULL);
+		__this->set_speed_15(L_0);
+		BaseAnimationAction__ctor_m2023490959(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void HutongGames.PlayMaker.Actions.SetAnimationSpeed::Reset()
+extern "C"  void SetAnimationSpeed_Reset_m3879124886 (SetAnimationSpeed_t3482002817 * __this, const MethodInfo* method)
+{
+	{
+		__this->set_gameObject_13((FsmOwnerDefault_t2023674184 *)NULL);
+		__this->set_animName_14((FsmString_t2414474701 *)NULL);
+		FsmFloat_t937133978 * L_0 = FsmFloat_op_Implicit_m475928236(NULL /*static, unused*/, (1.0f), /*hidden argument*/NULL);
+		__this->set_speed_15(L_0);
+		__this->set_everyFrame_16((bool)0);
+		return;
+	}
+}
+// System.Void HutongGames.PlayMaker.Actions.SetAnimationSpeed::OnEnter()
+extern "C"  void SetAnimationSpeed_OnEnter_m1450865180 (SetAnimationSpeed_t3482002817 * __this, const MethodInfo* method)
+{
+	SetAnimationSpeed_t3482002817 * G_B2_0 = NULL;
+	SetAnimationSpeed_t3482002817 * G_B1_0 = NULL;
+	GameObject_t1756533147 * G_B3_0 = NULL;
+	SetAnimationSpeed_t3482002817 * G_B3_1 = NULL;
+	{
+		FsmOwnerDefault_t2023674184 * L_0 = __this->get_gameObject_13();
+		NullCheck(L_0);
+		int32_t L_1 = FsmOwnerDefault_get_OwnerOption_m3058082974(L_0, /*hidden argument*/NULL);
+		G_B1_0 = __this;
+		if (L_1)
+		{
+			G_B2_0 = __this;
+			goto IL_001c;
+		}
+	}
+	{
+		GameObject_t1756533147 * L_2 = FsmStateAction_get_Owner_m2345900259(__this, /*hidden argument*/NULL);
+		G_B3_0 = L_2;
+		G_B3_1 = G_B1_0;
+		goto IL_002c;
+	}
+
+IL_001c:
+	{
+		FsmOwnerDefault_t2023674184 * L_3 = __this->get_gameObject_13();
+		NullCheck(L_3);
+		FsmGameObject_t3097142863 * L_4 = FsmOwnerDefault_get_GameObject_m1490419887(L_3, /*hidden argument*/NULL);
+		NullCheck(L_4);
+		GameObject_t1756533147 * L_5 = FsmGameObject_get_Value_m15585107(L_4, /*hidden argument*/NULL);
+		G_B3_0 = L_5;
+		G_B3_1 = G_B2_0;
+	}
+
+IL_002c:
+	{
+		NullCheck(G_B3_1);
+		SetAnimationSpeed_DoSetAnimationSpeed_m2534932237(G_B3_1, G_B3_0, /*hidden argument*/NULL);
+		bool L_6 = __this->get_everyFrame_16();
+		if (L_6)
+		{
+			goto IL_0042;
+		}
+	}
+	{
+		FsmStateAction_Finish_m1955744727(__this, /*hidden argument*/NULL);
+	}
+
+IL_0042:
+	{
+		return;
+	}
+}
+// System.Void HutongGames.PlayMaker.Actions.SetAnimationSpeed::OnUpdate()
+extern "C"  void SetAnimationSpeed_OnUpdate_m3064366373 (SetAnimationSpeed_t3482002817 * __this, const MethodInfo* method)
+{
+	SetAnimationSpeed_t3482002817 * G_B2_0 = NULL;
+	SetAnimationSpeed_t3482002817 * G_B1_0 = NULL;
+	GameObject_t1756533147 * G_B3_0 = NULL;
+	SetAnimationSpeed_t3482002817 * G_B3_1 = NULL;
+	{
+		FsmOwnerDefault_t2023674184 * L_0 = __this->get_gameObject_13();
+		NullCheck(L_0);
+		int32_t L_1 = FsmOwnerDefault_get_OwnerOption_m3058082974(L_0, /*hidden argument*/NULL);
+		G_B1_0 = __this;
+		if (L_1)
+		{
+			G_B2_0 = __this;
+			goto IL_001c;
+		}
+	}
+	{
+		GameObject_t1756533147 * L_2 = FsmStateAction_get_Owner_m2345900259(__this, /*hidden argument*/NULL);
+		G_B3_0 = L_2;
+		G_B3_1 = G_B1_0;
+		goto IL_002c;
+	}
+
+IL_001c:
+	{
+		FsmOwnerDefault_t2023674184 * L_3 = __this->get_gameObject_13();
+		NullCheck(L_3);
+		FsmGameObject_t3097142863 * L_4 = FsmOwnerDefault_get_GameObject_m1490419887(L_3, /*hidden argument*/NULL);
+		NullCheck(L_4);
+		GameObject_t1756533147 * L_5 = FsmGameObject_get_Value_m15585107(L_4, /*hidden argument*/NULL);
+		G_B3_0 = L_5;
+		G_B3_1 = G_B2_0;
+	}
+
+IL_002c:
+	{
+		NullCheck(G_B3_1);
+		SetAnimationSpeed_DoSetAnimationSpeed_m2534932237(G_B3_1, G_B3_0, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void HutongGames.PlayMaker.Actions.SetAnimationSpeed::DoSetAnimationSpeed(UnityEngine.GameObject)
+extern "C"  void SetAnimationSpeed_DoSetAnimationSpeed_m2534932237 (SetAnimationSpeed_t3482002817 * __this, GameObject_t1756533147 * ___go0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (SetAnimationSpeed_DoSetAnimationSpeed_m2534932237_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	AnimationState_t1303741697 * V_0 = NULL;
+	{
+		GameObject_t1756533147 * L_0 = ___go0;
+		bool L_1 = ComponentAction_1_UpdateCache_m2558231994(__this, L_0, /*hidden argument*/ComponentAction_1_UpdateCache_m2558231994_MethodInfo_var);
+		if (L_1)
+		{
+			goto IL_000d;
+		}
+	}
+	{
+		return;
+	}
+
+IL_000d:
+	{
+		Animation_t2068071072 * L_2 = ComponentAction_1_get_animation_m1902480922(__this, /*hidden argument*/ComponentAction_1_get_animation_m1902480922_MethodInfo_var);
+		FsmString_t2414474701 * L_3 = __this->get_animName_14();
+		NullCheck(L_3);
+		String_t* L_4 = FsmString_get_Value_m3775166715(L_3, /*hidden argument*/NULL);
+		NullCheck(L_2);
+		AnimationState_t1303741697 * L_5 = Animation_get_Item_m4198128320(L_2, L_4, /*hidden argument*/NULL);
+		V_0 = L_5;
+		AnimationState_t1303741697 * L_6 = V_0;
+		bool L_7 = TrackedReference_op_Equality_m3491334086(NULL /*static, unused*/, L_6, (TrackedReference_t1045890189 *)NULL, /*hidden argument*/NULL);
+		if (!L_7)
+		{
+			goto IL_004c;
+		}
+	}
+	{
+		FsmString_t2414474701 * L_8 = __this->get_animName_14();
+		NullCheck(L_8);
+		String_t* L_9 = FsmString_get_Value_m3775166715(L_8, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+		String_t* L_10 = String_Concat_m2596409543(NULL /*static, unused*/, _stringLiteral3861672474, L_9, /*hidden argument*/NULL);
+		FsmStateAction_LogWarning_m1851739038(__this, L_10, /*hidden argument*/NULL);
+		return;
+	}
+
+IL_004c:
+	{
+		AnimationState_t1303741697 * L_11 = V_0;
+		FsmFloat_t937133978 * L_12 = __this->get_speed_15();
+		NullCheck(L_12);
+		float L_13 = FsmFloat_get_Value_m1818441449(L_12, /*hidden argument*/NULL);
+		NullCheck(L_11);
+		AnimationState_set_speed_m465014523(L_11, L_13, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void HutongGames.PlayMaker.Actions.SetAnimationTime::.ctor()
+extern "C"  void SetAnimationTime__ctor_m471130227 (SetAnimationTime_t3526512217 * __this, const MethodInfo* method)
+{
+	{
+		BaseAnimationAction__ctor_m2023490959(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void HutongGames.PlayMaker.Actions.SetAnimationTime::Reset()
+extern "C"  void SetAnimationTime_Reset_m2432687754 (SetAnimationTime_t3526512217 * __this, const MethodInfo* method)
+{
+	{
+		__this->set_gameObject_13((FsmOwnerDefault_t2023674184 *)NULL);
+		__this->set_animName_14((FsmString_t2414474701 *)NULL);
+		__this->set_time_15((FsmFloat_t937133978 *)NULL);
+		__this->set_normalized_16((bool)0);
+		__this->set_everyFrame_17((bool)0);
+		return;
+	}
+}
+// System.Void HutongGames.PlayMaker.Actions.SetAnimationTime::OnEnter()
+extern "C"  void SetAnimationTime_OnEnter_m3852008212 (SetAnimationTime_t3526512217 * __this, const MethodInfo* method)
+{
+	SetAnimationTime_t3526512217 * G_B2_0 = NULL;
+	SetAnimationTime_t3526512217 * G_B1_0 = NULL;
+	GameObject_t1756533147 * G_B3_0 = NULL;
+	SetAnimationTime_t3526512217 * G_B3_1 = NULL;
+	{
+		FsmOwnerDefault_t2023674184 * L_0 = __this->get_gameObject_13();
+		NullCheck(L_0);
+		int32_t L_1 = FsmOwnerDefault_get_OwnerOption_m3058082974(L_0, /*hidden argument*/NULL);
+		G_B1_0 = __this;
+		if (L_1)
+		{
+			G_B2_0 = __this;
+			goto IL_001c;
+		}
+	}
+	{
+		GameObject_t1756533147 * L_2 = FsmStateAction_get_Owner_m2345900259(__this, /*hidden argument*/NULL);
+		G_B3_0 = L_2;
+		G_B3_1 = G_B1_0;
+		goto IL_002c;
+	}
+
+IL_001c:
+	{
+		FsmOwnerDefault_t2023674184 * L_3 = __this->get_gameObject_13();
+		NullCheck(L_3);
+		FsmGameObject_t3097142863 * L_4 = FsmOwnerDefault_get_GameObject_m1490419887(L_3, /*hidden argument*/NULL);
+		NullCheck(L_4);
+		GameObject_t1756533147 * L_5 = FsmGameObject_get_Value_m15585107(L_4, /*hidden argument*/NULL);
+		G_B3_0 = L_5;
+		G_B3_1 = G_B2_0;
+	}
+
+IL_002c:
+	{
+		NullCheck(G_B3_1);
+		SetAnimationTime_DoSetAnimationTime_m3951448813(G_B3_1, G_B3_0, /*hidden argument*/NULL);
+		bool L_6 = __this->get_everyFrame_17();
+		if (L_6)
+		{
+			goto IL_0042;
+		}
+	}
+	{
+		FsmStateAction_Finish_m1955744727(__this, /*hidden argument*/NULL);
+	}
+
+IL_0042:
+	{
+		return;
+	}
+}
+// System.Void HutongGames.PlayMaker.Actions.SetAnimationTime::OnUpdate()
+extern "C"  void SetAnimationTime_OnUpdate_m2546068163 (SetAnimationTime_t3526512217 * __this, const MethodInfo* method)
+{
+	SetAnimationTime_t3526512217 * G_B2_0 = NULL;
+	SetAnimationTime_t3526512217 * G_B1_0 = NULL;
+	GameObject_t1756533147 * G_B3_0 = NULL;
+	SetAnimationTime_t3526512217 * G_B3_1 = NULL;
+	{
+		FsmOwnerDefault_t2023674184 * L_0 = __this->get_gameObject_13();
+		NullCheck(L_0);
+		int32_t L_1 = FsmOwnerDefault_get_OwnerOption_m3058082974(L_0, /*hidden argument*/NULL);
+		G_B1_0 = __this;
+		if (L_1)
+		{
+			G_B2_0 = __this;
+			goto IL_001c;
+		}
+	}
+	{
+		GameObject_t1756533147 * L_2 = FsmStateAction_get_Owner_m2345900259(__this, /*hidden argument*/NULL);
+		G_B3_0 = L_2;
+		G_B3_1 = G_B1_0;
+		goto IL_002c;
+	}
+
+IL_001c:
+	{
+		FsmOwnerDefault_t2023674184 * L_3 = __this->get_gameObject_13();
+		NullCheck(L_3);
+		FsmGameObject_t3097142863 * L_4 = FsmOwnerDefault_get_GameObject_m1490419887(L_3, /*hidden argument*/NULL);
+		NullCheck(L_4);
+		GameObject_t1756533147 * L_5 = FsmGameObject_get_Value_m15585107(L_4, /*hidden argument*/NULL);
+		G_B3_0 = L_5;
+		G_B3_1 = G_B2_0;
+	}
+
+IL_002c:
+	{
+		NullCheck(G_B3_1);
+		SetAnimationTime_DoSetAnimationTime_m3951448813(G_B3_1, G_B3_0, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void HutongGames.PlayMaker.Actions.SetAnimationTime::DoSetAnimationTime(UnityEngine.GameObject)
+extern "C"  void SetAnimationTime_DoSetAnimationTime_m3951448813 (SetAnimationTime_t3526512217 * __this, GameObject_t1756533147 * ___go0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (SetAnimationTime_DoSetAnimationTime_m3951448813_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	AnimationState_t1303741697 * V_0 = NULL;
+	{
+		GameObject_t1756533147 * L_0 = ___go0;
+		bool L_1 = ComponentAction_1_UpdateCache_m2558231994(__this, L_0, /*hidden argument*/ComponentAction_1_UpdateCache_m2558231994_MethodInfo_var);
+		if (L_1)
+		{
+			goto IL_000d;
+		}
+	}
+	{
+		return;
+	}
+
+IL_000d:
+	{
+		Animation_t2068071072 * L_2 = ComponentAction_1_get_animation_m1902480922(__this, /*hidden argument*/ComponentAction_1_get_animation_m1902480922_MethodInfo_var);
+		FsmString_t2414474701 * L_3 = __this->get_animName_14();
+		NullCheck(L_3);
+		String_t* L_4 = FsmString_get_Value_m3775166715(L_3, /*hidden argument*/NULL);
+		NullCheck(L_2);
+		Animation_Play_m976361057(L_2, L_4, /*hidden argument*/NULL);
+		Animation_t2068071072 * L_5 = ComponentAction_1_get_animation_m1902480922(__this, /*hidden argument*/ComponentAction_1_get_animation_m1902480922_MethodInfo_var);
+		FsmString_t2414474701 * L_6 = __this->get_animName_14();
+		NullCheck(L_6);
+		String_t* L_7 = FsmString_get_Value_m3775166715(L_6, /*hidden argument*/NULL);
+		NullCheck(L_5);
+		AnimationState_t1303741697 * L_8 = Animation_get_Item_m4198128320(L_5, L_7, /*hidden argument*/NULL);
+		V_0 = L_8;
+		AnimationState_t1303741697 * L_9 = V_0;
+		bool L_10 = TrackedReference_op_Equality_m3491334086(NULL /*static, unused*/, L_9, (TrackedReference_t1045890189 *)NULL, /*hidden argument*/NULL);
+		if (!L_10)
+		{
+			goto IL_0063;
+		}
+	}
+	{
+		FsmString_t2414474701 * L_11 = __this->get_animName_14();
+		NullCheck(L_11);
+		String_t* L_12 = FsmString_get_Value_m3775166715(L_11, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+		String_t* L_13 = String_Concat_m2596409543(NULL /*static, unused*/, _stringLiteral3861672474, L_12, /*hidden argument*/NULL);
+		FsmStateAction_LogWarning_m1851739038(__this, L_13, /*hidden argument*/NULL);
+		return;
+	}
+
+IL_0063:
+	{
+		bool L_14 = __this->get_normalized_16();
+		if (!L_14)
+		{
+			goto IL_0084;
+		}
+	}
+	{
+		AnimationState_t1303741697 * L_15 = V_0;
+		FsmFloat_t937133978 * L_16 = __this->get_time_15();
+		NullCheck(L_16);
+		float L_17 = FsmFloat_get_Value_m1818441449(L_16, /*hidden argument*/NULL);
+		NullCheck(L_15);
+		AnimationState_set_normalizedTime_m3942659976(L_15, L_17, /*hidden argument*/NULL);
+		goto IL_0095;
+	}
+
+IL_0084:
+	{
+		AnimationState_t1303741697 * L_18 = V_0;
+		FsmFloat_t937133978 * L_19 = __this->get_time_15();
+		NullCheck(L_19);
+		float L_20 = FsmFloat_get_Value_m1818441449(L_19, /*hidden argument*/NULL);
+		NullCheck(L_18);
+		AnimationState_set_time_m1882411177(L_18, L_20, /*hidden argument*/NULL);
+	}
+
+IL_0095:
+	{
+		bool L_21 = __this->get_everyFrame_17();
+		if (!L_21)
+		{
+			goto IL_00ab;
+		}
+	}
+	{
+		AnimationState_t1303741697 * L_22 = V_0;
+		NullCheck(L_22);
+		AnimationState_set_speed_m465014523(L_22, (0.0f), /*hidden argument*/NULL);
+	}
+
+IL_00ab:
+	{
+		return;
+	}
+}
+// System.Void HutongGames.PlayMaker.Actions.SetAnimationWeight::.ctor()
+extern "C"  void SetAnimationWeight__ctor_m528230718 (SetAnimationWeight_t1672927842 * __this, const MethodInfo* method)
+{
+	{
+		FsmFloat_t937133978 * L_0 = FsmFloat_op_Implicit_m475928236(NULL /*static, unused*/, (1.0f), /*hidden argument*/NULL);
+		__this->set_weight_15(L_0);
+		BaseAnimationAction__ctor_m2023490959(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void HutongGames.PlayMaker.Actions.SetAnimationWeight::Reset()
+extern "C"  void SetAnimationWeight_Reset_m2209560943 (SetAnimationWeight_t1672927842 * __this, const MethodInfo* method)
+{
+	{
+		__this->set_gameObject_13((FsmOwnerDefault_t2023674184 *)NULL);
+		__this->set_animName_14((FsmString_t2414474701 *)NULL);
+		FsmFloat_t937133978 * L_0 = FsmFloat_op_Implicit_m475928236(NULL /*static, unused*/, (1.0f), /*hidden argument*/NULL);
+		__this->set_weight_15(L_0);
+		__this->set_everyFrame_16((bool)0);
+		return;
+	}
+}
+// System.Void HutongGames.PlayMaker.Actions.SetAnimationWeight::OnEnter()
+extern "C"  void SetAnimationWeight_OnEnter_m1374682823 (SetAnimationWeight_t1672927842 * __this, const MethodInfo* method)
+{
+	SetAnimationWeight_t1672927842 * G_B2_0 = NULL;
+	SetAnimationWeight_t1672927842 * G_B1_0 = NULL;
+	GameObject_t1756533147 * G_B3_0 = NULL;
+	SetAnimationWeight_t1672927842 * G_B3_1 = NULL;
+	{
+		FsmOwnerDefault_t2023674184 * L_0 = __this->get_gameObject_13();
+		NullCheck(L_0);
+		int32_t L_1 = FsmOwnerDefault_get_OwnerOption_m3058082974(L_0, /*hidden argument*/NULL);
+		G_B1_0 = __this;
+		if (L_1)
+		{
+			G_B2_0 = __this;
+			goto IL_001c;
+		}
+	}
+	{
+		GameObject_t1756533147 * L_2 = FsmStateAction_get_Owner_m2345900259(__this, /*hidden argument*/NULL);
+		G_B3_0 = L_2;
+		G_B3_1 = G_B1_0;
+		goto IL_002c;
+	}
+
+IL_001c:
+	{
+		FsmOwnerDefault_t2023674184 * L_3 = __this->get_gameObject_13();
+		NullCheck(L_3);
+		FsmGameObject_t3097142863 * L_4 = FsmOwnerDefault_get_GameObject_m1490419887(L_3, /*hidden argument*/NULL);
+		NullCheck(L_4);
+		GameObject_t1756533147 * L_5 = FsmGameObject_get_Value_m15585107(L_4, /*hidden argument*/NULL);
+		G_B3_0 = L_5;
+		G_B3_1 = G_B2_0;
+	}
+
+IL_002c:
+	{
+		NullCheck(G_B3_1);
+		SetAnimationWeight_DoSetAnimationWeight_m722090061(G_B3_1, G_B3_0, /*hidden argument*/NULL);
+		bool L_6 = __this->get_everyFrame_16();
+		if (L_6)
+		{
+			goto IL_0042;
+		}
+	}
+	{
+		FsmStateAction_Finish_m1955744727(__this, /*hidden argument*/NULL);
+	}
+
+IL_0042:
+	{
+		return;
+	}
+}
+// System.Void HutongGames.PlayMaker.Actions.SetAnimationWeight::OnUpdate()
+extern "C"  void SetAnimationWeight_OnUpdate_m108593792 (SetAnimationWeight_t1672927842 * __this, const MethodInfo* method)
+{
+	SetAnimationWeight_t1672927842 * G_B2_0 = NULL;
+	SetAnimationWeight_t1672927842 * G_B1_0 = NULL;
+	GameObject_t1756533147 * G_B3_0 = NULL;
+	SetAnimationWeight_t1672927842 * G_B3_1 = NULL;
+	{
+		FsmOwnerDefault_t2023674184 * L_0 = __this->get_gameObject_13();
+		NullCheck(L_0);
+		int32_t L_1 = FsmOwnerDefault_get_OwnerOption_m3058082974(L_0, /*hidden argument*/NULL);
+		G_B1_0 = __this;
+		if (L_1)
+		{
+			G_B2_0 = __this;
+			goto IL_001c;
+		}
+	}
+	{
+		GameObject_t1756533147 * L_2 = FsmStateAction_get_Owner_m2345900259(__this, /*hidden argument*/NULL);
+		G_B3_0 = L_2;
+		G_B3_1 = G_B1_0;
+		goto IL_002c;
+	}
+
+IL_001c:
+	{
+		FsmOwnerDefault_t2023674184 * L_3 = __this->get_gameObject_13();
+		NullCheck(L_3);
+		FsmGameObject_t3097142863 * L_4 = FsmOwnerDefault_get_GameObject_m1490419887(L_3, /*hidden argument*/NULL);
+		NullCheck(L_4);
+		GameObject_t1756533147 * L_5 = FsmGameObject_get_Value_m15585107(L_4, /*hidden argument*/NULL);
+		G_B3_0 = L_5;
+		G_B3_1 = G_B2_0;
+	}
+
+IL_002c:
+	{
+		NullCheck(G_B3_1);
+		SetAnimationWeight_DoSetAnimationWeight_m722090061(G_B3_1, G_B3_0, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void HutongGames.PlayMaker.Actions.SetAnimationWeight::DoSetAnimationWeight(UnityEngine.GameObject)
+extern "C"  void SetAnimationWeight_DoSetAnimationWeight_m722090061 (SetAnimationWeight_t1672927842 * __this, GameObject_t1756533147 * ___go0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (SetAnimationWeight_DoSetAnimationWeight_m722090061_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	AnimationState_t1303741697 * V_0 = NULL;
+	{
+		GameObject_t1756533147 * L_0 = ___go0;
+		bool L_1 = ComponentAction_1_UpdateCache_m2558231994(__this, L_0, /*hidden argument*/ComponentAction_1_UpdateCache_m2558231994_MethodInfo_var);
+		if (L_1)
+		{
+			goto IL_000d;
+		}
+	}
+	{
+		return;
+	}
+
+IL_000d:
+	{
+		Animation_t2068071072 * L_2 = ComponentAction_1_get_animation_m1902480922(__this, /*hidden argument*/ComponentAction_1_get_animation_m1902480922_MethodInfo_var);
+		FsmString_t2414474701 * L_3 = __this->get_animName_14();
+		NullCheck(L_3);
+		String_t* L_4 = FsmString_get_Value_m3775166715(L_3, /*hidden argument*/NULL);
+		NullCheck(L_2);
+		AnimationState_t1303741697 * L_5 = Animation_get_Item_m4198128320(L_2, L_4, /*hidden argument*/NULL);
+		V_0 = L_5;
+		AnimationState_t1303741697 * L_6 = V_0;
+		bool L_7 = TrackedReference_op_Equality_m3491334086(NULL /*static, unused*/, L_6, (TrackedReference_t1045890189 *)NULL, /*hidden argument*/NULL);
+		if (!L_7)
+		{
+			goto IL_004c;
+		}
+	}
+	{
+		FsmString_t2414474701 * L_8 = __this->get_animName_14();
+		NullCheck(L_8);
+		String_t* L_9 = FsmString_get_Value_m3775166715(L_8, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+		String_t* L_10 = String_Concat_m2596409543(NULL /*static, unused*/, _stringLiteral3861672474, L_9, /*hidden argument*/NULL);
+		FsmStateAction_LogWarning_m1851739038(__this, L_10, /*hidden argument*/NULL);
+		return;
+	}
+
+IL_004c:
+	{
+		AnimationState_t1303741697 * L_11 = V_0;
+		FsmFloat_t937133978 * L_12 = __this->get_weight_15();
+		NullCheck(L_12);
+		float L_13 = FsmFloat_get_Value_m1818441449(L_12, /*hidden argument*/NULL);
+		NullCheck(L_11);
+		AnimationState_set_weight_m2370306600(L_11, L_13, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void HutongGames.PlayMaker.Actions.SetAnimatorApplyRootMotion::.ctor()
+extern "C"  void SetAnimatorApplyRootMotion__ctor_m2460556331 (SetAnimatorApplyRootMotion_t4257862663 * __this, const MethodInfo* method)
+{
+	{
+		FsmStateAction__ctor_m1837021228(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void HutongGames.PlayMaker.Actions.SetAnimatorApplyRootMotion::Reset()
+extern "C"  void SetAnimatorApplyRootMotion_Reset_m2277157004 (SetAnimatorApplyRootMotion_t4257862663 * __this, const MethodInfo* method)
+{
+	{
+		__this->set_gameObject_11((FsmOwnerDefault_t2023674184 *)NULL);
+		__this->set_applyRootMotion_12((FsmBool_t664485696 *)NULL);
+		return;
+	}
+}
+// System.Void HutongGames.PlayMaker.Actions.SetAnimatorApplyRootMotion::OnEnter()
+extern "C"  void SetAnimatorApplyRootMotion_OnEnter_m1808247442 (SetAnimatorApplyRootMotion_t4257862663 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (SetAnimatorApplyRootMotion_OnEnter_m1808247442_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	GameObject_t1756533147 * V_0 = NULL;
+	{
+		Fsm_t917886356 * L_0 = FsmStateAction_get_Fsm_m4079598046(__this, /*hidden argument*/NULL);
+		FsmOwnerDefault_t2023674184 * L_1 = __this->get_gameObject_11();
+		NullCheck(L_0);
+		GameObject_t1756533147 * L_2 = Fsm_GetOwnerDefaultTarget_m1045900479(L_0, L_1, /*hidden argument*/NULL);
+		V_0 = L_2;
+		GameObject_t1756533147 * L_3 = V_0;
+		IL2CPP_RUNTIME_CLASS_INIT(Object_t1021602117_il2cpp_TypeInfo_var);
+		bool L_4 = Object_op_Equality_m3764089466(NULL /*static, unused*/, L_3, (Object_t1021602117 *)NULL, /*hidden argument*/NULL);
+		if (!L_4)
+		{
+			goto IL_0025;
+		}
+	}
+	{
+		FsmStateAction_Finish_m1955744727(__this, /*hidden argument*/NULL);
+		return;
+	}
+
+IL_0025:
+	{
+		GameObject_t1756533147 * L_5 = V_0;
+		NullCheck(L_5);
+		Animator_t69676727 * L_6 = GameObject_GetComponent_TisAnimator_t69676727_m2717502299(L_5, /*hidden argument*/GameObject_GetComponent_TisAnimator_t69676727_m2717502299_MethodInfo_var);
+		__this->set__animator_13(L_6);
+		Animator_t69676727 * L_7 = __this->get__animator_13();
+		IL2CPP_RUNTIME_CLASS_INIT(Object_t1021602117_il2cpp_TypeInfo_var);
+		bool L_8 = Object_op_Equality_m3764089466(NULL /*static, unused*/, L_7, (Object_t1021602117 *)NULL, /*hidden argument*/NULL);
+		if (!L_8)
+		{
+			goto IL_0049;
+		}
+	}
+	{
+		FsmStateAction_Finish_m1955744727(__this, /*hidden argument*/NULL);
+		return;
+	}
+
+IL_0049:
+	{
+		SetAnimatorApplyRootMotion_DoApplyRootMotion_m2967156894(__this, /*hidden argument*/NULL);
+		FsmStateAction_Finish_m1955744727(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void HutongGames.PlayMaker.Actions.SetAnimatorApplyRootMotion::DoApplyRootMotion()
+extern "C"  void SetAnimatorApplyRootMotion_DoApplyRootMotion_m2967156894 (SetAnimatorApplyRootMotion_t4257862663 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (SetAnimatorApplyRootMotion_DoApplyRootMotion_m2967156894_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		Animator_t69676727 * L_0 = __this->get__animator_13();
+		IL2CPP_RUNTIME_CLASS_INIT(Object_t1021602117_il2cpp_TypeInfo_var);
+		bool L_1 = Object_op_Equality_m3764089466(NULL /*static, unused*/, L_0, (Object_t1021602117 *)NULL, /*hidden argument*/NULL);
+		if (!L_1)
+		{
+			goto IL_0012;
+		}
+	}
+	{
+		return;
+	}
+
+IL_0012:
+	{
+		Animator_t69676727 * L_2 = __this->get__animator_13();
+		FsmBool_t664485696 * L_3 = __this->get_applyRootMotion_12();
+		NullCheck(L_3);
+		bool L_4 = FsmBool_get_Value_m3738134001(L_3, /*hidden argument*/NULL);
+		NullCheck(L_2);
+		Animator_set_applyRootMotion_m635228566(L_2, L_4, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void HutongGames.PlayMaker.Actions.SetAnimatorBody::.ctor()
+extern "C"  void SetAnimatorBody__ctor_m3157950887 (SetAnimatorBody_t3010275605 * __this, const MethodInfo* method)
+{
+	{
+		FsmStateAction__ctor_m1837021228(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void HutongGames.PlayMaker.Actions.SetAnimatorBody::Reset()
+extern "C"  void SetAnimatorBody_Reset_m3199843626 (SetAnimatorBody_t3010275605 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (SetAnimatorBody_Reset_m3199843626_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	FsmVector3_t3996534004 * V_0 = NULL;
+	FsmQuaternion_t878438756 * V_1 = NULL;
+	{
+		__this->set_gameObject_11((FsmOwnerDefault_t2023674184 *)NULL);
+		__this->set_target_12((FsmGameObject_t3097142863 *)NULL);
+		FsmVector3_t3996534004 * L_0 = (FsmVector3_t3996534004 *)il2cpp_codegen_object_new(FsmVector3_t3996534004_il2cpp_TypeInfo_var);
+		FsmVector3__ctor_m2525545399(L_0, /*hidden argument*/NULL);
+		V_0 = L_0;
+		FsmVector3_t3996534004 * L_1 = V_0;
+		NullCheck(L_1);
+		NamedVariable_set_UseVariable_m1478981231(L_1, (bool)1, /*hidden argument*/NULL);
+		FsmVector3_t3996534004 * L_2 = V_0;
+		__this->set_position_13(L_2);
+		FsmQuaternion_t878438756 * L_3 = (FsmQuaternion_t878438756 *)il2cpp_codegen_object_new(FsmQuaternion_t878438756_il2cpp_TypeInfo_var);
+		FsmQuaternion__ctor_m3078120561(L_3, /*hidden argument*/NULL);
+		V_1 = L_3;
+		FsmQuaternion_t878438756 * L_4 = V_1;
+		NullCheck(L_4);
+		NamedVariable_set_UseVariable_m1478981231(L_4, (bool)1, /*hidden argument*/NULL);
+		FsmQuaternion_t878438756 * L_5 = V_1;
+		__this->set_rotation_14(L_5);
+		__this->set_everyFrame_15((bool)0);
+		return;
+	}
+}
+// System.Void HutongGames.PlayMaker.Actions.SetAnimatorBody::OnPreprocess()
+extern "C"  void SetAnimatorBody_OnPreprocess_m2619380698 (SetAnimatorBody_t3010275605 * __this, const MethodInfo* method)
+{
+	{
+		Fsm_t917886356 * L_0 = FsmStateAction_get_Fsm_m4079598046(__this, /*hidden argument*/NULL);
+		NullCheck(L_0);
+		Fsm_set_HandleAnimatorIK_m3869023658(L_0, (bool)1, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void HutongGames.PlayMaker.Actions.SetAnimatorBody::OnEnter()
+extern "C"  void SetAnimatorBody_OnEnter_m1180635436 (SetAnimatorBody_t3010275605 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (SetAnimatorBody_OnEnter_m1180635436_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	GameObject_t1756533147 * V_0 = NULL;
+	GameObject_t1756533147 * V_1 = NULL;
+	{
+		Fsm_t917886356 * L_0 = FsmStateAction_get_Fsm_m4079598046(__this, /*hidden argument*/NULL);
+		FsmOwnerDefault_t2023674184 * L_1 = __this->get_gameObject_11();
+		NullCheck(L_0);
+		GameObject_t1756533147 * L_2 = Fsm_GetOwnerDefaultTarget_m1045900479(L_0, L_1, /*hidden argument*/NULL);
+		V_0 = L_2;
+		GameObject_t1756533147 * L_3 = V_0;
+		IL2CPP_RUNTIME_CLASS_INIT(Object_t1021602117_il2cpp_TypeInfo_var);
+		bool L_4 = Object_op_Equality_m3764089466(NULL /*static, unused*/, L_3, (Object_t1021602117 *)NULL, /*hidden argument*/NULL);
+		if (!L_4)
+		{
+			goto IL_0025;
+		}
+	}
+	{
+		FsmStateAction_Finish_m1955744727(__this, /*hidden argument*/NULL);
+		return;
+	}
+
+IL_0025:
+	{
+		GameObject_t1756533147 * L_5 = V_0;
+		NullCheck(L_5);
+		Animator_t69676727 * L_6 = GameObject_GetComponent_TisAnimator_t69676727_m2717502299(L_5, /*hidden argument*/GameObject_GetComponent_TisAnimator_t69676727_m2717502299_MethodInfo_var);
+		__this->set__animator_16(L_6);
+		Animator_t69676727 * L_7 = __this->get__animator_16();
+		IL2CPP_RUNTIME_CLASS_INIT(Object_t1021602117_il2cpp_TypeInfo_var);
+		bool L_8 = Object_op_Equality_m3764089466(NULL /*static, unused*/, L_7, (Object_t1021602117 *)NULL, /*hidden argument*/NULL);
+		if (!L_8)
+		{
+			goto IL_0049;
+		}
+	}
+	{
+		FsmStateAction_Finish_m1955744727(__this, /*hidden argument*/NULL);
+		return;
+	}
+
+IL_0049:
+	{
+		FsmGameObject_t3097142863 * L_9 = __this->get_target_12();
+		NullCheck(L_9);
+		GameObject_t1756533147 * L_10 = FsmGameObject_get_Value_m15585107(L_9, /*hidden argument*/NULL);
+		V_1 = L_10;
+		GameObject_t1756533147 * L_11 = V_1;
+		IL2CPP_RUNTIME_CLASS_INIT(Object_t1021602117_il2cpp_TypeInfo_var);
+		bool L_12 = Object_op_Inequality_m2402264703(NULL /*static, unused*/, L_11, (Object_t1021602117 *)NULL, /*hidden argument*/NULL);
+		if (!L_12)
+		{
+			goto IL_006d;
+		}
+	}
+	{
+		GameObject_t1756533147 * L_13 = V_1;
+		NullCheck(L_13);
+		Transform_t3275118058 * L_14 = GameObject_get_transform_m909382139(L_13, /*hidden argument*/NULL);
+		__this->set__transform_17(L_14);
+	}
+
+IL_006d:
+	{
+		return;
+	}
+}
+// System.Void HutongGames.PlayMaker.Actions.SetAnimatorBody::DoAnimatorIK(System.Int32)
+extern "C"  void SetAnimatorBody_DoAnimatorIK_m2128595760 (SetAnimatorBody_t3010275605 * __this, int32_t ___layerIndex0, const MethodInfo* method)
+{
+	{
+		SetAnimatorBody_DoSetBody_m2900504470(__this, /*hidden argument*/NULL);
+		bool L_0 = __this->get_everyFrame_15();
+		if (L_0)
+		{
+			goto IL_0017;
+		}
+	}
+	{
+		FsmStateAction_Finish_m1955744727(__this, /*hidden argument*/NULL);
+	}
+
+IL_0017:
+	{
+		return;
+	}
+}
+// System.Void HutongGames.PlayMaker.Actions.SetAnimatorBody::DoSetBody()
+extern "C"  void SetAnimatorBody_DoSetBody_m2900504470 (SetAnimatorBody_t3010275605 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (SetAnimatorBody_DoSetBody_m2900504470_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		Animator_t69676727 * L_0 = __this->get__animator_16();
+		IL2CPP_RUNTIME_CLASS_INIT(Object_t1021602117_il2cpp_TypeInfo_var);
+		bool L_1 = Object_op_Equality_m3764089466(NULL /*static, unused*/, L_0, (Object_t1021602117 *)NULL, /*hidden argument*/NULL);
+		if (!L_1)
+		{
+			goto IL_0012;
+		}
+	}
+	{
+		return;
+	}
+
+IL_0012:
+	{
+		Transform_t3275118058 * L_2 = __this->get__transform_17();
+		IL2CPP_RUNTIME_CLASS_INIT(Object_t1021602117_il2cpp_TypeInfo_var);
+		bool L_3 = Object_op_Inequality_m2402264703(NULL /*static, unused*/, L_2, (Object_t1021602117 *)NULL, /*hidden argument*/NULL);
+		if (!L_3)
+		{
+			goto IL_00ca;
+		}
+	}
+	{
+		FsmVector3_t3996534004 * L_4 = __this->get_position_13();
+		NullCheck(L_4);
+		bool L_5 = NamedVariable_get_IsNone_m1506066313(L_4, /*hidden argument*/NULL);
+		if (!L_5)
+		{
+			goto IL_004e;
+		}
+	}
+	{
+		Animator_t69676727 * L_6 = __this->get__animator_16();
+		Transform_t3275118058 * L_7 = __this->get__transform_17();
+		NullCheck(L_7);
+		Vector3_t2243707580  L_8 = Transform_get_position_m1104419803(L_7, /*hidden argument*/NULL);
+		NullCheck(L_6);
+		Animator_set_bodyPosition_m3816012379(L_6, L_8, /*hidden argument*/NULL);
+		goto IL_0074;
+	}
+
+IL_004e:
+	{
+		Animator_t69676727 * L_9 = __this->get__animator_16();
+		Transform_t3275118058 * L_10 = __this->get__transform_17();
+		NullCheck(L_10);
+		Vector3_t2243707580  L_11 = Transform_get_position_m1104419803(L_10, /*hidden argument*/NULL);
+		FsmVector3_t3996534004 * L_12 = __this->get_position_13();
+		NullCheck(L_12);
+		Vector3_t2243707580  L_13 = FsmVector3_get_Value_m4242600139(L_12, /*hidden argument*/NULL);
+		Vector3_t2243707580  L_14 = Vector3_op_Addition_m3146764857(NULL /*static, unused*/, L_11, L_13, /*hidden argument*/NULL);
+		NullCheck(L_9);
+		Animator_set_bodyPosition_m3816012379(L_9, L_14, /*hidden argument*/NULL);
+	}
+
+IL_0074:
+	{
+		FsmQuaternion_t878438756 * L_15 = __this->get_rotation_14();
+		NullCheck(L_15);
+		bool L_16 = NamedVariable_get_IsNone_m1506066313(L_15, /*hidden argument*/NULL);
+		if (!L_16)
+		{
+			goto IL_009f;
+		}
+	}
+	{
+		Animator_t69676727 * L_17 = __this->get__animator_16();
+		Transform_t3275118058 * L_18 = __this->get__transform_17();
+		NullCheck(L_18);
+		Quaternion_t4030073918  L_19 = Transform_get_rotation_m1033555130(L_18, /*hidden argument*/NULL);
+		NullCheck(L_17);
+		Animator_set_bodyRotation_m3092584822(L_17, L_19, /*hidden argument*/NULL);
+		goto IL_00c5;
+	}
+
+IL_009f:
+	{
+		Animator_t69676727 * L_20 = __this->get__animator_16();
+		Transform_t3275118058 * L_21 = __this->get__transform_17();
+		NullCheck(L_21);
+		Quaternion_t4030073918  L_22 = Transform_get_rotation_m1033555130(L_21, /*hidden argument*/NULL);
+		FsmQuaternion_t878438756 * L_23 = __this->get_rotation_14();
+		NullCheck(L_23);
+		Quaternion_t4030073918  L_24 = FsmQuaternion_get_Value_m2629833107(L_23, /*hidden argument*/NULL);
+		Quaternion_t4030073918  L_25 = Quaternion_op_Multiply_m2426727589(NULL /*static, unused*/, L_22, L_24, /*hidden argument*/NULL);
+		NullCheck(L_20);
+		Animator_set_bodyRotation_m3092584822(L_20, L_25, /*hidden argument*/NULL);
+	}
+
+IL_00c5:
+	{
+		goto IL_0116;
+	}
+
+IL_00ca:
+	{
+		FsmVector3_t3996534004 * L_26 = __this->get_position_13();
+		NullCheck(L_26);
+		bool L_27 = NamedVariable_get_IsNone_m1506066313(L_26, /*hidden argument*/NULL);
+		if (L_27)
+		{
+			goto IL_00f0;
+		}
+	}
+	{
+		Animator_t69676727 * L_28 = __this->get__animator_16();
+		FsmVector3_t3996534004 * L_29 = __this->get_position_13();
+		NullCheck(L_29);
+		Vector3_t2243707580  L_30 = FsmVector3_get_Value_m4242600139(L_29, /*hidden argument*/NULL);
+		NullCheck(L_28);
+		Animator_set_bodyPosition_m3816012379(L_28, L_30, /*hidden argument*/NULL);
+	}
+
+IL_00f0:
+	{
+		FsmQuaternion_t878438756 * L_31 = __this->get_rotation_14();
+		NullCheck(L_31);
+		bool L_32 = NamedVariable_get_IsNone_m1506066313(L_31, /*hidden argument*/NULL);
+		if (L_32)
+		{
+			goto IL_0116;
+		}
+	}
+	{
+		Animator_t69676727 * L_33 = __this->get__animator_16();
+		FsmQuaternion_t878438756 * L_34 = __this->get_rotation_14();
+		NullCheck(L_34);
+		Quaternion_t4030073918  L_35 = FsmQuaternion_get_Value_m2629833107(L_34, /*hidden argument*/NULL);
+		NullCheck(L_33);
+		Animator_set_bodyRotation_m3092584822(L_33, L_35, /*hidden argument*/NULL);
+	}
+
+IL_0116:
+	{
+		return;
+	}
+}
+// System.Void HutongGames.PlayMaker.Actions.SetAnimatorBool::.ctor()
+extern "C"  void SetAnimatorBool__ctor_m2303880349 (SetAnimatorBool_t1087961285 * __this, const MethodInfo* method)
+{
+	{
+		FsmStateActionAnimatorBase__ctor_m3740175025(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void HutongGames.PlayMaker.Actions.SetAnimatorBool::Reset()
+extern "C"  void SetAnimatorBool_Reset_m2134115650 (SetAnimatorBool_t1087961285 * __this, const MethodInfo* method)
+{
+	{
+		FsmStateActionAnimatorBase_Reset_m1164231520(__this, /*hidden argument*/NULL);
+		__this->set_gameObject_14((FsmOwnerDefault_t2023674184 *)NULL);
+		__this->set_parameter_15((FsmString_t2414474701 *)NULL);
+		__this->set_Value_16((FsmBool_t664485696 *)NULL);
+		return;
+	}
+}
+// System.Void HutongGames.PlayMaker.Actions.SetAnimatorBool::OnEnter()
+extern "C"  void SetAnimatorBool_OnEnter_m3231680096 (SetAnimatorBool_t1087961285 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (SetAnimatorBool_OnEnter_m3231680096_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	GameObject_t1756533147 * V_0 = NULL;
+	{
+		Fsm_t917886356 * L_0 = FsmStateAction_get_Fsm_m4079598046(__this, /*hidden argument*/NULL);
+		FsmOwnerDefault_t2023674184 * L_1 = __this->get_gameObject_14();
+		NullCheck(L_0);
+		GameObject_t1756533147 * L_2 = Fsm_GetOwnerDefaultTarget_m1045900479(L_0, L_1, /*hidden argument*/NULL);
+		V_0 = L_2;
+		GameObject_t1756533147 * L_3 = V_0;
+		IL2CPP_RUNTIME_CLASS_INIT(Object_t1021602117_il2cpp_TypeInfo_var);
+		bool L_4 = Object_op_Equality_m3764089466(NULL /*static, unused*/, L_3, (Object_t1021602117 *)NULL, /*hidden argument*/NULL);
+		if (!L_4)
+		{
+			goto IL_0025;
+		}
+	}
+	{
+		FsmStateAction_Finish_m1955744727(__this, /*hidden argument*/NULL);
+		return;
+	}
+
+IL_0025:
+	{
+		GameObject_t1756533147 * L_5 = V_0;
+		NullCheck(L_5);
+		Animator_t69676727 * L_6 = GameObject_GetComponent_TisAnimator_t69676727_m2717502299(L_5, /*hidden argument*/GameObject_GetComponent_TisAnimator_t69676727_m2717502299_MethodInfo_var);
+		__this->set__animator_17(L_6);
+		Animator_t69676727 * L_7 = __this->get__animator_17();
+		IL2CPP_RUNTIME_CLASS_INIT(Object_t1021602117_il2cpp_TypeInfo_var);
+		bool L_8 = Object_op_Equality_m3764089466(NULL /*static, unused*/, L_7, (Object_t1021602117 *)NULL, /*hidden argument*/NULL);
+		if (!L_8)
+		{
+			goto IL_0049;
+		}
+	}
+	{
+		FsmStateAction_Finish_m1955744727(__this, /*hidden argument*/NULL);
+		return;
+	}
+
+IL_0049:
+	{
+		FsmString_t2414474701 * L_9 = __this->get_parameter_15();
+		NullCheck(L_9);
+		String_t* L_10 = FsmString_get_Value_m3775166715(L_9, /*hidden argument*/NULL);
+		int32_t L_11 = Animator_StringToHash_m3313850714(NULL /*static, unused*/, L_10, /*hidden argument*/NULL);
+		__this->set__paramID_18(L_11);
+		SetAnimatorBool_SetParameter_m2471012474(__this, /*hidden argument*/NULL);
+		bool L_12 = ((FsmStateActionAnimatorBase_t3863144983 *)__this)->get_everyFrame_11();
+		if (L_12)
+		{
+			goto IL_0076;
+		}
+	}
+	{
+		FsmStateAction_Finish_m1955744727(__this, /*hidden argument*/NULL);
+	}
+
+IL_0076:
+	{
+		return;
+	}
+}
+// System.Void HutongGames.PlayMaker.Actions.SetAnimatorBool::OnActionUpdate()
+extern "C"  void SetAnimatorBool_OnActionUpdate_m2387070539 (SetAnimatorBool_t1087961285 * __this, const MethodInfo* method)
+{
+	{
+		SetAnimatorBool_SetParameter_m2471012474(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void HutongGames.PlayMaker.Actions.SetAnimatorBool::SetParameter()
+extern "C"  void SetAnimatorBool_SetParameter_m2471012474 (SetAnimatorBool_t1087961285 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (SetAnimatorBool_SetParameter_m2471012474_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		Animator_t69676727 * L_0 = __this->get__animator_17();
+		IL2CPP_RUNTIME_CLASS_INIT(Object_t1021602117_il2cpp_TypeInfo_var);
+		bool L_1 = Object_op_Inequality_m2402264703(NULL /*static, unused*/, L_0, (Object_t1021602117 *)NULL, /*hidden argument*/NULL);
+		if (!L_1)
+		{
+			goto IL_002d;
+		}
+	}
+	{
+		Animator_t69676727 * L_2 = __this->get__animator_17();
+		int32_t L_3 = __this->get__paramID_18();
+		FsmBool_t664485696 * L_4 = __this->get_Value_16();
+		NullCheck(L_4);
+		bool L_5 = FsmBool_get_Value_m3738134001(L_4, /*hidden argument*/NULL);
+		NullCheck(L_2);
+		Animator_SetBool_m2272870950(L_2, L_3, L_5, /*hidden argument*/NULL);
+	}
+
+IL_002d:
+	{
+		return;
+	}
+}
+// System.Void HutongGames.PlayMaker.Actions.SetAnimatorCullingMode::.ctor()
+extern "C"  void SetAnimatorCullingMode__ctor_m2131459860 (SetAnimatorCullingMode_t1528296606 * __this, const MethodInfo* method)
+{
+	{
+		FsmStateAction__ctor_m1837021228(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void HutongGames.PlayMaker.Actions.SetAnimatorCullingMode::Reset()
+extern "C"  void SetAnimatorCullingMode_Reset_m167186499 (SetAnimatorCullingMode_t1528296606 * __this, const MethodInfo* method)
+{
+	{
+		__this->set_gameObject_11((FsmOwnerDefault_t2023674184 *)NULL);
+		__this->set_alwaysAnimate_12((FsmBool_t664485696 *)NULL);
+		return;
+	}
+}
+// System.Void HutongGames.PlayMaker.Actions.SetAnimatorCullingMode::OnEnter()
+extern "C"  void SetAnimatorCullingMode_OnEnter_m353330971 (SetAnimatorCullingMode_t1528296606 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (SetAnimatorCullingMode_OnEnter_m353330971_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	GameObject_t1756533147 * V_0 = NULL;
+	{
+		Fsm_t917886356 * L_0 = FsmStateAction_get_Fsm_m4079598046(__this, /*hidden argument*/NULL);
+		FsmOwnerDefault_t2023674184 * L_1 = __this->get_gameObject_11();
+		NullCheck(L_0);
+		GameObject_t1756533147 * L_2 = Fsm_GetOwnerDefaultTarget_m1045900479(L_0, L_1, /*hidden argument*/NULL);
+		V_0 = L_2;
+		GameObject_t1756533147 * L_3 = V_0;
+		IL2CPP_RUNTIME_CLASS_INIT(Object_t1021602117_il2cpp_TypeInfo_var);
+		bool L_4 = Object_op_Equality_m3764089466(NULL /*static, unused*/, L_3, (Object_t1021602117 *)NULL, /*hidden argument*/NULL);
+		if (!L_4)
+		{
+			goto IL_0025;
+		}
+	}
+	{
+		FsmStateAction_Finish_m1955744727(__this, /*hidden argument*/NULL);
+		return;
+	}
+
+IL_0025:
+	{
+		GameObject_t1756533147 * L_5 = V_0;
+		NullCheck(L_5);
+		Animator_t69676727 * L_6 = GameObject_GetComponent_TisAnimator_t69676727_m2717502299(L_5, /*hidden argument*/GameObject_GetComponent_TisAnimator_t69676727_m2717502299_MethodInfo_var);
+		__this->set__animator_13(L_6);
+		Animator_t69676727 * L_7 = __this->get__animator_13();
+		IL2CPP_RUNTIME_CLASS_INIT(Object_t1021602117_il2cpp_TypeInfo_var);
+		bool L_8 = Object_op_Equality_m3764089466(NULL /*static, unused*/, L_7, (Object_t1021602117 *)NULL, /*hidden argument*/NULL);
+		if (!L_8)
+		{
+			goto IL_0049;
+		}
+	}
+	{
+		FsmStateAction_Finish_m1955744727(__this, /*hidden argument*/NULL);
+		return;
+	}
+
+IL_0049:
+	{
+		SetAnimatorCullingMode_SetCullingMode_m2215389557(__this, /*hidden argument*/NULL);
+		FsmStateAction_Finish_m1955744727(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void HutongGames.PlayMaker.Actions.SetAnimatorCullingMode::SetCullingMode()
+extern "C"  void SetAnimatorCullingMode_SetCullingMode_m2215389557 (SetAnimatorCullingMode_t1528296606 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (SetAnimatorCullingMode_SetCullingMode_m2215389557_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	Animator_t69676727 * G_B4_0 = NULL;
+	Animator_t69676727 * G_B3_0 = NULL;
+	int32_t G_B5_0 = 0;
+	Animator_t69676727 * G_B5_1 = NULL;
+	{
+		Animator_t69676727 * L_0 = __this->get__animator_13();
+		IL2CPP_RUNTIME_CLASS_INIT(Object_t1021602117_il2cpp_TypeInfo_var);
+		bool L_1 = Object_op_Equality_m3764089466(NULL /*static, unused*/, L_0, (Object_t1021602117 *)NULL, /*hidden argument*/NULL);
+		if (!L_1)
+		{
+			goto IL_0012;
+		}
+	}
+	{
+		return;
+	}
+
+IL_0012:
+	{
+		Animator_t69676727 * L_2 = __this->get__animator_13();
+		FsmBool_t664485696 * L_3 = __this->get_alwaysAnimate_12();
+		NullCheck(L_3);
+		bool L_4 = FsmBool_get_Value_m3738134001(L_3, /*hidden argument*/NULL);
+		G_B3_0 = L_2;
+		if (!L_4)
+		{
+			G_B4_0 = L_2;
+			goto IL_002e;
+		}
+	}
+	{
+		G_B5_0 = 0;
+		G_B5_1 = G_B3_0;
+		goto IL_002f;
+	}
+
+IL_002e:
+	{
+		G_B5_0 = 1;
+		G_B5_1 = G_B4_0;
+	}
+
+IL_002f:
+	{
+		NullCheck(G_B5_1);
+		Animator_set_cullingMode_m2321274215(G_B5_1, G_B5_0, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void HutongGames.PlayMaker.Actions.SetAnimatorFeetPivotActive::.ctor()
+extern "C"  void SetAnimatorFeetPivotActive__ctor_m2170126741 (SetAnimatorFeetPivotActive_t3188379659 * __this, const MethodInfo* method)
+{
+	{
+		FsmStateAction__ctor_m1837021228(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void HutongGames.PlayMaker.Actions.SetAnimatorFeetPivotActive::Reset()
+extern "C"  void SetAnimatorFeetPivotActive_Reset_m1336011356 (SetAnimatorFeetPivotActive_t3188379659 * __this, const MethodInfo* method)
+{
+	{
+		__this->set_gameObject_11((FsmOwnerDefault_t2023674184 *)NULL);
+		__this->set_feetPivotActive_12((FsmFloat_t937133978 *)NULL);
+		return;
+	}
+}
+// System.Void HutongGames.PlayMaker.Actions.SetAnimatorFeetPivotActive::OnEnter()
+extern "C"  void SetAnimatorFeetPivotActive_OnEnter_m3526038150 (SetAnimatorFeetPivotActive_t3188379659 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (SetAnimatorFeetPivotActive_OnEnter_m3526038150_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	GameObject_t1756533147 * V_0 = NULL;
+	{
+		Fsm_t917886356 * L_0 = FsmStateAction_get_Fsm_m4079598046(__this, /*hidden argument*/NULL);
+		FsmOwnerDefault_t2023674184 * L_1 = __this->get_gameObject_11();
+		NullCheck(L_0);
+		GameObject_t1756533147 * L_2 = Fsm_GetOwnerDefaultTarget_m1045900479(L_0, L_1, /*hidden argument*/NULL);
+		V_0 = L_2;
+		GameObject_t1756533147 * L_3 = V_0;
+		IL2CPP_RUNTIME_CLASS_INIT(Object_t1021602117_il2cpp_TypeInfo_var);
+		bool L_4 = Object_op_Equality_m3764089466(NULL /*static, unused*/, L_3, (Object_t1021602117 *)NULL, /*hidden argument*/NULL);
+		if (!L_4)
+		{
+			goto IL_0025;
+		}
+	}
+	{
+		FsmStateAction_Finish_m1955744727(__this, /*hidden argument*/NULL);
+		return;
+	}
+
+IL_0025:
+	{
+		GameObject_t1756533147 * L_5 = V_0;
+		NullCheck(L_5);
+		Animator_t69676727 * L_6 = GameObject_GetComponent_TisAnimator_t69676727_m2717502299(L_5, /*hidden argument*/GameObject_GetComponent_TisAnimator_t69676727_m2717502299_MethodInfo_var);
+		__this->set__animator_13(L_6);
+		Animator_t69676727 * L_7 = __this->get__animator_13();
+		IL2CPP_RUNTIME_CLASS_INIT(Object_t1021602117_il2cpp_TypeInfo_var);
+		bool L_8 = Object_op_Equality_m3764089466(NULL /*static, unused*/, L_7, (Object_t1021602117 *)NULL, /*hidden argument*/NULL);
+		if (!L_8)
+		{
+			goto IL_0049;
+		}
+	}
+	{
+		FsmStateAction_Finish_m1955744727(__this, /*hidden argument*/NULL);
+		return;
+	}
+
+IL_0049:
+	{
+		SetAnimatorFeetPivotActive_DoFeetPivotActive_m3046968450(__this, /*hidden argument*/NULL);
+		FsmStateAction_Finish_m1955744727(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void HutongGames.PlayMaker.Actions.SetAnimatorFeetPivotActive::DoFeetPivotActive()
+extern "C"  void SetAnimatorFeetPivotActive_DoFeetPivotActive_m3046968450 (SetAnimatorFeetPivotActive_t3188379659 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (SetAnimatorFeetPivotActive_DoFeetPivotActive_m3046968450_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		Animator_t69676727 * L_0 = __this->get__animator_13();
+		IL2CPP_RUNTIME_CLASS_INIT(Object_t1021602117_il2cpp_TypeInfo_var);
+		bool L_1 = Object_op_Equality_m3764089466(NULL /*static, unused*/, L_0, (Object_t1021602117 *)NULL, /*hidden argument*/NULL);
+		if (!L_1)
+		{
+			goto IL_0012;
+		}
+	}
+	{
+		return;
+	}
+
+IL_0012:
+	{
+		Animator_t69676727 * L_2 = __this->get__animator_13();
+		FsmFloat_t937133978 * L_3 = __this->get_feetPivotActive_12();
+		NullCheck(L_3);
+		float L_4 = FsmFloat_get_Value_m1818441449(L_3, /*hidden argument*/NULL);
+		NullCheck(L_2);
+		Animator_set_feetPivotActive_m3070161808(L_2, L_4, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void HutongGames.PlayMaker.Actions.SetAnimatorFloat::.ctor()
+extern "C"  void SetAnimatorFloat__ctor_m1597439127 (SetAnimatorFloat_t1785639679 * __this, const MethodInfo* method)
+{
+	{
+		FsmStateActionAnimatorBase__ctor_m3740175025(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void HutongGames.PlayMaker.Actions.SetAnimatorFloat::Reset()
+extern "C"  void SetAnimatorFloat_Reset_m2394164048 (SetAnimatorFloat_t1785639679 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (SetAnimatorFloat_Reset_m2394164048_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	FsmFloat_t937133978 * V_0 = NULL;
+	{
+		FsmStateActionAnimatorBase_Reset_m1164231520(__this, /*hidden argument*/NULL);
+		__this->set_gameObject_14((FsmOwnerDefault_t2023674184 *)NULL);
+		__this->set_parameter_15((FsmString_t2414474701 *)NULL);
+		FsmFloat_t937133978 * L_0 = (FsmFloat_t937133978 *)il2cpp_codegen_object_new(FsmFloat_t937133978_il2cpp_TypeInfo_var);
+		FsmFloat__ctor_m2608255745(L_0, /*hidden argument*/NULL);
+		V_0 = L_0;
+		FsmFloat_t937133978 * L_1 = V_0;
+		NullCheck(L_1);
+		NamedVariable_set_UseVariable_m1478981231(L_1, (bool)1, /*hidden argument*/NULL);
+		FsmFloat_t937133978 * L_2 = V_0;
+		__this->set_dampTime_17(L_2);
+		__this->set_Value_16((FsmFloat_t937133978 *)NULL);
+		return;
+	}
+}
+// System.Void HutongGames.PlayMaker.Actions.SetAnimatorFloat::OnEnter()
+extern "C"  void SetAnimatorFloat_OnEnter_m1775862462 (SetAnimatorFloat_t1785639679 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (SetAnimatorFloat_OnEnter_m1775862462_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	GameObject_t1756533147 * V_0 = NULL;
+	{
+		Fsm_t917886356 * L_0 = FsmStateAction_get_Fsm_m4079598046(__this, /*hidden argument*/NULL);
+		FsmOwnerDefault_t2023674184 * L_1 = __this->get_gameObject_14();
+		NullCheck(L_0);
+		GameObject_t1756533147 * L_2 = Fsm_GetOwnerDefaultTarget_m1045900479(L_0, L_1, /*hidden argument*/NULL);
+		V_0 = L_2;
+		GameObject_t1756533147 * L_3 = V_0;
+		IL2CPP_RUNTIME_CLASS_INIT(Object_t1021602117_il2cpp_TypeInfo_var);
+		bool L_4 = Object_op_Equality_m3764089466(NULL /*static, unused*/, L_3, (Object_t1021602117 *)NULL, /*hidden argument*/NULL);
+		if (!L_4)
+		{
+			goto IL_0025;
+		}
+	}
+	{
+		FsmStateAction_Finish_m1955744727(__this, /*hidden argument*/NULL);
+		return;
+	}
+
+IL_0025:
+	{
+		GameObject_t1756533147 * L_5 = V_0;
+		NullCheck(L_5);
+		Animator_t69676727 * L_6 = GameObject_GetComponent_TisAnimator_t69676727_m2717502299(L_5, /*hidden argument*/GameObject_GetComponent_TisAnimator_t69676727_m2717502299_MethodInfo_var);
+		__this->set__animator_18(L_6);
+		Animator_t69676727 * L_7 = __this->get__animator_18();
+		IL2CPP_RUNTIME_CLASS_INIT(Object_t1021602117_il2cpp_TypeInfo_var);
+		bool L_8 = Object_op_Equality_m3764089466(NULL /*static, unused*/, L_7, (Object_t1021602117 *)NULL, /*hidden argument*/NULL);
+		if (!L_8)
+		{
+			goto IL_0049;
+		}
+	}
+	{
+		FsmStateAction_Finish_m1955744727(__this, /*hidden argument*/NULL);
+		return;
+	}
+
+IL_0049:
+	{
+		FsmString_t2414474701 * L_9 = __this->get_parameter_15();
+		NullCheck(L_9);
+		String_t* L_10 = FsmString_get_Value_m3775166715(L_9, /*hidden argument*/NULL);
+		int32_t L_11 = Animator_StringToHash_m3313850714(NULL /*static, unused*/, L_10, /*hidden argument*/NULL);
+		__this->set__paramID_19(L_11);
+		SetAnimatorFloat_SetParameter_m1272420540(__this, /*hidden argument*/NULL);
+		bool L_12 = ((FsmStateActionAnimatorBase_t3863144983 *)__this)->get_everyFrame_11();
+		if (L_12)
+		{
+			goto IL_0076;
+		}
+	}
+	{
+		FsmStateAction_Finish_m1955744727(__this, /*hidden argument*/NULL);
+	}
+
+IL_0076:
+	{
+		return;
+	}
+}
+// System.Void HutongGames.PlayMaker.Actions.SetAnimatorFloat::OnActionUpdate()
+extern "C"  void SetAnimatorFloat_OnActionUpdate_m800914117 (SetAnimatorFloat_t1785639679 * __this, const MethodInfo* method)
+{
+	{
+		SetAnimatorFloat_SetParameter_m1272420540(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void HutongGames.PlayMaker.Actions.SetAnimatorFloat::SetParameter()
+extern "C"  void SetAnimatorFloat_SetParameter_m1272420540 (SetAnimatorFloat_t1785639679 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (SetAnimatorFloat_SetParameter_m1272420540_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		Animator_t69676727 * L_0 = __this->get__animator_18();
+		IL2CPP_RUNTIME_CLASS_INIT(Object_t1021602117_il2cpp_TypeInfo_var);
+		bool L_1 = Object_op_Equality_m3764089466(NULL /*static, unused*/, L_0, (Object_t1021602117 *)NULL, /*hidden argument*/NULL);
+		if (!L_1)
+		{
+			goto IL_0012;
+		}
+	}
+	{
+		return;
+	}
+
+IL_0012:
+	{
+		FsmFloat_t937133978 * L_2 = __this->get_dampTime_17();
+		NullCheck(L_2);
+		float L_3 = FsmFloat_get_Value_m1818441449(L_2, /*hidden argument*/NULL);
+		if ((!(((float)L_3) > ((float)(0.0f)))))
+		{
+			goto IL_0058;
+		}
+	}
+	{
+		Animator_t69676727 * L_4 = __this->get__animator_18();
+		int32_t L_5 = __this->get__paramID_19();
+		FsmFloat_t937133978 * L_6 = __this->get_Value_16();
+		NullCheck(L_6);
+		float L_7 = FsmFloat_get_Value_m1818441449(L_6, /*hidden argument*/NULL);
+		FsmFloat_t937133978 * L_8 = __this->get_dampTime_17();
+		NullCheck(L_8);
+		float L_9 = FsmFloat_get_Value_m1818441449(L_8, /*hidden argument*/NULL);
+		float L_10 = Time_get_deltaTime_m2233168104(NULL /*static, unused*/, /*hidden argument*/NULL);
+		NullCheck(L_4);
+		Animator_SetFloat_m871614584(L_4, L_5, L_7, L_9, L_10, /*hidden argument*/NULL);
+		goto IL_0074;
+	}
+
+IL_0058:
+	{
+		Animator_t69676727 * L_11 = __this->get__animator_18();
+		int32_t L_12 = __this->get__paramID_19();
+		FsmFloat_t937133978 * L_13 = __this->get_Value_16();
+		NullCheck(L_13);
+		float L_14 = FsmFloat_get_Value_m1818441449(L_13, /*hidden argument*/NULL);
+		NullCheck(L_11);
+		Animator_SetFloat_m2956422680(L_11, L_12, L_14, /*hidden argument*/NULL);
+	}
+
+IL_0074:
+	{
+		return;
+	}
+}
+// System.Void HutongGames.PlayMaker.Actions.SetAnimatorIKGoal::.ctor()
+extern "C"  void SetAnimatorIKGoal__ctor_m407827328 (SetAnimatorIKGoal_t3328366004 * __this, const MethodInfo* method)
+{
+	{
+		FsmStateAction__ctor_m1837021228(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void HutongGames.PlayMaker.Actions.SetAnimatorIKGoal::Reset()
+extern "C"  void SetAnimatorIKGoal_Reset_m1089851381 (SetAnimatorIKGoal_t3328366004 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (SetAnimatorIKGoal_Reset_m1089851381_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	FsmVector3_t3996534004 * V_0 = NULL;
+	FsmQuaternion_t878438756 * V_1 = NULL;
+	{
+		__this->set_gameObject_11((FsmOwnerDefault_t2023674184 *)NULL);
+		__this->set_goal_13((FsmGameObject_t3097142863 *)NULL);
+		FsmVector3_t3996534004 * L_0 = (FsmVector3_t3996534004 *)il2cpp_codegen_object_new(FsmVector3_t3996534004_il2cpp_TypeInfo_var);
+		FsmVector3__ctor_m2525545399(L_0, /*hidden argument*/NULL);
+		V_0 = L_0;
+		FsmVector3_t3996534004 * L_1 = V_0;
+		NullCheck(L_1);
+		NamedVariable_set_UseVariable_m1478981231(L_1, (bool)1, /*hidden argument*/NULL);
+		FsmVector3_t3996534004 * L_2 = V_0;
+		__this->set_position_14(L_2);
+		FsmQuaternion_t878438756 * L_3 = (FsmQuaternion_t878438756 *)il2cpp_codegen_object_new(FsmQuaternion_t878438756_il2cpp_TypeInfo_var);
+		FsmQuaternion__ctor_m3078120561(L_3, /*hidden argument*/NULL);
+		V_1 = L_3;
+		FsmQuaternion_t878438756 * L_4 = V_1;
+		NullCheck(L_4);
+		NamedVariable_set_UseVariable_m1478981231(L_4, (bool)1, /*hidden argument*/NULL);
+		FsmQuaternion_t878438756 * L_5 = V_1;
+		__this->set_rotation_15(L_5);
+		FsmFloat_t937133978 * L_6 = FsmFloat_op_Implicit_m475928236(NULL /*static, unused*/, (1.0f), /*hidden argument*/NULL);
+		__this->set_positionWeight_16(L_6);
+		FsmFloat_t937133978 * L_7 = FsmFloat_op_Implicit_m475928236(NULL /*static, unused*/, (1.0f), /*hidden argument*/NULL);
+		__this->set_rotationWeight_17(L_7);
+		__this->set_everyFrame_18((bool)0);
+		return;
+	}
+}
+// System.Void HutongGames.PlayMaker.Actions.SetAnimatorIKGoal::OnPreprocess()
+extern "C"  void SetAnimatorIKGoal_OnPreprocess_m2729143181 (SetAnimatorIKGoal_t3328366004 * __this, const MethodInfo* method)
+{
+	{
+		Fsm_t917886356 * L_0 = FsmStateAction_get_Fsm_m4079598046(__this, /*hidden argument*/NULL);
+		NullCheck(L_0);
+		Fsm_set_HandleAnimatorIK_m3869023658(L_0, (bool)1, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void HutongGames.PlayMaker.Actions.SetAnimatorIKGoal::OnEnter()
+extern "C"  void SetAnimatorIKGoal_OnEnter_m1808082869 (SetAnimatorIKGoal_t3328366004 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (SetAnimatorIKGoal_OnEnter_m1808082869_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	GameObject_t1756533147 * V_0 = NULL;
+	GameObject_t1756533147 * V_1 = NULL;
+	{
+		Fsm_t917886356 * L_0 = FsmStateAction_get_Fsm_m4079598046(__this, /*hidden argument*/NULL);
+		FsmOwnerDefault_t2023674184 * L_1 = __this->get_gameObject_11();
+		NullCheck(L_0);
+		GameObject_t1756533147 * L_2 = Fsm_GetOwnerDefaultTarget_m1045900479(L_0, L_1, /*hidden argument*/NULL);
+		V_0 = L_2;
+		GameObject_t1756533147 * L_3 = V_0;
+		IL2CPP_RUNTIME_CLASS_INIT(Object_t1021602117_il2cpp_TypeInfo_var);
+		bool L_4 = Object_op_Equality_m3764089466(NULL /*static, unused*/, L_3, (Object_t1021602117 *)NULL, /*hidden argument*/NULL);
+		if (!L_4)
+		{
+			goto IL_0025;
+		}
+	}
+	{
+		FsmStateAction_Finish_m1955744727(__this, /*hidden argument*/NULL);
+		return;
+	}
+
+IL_0025:
+	{
+		GameObject_t1756533147 * L_5 = V_0;
+		NullCheck(L_5);
+		Animator_t69676727 * L_6 = GameObject_GetComponent_TisAnimator_t69676727_m2717502299(L_5, /*hidden argument*/GameObject_GetComponent_TisAnimator_t69676727_m2717502299_MethodInfo_var);
+		__this->set__animator_19(L_6);
+		Animator_t69676727 * L_7 = __this->get__animator_19();
+		IL2CPP_RUNTIME_CLASS_INIT(Object_t1021602117_il2cpp_TypeInfo_var);
+		bool L_8 = Object_op_Equality_m3764089466(NULL /*static, unused*/, L_7, (Object_t1021602117 *)NULL, /*hidden argument*/NULL);
+		if (!L_8)
+		{
+			goto IL_0049;
+		}
+	}
+	{
+		FsmStateAction_Finish_m1955744727(__this, /*hidden argument*/NULL);
+		return;
+	}
+
+IL_0049:
+	{
+		FsmGameObject_t3097142863 * L_9 = __this->get_goal_13();
+		NullCheck(L_9);
+		GameObject_t1756533147 * L_10 = FsmGameObject_get_Value_m15585107(L_9, /*hidden argument*/NULL);
+		V_1 = L_10;
+		GameObject_t1756533147 * L_11 = V_1;
+		IL2CPP_RUNTIME_CLASS_INIT(Object_t1021602117_il2cpp_TypeInfo_var);
+		bool L_12 = Object_op_Inequality_m2402264703(NULL /*static, unused*/, L_11, (Object_t1021602117 *)NULL, /*hidden argument*/NULL);
+		if (!L_12)
+		{
+			goto IL_006d;
+		}
+	}
+	{
+		GameObject_t1756533147 * L_13 = V_1;
+		NullCheck(L_13);
+		Transform_t3275118058 * L_14 = GameObject_get_transform_m909382139(L_13, /*hidden argument*/NULL);
+		__this->set__transform_20(L_14);
+	}
+
+IL_006d:
+	{
+		return;
+	}
+}
+// System.Void HutongGames.PlayMaker.Actions.SetAnimatorIKGoal::DoAnimatorIK(System.Int32)
+extern "C"  void SetAnimatorIKGoal_DoAnimatorIK_m2575478511 (SetAnimatorIKGoal_t3328366004 * __this, int32_t ___layerIndex0, const MethodInfo* method)
+{
+	{
+		SetAnimatorIKGoal_DoSetIKGoal_m4274498532(__this, /*hidden argument*/NULL);
+		bool L_0 = __this->get_everyFrame_18();
+		if (L_0)
+		{
+			goto IL_0017;
+		}
+	}
+	{
+		FsmStateAction_Finish_m1955744727(__this, /*hidden argument*/NULL);
+	}
+
+IL_0017:
+	{
+		return;
+	}
+}
+// System.Void HutongGames.PlayMaker.Actions.SetAnimatorIKGoal::DoSetIKGoal()
+extern "C"  void SetAnimatorIKGoal_DoSetIKGoal_m4274498532 (SetAnimatorIKGoal_t3328366004 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (SetAnimatorIKGoal_DoSetIKGoal_m4274498532_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		Animator_t69676727 * L_0 = __this->get__animator_19();
+		IL2CPP_RUNTIME_CLASS_INIT(Object_t1021602117_il2cpp_TypeInfo_var);
+		bool L_1 = Object_op_Equality_m3764089466(NULL /*static, unused*/, L_0, (Object_t1021602117 *)NULL, /*hidden argument*/NULL);
+		if (!L_1)
+		{
+			goto IL_0012;
+		}
+	}
+	{
+		return;
+	}
+
+IL_0012:
+	{
+		Transform_t3275118058 * L_2 = __this->get__transform_20();
+		IL2CPP_RUNTIME_CLASS_INIT(Object_t1021602117_il2cpp_TypeInfo_var);
+		bool L_3 = Object_op_Inequality_m2402264703(NULL /*static, unused*/, L_2, (Object_t1021602117 *)NULL, /*hidden argument*/NULL);
+		if (!L_3)
+		{
+			goto IL_00e2;
+		}
+	}
+	{
+		FsmVector3_t3996534004 * L_4 = __this->get_position_14();
+		NullCheck(L_4);
+		bool L_5 = NamedVariable_get_IsNone_m1506066313(L_4, /*hidden argument*/NULL);
+		if (!L_5)
+		{
+			goto IL_0054;
+		}
+	}
+	{
+		Animator_t69676727 * L_6 = __this->get__animator_19();
+		int32_t L_7 = __this->get_iKGoal_12();
+		Transform_t3275118058 * L_8 = __this->get__transform_20();
+		NullCheck(L_8);
+		Vector3_t2243707580  L_9 = Transform_get_position_m1104419803(L_8, /*hidden argument*/NULL);
+		NullCheck(L_6);
+		Animator_SetIKPosition_m3754744543(L_6, L_7, L_9, /*hidden argument*/NULL);
+		goto IL_0080;
+	}
+
+IL_0054:
+	{
+		Animator_t69676727 * L_10 = __this->get__animator_19();
+		int32_t L_11 = __this->get_iKGoal_12();
+		Transform_t3275118058 * L_12 = __this->get__transform_20();
+		NullCheck(L_12);
+		Vector3_t2243707580  L_13 = Transform_get_position_m1104419803(L_12, /*hidden argument*/NULL);
+		FsmVector3_t3996534004 * L_14 = __this->get_position_14();
+		NullCheck(L_14);
+		Vector3_t2243707580  L_15 = FsmVector3_get_Value_m4242600139(L_14, /*hidden argument*/NULL);
+		Vector3_t2243707580  L_16 = Vector3_op_Addition_m3146764857(NULL /*static, unused*/, L_13, L_15, /*hidden argument*/NULL);
+		NullCheck(L_10);
+		Animator_SetIKPosition_m3754744543(L_10, L_11, L_16, /*hidden argument*/NULL);
+	}
+
+IL_0080:
+	{
+		FsmQuaternion_t878438756 * L_17 = __this->get_rotation_15();
+		NullCheck(L_17);
+		bool L_18 = NamedVariable_get_IsNone_m1506066313(L_17, /*hidden argument*/NULL);
+		if (!L_18)
+		{
+			goto IL_00b1;
+		}
+	}
+	{
+		Animator_t69676727 * L_19 = __this->get__animator_19();
+		int32_t L_20 = __this->get_iKGoal_12();
+		Transform_t3275118058 * L_21 = __this->get__transform_20();
+		NullCheck(L_21);
+		Quaternion_t4030073918  L_22 = Transform_get_rotation_m1033555130(L_21, /*hidden argument*/NULL);
+		NullCheck(L_19);
+		Animator_SetIKRotation_m4119847878(L_19, L_20, L_22, /*hidden argument*/NULL);
+		goto IL_00dd;
+	}
+
+IL_00b1:
+	{
+		Animator_t69676727 * L_23 = __this->get__animator_19();
+		int32_t L_24 = __this->get_iKGoal_12();
+		Transform_t3275118058 * L_25 = __this->get__transform_20();
+		NullCheck(L_25);
+		Quaternion_t4030073918  L_26 = Transform_get_rotation_m1033555130(L_25, /*hidden argument*/NULL);
+		FsmQuaternion_t878438756 * L_27 = __this->get_rotation_15();
+		NullCheck(L_27);
+		Quaternion_t4030073918  L_28 = FsmQuaternion_get_Value_m2629833107(L_27, /*hidden argument*/NULL);
+		Quaternion_t4030073918  L_29 = Quaternion_op_Multiply_m2426727589(NULL /*static, unused*/, L_26, L_28, /*hidden argument*/NULL);
+		NullCheck(L_23);
+		Animator_SetIKRotation_m4119847878(L_23, L_24, L_29, /*hidden argument*/NULL);
+	}
+
+IL_00dd:
+	{
+		goto IL_013a;
+	}
+
+IL_00e2:
+	{
+		FsmVector3_t3996534004 * L_30 = __this->get_position_14();
+		NullCheck(L_30);
+		bool L_31 = NamedVariable_get_IsNone_m1506066313(L_30, /*hidden argument*/NULL);
+		if (L_31)
+		{
+			goto IL_010e;
+		}
+	}
+	{
+		Animator_t69676727 * L_32 = __this->get__animator_19();
+		int32_t L_33 = __this->get_iKGoal_12();
+		FsmVector3_t3996534004 * L_34 = __this->get_position_14();
+		NullCheck(L_34);
+		Vector3_t2243707580  L_35 = FsmVector3_get_Value_m4242600139(L_34, /*hidden argument*/NULL);
+		NullCheck(L_32);
+		Animator_SetIKPosition_m3754744543(L_32, L_33, L_35, /*hidden argument*/NULL);
+	}
+
+IL_010e:
+	{
+		FsmQuaternion_t878438756 * L_36 = __this->get_rotation_15();
+		NullCheck(L_36);
+		bool L_37 = NamedVariable_get_IsNone_m1506066313(L_36, /*hidden argument*/NULL);
+		if (L_37)
+		{
+			goto IL_013a;
+		}
+	}
+	{
+		Animator_t69676727 * L_38 = __this->get__animator_19();
+		int32_t L_39 = __this->get_iKGoal_12();
+		FsmQuaternion_t878438756 * L_40 = __this->get_rotation_15();
+		NullCheck(L_40);
+		Quaternion_t4030073918  L_41 = FsmQuaternion_get_Value_m2629833107(L_40, /*hidden argument*/NULL);
+		NullCheck(L_38);
+		Animator_SetIKRotation_m4119847878(L_38, L_39, L_41, /*hidden argument*/NULL);
+	}
+
+IL_013a:
+	{
+		FsmFloat_t937133978 * L_42 = __this->get_positionWeight_16();
+		NullCheck(L_42);
+		bool L_43 = NamedVariable_get_IsNone_m1506066313(L_42, /*hidden argument*/NULL);
+		if (L_43)
+		{
+			goto IL_0166;
+		}
+	}
+	{
+		Animator_t69676727 * L_44 = __this->get__animator_19();
+		int32_t L_45 = __this->get_iKGoal_12();
+		FsmFloat_t937133978 * L_46 = __this->get_positionWeight_16();
+		NullCheck(L_46);
+		float L_47 = FsmFloat_get_Value_m1818441449(L_46, /*hidden argument*/NULL);
+		NullCheck(L_44);
+		Animator_SetIKPositionWeight_m2782442723(L_44, L_45, L_47, /*hidden argument*/NULL);
+	}
+
+IL_0166:
+	{
+		FsmFloat_t937133978 * L_48 = __this->get_rotationWeight_17();
+		NullCheck(L_48);
+		bool L_49 = NamedVariable_get_IsNone_m1506066313(L_48, /*hidden argument*/NULL);
+		if (L_49)
+		{
+			goto IL_0192;
+		}
+	}
+	{
+		Animator_t69676727 * L_50 = __this->get__animator_19();
+		int32_t L_51 = __this->get_iKGoal_12();
+		FsmFloat_t937133978 * L_52 = __this->get_rotationWeight_17();
+		NullCheck(L_52);
+		float L_53 = FsmFloat_get_Value_m1818441449(L_52, /*hidden argument*/NULL);
+		NullCheck(L_50);
+		Animator_SetIKRotationWeight_m3417634268(L_50, L_51, L_53, /*hidden argument*/NULL);
+	}
+
+IL_0192:
+	{
+		return;
+	}
+}
+// System.Void HutongGames.PlayMaker.Actions.SetAnimatorInt::.ctor()
+extern "C"  void SetAnimatorInt__ctor_m3964287030 (SetAnimatorInt_t620710464 * __this, const MethodInfo* method)
+{
+	{
+		FsmStateActionAnimatorBase__ctor_m3740175025(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void HutongGames.PlayMaker.Actions.SetAnimatorInt::Reset()
+extern "C"  void SetAnimatorInt_Reset_m463603245 (SetAnimatorInt_t620710464 * __this, const MethodInfo* method)
+{
+	{
+		FsmStateActionAnimatorBase_Reset_m1164231520(__this, /*hidden argument*/NULL);
+		__this->set_gameObject_14((FsmOwnerDefault_t2023674184 *)NULL);
+		__this->set_parameter_15((FsmString_t2414474701 *)NULL);
+		__this->set_Value_16((FsmInt_t1273009179 *)NULL);
+		return;
+	}
+}
+// System.Void HutongGames.PlayMaker.Actions.SetAnimatorInt::OnEnter()
+extern "C"  void SetAnimatorInt_OnEnter_m3055034877 (SetAnimatorInt_t620710464 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (SetAnimatorInt_OnEnter_m3055034877_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	GameObject_t1756533147 * V_0 = NULL;
+	{
+		Fsm_t917886356 * L_0 = FsmStateAction_get_Fsm_m4079598046(__this, /*hidden argument*/NULL);
+		FsmOwnerDefault_t2023674184 * L_1 = __this->get_gameObject_14();
+		NullCheck(L_0);
+		GameObject_t1756533147 * L_2 = Fsm_GetOwnerDefaultTarget_m1045900479(L_0, L_1, /*hidden argument*/NULL);
+		V_0 = L_2;
+		GameObject_t1756533147 * L_3 = V_0;
+		IL2CPP_RUNTIME_CLASS_INIT(Object_t1021602117_il2cpp_TypeInfo_var);
+		bool L_4 = Object_op_Equality_m3764089466(NULL /*static, unused*/, L_3, (Object_t1021602117 *)NULL, /*hidden argument*/NULL);
+		if (!L_4)
+		{
+			goto IL_0025;
+		}
+	}
+	{
+		FsmStateAction_Finish_m1955744727(__this, /*hidden argument*/NULL);
+		return;
+	}
+
+IL_0025:
+	{
+		GameObject_t1756533147 * L_5 = V_0;
+		NullCheck(L_5);
+		Animator_t69676727 * L_6 = GameObject_GetComponent_TisAnimator_t69676727_m2717502299(L_5, /*hidden argument*/GameObject_GetComponent_TisAnimator_t69676727_m2717502299_MethodInfo_var);
+		__this->set__animator_17(L_6);
+		Animator_t69676727 * L_7 = __this->get__animator_17();
+		IL2CPP_RUNTIME_CLASS_INIT(Object_t1021602117_il2cpp_TypeInfo_var);
+		bool L_8 = Object_op_Equality_m3764089466(NULL /*static, unused*/, L_7, (Object_t1021602117 *)NULL, /*hidden argument*/NULL);
+		if (!L_8)
+		{
+			goto IL_0049;
+		}
+	}
+	{
+		FsmStateAction_Finish_m1955744727(__this, /*hidden argument*/NULL);
+		return;
+	}
+
+IL_0049:
+	{
+		FsmString_t2414474701 * L_9 = __this->get_parameter_15();
+		NullCheck(L_9);
+		String_t* L_10 = FsmString_get_Value_m3775166715(L_9, /*hidden argument*/NULL);
+		int32_t L_11 = Animator_StringToHash_m3313850714(NULL /*static, unused*/, L_10, /*hidden argument*/NULL);
+		__this->set__paramID_18(L_11);
+		SetAnimatorInt_SetParameter_m2100579519(__this, /*hidden argument*/NULL);
+		bool L_12 = ((FsmStateActionAnimatorBase_t3863144983 *)__this)->get_everyFrame_11();
+		if (L_12)
+		{
+			goto IL_0076;
+		}
+	}
+	{
+		FsmStateAction_Finish_m1955744727(__this, /*hidden argument*/NULL);
+	}
+
+IL_0076:
+	{
+		return;
+	}
+}
+// System.Void HutongGames.PlayMaker.Actions.SetAnimatorInt::OnActionUpdate()
+extern "C"  void SetAnimatorInt_OnActionUpdate_m3051244578 (SetAnimatorInt_t620710464 * __this, const MethodInfo* method)
+{
+	{
+		SetAnimatorInt_SetParameter_m2100579519(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void HutongGames.PlayMaker.Actions.SetAnimatorInt::SetParameter()
+extern "C"  void SetAnimatorInt_SetParameter_m2100579519 (SetAnimatorInt_t620710464 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (SetAnimatorInt_SetParameter_m2100579519_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		Animator_t69676727 * L_0 = __this->get__animator_17();
+		IL2CPP_RUNTIME_CLASS_INIT(Object_t1021602117_il2cpp_TypeInfo_var);
+		bool L_1 = Object_op_Inequality_m2402264703(NULL /*static, unused*/, L_0, (Object_t1021602117 *)NULL, /*hidden argument*/NULL);
+		if (!L_1)
+		{
+			goto IL_002d;
+		}
+	}
+	{
+		Animator_t69676727 * L_2 = __this->get__animator_17();
+		int32_t L_3 = __this->get__paramID_18();
+		FsmInt_t1273009179 * L_4 = __this->get_Value_16();
+		NullCheck(L_4);
+		int32_t L_5 = FsmInt_get_Value_m3705703582(L_4, /*hidden argument*/NULL);
+		NullCheck(L_2);
+		Animator_SetInteger_m1464706502(L_2, L_3, L_5, /*hidden argument*/NULL);
+	}
+
+IL_002d:
+	{
+		return;
+	}
+}
+// System.Void HutongGames.PlayMaker.Actions.SetAnimatorLayersAffectMassCenter::.ctor()
+extern "C"  void SetAnimatorLayersAffectMassCenter__ctor_m3811226727 (SetAnimatorLayersAffectMassCenter_t195665531 * __this, const MethodInfo* method)
+{
+	{
+		FsmStateAction__ctor_m1837021228(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void HutongGames.PlayMaker.Actions.SetAnimatorLayersAffectMassCenter::Reset()
+extern "C"  void SetAnimatorLayersAffectMassCenter_Reset_m3510256796 (SetAnimatorLayersAffectMassCenter_t195665531 * __this, const MethodInfo* method)
+{
+	{
+		__this->set_gameObject_11((FsmOwnerDefault_t2023674184 *)NULL);
+		__this->set_affectMassCenter_12((FsmBool_t664485696 *)NULL);
+		return;
+	}
+}
+// System.Void HutongGames.PlayMaker.Actions.SetAnimatorLayersAffectMassCenter::OnEnter()
+extern "C"  void SetAnimatorLayersAffectMassCenter_OnEnter_m2691460330 (SetAnimatorLayersAffectMassCenter_t195665531 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (SetAnimatorLayersAffectMassCenter_OnEnter_m2691460330_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	GameObject_t1756533147 * V_0 = NULL;
+	{
+		Fsm_t917886356 * L_0 = FsmStateAction_get_Fsm_m4079598046(__this, /*hidden argument*/NULL);
+		FsmOwnerDefault_t2023674184 * L_1 = __this->get_gameObject_11();
+		NullCheck(L_0);
+		GameObject_t1756533147 * L_2 = Fsm_GetOwnerDefaultTarget_m1045900479(L_0, L_1, /*hidden argument*/NULL);
+		V_0 = L_2;
+		GameObject_t1756533147 * L_3 = V_0;
+		IL2CPP_RUNTIME_CLASS_INIT(Object_t1021602117_il2cpp_TypeInfo_var);
+		bool L_4 = Object_op_Equality_m3764089466(NULL /*static, unused*/, L_3, (Object_t1021602117 *)NULL, /*hidden argument*/NULL);
+		if (!L_4)
+		{
+			goto IL_0025;
+		}
+	}
+	{
+		FsmStateAction_Finish_m1955744727(__this, /*hidden argument*/NULL);
+		return;
+	}
+
+IL_0025:
+	{
+		GameObject_t1756533147 * L_5 = V_0;
+		NullCheck(L_5);
+		Animator_t69676727 * L_6 = GameObject_GetComponent_TisAnimator_t69676727_m2717502299(L_5, /*hidden argument*/GameObject_GetComponent_TisAnimator_t69676727_m2717502299_MethodInfo_var);
+		__this->set__animator_13(L_6);
+		Animator_t69676727 * L_7 = __this->get__animator_13();
+		IL2CPP_RUNTIME_CLASS_INIT(Object_t1021602117_il2cpp_TypeInfo_var);
+		bool L_8 = Object_op_Equality_m3764089466(NULL /*static, unused*/, L_7, (Object_t1021602117 *)NULL, /*hidden argument*/NULL);
+		if (!L_8)
+		{
+			goto IL_0049;
+		}
+	}
+	{
+		FsmStateAction_Finish_m1955744727(__this, /*hidden argument*/NULL);
+		return;
+	}
+
+IL_0049:
+	{
+		SetAnimatorLayersAffectMassCenter_SetAffectMassCenter_m2768642441(__this, /*hidden argument*/NULL);
+		FsmStateAction_Finish_m1955744727(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void HutongGames.PlayMaker.Actions.SetAnimatorLayersAffectMassCenter::SetAffectMassCenter()
+extern "C"  void SetAnimatorLayersAffectMassCenter_SetAffectMassCenter_m2768642441 (SetAnimatorLayersAffectMassCenter_t195665531 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (SetAnimatorLayersAffectMassCenter_SetAffectMassCenter_m2768642441_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		Animator_t69676727 * L_0 = __this->get__animator_13();
+		IL2CPP_RUNTIME_CLASS_INIT(Object_t1021602117_il2cpp_TypeInfo_var);
+		bool L_1 = Object_op_Equality_m3764089466(NULL /*static, unused*/, L_0, (Object_t1021602117 *)NULL, /*hidden argument*/NULL);
+		if (!L_1)
+		{
+			goto IL_0012;
+		}
+	}
+	{
+		return;
+	}
+
+IL_0012:
+	{
+		Animator_t69676727 * L_2 = __this->get__animator_13();
+		FsmBool_t664485696 * L_3 = __this->get_affectMassCenter_12();
+		NullCheck(L_3);
+		bool L_4 = FsmBool_get_Value_m3738134001(L_3, /*hidden argument*/NULL);
+		NullCheck(L_2);
+		Animator_set_layersAffectMassCenter_m2611371262(L_2, L_4, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void HutongGames.PlayMaker.Actions.SetAnimatorLayerWeight::.ctor()
+extern "C"  void SetAnimatorLayerWeight__ctor_m3031111662 (SetAnimatorLayerWeight_t1821312336 * __this, const MethodInfo* method)
+{
+	{
+		FsmStateAction__ctor_m1837021228(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void HutongGames.PlayMaker.Actions.SetAnimatorLayerWeight::Reset()
+extern "C"  void SetAnimatorLayerWeight_Reset_m3860117621 (SetAnimatorLayerWeight_t1821312336 * __this, const MethodInfo* method)
+{
+	{
+		__this->set_gameObject_11((FsmOwnerDefault_t2023674184 *)NULL);
+		__this->set_layerIndex_12((FsmInt_t1273009179 *)NULL);
+		__this->set_layerWeight_13((FsmFloat_t937133978 *)NULL);
+		__this->set_everyFrame_14((bool)0);
+		return;
+	}
+}
+// System.Void HutongGames.PlayMaker.Actions.SetAnimatorLayerWeight::OnEnter()
+extern "C"  void SetAnimatorLayerWeight_OnEnter_m1903068317 (SetAnimatorLayerWeight_t1821312336 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (SetAnimatorLayerWeight_OnEnter_m1903068317_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	GameObject_t1756533147 * V_0 = NULL;
+	{
+		Fsm_t917886356 * L_0 = FsmStateAction_get_Fsm_m4079598046(__this, /*hidden argument*/NULL);
+		FsmOwnerDefault_t2023674184 * L_1 = __this->get_gameObject_11();
+		NullCheck(L_0);
+		GameObject_t1756533147 * L_2 = Fsm_GetOwnerDefaultTarget_m1045900479(L_0, L_1, /*hidden argument*/NULL);
+		V_0 = L_2;
+		GameObject_t1756533147 * L_3 = V_0;
+		IL2CPP_RUNTIME_CLASS_INIT(Object_t1021602117_il2cpp_TypeInfo_var);
+		bool L_4 = Object_op_Equality_m3764089466(NULL /*static, unused*/, L_3, (Object_t1021602117 *)NULL, /*hidden argument*/NULL);
+		if (!L_4)
+		{
+			goto IL_0025;
+		}
+	}
+	{
+		FsmStateAction_Finish_m1955744727(__this, /*hidden argument*/NULL);
+		return;
+	}
+
+IL_0025:
+	{
+		GameObject_t1756533147 * L_5 = V_0;
+		NullCheck(L_5);
+		Animator_t69676727 * L_6 = GameObject_GetComponent_TisAnimator_t69676727_m2717502299(L_5, /*hidden argument*/GameObject_GetComponent_TisAnimator_t69676727_m2717502299_MethodInfo_var);
+		__this->set__animator_15(L_6);
+		Animator_t69676727 * L_7 = __this->get__animator_15();
+		IL2CPP_RUNTIME_CLASS_INIT(Object_t1021602117_il2cpp_TypeInfo_var);
+		bool L_8 = Object_op_Equality_m3764089466(NULL /*static, unused*/, L_7, (Object_t1021602117 *)NULL, /*hidden argument*/NULL);
+		if (!L_8)
+		{
+			goto IL_0049;
+		}
+	}
+	{
+		FsmStateAction_Finish_m1955744727(__this, /*hidden argument*/NULL);
+		return;
+	}
+
+IL_0049:
+	{
+		SetAnimatorLayerWeight_DoLayerWeight_m2594134044(__this, /*hidden argument*/NULL);
+		bool L_9 = __this->get_everyFrame_14();
+		if (L_9)
+		{
+			goto IL_0060;
+		}
+	}
+	{
+		FsmStateAction_Finish_m1955744727(__this, /*hidden argument*/NULL);
+	}
+
+IL_0060:
+	{
+		return;
+	}
+}
+// System.Void HutongGames.PlayMaker.Actions.SetAnimatorLayerWeight::OnUpdate()
+extern "C"  void SetAnimatorLayerWeight_OnUpdate_m2631887536 (SetAnimatorLayerWeight_t1821312336 * __this, const MethodInfo* method)
+{
+	{
+		SetAnimatorLayerWeight_DoLayerWeight_m2594134044(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void HutongGames.PlayMaker.Actions.SetAnimatorLayerWeight::DoLayerWeight()
+extern "C"  void SetAnimatorLayerWeight_DoLayerWeight_m2594134044 (SetAnimatorLayerWeight_t1821312336 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (SetAnimatorLayerWeight_DoLayerWeight_m2594134044_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		Animator_t69676727 * L_0 = __this->get__animator_15();
+		IL2CPP_RUNTIME_CLASS_INIT(Object_t1021602117_il2cpp_TypeInfo_var);
+		bool L_1 = Object_op_Equality_m3764089466(NULL /*static, unused*/, L_0, (Object_t1021602117 *)NULL, /*hidden argument*/NULL);
+		if (!L_1)
+		{
+			goto IL_0012;
+		}
+	}
+	{
+		return;
+	}
+
+IL_0012:
+	{
+		Animator_t69676727 * L_2 = __this->get__animator_15();
+		FsmInt_t1273009179 * L_3 = __this->get_layerIndex_12();
+		NullCheck(L_3);
+		int32_t L_4 = FsmInt_get_Value_m3705703582(L_3, /*hidden argument*/NULL);
+		FsmFloat_t937133978 * L_5 = __this->get_layerWeight_13();
+		NullCheck(L_5);
+		float L_6 = FsmFloat_get_Value_m1818441449(L_5, /*hidden argument*/NULL);
+		NullCheck(L_2);
+		Animator_SetLayerWeight_m2914961795(L_2, L_4, L_6, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void HutongGames.PlayMaker.Actions.SetAnimatorLookAt::.ctor()
+extern "C"  void SetAnimatorLookAt__ctor_m2215689553 (SetAnimatorLookAt_t349070307 * __this, const MethodInfo* method)
+{
+	{
+		FsmStateAction__ctor_m1837021228(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void HutongGames.PlayMaker.Actions.SetAnimatorLookAt::Reset()
+extern "C"  void SetAnimatorLookAt_Reset_m1110585284 (SetAnimatorLookAt_t349070307 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (SetAnimatorLookAt_Reset_m1110585284_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	FsmVector3_t3996534004 * V_0 = NULL;
+	{
+		__this->set_gameObject_11((FsmOwnerDefault_t2023674184 *)NULL);
+		__this->set_target_12((FsmGameObject_t3097142863 *)NULL);
+		FsmVector3_t3996534004 * L_0 = (FsmVector3_t3996534004 *)il2cpp_codegen_object_new(FsmVector3_t3996534004_il2cpp_TypeInfo_var);
+		FsmVector3__ctor_m2525545399(L_0, /*hidden argument*/NULL);
+		V_0 = L_0;
+		FsmVector3_t3996534004 * L_1 = V_0;
+		NullCheck(L_1);
+		NamedVariable_set_UseVariable_m1478981231(L_1, (bool)1, /*hidden argument*/NULL);
+		FsmVector3_t3996534004 * L_2 = V_0;
+		__this->set_targetPosition_13(L_2);
+		FsmFloat_t937133978 * L_3 = FsmFloat_op_Implicit_m475928236(NULL /*static, unused*/, (1.0f), /*hidden argument*/NULL);
+		__this->set_weight_14(L_3);
+		FsmFloat_t937133978 * L_4 = FsmFloat_op_Implicit_m475928236(NULL /*static, unused*/, (0.3f), /*hidden argument*/NULL);
+		__this->set_bodyWeight_15(L_4);
+		FsmFloat_t937133978 * L_5 = FsmFloat_op_Implicit_m475928236(NULL /*static, unused*/, (0.6f), /*hidden argument*/NULL);
+		__this->set_headWeight_16(L_5);
+		FsmFloat_t937133978 * L_6 = FsmFloat_op_Implicit_m475928236(NULL /*static, unused*/, (1.0f), /*hidden argument*/NULL);
+		__this->set_eyesWeight_17(L_6);
+		FsmFloat_t937133978 * L_7 = FsmFloat_op_Implicit_m475928236(NULL /*static, unused*/, (0.5f), /*hidden argument*/NULL);
+		__this->set_clampWeight_18(L_7);
+		__this->set_everyFrame_19((bool)0);
+		return;
+	}
+}
+// System.Void HutongGames.PlayMaker.Actions.SetAnimatorLookAt::OnPreprocess()
+extern "C"  void SetAnimatorLookAt_OnPreprocess_m2665396548 (SetAnimatorLookAt_t349070307 * __this, const MethodInfo* method)
+{
+	{
+		Fsm_t917886356 * L_0 = FsmStateAction_get_Fsm_m4079598046(__this, /*hidden argument*/NULL);
+		NullCheck(L_0);
+		Fsm_set_HandleAnimatorIK_m3869023658(L_0, (bool)1, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void HutongGames.PlayMaker.Actions.SetAnimatorLookAt::OnEnter()
+extern "C"  void SetAnimatorLookAt_OnEnter_m1100618302 (SetAnimatorLookAt_t349070307 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (SetAnimatorLookAt_OnEnter_m1100618302_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	GameObject_t1756533147 * V_0 = NULL;
+	GameObject_t1756533147 * V_1 = NULL;
+	{
+		Fsm_t917886356 * L_0 = FsmStateAction_get_Fsm_m4079598046(__this, /*hidden argument*/NULL);
+		FsmOwnerDefault_t2023674184 * L_1 = __this->get_gameObject_11();
+		NullCheck(L_0);
+		GameObject_t1756533147 * L_2 = Fsm_GetOwnerDefaultTarget_m1045900479(L_0, L_1, /*hidden argument*/NULL);
+		V_0 = L_2;
+		GameObject_t1756533147 * L_3 = V_0;
+		IL2CPP_RUNTIME_CLASS_INIT(Object_t1021602117_il2cpp_TypeInfo_var);
+		bool L_4 = Object_op_Equality_m3764089466(NULL /*static, unused*/, L_3, (Object_t1021602117 *)NULL, /*hidden argument*/NULL);
+		if (!L_4)
+		{
+			goto IL_0025;
+		}
+	}
+	{
+		FsmStateAction_Finish_m1955744727(__this, /*hidden argument*/NULL);
+		return;
+	}
+
+IL_0025:
+	{
+		GameObject_t1756533147 * L_5 = V_0;
+		NullCheck(L_5);
+		Animator_t69676727 * L_6 = GameObject_GetComponent_TisAnimator_t69676727_m2717502299(L_5, /*hidden argument*/GameObject_GetComponent_TisAnimator_t69676727_m2717502299_MethodInfo_var);
+		__this->set__animator_20(L_6);
+		Animator_t69676727 * L_7 = __this->get__animator_20();
+		IL2CPP_RUNTIME_CLASS_INIT(Object_t1021602117_il2cpp_TypeInfo_var);
+		bool L_8 = Object_op_Equality_m3764089466(NULL /*static, unused*/, L_7, (Object_t1021602117 *)NULL, /*hidden argument*/NULL);
+		if (!L_8)
+		{
+			goto IL_0049;
+		}
+	}
+	{
+		FsmStateAction_Finish_m1955744727(__this, /*hidden argument*/NULL);
+		return;
+	}
+
+IL_0049:
+	{
+		FsmGameObject_t3097142863 * L_9 = __this->get_target_12();
+		NullCheck(L_9);
+		GameObject_t1756533147 * L_10 = FsmGameObject_get_Value_m15585107(L_9, /*hidden argument*/NULL);
+		V_1 = L_10;
+		GameObject_t1756533147 * L_11 = V_1;
+		IL2CPP_RUNTIME_CLASS_INIT(Object_t1021602117_il2cpp_TypeInfo_var);
+		bool L_12 = Object_op_Inequality_m2402264703(NULL /*static, unused*/, L_11, (Object_t1021602117 *)NULL, /*hidden argument*/NULL);
+		if (!L_12)
+		{
+			goto IL_006d;
+		}
+	}
+	{
+		GameObject_t1756533147 * L_13 = V_1;
+		NullCheck(L_13);
+		Transform_t3275118058 * L_14 = GameObject_get_transform_m909382139(L_13, /*hidden argument*/NULL);
+		__this->set__transform_21(L_14);
+	}
+
+IL_006d:
+	{
+		return;
+	}
+}
+// System.Void HutongGames.PlayMaker.Actions.SetAnimatorLookAt::DoAnimatorIK(System.Int32)
+extern "C"  void SetAnimatorLookAt_DoAnimatorIK_m35534782 (SetAnimatorLookAt_t349070307 * __this, int32_t ___layerIndex0, const MethodInfo* method)
+{
+	{
+		SetAnimatorLookAt_DoSetLookAt_m1574379630(__this, /*hidden argument*/NULL);
+		bool L_0 = __this->get_everyFrame_19();
+		if (L_0)
+		{
+			goto IL_0017;
+		}
+	}
+	{
+		FsmStateAction_Finish_m1955744727(__this, /*hidden argument*/NULL);
+	}
+
+IL_0017:
+	{
+		return;
+	}
+}
+// System.Void HutongGames.PlayMaker.Actions.SetAnimatorLookAt::DoSetLookAt()
+extern "C"  void SetAnimatorLookAt_DoSetLookAt_m1574379630 (SetAnimatorLookAt_t349070307 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (SetAnimatorLookAt_DoSetLookAt_m1574379630_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		Animator_t69676727 * L_0 = __this->get__animator_20();
+		IL2CPP_RUNTIME_CLASS_INIT(Object_t1021602117_il2cpp_TypeInfo_var);
+		bool L_1 = Object_op_Equality_m3764089466(NULL /*static, unused*/, L_0, (Object_t1021602117 *)NULL, /*hidden argument*/NULL);
+		if (!L_1)
+		{
+			goto IL_0012;
+		}
+	}
+	{
+		return;
+	}
+
+IL_0012:
+	{
+		Transform_t3275118058 * L_2 = __this->get__transform_21();
+		IL2CPP_RUNTIME_CLASS_INIT(Object_t1021602117_il2cpp_TypeInfo_var);
+		bool L_3 = Object_op_Inequality_m2402264703(NULL /*static, unused*/, L_2, (Object_t1021602117 *)NULL, /*hidden argument*/NULL);
+		if (!L_3)
+		{
+			goto IL_0079;
+		}
+	}
+	{
+		FsmVector3_t3996534004 * L_4 = __this->get_targetPosition_13();
+		NullCheck(L_4);
+		bool L_5 = NamedVariable_get_IsNone_m1506066313(L_4, /*hidden argument*/NULL);
+		if (!L_5)
+		{
+			goto IL_004e;
+		}
+	}
+	{
+		Animator_t69676727 * L_6 = __this->get__animator_20();
+		Transform_t3275118058 * L_7 = __this->get__transform_21();
+		NullCheck(L_7);
+		Vector3_t2243707580  L_8 = Transform_get_position_m1104419803(L_7, /*hidden argument*/NULL);
+		NullCheck(L_6);
+		Animator_SetLookAtPosition_m2085986408(L_6, L_8, /*hidden argument*/NULL);
+		goto IL_0074;
+	}
+
+IL_004e:
+	{
+		Animator_t69676727 * L_9 = __this->get__animator_20();
+		Transform_t3275118058 * L_10 = __this->get__transform_21();
+		NullCheck(L_10);
+		Vector3_t2243707580  L_11 = Transform_get_position_m1104419803(L_10, /*hidden argument*/NULL);
+		FsmVector3_t3996534004 * L_12 = __this->get_targetPosition_13();
+		NullCheck(L_12);
+		Vector3_t2243707580  L_13 = FsmVector3_get_Value_m4242600139(L_12, /*hidden argument*/NULL);
+		Vector3_t2243707580  L_14 = Vector3_op_Addition_m3146764857(NULL /*static, unused*/, L_11, L_13, /*hidden argument*/NULL);
+		NullCheck(L_9);
+		Animator_SetLookAtPosition_m2085986408(L_9, L_14, /*hidden argument*/NULL);
+	}
+
+IL_0074:
+	{
+		goto IL_009f;
+	}
+
+IL_0079:
+	{
+		FsmVector3_t3996534004 * L_15 = __this->get_targetPosition_13();
+		NullCheck(L_15);
+		bool L_16 = NamedVariable_get_IsNone_m1506066313(L_15, /*hidden argument*/NULL);
+		if (L_16)
+		{
+			goto IL_009f;
+		}
+	}
+	{
+		Animator_t69676727 * L_17 = __this->get__animator_20();
+		FsmVector3_t3996534004 * L_18 = __this->get_targetPosition_13();
+		NullCheck(L_18);
+		Vector3_t2243707580  L_19 = FsmVector3_get_Value_m4242600139(L_18, /*hidden argument*/NULL);
+		NullCheck(L_17);
+		Animator_SetLookAtPosition_m2085986408(L_17, L_19, /*hidden argument*/NULL);
+	}
+
+IL_009f:
+	{
+		FsmFloat_t937133978 * L_20 = __this->get_clampWeight_18();
+		NullCheck(L_20);
+		bool L_21 = NamedVariable_get_IsNone_m1506066313(L_20, /*hidden argument*/NULL);
+		if (L_21)
+		{
+			goto IL_00f6;
+		}
+	}
+	{
+		Animator_t69676727 * L_22 = __this->get__animator_20();
+		FsmFloat_t937133978 * L_23 = __this->get_weight_14();
+		NullCheck(L_23);
+		float L_24 = FsmFloat_get_Value_m1818441449(L_23, /*hidden argument*/NULL);
+		FsmFloat_t937133978 * L_25 = __this->get_bodyWeight_15();
+		NullCheck(L_25);
+		float L_26 = FsmFloat_get_Value_m1818441449(L_25, /*hidden argument*/NULL);
+		FsmFloat_t937133978 * L_27 = __this->get_headWeight_16();
+		NullCheck(L_27);
+		float L_28 = FsmFloat_get_Value_m1818441449(L_27, /*hidden argument*/NULL);
+		FsmFloat_t937133978 * L_29 = __this->get_eyesWeight_17();
+		NullCheck(L_29);
+		float L_30 = FsmFloat_get_Value_m1818441449(L_29, /*hidden argument*/NULL);
+		FsmFloat_t937133978 * L_31 = __this->get_clampWeight_18();
+		NullCheck(L_31);
+		float L_32 = FsmFloat_get_Value_m1818441449(L_31, /*hidden argument*/NULL);
+		NullCheck(L_22);
+		Animator_SetLookAtWeight_m3872681091(L_22, L_24, L_26, L_28, L_30, L_32, /*hidden argument*/NULL);
+		goto IL_01df;
+	}
+
+IL_00f6:
+	{
+		FsmFloat_t937133978 * L_33 = __this->get_eyesWeight_17();
+		NullCheck(L_33);
+		bool L_34 = NamedVariable_get_IsNone_m1506066313(L_33, /*hidden argument*/NULL);
+		if (L_34)
+		{
+			goto IL_0142;
+		}
+	}
+	{
+		Animator_t69676727 * L_35 = __this->get__animator_20();
+		FsmFloat_t937133978 * L_36 = __this->get_weight_14();
+		NullCheck(L_36);
+		float L_37 = FsmFloat_get_Value_m1818441449(L_36, /*hidden argument*/NULL);
+		FsmFloat_t937133978 * L_38 = __this->get_bodyWeight_15();
+		NullCheck(L_38);
+		float L_39 = FsmFloat_get_Value_m1818441449(L_38, /*hidden argument*/NULL);
+		FsmFloat_t937133978 * L_40 = __this->get_headWeight_16();
+		NullCheck(L_40);
+		float L_41 = FsmFloat_get_Value_m1818441449(L_40, /*hidden argument*/NULL);
+		FsmFloat_t937133978 * L_42 = __this->get_eyesWeight_17();
+		NullCheck(L_42);
+		float L_43 = FsmFloat_get_Value_m1818441449(L_42, /*hidden argument*/NULL);
+		NullCheck(L_35);
+		Animator_SetLookAtWeight_m2799625122(L_35, L_37, L_39, L_41, L_43, /*hidden argument*/NULL);
+		goto IL_01df;
+	}
+
+IL_0142:
+	{
+		FsmFloat_t937133978 * L_44 = __this->get_headWeight_16();
+		NullCheck(L_44);
+		bool L_45 = NamedVariable_get_IsNone_m1506066313(L_44, /*hidden argument*/NULL);
+		if (L_45)
+		{
+			goto IL_0183;
+		}
+	}
+	{
+		Animator_t69676727 * L_46 = __this->get__animator_20();
+		FsmFloat_t937133978 * L_47 = __this->get_weight_14();
+		NullCheck(L_47);
+		float L_48 = FsmFloat_get_Value_m1818441449(L_47, /*hidden argument*/NULL);
+		FsmFloat_t937133978 * L_49 = __this->get_bodyWeight_15();
+		NullCheck(L_49);
+		float L_50 = FsmFloat_get_Value_m1818441449(L_49, /*hidden argument*/NULL);
+		FsmFloat_t937133978 * L_51 = __this->get_headWeight_16();
+		NullCheck(L_51);
+		float L_52 = FsmFloat_get_Value_m1818441449(L_51, /*hidden argument*/NULL);
+		NullCheck(L_46);
+		Animator_SetLookAtWeight_m3239175203(L_46, L_48, L_50, L_52, /*hidden argument*/NULL);
+		goto IL_01df;
+	}
+
+IL_0183:
+	{
+		FsmFloat_t937133978 * L_53 = __this->get_bodyWeight_15();
+		NullCheck(L_53);
+		bool L_54 = NamedVariable_get_IsNone_m1506066313(L_53, /*hidden argument*/NULL);
+		if (L_54)
+		{
+			goto IL_01b9;
+		}
+	}
+	{
+		Animator_t69676727 * L_55 = __this->get__animator_20();
+		FsmFloat_t937133978 * L_56 = __this->get_weight_14();
+		NullCheck(L_56);
+		float L_57 = FsmFloat_get_Value_m1818441449(L_56, /*hidden argument*/NULL);
+		FsmFloat_t937133978 * L_58 = __this->get_bodyWeight_15();
+		NullCheck(L_58);
+		float L_59 = FsmFloat_get_Value_m1818441449(L_58, /*hidden argument*/NULL);
+		NullCheck(L_55);
+		Animator_SetLookAtWeight_m1126855746(L_55, L_57, L_59, /*hidden argument*/NULL);
+		goto IL_01df;
+	}
+
+IL_01b9:
+	{
+		FsmFloat_t937133978 * L_60 = __this->get_weight_14();
+		NullCheck(L_60);
+		bool L_61 = NamedVariable_get_IsNone_m1506066313(L_60, /*hidden argument*/NULL);
+		if (L_61)
+		{
+			goto IL_01df;
+		}
+	}
+	{
+		Animator_t69676727 * L_62 = __this->get__animator_20();
+		FsmFloat_t937133978 * L_63 = __this->get_weight_14();
+		NullCheck(L_63);
+		float L_64 = FsmFloat_get_Value_m1818441449(L_63, /*hidden argument*/NULL);
+		NullCheck(L_62);
+		Animator_SetLookAtWeight_m3938735683(L_62, L_64, /*hidden argument*/NULL);
+	}
+
+IL_01df:
+	{
+		return;
+	}
+}
+// System.Void HutongGames.PlayMaker.Actions.SetAnimatorPlayBackSpeed::.ctor()
+extern "C"  void SetAnimatorPlayBackSpeed__ctor_m3123018219 (SetAnimatorPlayBackSpeed_t3407909277 * __this, const MethodInfo* method)
+{
+	{
+		FsmStateAction__ctor_m1837021228(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void HutongGames.PlayMaker.Actions.SetAnimatorPlayBackSpeed::Reset()
+extern "C"  void SetAnimatorPlayBackSpeed_Reset_m548659938 (SetAnimatorPlayBackSpeed_t3407909277 * __this, const MethodInfo* method)
+{
+	{
+		__this->set_gameObject_11((FsmOwnerDefault_t2023674184 *)NULL);
+		__this->set_playBackSpeed_12((FsmFloat_t937133978 *)NULL);
+		__this->set_everyFrame_13((bool)0);
+		return;
+	}
+}
+// System.Void HutongGames.PlayMaker.Actions.SetAnimatorPlayBackSpeed::OnEnter()
+extern "C"  void SetAnimatorPlayBackSpeed_OnEnter_m837261508 (SetAnimatorPlayBackSpeed_t3407909277 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (SetAnimatorPlayBackSpeed_OnEnter_m837261508_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	GameObject_t1756533147 * V_0 = NULL;
+	{
+		Fsm_t917886356 * L_0 = FsmStateAction_get_Fsm_m4079598046(__this, /*hidden argument*/NULL);
+		FsmOwnerDefault_t2023674184 * L_1 = __this->get_gameObject_11();
+		NullCheck(L_0);
+		GameObject_t1756533147 * L_2 = Fsm_GetOwnerDefaultTarget_m1045900479(L_0, L_1, /*hidden argument*/NULL);
+		V_0 = L_2;
+		GameObject_t1756533147 * L_3 = V_0;
+		IL2CPP_RUNTIME_CLASS_INIT(Object_t1021602117_il2cpp_TypeInfo_var);
+		bool L_4 = Object_op_Equality_m3764089466(NULL /*static, unused*/, L_3, (Object_t1021602117 *)NULL, /*hidden argument*/NULL);
+		if (!L_4)
+		{
+			goto IL_0025;
+		}
+	}
+	{
+		FsmStateAction_Finish_m1955744727(__this, /*hidden argument*/NULL);
+		return;
+	}
+
+IL_0025:
+	{
+		GameObject_t1756533147 * L_5 = V_0;
+		NullCheck(L_5);
+		Animator_t69676727 * L_6 = GameObject_GetComponent_TisAnimator_t69676727_m2717502299(L_5, /*hidden argument*/GameObject_GetComponent_TisAnimator_t69676727_m2717502299_MethodInfo_var);
+		__this->set__animator_14(L_6);
+		Animator_t69676727 * L_7 = __this->get__animator_14();
+		IL2CPP_RUNTIME_CLASS_INIT(Object_t1021602117_il2cpp_TypeInfo_var);
+		bool L_8 = Object_op_Equality_m3764089466(NULL /*static, unused*/, L_7, (Object_t1021602117 *)NULL, /*hidden argument*/NULL);
+		if (!L_8)
+		{
+			goto IL_0049;
+		}
+	}
+	{
+		FsmStateAction_Finish_m1955744727(__this, /*hidden argument*/NULL);
+		return;
+	}
+
+IL_0049:
+	{
+		SetAnimatorPlayBackSpeed_DoPlayBackSpeed_m707694510(__this, /*hidden argument*/NULL);
+		bool L_9 = __this->get_everyFrame_13();
+		if (L_9)
+		{
+			goto IL_0060;
+		}
+	}
+	{
+		FsmStateAction_Finish_m1955744727(__this, /*hidden argument*/NULL);
+	}
+
+IL_0060:
+	{
+		return;
+	}
+}
+// System.Void HutongGames.PlayMaker.Actions.SetAnimatorPlayBackSpeed::OnUpdate()
+extern "C"  void SetAnimatorPlayBackSpeed_OnUpdate_m181170115 (SetAnimatorPlayBackSpeed_t3407909277 * __this, const MethodInfo* method)
+{
+	{
+		SetAnimatorPlayBackSpeed_DoPlayBackSpeed_m707694510(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void HutongGames.PlayMaker.Actions.SetAnimatorPlayBackSpeed::DoPlayBackSpeed()
+extern "C"  void SetAnimatorPlayBackSpeed_DoPlayBackSpeed_m707694510 (SetAnimatorPlayBackSpeed_t3407909277 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (SetAnimatorPlayBackSpeed_DoPlayBackSpeed_m707694510_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		Animator_t69676727 * L_0 = __this->get__animator_14();
+		IL2CPP_RUNTIME_CLASS_INIT(Object_t1021602117_il2cpp_TypeInfo_var);
+		bool L_1 = Object_op_Equality_m3764089466(NULL /*static, unused*/, L_0, (Object_t1021602117 *)NULL, /*hidden argument*/NULL);
+		if (!L_1)
+		{
+			goto IL_0012;
+		}
+	}
+	{
+		return;
+	}
+
+IL_0012:
+	{
+		Animator_t69676727 * L_2 = __this->get__animator_14();
+		FsmFloat_t937133978 * L_3 = __this->get_playBackSpeed_12();
+		NullCheck(L_3);
+		float L_4 = FsmFloat_get_Value_m1818441449(L_3, /*hidden argument*/NULL);
+		NullCheck(L_2);
+		Animator_set_speed_m3511108817(L_2, L_4, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void HutongGames.PlayMaker.Actions.SetAnimatorPlayBackTime::.ctor()
+extern "C"  void SetAnimatorPlayBackTime__ctor_m1760046841 (SetAnimatorPlayBackTime_t170527177 * __this, const MethodInfo* method)
+{
+	{
+		FsmStateAction__ctor_m1837021228(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void HutongGames.PlayMaker.Actions.SetAnimatorPlayBackTime::Reset()
+extern "C"  void SetAnimatorPlayBackTime_Reset_m1562871110 (SetAnimatorPlayBackTime_t170527177 * __this, const MethodInfo* method)
+{
+	{
+		__this->set_gameObject_11((FsmOwnerDefault_t2023674184 *)NULL);
+		__this->set_playbackTime_12((FsmFloat_t937133978 *)NULL);
+		__this->set_everyFrame_13((bool)0);
+		return;
+	}
+}
+// System.Void HutongGames.PlayMaker.Actions.SetAnimatorPlayBackTime::OnEnter()
+extern "C"  void SetAnimatorPlayBackTime_OnEnter_m50939044 (SetAnimatorPlayBackTime_t170527177 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (SetAnimatorPlayBackTime_OnEnter_m50939044_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	GameObject_t1756533147 * V_0 = NULL;
+	{
+		Fsm_t917886356 * L_0 = FsmStateAction_get_Fsm_m4079598046(__this, /*hidden argument*/NULL);
+		FsmOwnerDefault_t2023674184 * L_1 = __this->get_gameObject_11();
+		NullCheck(L_0);
+		GameObject_t1756533147 * L_2 = Fsm_GetOwnerDefaultTarget_m1045900479(L_0, L_1, /*hidden argument*/NULL);
+		V_0 = L_2;
+		GameObject_t1756533147 * L_3 = V_0;
+		IL2CPP_RUNTIME_CLASS_INIT(Object_t1021602117_il2cpp_TypeInfo_var);
+		bool L_4 = Object_op_Equality_m3764089466(NULL /*static, unused*/, L_3, (Object_t1021602117 *)NULL, /*hidden argument*/NULL);
+		if (!L_4)
+		{
+			goto IL_0025;
+		}
+	}
+	{
+		FsmStateAction_Finish_m1955744727(__this, /*hidden argument*/NULL);
+		return;
+	}
+
+IL_0025:
+	{
+		GameObject_t1756533147 * L_5 = V_0;
+		NullCheck(L_5);
+		Animator_t69676727 * L_6 = GameObject_GetComponent_TisAnimator_t69676727_m2717502299(L_5, /*hidden argument*/GameObject_GetComponent_TisAnimator_t69676727_m2717502299_MethodInfo_var);
+		__this->set__animator_14(L_6);
+		Animator_t69676727 * L_7 = __this->get__animator_14();
+		IL2CPP_RUNTIME_CLASS_INIT(Object_t1021602117_il2cpp_TypeInfo_var);
+		bool L_8 = Object_op_Equality_m3764089466(NULL /*static, unused*/, L_7, (Object_t1021602117 *)NULL, /*hidden argument*/NULL);
+		if (!L_8)
+		{
+			goto IL_0049;
+		}
+	}
+	{
+		FsmStateAction_Finish_m1955744727(__this, /*hidden argument*/NULL);
+		return;
+	}
+
+IL_0049:
+	{
+		SetAnimatorPlayBackTime_DoPlaybackTime_m4030669916(__this, /*hidden argument*/NULL);
+		bool L_9 = __this->get_everyFrame_13();
+		if (L_9)
+		{
+			goto IL_0060;
+		}
+	}
+	{
+		FsmStateAction_Finish_m1955744727(__this, /*hidden argument*/NULL);
+	}
+
+IL_0060:
+	{
+		return;
+	}
+}
+// System.Void HutongGames.PlayMaker.Actions.SetAnimatorPlayBackTime::OnUpdate()
+extern "C"  void SetAnimatorPlayBackTime_OnUpdate_m2906049533 (SetAnimatorPlayBackTime_t170527177 * __this, const MethodInfo* method)
+{
+	{
+		SetAnimatorPlayBackTime_DoPlaybackTime_m4030669916(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void HutongGames.PlayMaker.Actions.SetAnimatorPlayBackTime::DoPlaybackTime()
+extern "C"  void SetAnimatorPlayBackTime_DoPlaybackTime_m4030669916 (SetAnimatorPlayBackTime_t170527177 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (SetAnimatorPlayBackTime_DoPlaybackTime_m4030669916_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		Animator_t69676727 * L_0 = __this->get__animator_14();
+		IL2CPP_RUNTIME_CLASS_INIT(Object_t1021602117_il2cpp_TypeInfo_var);
+		bool L_1 = Object_op_Equality_m3764089466(NULL /*static, unused*/, L_0, (Object_t1021602117 *)NULL, /*hidden argument*/NULL);
+		if (!L_1)
+		{
+			goto IL_0012;
+		}
+	}
+	{
+		return;
+	}
+
+IL_0012:
+	{
+		Animator_t69676727 * L_2 = __this->get__animator_14();
+		FsmFloat_t937133978 * L_3 = __this->get_playbackTime_12();
+		NullCheck(L_3);
+		float L_4 = FsmFloat_get_Value_m1818441449(L_3, /*hidden argument*/NULL);
+		NullCheck(L_2);
+		Animator_set_playbackTime_m2149309450(L_2, L_4, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void HutongGames.PlayMaker.Actions.SetAnimatorSpeed::.ctor()
+extern "C"  void SetAnimatorSpeed__ctor_m4020133776 (SetAnimatorSpeed_t2775137368 * __this, const MethodInfo* method)
+{
+	{
+		FsmStateAction__ctor_m1837021228(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void HutongGames.PlayMaker.Actions.SetAnimatorSpeed::Reset()
+extern "C"  void SetAnimatorSpeed_Reset_m1447430945 (SetAnimatorSpeed_t2775137368 * __this, const MethodInfo* method)
+{
+	{
+		__this->set_gameObject_11((FsmOwnerDefault_t2023674184 *)NULL);
+		__this->set_speed_12((FsmFloat_t937133978 *)NULL);
+		__this->set_everyFrame_13((bool)0);
+		return;
+	}
+}
+// System.Void HutongGames.PlayMaker.Actions.SetAnimatorSpeed::OnEnter()
+extern "C"  void SetAnimatorSpeed_OnEnter_m451983889 (SetAnimatorSpeed_t2775137368 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (SetAnimatorSpeed_OnEnter_m451983889_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	GameObject_t1756533147 * V_0 = NULL;
+	{
+		Fsm_t917886356 * L_0 = FsmStateAction_get_Fsm_m4079598046(__this, /*hidden argument*/NULL);
+		FsmOwnerDefault_t2023674184 * L_1 = __this->get_gameObject_11();
+		NullCheck(L_0);
+		GameObject_t1756533147 * L_2 = Fsm_GetOwnerDefaultTarget_m1045900479(L_0, L_1, /*hidden argument*/NULL);
+		V_0 = L_2;
+		GameObject_t1756533147 * L_3 = V_0;
+		IL2CPP_RUNTIME_CLASS_INIT(Object_t1021602117_il2cpp_TypeInfo_var);
+		bool L_4 = Object_op_Equality_m3764089466(NULL /*static, unused*/, L_3, (Object_t1021602117 *)NULL, /*hidden argument*/NULL);
+		if (!L_4)
+		{
+			goto IL_0025;
+		}
+	}
+	{
+		FsmStateAction_Finish_m1955744727(__this, /*hidden argument*/NULL);
+		return;
+	}
+
+IL_0025:
+	{
+		GameObject_t1756533147 * L_5 = V_0;
+		NullCheck(L_5);
+		Animator_t69676727 * L_6 = GameObject_GetComponent_TisAnimator_t69676727_m2717502299(L_5, /*hidden argument*/GameObject_GetComponent_TisAnimator_t69676727_m2717502299_MethodInfo_var);
+		__this->set__animator_14(L_6);
+		Animator_t69676727 * L_7 = __this->get__animator_14();
+		IL2CPP_RUNTIME_CLASS_INIT(Object_t1021602117_il2cpp_TypeInfo_var);
+		bool L_8 = Object_op_Equality_m3764089466(NULL /*static, unused*/, L_7, (Object_t1021602117 *)NULL, /*hidden argument*/NULL);
+		if (!L_8)
+		{
+			goto IL_0049;
+		}
+	}
+	{
+		FsmStateAction_Finish_m1955744727(__this, /*hidden argument*/NULL);
+		return;
+	}
+
+IL_0049:
+	{
+		SetAnimatorSpeed_DoPlaybackSpeed_m2210846151(__this, /*hidden argument*/NULL);
+		bool L_9 = __this->get_everyFrame_13();
+		if (L_9)
+		{
+			goto IL_0060;
+		}
+	}
+	{
+		FsmStateAction_Finish_m1955744727(__this, /*hidden argument*/NULL);
+	}
+
+IL_0060:
+	{
+		return;
+	}
+}
+// System.Void HutongGames.PlayMaker.Actions.SetAnimatorSpeed::OnUpdate()
+extern "C"  void SetAnimatorSpeed_OnUpdate_m3809115366 (SetAnimatorSpeed_t2775137368 * __this, const MethodInfo* method)
+{
+	{
+		SetAnimatorSpeed_DoPlaybackSpeed_m2210846151(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void HutongGames.PlayMaker.Actions.SetAnimatorSpeed::DoPlaybackSpeed()
+extern "C"  void SetAnimatorSpeed_DoPlaybackSpeed_m2210846151 (SetAnimatorSpeed_t2775137368 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (SetAnimatorSpeed_DoPlaybackSpeed_m2210846151_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		Animator_t69676727 * L_0 = __this->get__animator_14();
+		IL2CPP_RUNTIME_CLASS_INIT(Object_t1021602117_il2cpp_TypeInfo_var);
+		bool L_1 = Object_op_Equality_m3764089466(NULL /*static, unused*/, L_0, (Object_t1021602117 *)NULL, /*hidden argument*/NULL);
+		if (!L_1)
+		{
+			goto IL_0012;
+		}
+	}
+	{
+		return;
+	}
+
+IL_0012:
+	{
+		Animator_t69676727 * L_2 = __this->get__animator_14();
+		FsmFloat_t937133978 * L_3 = __this->get_speed_12();
+		NullCheck(L_3);
+		float L_4 = FsmFloat_get_Value_m1818441449(L_3, /*hidden argument*/NULL);
+		NullCheck(L_2);
+		Animator_set_speed_m3511108817(L_2, L_4, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void HutongGames.PlayMaker.Actions.SetAnimatorStabilizeFeet::.ctor()
+extern "C"  void SetAnimatorStabilizeFeet__ctor_m2590380926 (SetAnimatorStabilizeFeet_t3575473090 * __this, const MethodInfo* method)
+{
+	{
+		FsmStateAction__ctor_m1837021228(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void HutongGames.PlayMaker.Actions.SetAnimatorStabilizeFeet::Reset()
+extern "C"  void SetAnimatorStabilizeFeet_Reset_m1146170127 (SetAnimatorStabilizeFeet_t3575473090 * __this, const MethodInfo* method)
+{
+	{
+		__this->set_gameObject_11((FsmOwnerDefault_t2023674184 *)NULL);
+		__this->set_stabilizeFeet_12((FsmBool_t664485696 *)NULL);
+		return;
+	}
+}
+// System.Void HutongGames.PlayMaker.Actions.SetAnimatorStabilizeFeet::OnEnter()
+extern "C"  void SetAnimatorStabilizeFeet_OnEnter_m3102292471 (SetAnimatorStabilizeFeet_t3575473090 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (SetAnimatorStabilizeFeet_OnEnter_m3102292471_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	GameObject_t1756533147 * V_0 = NULL;
+	{
+		Fsm_t917886356 * L_0 = FsmStateAction_get_Fsm_m4079598046(__this, /*hidden argument*/NULL);
+		FsmOwnerDefault_t2023674184 * L_1 = __this->get_gameObject_11();
+		NullCheck(L_0);
+		GameObject_t1756533147 * L_2 = Fsm_GetOwnerDefaultTarget_m1045900479(L_0, L_1, /*hidden argument*/NULL);
+		V_0 = L_2;
+		GameObject_t1756533147 * L_3 = V_0;
+		IL2CPP_RUNTIME_CLASS_INIT(Object_t1021602117_il2cpp_TypeInfo_var);
+		bool L_4 = Object_op_Equality_m3764089466(NULL /*static, unused*/, L_3, (Object_t1021602117 *)NULL, /*hidden argument*/NULL);
+		if (!L_4)
+		{
+			goto IL_0025;
+		}
+	}
+	{
+		FsmStateAction_Finish_m1955744727(__this, /*hidden argument*/NULL);
+		return;
+	}
+
+IL_0025:
+	{
+		GameObject_t1756533147 * L_5 = V_0;
+		NullCheck(L_5);
+		Animator_t69676727 * L_6 = GameObject_GetComponent_TisAnimator_t69676727_m2717502299(L_5, /*hidden argument*/GameObject_GetComponent_TisAnimator_t69676727_m2717502299_MethodInfo_var);
+		__this->set__animator_13(L_6);
+		Animator_t69676727 * L_7 = __this->get__animator_13();
+		IL2CPP_RUNTIME_CLASS_INIT(Object_t1021602117_il2cpp_TypeInfo_var);
+		bool L_8 = Object_op_Equality_m3764089466(NULL /*static, unused*/, L_7, (Object_t1021602117 *)NULL, /*hidden argument*/NULL);
+		if (!L_8)
+		{
+			goto IL_0049;
+		}
+	}
+	{
+		FsmStateAction_Finish_m1955744727(__this, /*hidden argument*/NULL);
+		return;
+	}
+
+IL_0049:
+	{
+		SetAnimatorStabilizeFeet_DoStabilizeFeet_m2036505336(__this, /*hidden argument*/NULL);
+		FsmStateAction_Finish_m1955744727(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void HutongGames.PlayMaker.Actions.SetAnimatorStabilizeFeet::DoStabilizeFeet()
+extern "C"  void SetAnimatorStabilizeFeet_DoStabilizeFeet_m2036505336 (SetAnimatorStabilizeFeet_t3575473090 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (SetAnimatorStabilizeFeet_DoStabilizeFeet_m2036505336_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		Animator_t69676727 * L_0 = __this->get__animator_13();
+		IL2CPP_RUNTIME_CLASS_INIT(Object_t1021602117_il2cpp_TypeInfo_var);
+		bool L_1 = Object_op_Equality_m3764089466(NULL /*static, unused*/, L_0, (Object_t1021602117 *)NULL, /*hidden argument*/NULL);
+		if (!L_1)
+		{
+			goto IL_0012;
+		}
+	}
+	{
+		return;
+	}
+
+IL_0012:
+	{
+		Animator_t69676727 * L_2 = __this->get__animator_13();
+		FsmBool_t664485696 * L_3 = __this->get_stabilizeFeet_12();
+		NullCheck(L_3);
+		bool L_4 = FsmBool_get_Value_m3738134001(L_3, /*hidden argument*/NULL);
+		NullCheck(L_2);
+		Animator_set_stabilizeFeet_m224067765(L_2, L_4, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void HutongGames.PlayMaker.Actions.SetAnimatorTarget::.ctor()
+extern "C"  void SetAnimatorTarget__ctor_m386479242 (SetAnimatorTarget_t762350858 * __this, const MethodInfo* method)
+{
+	{
+		FsmStateAction__ctor_m1837021228(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void HutongGames.PlayMaker.Actions.SetAnimatorTarget::Reset()
+extern "C"  void SetAnimatorTarget_Reset_m3681986119 (SetAnimatorTarget_t762350858 * __this, const MethodInfo* method)
+{
+	{
+		__this->set_gameObject_11((FsmOwnerDefault_t2023674184 *)NULL);
+		__this->set_avatarTarget_12(1);
+		__this->set_targetNormalizedTime_13((FsmFloat_t937133978 *)NULL);
+		__this->set_everyFrame_14((bool)0);
+		return;
+	}
+}
+// System.Void HutongGames.PlayMaker.Actions.SetAnimatorTarget::OnPreprocess()
+extern "C"  void SetAnimatorTarget_OnPreprocess_m4215102311 (SetAnimatorTarget_t762350858 * __this, const MethodInfo* method)
+{
+	{
+		Fsm_t917886356 * L_0 = FsmStateAction_get_Fsm_m4079598046(__this, /*hidden argument*/NULL);
+		NullCheck(L_0);
+		Fsm_set_HandleAnimatorMove_m2112503791(L_0, (bool)1, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void HutongGames.PlayMaker.Actions.SetAnimatorTarget::OnEnter()
+extern "C"  void SetAnimatorTarget_OnEnter_m1039156567 (SetAnimatorTarget_t762350858 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (SetAnimatorTarget_OnEnter_m1039156567_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	GameObject_t1756533147 * V_0 = NULL;
+	{
+		Fsm_t917886356 * L_0 = FsmStateAction_get_Fsm_m4079598046(__this, /*hidden argument*/NULL);
+		FsmOwnerDefault_t2023674184 * L_1 = __this->get_gameObject_11();
+		NullCheck(L_0);
+		GameObject_t1756533147 * L_2 = Fsm_GetOwnerDefaultTarget_m1045900479(L_0, L_1, /*hidden argument*/NULL);
+		V_0 = L_2;
+		GameObject_t1756533147 * L_3 = V_0;
+		IL2CPP_RUNTIME_CLASS_INIT(Object_t1021602117_il2cpp_TypeInfo_var);
+		bool L_4 = Object_op_Equality_m3764089466(NULL /*static, unused*/, L_3, (Object_t1021602117 *)NULL, /*hidden argument*/NULL);
+		if (!L_4)
+		{
+			goto IL_0025;
+		}
+	}
+	{
+		FsmStateAction_Finish_m1955744727(__this, /*hidden argument*/NULL);
+		return;
+	}
+
+IL_0025:
+	{
+		GameObject_t1756533147 * L_5 = V_0;
+		NullCheck(L_5);
+		Animator_t69676727 * L_6 = GameObject_GetComponent_TisAnimator_t69676727_m2717502299(L_5, /*hidden argument*/GameObject_GetComponent_TisAnimator_t69676727_m2717502299_MethodInfo_var);
+		__this->set__animator_15(L_6);
+		Animator_t69676727 * L_7 = __this->get__animator_15();
+		IL2CPP_RUNTIME_CLASS_INIT(Object_t1021602117_il2cpp_TypeInfo_var);
+		bool L_8 = Object_op_Equality_m3764089466(NULL /*static, unused*/, L_7, (Object_t1021602117 *)NULL, /*hidden argument*/NULL);
+		if (!L_8)
+		{
+			goto IL_0049;
+		}
+	}
+	{
+		FsmStateAction_Finish_m1955744727(__this, /*hidden argument*/NULL);
+		return;
+	}
+
+IL_0049:
+	{
+		SetAnimatorTarget_SetTarget_m2217284069(__this, /*hidden argument*/NULL);
+		bool L_9 = __this->get_everyFrame_14();
+		if (L_9)
+		{
+			goto IL_0060;
+		}
+	}
+	{
+		FsmStateAction_Finish_m1955744727(__this, /*hidden argument*/NULL);
+	}
+
+IL_0060:
+	{
+		return;
+	}
+}
+// System.Void HutongGames.PlayMaker.Actions.SetAnimatorTarget::DoAnimatorMove()
+extern "C"  void SetAnimatorTarget_DoAnimatorMove_m4008729239 (SetAnimatorTarget_t762350858 * __this, const MethodInfo* method)
+{
+	{
+		SetAnimatorTarget_SetTarget_m2217284069(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void HutongGames.PlayMaker.Actions.SetAnimatorTarget::SetTarget()
+extern "C"  void SetAnimatorTarget_SetTarget_m2217284069 (SetAnimatorTarget_t762350858 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (SetAnimatorTarget_SetTarget_m2217284069_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		Animator_t69676727 * L_0 = __this->get__animator_15();
+		IL2CPP_RUNTIME_CLASS_INIT(Object_t1021602117_il2cpp_TypeInfo_var);
+		bool L_1 = Object_op_Inequality_m2402264703(NULL /*static, unused*/, L_0, (Object_t1021602117 *)NULL, /*hidden argument*/NULL);
+		if (!L_1)
+		{
+			goto IL_002d;
+		}
+	}
+	{
+		Animator_t69676727 * L_2 = __this->get__animator_15();
+		int32_t L_3 = __this->get_avatarTarget_12();
+		FsmFloat_t937133978 * L_4 = __this->get_targetNormalizedTime_13();
+		NullCheck(L_4);
+		float L_5 = FsmFloat_get_Value_m1818441449(L_4, /*hidden argument*/NULL);
+		NullCheck(L_2);
+		Animator_SetTarget_m3396402303(L_2, L_3, L_5, /*hidden argument*/NULL);
+	}
+
+IL_002d:
+	{
+		return;
+	}
+}
+// System.Void HutongGames.PlayMaker.Actions.SetAnimatorTrigger::.ctor()
+extern "C"  void SetAnimatorTrigger__ctor_m1677728915 (SetAnimatorTrigger_t3111496129 * __this, const MethodInfo* method)
+{
+	{
+		FsmStateAction__ctor_m1837021228(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void HutongGames.PlayMaker.Actions.SetAnimatorTrigger::Reset()
+extern "C"  void SetAnimatorTrigger_Reset_m3118463722 (SetAnimatorTrigger_t3111496129 * __this, const MethodInfo* method)
+{
+	{
+		__this->set_gameObject_11((FsmOwnerDefault_t2023674184 *)NULL);
+		__this->set_trigger_12((FsmString_t2414474701 *)NULL);
+		return;
+	}
+}
+// System.Void HutongGames.PlayMaker.Actions.SetAnimatorTrigger::OnEnter()
+extern "C"  void SetAnimatorTrigger_OnEnter_m2221520188 (SetAnimatorTrigger_t3111496129 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (SetAnimatorTrigger_OnEnter_m2221520188_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	GameObject_t1756533147 * V_0 = NULL;
+	{
+		Fsm_t917886356 * L_0 = FsmStateAction_get_Fsm_m4079598046(__this, /*hidden argument*/NULL);
+		FsmOwnerDefault_t2023674184 * L_1 = __this->get_gameObject_11();
+		NullCheck(L_0);
+		GameObject_t1756533147 * L_2 = Fsm_GetOwnerDefaultTarget_m1045900479(L_0, L_1, /*hidden argument*/NULL);
+		V_0 = L_2;
+		GameObject_t1756533147 * L_3 = V_0;
+		IL2CPP_RUNTIME_CLASS_INIT(Object_t1021602117_il2cpp_TypeInfo_var);
+		bool L_4 = Object_op_Equality_m3764089466(NULL /*static, unused*/, L_3, (Object_t1021602117 *)NULL, /*hidden argument*/NULL);
+		if (!L_4)
+		{
+			goto IL_0025;
+		}
+	}
+	{
+		FsmStateAction_Finish_m1955744727(__this, /*hidden argument*/NULL);
+		return;
+	}
+
+IL_0025:
+	{
+		GameObject_t1756533147 * L_5 = V_0;
+		NullCheck(L_5);
+		Animator_t69676727 * L_6 = GameObject_GetComponent_TisAnimator_t69676727_m2717502299(L_5, /*hidden argument*/GameObject_GetComponent_TisAnimator_t69676727_m2717502299_MethodInfo_var);
+		__this->set__animator_13(L_6);
+		Animator_t69676727 * L_7 = __this->get__animator_13();
+		IL2CPP_RUNTIME_CLASS_INIT(Object_t1021602117_il2cpp_TypeInfo_var);
+		bool L_8 = Object_op_Equality_m3764089466(NULL /*static, unused*/, L_7, (Object_t1021602117 *)NULL, /*hidden argument*/NULL);
+		if (!L_8)
+		{
+			goto IL_0049;
+		}
+	}
+	{
+		FsmStateAction_Finish_m1955744727(__this, /*hidden argument*/NULL);
+		return;
+	}
+
+IL_0049:
+	{
+		SetAnimatorTrigger_SetTrigger_m510368757(__this, /*hidden argument*/NULL);
+		FsmStateAction_Finish_m1955744727(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void HutongGames.PlayMaker.Actions.SetAnimatorTrigger::SetTrigger()
+extern "C"  void SetAnimatorTrigger_SetTrigger_m510368757 (SetAnimatorTrigger_t3111496129 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (SetAnimatorTrigger_SetTrigger_m510368757_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		Animator_t69676727 * L_0 = __this->get__animator_13();
+		IL2CPP_RUNTIME_CLASS_INIT(Object_t1021602117_il2cpp_TypeInfo_var);
+		bool L_1 = Object_op_Inequality_m2402264703(NULL /*static, unused*/, L_0, (Object_t1021602117 *)NULL, /*hidden argument*/NULL);
+		if (!L_1)
+		{
+			goto IL_0027;
+		}
+	}
+	{
+		Animator_t69676727 * L_2 = __this->get__animator_13();
+		FsmString_t2414474701 * L_3 = __this->get_trigger_12();
+		NullCheck(L_3);
+		String_t* L_4 = FsmString_get_Value_m3775166715(L_3, /*hidden argument*/NULL);
+		NullCheck(L_2);
+		Animator_SetTrigger_m3418492570(L_2, L_4, /*hidden argument*/NULL);
+	}
+
+IL_0027:
+	{
+		return;
+	}
+}
+// System.Void HutongGames.PlayMaker.Actions.SetAudioClip::.ctor()
+extern "C"  void SetAudioClip__ctor_m2342809448 (SetAudioClip_t3781849772 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (SetAudioClip__ctor_m2342809448_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		ComponentAction_1__ctor_m2282656970(__this, /*hidden argument*/ComponentAction_1__ctor_m2282656970_MethodInfo_var);
+		return;
+	}
+}
+// System.Void HutongGames.PlayMaker.Actions.SetAudioClip::Reset()
+extern "C"  void SetAudioClip_Reset_m657147185 (SetAudioClip_t3781849772 * __this, const MethodInfo* method)
+{
+	{
+		__this->set_gameObject_13((FsmOwnerDefault_t2023674184 *)NULL);
+		__this->set_audioClip_14((FsmObject_t2785794313 *)NULL);
+		return;
+	}
+}
+// System.Void HutongGames.PlayMaker.Actions.SetAudioClip::OnEnter()
+extern "C"  void SetAudioClip_OnEnter_m3691524257 (SetAudioClip_t3781849772 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (SetAudioClip_OnEnter_m3691524257_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	GameObject_t1756533147 * V_0 = NULL;
+	{
+		Fsm_t917886356 * L_0 = FsmStateAction_get_Fsm_m4079598046(__this, /*hidden argument*/NULL);
+		FsmOwnerDefault_t2023674184 * L_1 = __this->get_gameObject_13();
+		NullCheck(L_0);
+		GameObject_t1756533147 * L_2 = Fsm_GetOwnerDefaultTarget_m1045900479(L_0, L_1, /*hidden argument*/NULL);
+		V_0 = L_2;
+		GameObject_t1756533147 * L_3 = V_0;
+		bool L_4 = ComponentAction_1_UpdateCache_m661482389(__this, L_3, /*hidden argument*/ComponentAction_1_UpdateCache_m661482389_MethodInfo_var);
+		if (!L_4)
+		{
+			goto IL_0039;
+		}
+	}
+	{
+		AudioSource_t1135106623 * L_5 = ComponentAction_1_get_audio_m2158153034(__this, /*hidden argument*/ComponentAction_1_get_audio_m2158153034_MethodInfo_var);
+		FsmObject_t2785794313 * L_6 = __this->get_audioClip_14();
+		NullCheck(L_6);
+		Object_t1021602117 * L_7 = FsmObject_get_Value_m1585581971(L_6, /*hidden argument*/NULL);
+		NullCheck(L_5);
+		AudioSource_set_clip_m738814682(L_5, ((AudioClip_t1932558630 *)IsInstSealed(L_7, AudioClip_t1932558630_il2cpp_TypeInfo_var)), /*hidden argument*/NULL);
+	}
+
+IL_0039:
+	{
+		FsmStateAction_Finish_m1955744727(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void HutongGames.PlayMaker.Actions.SetAudioLoop::.ctor()
+extern "C"  void SetAudioLoop__ctor_m430751728 (SetAudioLoop_t4164931234 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (SetAudioLoop__ctor_m430751728_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		ComponentAction_1__ctor_m2282656970(__this, /*hidden argument*/ComponentAction_1__ctor_m2282656970_MethodInfo_var);
+		return;
+	}
+}
+// System.Void HutongGames.PlayMaker.Actions.SetAudioLoop::Reset()
+extern "C"  void SetAudioLoop_Reset_m2148113671 (SetAudioLoop_t4164931234 * __this, const MethodInfo* method)
+{
+	{
+		__this->set_gameObject_13((FsmOwnerDefault_t2023674184 *)NULL);
+		FsmBool_t664485696 * L_0 = FsmBool_op_Implicit_m2342972798(NULL /*static, unused*/, (bool)0, /*hidden argument*/NULL);
+		__this->set_loop_14(L_0);
+		return;
+	}
+}
+// System.Void HutongGames.PlayMaker.Actions.SetAudioLoop::OnEnter()
+extern "C"  void SetAudioLoop_OnEnter_m2879467871 (SetAudioLoop_t4164931234 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (SetAudioLoop_OnEnter_m2879467871_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	GameObject_t1756533147 * V_0 = NULL;
+	{
+		Fsm_t917886356 * L_0 = FsmStateAction_get_Fsm_m4079598046(__this, /*hidden argument*/NULL);
+		FsmOwnerDefault_t2023674184 * L_1 = __this->get_gameObject_13();
+		NullCheck(L_0);
+		GameObject_t1756533147 * L_2 = Fsm_GetOwnerDefaultTarget_m1045900479(L_0, L_1, /*hidden argument*/NULL);
+		V_0 = L_2;
+		GameObject_t1756533147 * L_3 = V_0;
+		bool L_4 = ComponentAction_1_UpdateCache_m661482389(__this, L_3, /*hidden argument*/ComponentAction_1_UpdateCache_m661482389_MethodInfo_var);
+		if (!L_4)
+		{
+			goto IL_0034;
+		}
+	}
+	{
+		AudioSource_t1135106623 * L_5 = ComponentAction_1_get_audio_m2158153034(__this, /*hidden argument*/ComponentAction_1_get_audio_m2158153034_MethodInfo_var);
+		FsmBool_t664485696 * L_6 = __this->get_loop_14();
+		NullCheck(L_6);
+		bool L_7 = FsmBool_get_Value_m3738134001(L_6, /*hidden argument*/NULL);
+		NullCheck(L_5);
+		AudioSource_set_loop_m313035616(L_5, L_7, /*hidden argument*/NULL);
+	}
+
+IL_0034:
+	{
+		FsmStateAction_Finish_m1955744727(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void HutongGames.PlayMaker.Actions.SetAudioPitch::.ctor()
+extern "C"  void SetAudioPitch__ctor_m128356330 (SetAudioPitch_t2843540500 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (SetAudioPitch__ctor_m128356330_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		ComponentAction_1__ctor_m2282656970(__this, /*hidden argument*/ComponentAction_1__ctor_m2282656970_MethodInfo_var);
+		return;
+	}
+}
+// System.Void HutongGames.PlayMaker.Actions.SetAudioPitch::Reset()
+extern "C"  void SetAudioPitch_Reset_m728827693 (SetAudioPitch_t2843540500 * __this, const MethodInfo* method)
+{
+	{
+		__this->set_gameObject_13((FsmOwnerDefault_t2023674184 *)NULL);
+		FsmFloat_t937133978 * L_0 = FsmFloat_op_Implicit_m475928236(NULL /*static, unused*/, (1.0f), /*hidden argument*/NULL);
+		__this->set_pitch_14(L_0);
+		__this->set_everyFrame_15((bool)0);
+		return;
+	}
+}
+// System.Void HutongGames.PlayMaker.Actions.SetAudioPitch::OnEnter()
+extern "C"  void SetAudioPitch_OnEnter_m2326387597 (SetAudioPitch_t2843540500 * __this, const MethodInfo* method)
+{
+	{
+		SetAudioPitch_DoSetAudioPitch_m1394952541(__this, /*hidden argument*/NULL);
+		bool L_0 = __this->get_everyFrame_15();
+		if (L_0)
+		{
+			goto IL_0017;
+		}
+	}
+	{
+		FsmStateAction_Finish_m1955744727(__this, /*hidden argument*/NULL);
+	}
+
+IL_0017:
+	{
+		return;
+	}
+}
+// System.Void HutongGames.PlayMaker.Actions.SetAudioPitch::OnUpdate()
+extern "C"  void SetAudioPitch_OnUpdate_m920794084 (SetAudioPitch_t2843540500 * __this, const MethodInfo* method)
+{
+	{
+		SetAudioPitch_DoSetAudioPitch_m1394952541(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void HutongGames.PlayMaker.Actions.SetAudioPitch::DoSetAudioPitch()
+extern "C"  void SetAudioPitch_DoSetAudioPitch_m1394952541 (SetAudioPitch_t2843540500 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (SetAudioPitch_DoSetAudioPitch_m1394952541_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	GameObject_t1756533147 * V_0 = NULL;
+	{
+		Fsm_t917886356 * L_0 = FsmStateAction_get_Fsm_m4079598046(__this, /*hidden argument*/NULL);
+		FsmOwnerDefault_t2023674184 * L_1 = __this->get_gameObject_13();
+		NullCheck(L_0);
+		GameObject_t1756533147 * L_2 = Fsm_GetOwnerDefaultTarget_m1045900479(L_0, L_1, /*hidden argument*/NULL);
+		V_0 = L_2;
+		GameObject_t1756533147 * L_3 = V_0;
+		bool L_4 = ComponentAction_1_UpdateCache_m661482389(__this, L_3, /*hidden argument*/ComponentAction_1_UpdateCache_m661482389_MethodInfo_var);
+		if (!L_4)
+		{
+			goto IL_0044;
+		}
+	}
+	{
+		FsmFloat_t937133978 * L_5 = __this->get_pitch_14();
+		NullCheck(L_5);
+		bool L_6 = NamedVariable_get_IsNone_m1506066313(L_5, /*hidden argument*/NULL);
+		if (L_6)
+		{
+			goto IL_0044;
+		}
+	}
+	{
+		AudioSource_t1135106623 * L_7 = ComponentAction_1_get_audio_m2158153034(__this, /*hidden argument*/ComponentAction_1_get_audio_m2158153034_MethodInfo_var);
+		FsmFloat_t937133978 * L_8 = __this->get_pitch_14();
+		NullCheck(L_8);
+		float L_9 = FsmFloat_get_Value_m1818441449(L_8, /*hidden argument*/NULL);
+		NullCheck(L_7);
+		AudioSource_set_pitch_m3064416458(L_7, L_9, /*hidden argument*/NULL);
+	}
+
+IL_0044:
+	{
+		return;
+	}
+}
+// System.Void HutongGames.PlayMaker.Actions.SetAudioVolume::.ctor()
+extern "C"  void SetAudioVolume__ctor_m1058494268 (SetAudioVolume_t3912171830 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (SetAudioVolume__ctor_m1058494268_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		ComponentAction_1__ctor_m2282656970(__this, /*hidden argument*/ComponentAction_1__ctor_m2282656970_MethodInfo_var);
+		return;
+	}
+}
+// System.Void HutongGames.PlayMaker.Actions.SetAudioVolume::Reset()
+extern "C"  void SetAudioVolume_Reset_m259554683 (SetAudioVolume_t3912171830 * __this, const MethodInfo* method)
+{
+	{
+		__this->set_gameObject_13((FsmOwnerDefault_t2023674184 *)NULL);
+		FsmFloat_t937133978 * L_0 = FsmFloat_op_Implicit_m475928236(NULL /*static, unused*/, (1.0f), /*hidden argument*/NULL);
+		__this->set_volume_14(L_0);
+		__this->set_everyFrame_15((bool)0);
+		return;
+	}
+}
+// System.Void HutongGames.PlayMaker.Actions.SetAudioVolume::OnEnter()
+extern "C"  void SetAudioVolume_OnEnter_m3508805619 (SetAudioVolume_t3912171830 * __this, const MethodInfo* method)
+{
+	{
+		SetAudioVolume_DoSetAudioVolume_m2414347873(__this, /*hidden argument*/NULL);
+		bool L_0 = __this->get_everyFrame_15();
+		if (L_0)
+		{
+			goto IL_0017;
+		}
+	}
+	{
+		FsmStateAction_Finish_m1955744727(__this, /*hidden argument*/NULL);
+	}
+
+IL_0017:
+	{
+		return;
+	}
+}
+// System.Void HutongGames.PlayMaker.Actions.SetAudioVolume::OnUpdate()
+extern "C"  void SetAudioVolume_OnUpdate_m188704106 (SetAudioVolume_t3912171830 * __this, const MethodInfo* method)
+{
+	{
+		SetAudioVolume_DoSetAudioVolume_m2414347873(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void HutongGames.PlayMaker.Actions.SetAudioVolume::DoSetAudioVolume()
+extern "C"  void SetAudioVolume_DoSetAudioVolume_m2414347873 (SetAudioVolume_t3912171830 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (SetAudioVolume_DoSetAudioVolume_m2414347873_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	GameObject_t1756533147 * V_0 = NULL;
+	{
+		Fsm_t917886356 * L_0 = FsmStateAction_get_Fsm_m4079598046(__this, /*hidden argument*/NULL);
+		FsmOwnerDefault_t2023674184 * L_1 = __this->get_gameObject_13();
+		NullCheck(L_0);
+		GameObject_t1756533147 * L_2 = Fsm_GetOwnerDefaultTarget_m1045900479(L_0, L_1, /*hidden argument*/NULL);
+		V_0 = L_2;
+		GameObject_t1756533147 * L_3 = V_0;
+		bool L_4 = ComponentAction_1_UpdateCache_m661482389(__this, L_3, /*hidden argument*/ComponentAction_1_UpdateCache_m661482389_MethodInfo_var);
+		if (!L_4)
+		{
+			goto IL_0044;
+		}
+	}
+	{
+		FsmFloat_t937133978 * L_5 = __this->get_volume_14();
+		NullCheck(L_5);
+		bool L_6 = NamedVariable_get_IsNone_m1506066313(L_5, /*hidden argument*/NULL);
+		if (L_6)
+		{
+			goto IL_0044;
+		}
+	}
+	{
+		AudioSource_t1135106623 * L_7 = ComponentAction_1_get_audio_m2158153034(__this, /*hidden argument*/ComponentAction_1_get_audio_m2158153034_MethodInfo_var);
+		FsmFloat_t937133978 * L_8 = __this->get_volume_14();
+		NullCheck(L_8);
+		float L_9 = FsmFloat_get_Value_m1818441449(L_8, /*hidden argument*/NULL);
+		NullCheck(L_7);
+		AudioSource_set_volume_m2777308722(L_7, L_9, /*hidden argument*/NULL);
+	}
+
+IL_0044:
+	{
+		return;
+	}
+}
+// System.Void HutongGames.PlayMaker.Actions.SetBackgroundColor::.ctor()
+extern "C"  void SetBackgroundColor__ctor_m2311639891 (SetBackgroundColor_t423384025 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (SetBackgroundColor__ctor_m2311639891_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		ComponentAction_1__ctor_m2142913070(__this, /*hidden argument*/ComponentAction_1__ctor_m2142913070_MethodInfo_var);
+		return;
+	}
+}
+// System.Void HutongGames.PlayMaker.Actions.SetBackgroundColor::Reset()
+extern "C"  void SetBackgroundColor_Reset_m3106206410 (SetBackgroundColor_t423384025 * __this, const MethodInfo* method)
+{
+	{
+		__this->set_gameObject_13((FsmOwnerDefault_t2023674184 *)NULL);
+		Color_t2020392075  L_0 = Color_get_black_m2650940523(NULL /*static, unused*/, /*hidden argument*/NULL);
+		FsmColor_t118301965 * L_1 = FsmColor_op_Implicit_m1499113597(NULL /*static, unused*/, L_0, /*hidden argument*/NULL);
+		__this->set_backgroundColor_14(L_1);
+		__this->set_everyFrame_15((bool)0);
+		return;
+	}
+}
+// System.Void HutongGames.PlayMaker.Actions.SetBackgroundColor::OnEnter()
+extern "C"  void SetBackgroundColor_OnEnter_m676937668 (SetBackgroundColor_t423384025 * __this, const MethodInfo* method)
+{
+	{
+		SetBackgroundColor_DoSetBackgroundColor_m872035457(__this, /*hidden argument*/NULL);
+		bool L_0 = __this->get_everyFrame_15();
+		if (L_0)
+		{
+			goto IL_0017;
+		}
+	}
+	{
+		FsmStateAction_Finish_m1955744727(__this, /*hidden argument*/NULL);
+	}
+
+IL_0017:
+	{
+		return;
+	}
+}
+// System.Void HutongGames.PlayMaker.Actions.SetBackgroundColor::OnUpdate()
+extern "C"  void SetBackgroundColor_OnUpdate_m2935948035 (SetBackgroundColor_t423384025 * __this, const MethodInfo* method)
+{
+	{
+		SetBackgroundColor_DoSetBackgroundColor_m872035457(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void HutongGames.PlayMaker.Actions.SetBackgroundColor::DoSetBackgroundColor()
+extern "C"  void SetBackgroundColor_DoSetBackgroundColor_m872035457 (SetBackgroundColor_t423384025 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (SetBackgroundColor_DoSetBackgroundColor_m872035457_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	GameObject_t1756533147 * V_0 = NULL;
+	{
+		Fsm_t917886356 * L_0 = FsmStateAction_get_Fsm_m4079598046(__this, /*hidden argument*/NULL);
+		FsmOwnerDefault_t2023674184 * L_1 = __this->get_gameObject_13();
+		NullCheck(L_0);
+		GameObject_t1756533147 * L_2 = Fsm_GetOwnerDefaultTarget_m1045900479(L_0, L_1, /*hidden argument*/NULL);
+		V_0 = L_2;
+		GameObject_t1756533147 * L_3 = V_0;
+		bool L_4 = ComponentAction_1_UpdateCache_m4284851463(__this, L_3, /*hidden argument*/ComponentAction_1_UpdateCache_m4284851463_MethodInfo_var);
+		if (!L_4)
+		{
+			goto IL_0034;
+		}
+	}
+	{
+		Camera_t189460977 * L_5 = ComponentAction_1_get_camera_m3499382131(__this, /*hidden argument*/ComponentAction_1_get_camera_m3499382131_MethodInfo_var);
+		FsmColor_t118301965 * L_6 = __this->get_backgroundColor_14();
+		NullCheck(L_6);
+		Color_t2020392075  L_7 = FsmColor_get_Value_m687626399(L_6, /*hidden argument*/NULL);
+		NullCheck(L_5);
+		Camera_set_backgroundColor_m2927893592(L_5, L_7, /*hidden argument*/NULL);
+	}
+
+IL_0034:
+	{
+		return;
+	}
+}
+// System.Void HutongGames.PlayMaker.Actions.SetBoolValue::.ctor()
+extern "C"  void SetBoolValue__ctor_m3295671253 (SetBoolValue_t2045192887 * __this, const MethodInfo* method)
+{
+	{
+		FsmStateAction__ctor_m1837021228(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void HutongGames.PlayMaker.Actions.SetBoolValue::Reset()
+extern "C"  void SetBoolValue_Reset_m3481002500 (SetBoolValue_t2045192887 * __this, const MethodInfo* method)
+{
+	{
+		__this->set_boolVariable_11((FsmBool_t664485696 *)NULL);
+		__this->set_boolValue_12((FsmBool_t664485696 *)NULL);
+		__this->set_everyFrame_13((bool)0);
+		return;
+	}
+}
+// System.Void HutongGames.PlayMaker.Actions.SetBoolValue::OnEnter()
+extern "C"  void SetBoolValue_OnEnter_m2155653550 (SetBoolValue_t2045192887 * __this, const MethodInfo* method)
+{
+	{
+		FsmBool_t664485696 * L_0 = __this->get_boolVariable_11();
+		FsmBool_t664485696 * L_1 = __this->get_boolValue_12();
+		NullCheck(L_1);
+		bool L_2 = FsmBool_get_Value_m3738134001(L_1, /*hidden argument*/NULL);
+		NullCheck(L_0);
+		FsmBool_set_Value_m2522230142(L_0, L_2, /*hidden argument*/NULL);
+		bool L_3 = __this->get_everyFrame_13();
+		if (L_3)
+		{
+			goto IL_0027;
+		}
+	}
+	{
+		FsmStateAction_Finish_m1955744727(__this, /*hidden argument*/NULL);
+	}
+
+IL_0027:
+	{
+		return;
+	}
+}
+// System.Void HutongGames.PlayMaker.Actions.SetBoolValue::OnUpdate()
+extern "C"  void SetBoolValue_OnUpdate_m2281848201 (SetBoolValue_t2045192887 * __this, const MethodInfo* method)
+{
+	{
+		FsmBool_t664485696 * L_0 = __this->get_boolVariable_11();
+		FsmBool_t664485696 * L_1 = __this->get_boolValue_12();
+		NullCheck(L_1);
+		bool L_2 = FsmBool_get_Value_m3738134001(L_1, /*hidden argument*/NULL);
+		NullCheck(L_0);
+		FsmBool_set_Value_m2522230142(L_0, L_2, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void HutongGames.PlayMaker.Actions.SetCameraCullingMask::.ctor()
+extern "C"  void SetCameraCullingMask__ctor_m1181644727 (SetCameraCullingMask_t2337594823 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (SetCameraCullingMask__ctor_m1181644727_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		ComponentAction_1__ctor_m2142913070(__this, /*hidden argument*/ComponentAction_1__ctor_m2142913070_MethodInfo_var);
+		return;
+	}
+}
+// System.Void HutongGames.PlayMaker.Actions.SetCameraCullingMask::Reset()
+extern "C"  void SetCameraCullingMask_Reset_m3789026160 (SetCameraCullingMask_t2337594823 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (SetCameraCullingMask_Reset_m3789026160_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		__this->set_gameObject_13((FsmOwnerDefault_t2023674184 *)NULL);
+		__this->set_cullingMask_14(((FsmIntU5BU5D_t2637547802*)SZArrayNew(FsmIntU5BU5D_t2637547802_il2cpp_TypeInfo_var, (uint32_t)0)));
+		FsmBool_t664485696 * L_0 = FsmBool_op_Implicit_m2342972798(NULL /*static, unused*/, (bool)0, /*hidden argument*/NULL);
+		__this->set_invertMask_15(L_0);
+		__this->set_everyFrame_16((bool)0);
+		return;
+	}
+}
+// System.Void HutongGames.PlayMaker.Actions.SetCameraCullingMask::OnEnter()
+extern "C"  void SetCameraCullingMask_OnEnter_m1888047558 (SetCameraCullingMask_t2337594823 * __this, const MethodInfo* method)
+{
+	{
+		SetCameraCullingMask_DoSetCameraCullingMask_m1426544513(__this, /*hidden argument*/NULL);
+		bool L_0 = __this->get_everyFrame_16();
+		if (L_0)
+		{
+			goto IL_0017;
+		}
+	}
+	{
+		FsmStateAction_Finish_m1955744727(__this, /*hidden argument*/NULL);
+	}
+
+IL_0017:
+	{
+		return;
+	}
+}
+// System.Void HutongGames.PlayMaker.Actions.SetCameraCullingMask::OnUpdate()
+extern "C"  void SetCameraCullingMask_OnUpdate_m581745623 (SetCameraCullingMask_t2337594823 * __this, const MethodInfo* method)
+{
+	{
+		SetCameraCullingMask_DoSetCameraCullingMask_m1426544513(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void HutongGames.PlayMaker.Actions.SetCameraCullingMask::DoSetCameraCullingMask()
+extern "C"  void SetCameraCullingMask_DoSetCameraCullingMask_m1426544513 (SetCameraCullingMask_t2337594823 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (SetCameraCullingMask_DoSetCameraCullingMask_m1426544513_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	GameObject_t1756533147 * V_0 = NULL;
+	{
+		Fsm_t917886356 * L_0 = FsmStateAction_get_Fsm_m4079598046(__this, /*hidden argument*/NULL);
+		FsmOwnerDefault_t2023674184 * L_1 = __this->get_gameObject_13();
+		NullCheck(L_0);
+		GameObject_t1756533147 * L_2 = Fsm_GetOwnerDefaultTarget_m1045900479(L_0, L_1, /*hidden argument*/NULL);
+		V_0 = L_2;
+		GameObject_t1756533147 * L_3 = V_0;
+		bool L_4 = ComponentAction_1_UpdateCache_m4284851463(__this, L_3, /*hidden argument*/ComponentAction_1_UpdateCache_m4284851463_MethodInfo_var);
+		if (!L_4)
+		{
+			goto IL_003f;
+		}
+	}
+	{
+		Camera_t189460977 * L_5 = ComponentAction_1_get_camera_m3499382131(__this, /*hidden argument*/ComponentAction_1_get_camera_m3499382131_MethodInfo_var);
+		FsmIntU5BU5D_t2637547802* L_6 = __this->get_cullingMask_14();
+		FsmBool_t664485696 * L_7 = __this->get_invertMask_15();
+		NullCheck(L_7);
+		bool L_8 = FsmBool_get_Value_m3738134001(L_7, /*hidden argument*/NULL);
+		int32_t L_9 = ActionHelpers_LayerArrayToLayerMask_m4230506674(NULL /*static, unused*/, L_6, L_8, /*hidden argument*/NULL);
+		NullCheck(L_5);
+		Camera_set_cullingMask_m2396665826(L_5, L_9, /*hidden argument*/NULL);
+	}
+
+IL_003f:
+	{
+		return;
+	}
+}
+// System.Void HutongGames.PlayMaker.Actions.SetCameraFOV::.ctor()
+extern "C"  void SetCameraFOV__ctor_m2394408766 (SetCameraFOV_t2435366378 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (SetCameraFOV__ctor_m2394408766_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		ComponentAction_1__ctor_m2142913070(__this, /*hidden argument*/ComponentAction_1__ctor_m2142913070_MethodInfo_var);
+		return;
+	}
+}
+// System.Void HutongGames.PlayMaker.Actions.SetCameraFOV::Reset()
+extern "C"  void SetCameraFOV_Reset_m2213960591 (SetCameraFOV_t2435366378 * __this, const MethodInfo* method)
+{
+	{
+		__this->set_gameObject_13((FsmOwnerDefault_t2023674184 *)NULL);
+		FsmFloat_t937133978 * L_0 = FsmFloat_op_Implicit_m475928236(NULL /*static, unused*/, (50.0f), /*hidden argument*/NULL);
+		__this->set_fieldOfView_14(L_0);
+		__this->set_everyFrame_15((bool)0);
+		return;
+	}
+}
+// System.Void HutongGames.PlayMaker.Actions.SetCameraFOV::OnEnter()
+extern "C"  void SetCameraFOV_OnEnter_m326759375 (SetCameraFOV_t2435366378 * __this, const MethodInfo* method)
+{
+	{
+		SetCameraFOV_DoSetCameraFOV_m2304958017(__this, /*hidden argument*/NULL);
+		bool L_0 = __this->get_everyFrame_15();
+		if (L_0)
+		{
+			goto IL_0017;
+		}
+	}
+	{
+		FsmStateAction_Finish_m1955744727(__this, /*hidden argument*/NULL);
+	}
+
+IL_0017:
+	{
+		return;
+	}
+}
+// System.Void HutongGames.PlayMaker.Actions.SetCameraFOV::OnUpdate()
+extern "C"  void SetCameraFOV_OnUpdate_m1339578168 (SetCameraFOV_t2435366378 * __this, const MethodInfo* method)
+{
+	{
+		SetCameraFOV_DoSetCameraFOV_m2304958017(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void HutongGames.PlayMaker.Actions.SetCameraFOV::DoSetCameraFOV()
+extern "C"  void SetCameraFOV_DoSetCameraFOV_m2304958017 (SetCameraFOV_t2435366378 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (SetCameraFOV_DoSetCameraFOV_m2304958017_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	GameObject_t1756533147 * V_0 = NULL;
+	{
+		Fsm_t917886356 * L_0 = FsmStateAction_get_Fsm_m4079598046(__this, /*hidden argument*/NULL);
+		FsmOwnerDefault_t2023674184 * L_1 = __this->get_gameObject_13();
+		NullCheck(L_0);
+		GameObject_t1756533147 * L_2 = Fsm_GetOwnerDefaultTarget_m1045900479(L_0, L_1, /*hidden argument*/NULL);
+		V_0 = L_2;
+		GameObject_t1756533147 * L_3 = V_0;
+		bool L_4 = ComponentAction_1_UpdateCache_m4284851463(__this, L_3, /*hidden argument*/ComponentAction_1_UpdateCache_m4284851463_MethodInfo_var);
+		if (!L_4)
+		{
+			goto IL_0034;
+		}
+	}
+	{
+		Camera_t189460977 * L_5 = ComponentAction_1_get_camera_m3499382131(__this, /*hidden argument*/ComponentAction_1_get_camera_m3499382131_MethodInfo_var);
+		FsmFloat_t937133978 * L_6 = __this->get_fieldOfView_14();
+		NullCheck(L_6);
+		float L_7 = FsmFloat_get_Value_m1818441449(L_6, /*hidden argument*/NULL);
+		NullCheck(L_5);
+		Camera_set_fieldOfView_m3974156396(L_5, L_7, /*hidden argument*/NULL);
+	}
+
+IL_0034:
+	{
+		return;
+	}
+}
+// System.Void HutongGames.PlayMaker.Actions.SetCollider2dIsTrigger::.ctor()
+extern "C"  void SetCollider2dIsTrigger__ctor_m3363361018 (SetCollider2dIsTrigger_t3962719942 * __this, const MethodInfo* method)
+{
+	{
+		FsmStateAction__ctor_m1837021228(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void HutongGames.PlayMaker.Actions.SetCollider2dIsTrigger::Reset()
+extern "C"  void SetCollider2dIsTrigger_Reset_m1919953971 (SetCollider2dIsTrigger_t3962719942 * __this, const MethodInfo* method)
+{
+	{
+		__this->set_gameObject_11((FsmOwnerDefault_t2023674184 *)NULL);
+		FsmBool_t664485696 * L_0 = FsmBool_op_Implicit_m2342972798(NULL /*static, unused*/, (bool)0, /*hidden argument*/NULL);
+		__this->set_isTrigger_12(L_0);
+		__this->set_setAllColliders_13((bool)0);
+		return;
+	}
+}
+// System.Void HutongGames.PlayMaker.Actions.SetCollider2dIsTrigger::OnEnter()
+extern "C"  void SetCollider2dIsTrigger_OnEnter_m2920120635 (SetCollider2dIsTrigger_t3962719942 * __this, const MethodInfo* method)
+{
+	{
+		SetCollider2dIsTrigger_DoSetIsTrigger_m3931150077(__this, /*hidden argument*/NULL);
+		FsmStateAction_Finish_m1955744727(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void HutongGames.PlayMaker.Actions.SetCollider2dIsTrigger::DoSetIsTrigger()
+extern "C"  void SetCollider2dIsTrigger_DoSetIsTrigger_m3931150077 (SetCollider2dIsTrigger_t3962719942 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (SetCollider2dIsTrigger_DoSetIsTrigger_m3931150077_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	GameObject_t1756533147 * V_0 = NULL;
+	Collider2DU5BU5D_t3535523695* V_1 = NULL;
+	Collider2D_t646061738 * V_2 = NULL;
+	Collider2DU5BU5D_t3535523695* V_3 = NULL;
+	int32_t V_4 = 0;
+	{
+		Fsm_t917886356 * L_0 = FsmStateAction_get_Fsm_m4079598046(__this, /*hidden argument*/NULL);
+		FsmOwnerDefault_t2023674184 * L_1 = __this->get_gameObject_11();
+		NullCheck(L_0);
+		GameObject_t1756533147 * L_2 = Fsm_GetOwnerDefaultTarget_m1045900479(L_0, L_1, /*hidden argument*/NULL);
+		V_0 = L_2;
+		GameObject_t1756533147 * L_3 = V_0;
+		IL2CPP_RUNTIME_CLASS_INIT(Object_t1021602117_il2cpp_TypeInfo_var);
+		bool L_4 = Object_op_Equality_m3764089466(NULL /*static, unused*/, L_3, (Object_t1021602117 *)NULL, /*hidden argument*/NULL);
+		if (!L_4)
+		{
+			goto IL_001f;
+		}
+	}
+	{
+		return;
+	}
+
+IL_001f:
+	{
+		bool L_5 = __this->get_setAllColliders_13();
+		if (!L_5)
+		{
+			goto IL_0066;
+		}
+	}
+	{
+		GameObject_t1756533147 * L_6 = V_0;
+		NullCheck(L_6);
+		Collider2DU5BU5D_t3535523695* L_7 = GameObject_GetComponents_TisCollider2D_t646061738_m3026490665(L_6, /*hidden argument*/GameObject_GetComponents_TisCollider2D_t646061738_m3026490665_MethodInfo_var);
+		V_1 = L_7;
+		Collider2DU5BU5D_t3535523695* L_8 = V_1;
+		V_3 = L_8;
+		V_4 = 0;
+		goto IL_0057;
+	}
+
+IL_003b:
+	{
+		Collider2DU5BU5D_t3535523695* L_9 = V_3;
+		int32_t L_10 = V_4;
+		NullCheck(L_9);
+		int32_t L_11 = L_10;
+		Collider2D_t646061738 * L_12 = (L_9)->GetAt(static_cast<il2cpp_array_size_t>(L_11));
+		V_2 = L_12;
+		Collider2D_t646061738 * L_13 = V_2;
+		FsmBool_t664485696 * L_14 = __this->get_isTrigger_12();
+		NullCheck(L_14);
+		bool L_15 = FsmBool_get_Value_m3738134001(L_14, /*hidden argument*/NULL);
+		NullCheck(L_13);
+		Collider2D_set_isTrigger_m1243156937(L_13, L_15, /*hidden argument*/NULL);
+		int32_t L_16 = V_4;
+		V_4 = ((int32_t)((int32_t)L_16+(int32_t)1));
+	}
+
+IL_0057:
+	{
+		int32_t L_17 = V_4;
+		Collider2DU5BU5D_t3535523695* L_18 = V_3;
+		NullCheck(L_18);
+		if ((((int32_t)L_17) < ((int32_t)(((int32_t)((int32_t)(((Il2CppArray *)L_18)->max_length)))))))
+		{
+			goto IL_003b;
+		}
+	}
+	{
+		goto IL_008d;
+	}
+
+IL_0066:
+	{
+		GameObject_t1756533147 * L_19 = V_0;
+		NullCheck(L_19);
+		Collider2D_t646061738 * L_20 = GameObject_GetComponent_TisCollider2D_t646061738_m102049670(L_19, /*hidden argument*/GameObject_GetComponent_TisCollider2D_t646061738_m102049670_MethodInfo_var);
+		IL2CPP_RUNTIME_CLASS_INIT(Object_t1021602117_il2cpp_TypeInfo_var);
+		bool L_21 = Object_op_Inequality_m2402264703(NULL /*static, unused*/, L_20, (Object_t1021602117 *)NULL, /*hidden argument*/NULL);
+		if (!L_21)
+		{
+			goto IL_008d;
+		}
+	}
+	{
+		GameObject_t1756533147 * L_22 = V_0;
+		NullCheck(L_22);
+		Collider2D_t646061738 * L_23 = GameObject_GetComponent_TisCollider2D_t646061738_m102049670(L_22, /*hidden argument*/GameObject_GetComponent_TisCollider2D_t646061738_m102049670_MethodInfo_var);
+		FsmBool_t664485696 * L_24 = __this->get_isTrigger_12();
+		NullCheck(L_24);
+		bool L_25 = FsmBool_get_Value_m3738134001(L_24, /*hidden argument*/NULL);
+		NullCheck(L_23);
+		Collider2D_set_isTrigger_m1243156937(L_23, L_25, /*hidden argument*/NULL);
+	}
+
+IL_008d:
+	{
+		return;
+	}
+}
+// System.Void HutongGames.PlayMaker.Actions.SetColorRGBA::.ctor()
+extern "C"  void SetColorRGBA__ctor_m2502055023 (SetColorRGBA_t2500887559 * __this, const MethodInfo* method)
+{
+	{
+		FsmStateAction__ctor_m1837021228(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void HutongGames.PlayMaker.Actions.SetColorRGBA::Reset()
+extern "C"  void SetColorRGBA_Reset_m3296107832 (SetColorRGBA_t2500887559 * __this, const MethodInfo* method)
+{
+	{
+		__this->set_colorVariable_11((FsmColor_t118301965 *)NULL);
+		FsmFloat_t937133978 * L_0 = FsmFloat_op_Implicit_m475928236(NULL /*static, unused*/, (0.0f), /*hidden argument*/NULL);
+		__this->set_red_12(L_0);
+		FsmFloat_t937133978 * L_1 = FsmFloat_op_Implicit_m475928236(NULL /*static, unused*/, (0.0f), /*hidden argument*/NULL);
+		__this->set_green_13(L_1);
+		FsmFloat_t937133978 * L_2 = FsmFloat_op_Implicit_m475928236(NULL /*static, unused*/, (0.0f), /*hidden argument*/NULL);
+		__this->set_blue_14(L_2);
+		FsmFloat_t937133978 * L_3 = FsmFloat_op_Implicit_m475928236(NULL /*static, unused*/, (1.0f), /*hidden argument*/NULL);
+		__this->set_alpha_15(L_3);
+		__this->set_everyFrame_16((bool)0);
+		return;
+	}
+}
+// System.Void HutongGames.PlayMaker.Actions.SetColorRGBA::OnEnter()
+extern "C"  void SetColorRGBA_OnEnter_m2051699734 (SetColorRGBA_t2500887559 * __this, const MethodInfo* method)
+{
+	{
+		SetColorRGBA_DoSetColorRGBA_m769674369(__this, /*hidden argument*/NULL);
+		bool L_0 = __this->get_everyFrame_16();
+		if (L_0)
+		{
+			goto IL_0017;
+		}
+	}
+	{
+		FsmStateAction_Finish_m1955744727(__this, /*hidden argument*/NULL);
+	}
+
+IL_0017:
+	{
+		return;
+	}
+}
+// System.Void HutongGames.PlayMaker.Actions.SetColorRGBA::OnUpdate()
+extern "C"  void SetColorRGBA_OnUpdate_m2105480183 (SetColorRGBA_t2500887559 * __this, const MethodInfo* method)
+{
+	{
+		SetColorRGBA_DoSetColorRGBA_m769674369(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void HutongGames.PlayMaker.Actions.SetColorRGBA::DoSetColorRGBA()
+extern "C"  void SetColorRGBA_DoSetColorRGBA_m769674369 (SetColorRGBA_t2500887559 * __this, const MethodInfo* method)
+{
+	Color_t2020392075  V_0;
+	memset(&V_0, 0, sizeof(V_0));
+	{
+		FsmColor_t118301965 * L_0 = __this->get_colorVariable_11();
+		if (L_0)
+		{
+			goto IL_000c;
+		}
+	}
+	{
+		return;
+	}
+
+IL_000c:
+	{
+		FsmColor_t118301965 * L_1 = __this->get_colorVariable_11();
+		NullCheck(L_1);
+		Color_t2020392075  L_2 = FsmColor_get_Value_m687626399(L_1, /*hidden argument*/NULL);
+		V_0 = L_2;
+		FsmFloat_t937133978 * L_3 = __this->get_red_12();
+		NullCheck(L_3);
+		bool L_4 = NamedVariable_get_IsNone_m1506066313(L_3, /*hidden argument*/NULL);
+		if (L_4)
+		{
+			goto IL_003a;
+		}
+	}
+	{
+		FsmFloat_t937133978 * L_5 = __this->get_red_12();
+		NullCheck(L_5);
+		float L_6 = FsmFloat_get_Value_m1818441449(L_5, /*hidden argument*/NULL);
+		(&V_0)->set_r_0(L_6);
+	}
+
+IL_003a:
+	{
+		FsmFloat_t937133978 * L_7 = __this->get_green_13();
+		NullCheck(L_7);
+		bool L_8 = NamedVariable_get_IsNone_m1506066313(L_7, /*hidden argument*/NULL);
+		if (L_8)
+		{
+			goto IL_005c;
+		}
+	}
+	{
+		FsmFloat_t937133978 * L_9 = __this->get_green_13();
+		NullCheck(L_9);
+		float L_10 = FsmFloat_get_Value_m1818441449(L_9, /*hidden argument*/NULL);
+		(&V_0)->set_g_1(L_10);
+	}
+
+IL_005c:
+	{
+		FsmFloat_t937133978 * L_11 = __this->get_blue_14();
+		NullCheck(L_11);
+		bool L_12 = NamedVariable_get_IsNone_m1506066313(L_11, /*hidden argument*/NULL);
+		if (L_12)
+		{
+			goto IL_007e;
+		}
+	}
+	{
+		FsmFloat_t937133978 * L_13 = __this->get_blue_14();
+		NullCheck(L_13);
+		float L_14 = FsmFloat_get_Value_m1818441449(L_13, /*hidden argument*/NULL);
+		(&V_0)->set_b_2(L_14);
+	}
+
+IL_007e:
+	{
+		FsmFloat_t937133978 * L_15 = __this->get_alpha_15();
+		NullCheck(L_15);
+		bool L_16 = NamedVariable_get_IsNone_m1506066313(L_15, /*hidden argument*/NULL);
+		if (L_16)
+		{
+			goto IL_00a0;
+		}
+	}
+	{
+		FsmFloat_t937133978 * L_17 = __this->get_alpha_15();
+		NullCheck(L_17);
+		float L_18 = FsmFloat_get_Value_m1818441449(L_17, /*hidden argument*/NULL);
+		(&V_0)->set_a_3(L_18);
+	}
+
+IL_00a0:
+	{
+		FsmColor_t118301965 * L_19 = __this->get_colorVariable_11();
+		Color_t2020392075  L_20 = V_0;
+		NullCheck(L_19);
+		FsmColor_set_Value_m92994086(L_19, L_20, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void HutongGames.PlayMaker.Actions.SetColorValue::.ctor()
+extern "C"  void SetColorValue__ctor_m926535534 (SetColorValue_t3782904230 * __this, const MethodInfo* method)
+{
+	{
+		FsmStateAction__ctor_m1837021228(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void HutongGames.PlayMaker.Actions.SetColorValue::Reset()
+extern "C"  void SetColorValue_Reset_m1608563811 (SetColorValue_t3782904230 * __this, const MethodInfo* method)
+{
+	{
+		__this->set_colorVariable_11((FsmColor_t118301965 *)NULL);
+		__this->set_color_12((FsmColor_t118301965 *)NULL);
+		__this->set_everyFrame_13((bool)0);
+		return;
+	}
+}
+// System.Void HutongGames.PlayMaker.Actions.SetColorValue::OnEnter()
+extern "C"  void SetColorValue_OnEnter_m1745584547 (SetColorValue_t3782904230 * __this, const MethodInfo* method)
+{
+	{
+		SetColorValue_DoSetColorValue_m695182073(__this, /*hidden argument*/NULL);
+		bool L_0 = __this->get_everyFrame_13();
+		if (L_0)
+		{
+			goto IL_0017;
+		}
+	}
+	{
+		FsmStateAction_Finish_m1955744727(__this, /*hidden argument*/NULL);
+	}
+
+IL_0017:
+	{
+		return;
+	}
+}
+// System.Void HutongGames.PlayMaker.Actions.SetColorValue::OnUpdate()
+extern "C"  void SetColorValue_OnUpdate_m3715363552 (SetColorValue_t3782904230 * __this, const MethodInfo* method)
+{
+	{
+		SetColorValue_DoSetColorValue_m695182073(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void HutongGames.PlayMaker.Actions.SetColorValue::DoSetColorValue()
+extern "C"  void SetColorValue_DoSetColorValue_m695182073 (SetColorValue_t3782904230 * __this, const MethodInfo* method)
+{
+	{
+		FsmColor_t118301965 * L_0 = __this->get_colorVariable_11();
+		if (!L_0)
+		{
+			goto IL_0021;
+		}
+	}
+	{
+		FsmColor_t118301965 * L_1 = __this->get_colorVariable_11();
+		FsmColor_t118301965 * L_2 = __this->get_color_12();
+		NullCheck(L_2);
+		Color_t2020392075  L_3 = FsmColor_get_Value_m687626399(L_2, /*hidden argument*/NULL);
+		NullCheck(L_1);
+		FsmColor_set_Value_m92994086(L_1, L_3, /*hidden argument*/NULL);
+	}
+
+IL_0021:
+	{
+		return;
+	}
+}
+// System.Void HutongGames.PlayMaker.Actions.SetDrag::.ctor()
+extern "C"  void SetDrag__ctor_m1012650124 (SetDrag_t1013364552 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (SetDrag__ctor_m1012650124_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		ComponentAction_1__ctor_m624387542(__this, /*hidden argument*/ComponentAction_1__ctor_m624387542_MethodInfo_var);
+		return;
+	}
+}
+// System.Void HutongGames.PlayMaker.Actions.SetDrag::Reset()
+extern "C"  void SetDrag_Reset_m13185481 (SetDrag_t1013364552 * __this, const MethodInfo* method)
+{
+	{
+		__this->set_gameObject_13((FsmOwnerDefault_t2023674184 *)NULL);
+		FsmFloat_t937133978 * L_0 = FsmFloat_op_Implicit_m475928236(NULL /*static, unused*/, (1.0f), /*hidden argument*/NULL);
+		__this->set_drag_14(L_0);
+		return;
+	}
+}
+// System.Void HutongGames.PlayMaker.Actions.SetDrag::OnEnter()
+extern "C"  void SetDrag_OnEnter_m227680409 (SetDrag_t1013364552 * __this, const MethodInfo* method)
+{
+	{
+		SetDrag_DoSetDrag_m1330522333(__this, /*hidden argument*/NULL);
+		bool L_0 = __this->get_everyFrame_15();
+		if (L_0)
+		{
+			goto IL_0017;
+		}
+	}
+	{
+		FsmStateAction_Finish_m1955744727(__this, /*hidden argument*/NULL);
+	}
+
+IL_0017:
+	{
+		return;
+	}
+}
+// System.Void HutongGames.PlayMaker.Actions.SetDrag::OnUpdate()
+extern "C"  void SetDrag_OnUpdate_m3556185082 (SetDrag_t1013364552 * __this, const MethodInfo* method)
+{
+	{
+		SetDrag_DoSetDrag_m1330522333(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void HutongGames.PlayMaker.Actions.SetDrag::DoSetDrag()
+extern "C"  void SetDrag_DoSetDrag_m1330522333 (SetDrag_t1013364552 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (SetDrag_DoSetDrag_m1330522333_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	GameObject_t1756533147 * V_0 = NULL;
+	{
+		Fsm_t917886356 * L_0 = FsmStateAction_get_Fsm_m4079598046(__this, /*hidden argument*/NULL);
+		FsmOwnerDefault_t2023674184 * L_1 = __this->get_gameObject_13();
+		NullCheck(L_0);
+		GameObject_t1756533147 * L_2 = Fsm_GetOwnerDefaultTarget_m1045900479(L_0, L_1, /*hidden argument*/NULL);
+		V_0 = L_2;
+		GameObject_t1756533147 * L_3 = V_0;
+		bool L_4 = ComponentAction_1_UpdateCache_m135452307(__this, L_3, /*hidden argument*/ComponentAction_1_UpdateCache_m135452307_MethodInfo_var);
+		if (!L_4)
+		{
+			goto IL_0034;
+		}
+	}
+	{
+		Rigidbody_t4233889191 * L_5 = ComponentAction_1_get_rigidbody_m1721699991(__this, /*hidden argument*/ComponentAction_1_get_rigidbody_m1721699991_MethodInfo_var);
+		FsmFloat_t937133978 * L_6 = __this->get_drag_14();
+		NullCheck(L_6);
+		float L_7 = FsmFloat_get_Value_m1818441449(L_6, /*hidden argument*/NULL);
+		NullCheck(L_5);
+		Rigidbody_set_drag_m431766562(L_5, L_7, /*hidden argument*/NULL);
+	}
+
+IL_0034:
+	{
+		return;
+	}
+}
+// System.Void HutongGames.PlayMaker.Actions.SetEnumValue::.ctor()
+extern "C"  void SetEnumValue__ctor_m1566203446 (SetEnumValue_t4139640040 * __this, const MethodInfo* method)
+{
+	{
+		FsmStateAction__ctor_m1837021228(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void HutongGames.PlayMaker.Actions.SetEnumValue::Reset()
+extern "C"  void SetEnumValue_Reset_m496593229 (SetEnumValue_t4139640040 * __this, const MethodInfo* method)
+{
+	{
+		__this->set_enumVariable_11((FsmEnum_t2808516103 *)NULL);
+		__this->set_enumValue_12((FsmEnum_t2808516103 *)NULL);
+		__this->set_everyFrame_13((bool)0);
+		return;
+	}
+}
+// System.Void HutongGames.PlayMaker.Actions.SetEnumValue::OnEnter()
+extern "C"  void SetEnumValue_OnEnter_m1310196917 (SetEnumValue_t4139640040 * __this, const MethodInfo* method)
+{
+	{
+		SetEnumValue_DoSetEnumValue_m4148798529(__this, /*hidden argument*/NULL);
+		bool L_0 = __this->get_everyFrame_13();
+		if (L_0)
+		{
+			goto IL_0017;
+		}
+	}
+	{
+		FsmStateAction_Finish_m1955744727(__this, /*hidden argument*/NULL);
+	}
+
+IL_0017:
+	{
+		return;
+	}
+}
+// System.Void HutongGames.PlayMaker.Actions.SetEnumValue::OnUpdate()
+extern "C"  void SetEnumValue_OnUpdate_m3216768856 (SetEnumValue_t4139640040 * __this, const MethodInfo* method)
+{
+	{
+		SetEnumValue_DoSetEnumValue_m4148798529(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void HutongGames.PlayMaker.Actions.SetEnumValue::DoSetEnumValue()
+extern "C"  void SetEnumValue_DoSetEnumValue_m4148798529 (SetEnumValue_t4139640040 * __this, const MethodInfo* method)
+{
+	{
+		FsmEnum_t2808516103 * L_0 = __this->get_enumVariable_11();
+		FsmEnum_t2808516103 * L_1 = __this->get_enumValue_12();
+		NullCheck(L_1);
+		Enum_t2459695545 * L_2 = FsmEnum_get_Value_m3904328091(L_1, /*hidden argument*/NULL);
+		NullCheck(L_0);
+		FsmEnum_set_Value_m1697063838(L_0, L_2, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void HutongGames.PlayMaker.Actions.SetEventData::.ctor()
+extern "C"  void SetEventData__ctor_m222996312 (SetEventData_t3188337776 * __this, const MethodInfo* method)
+{
+	{
+		FsmStateAction__ctor_m1837021228(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void HutongGames.PlayMaker.Actions.SetEventData::Reset()
+extern "C"  void SetEventData_Reset_m1943603545 (SetEventData_t3188337776 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (SetEventData_Reset_m1943603545_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	FsmGameObject_t3097142863 * V_0 = NULL;
+	FsmInt_t1273009179 * V_1 = NULL;
+	FsmFloat_t937133978 * V_2 = NULL;
+	FsmString_t2414474701 * V_3 = NULL;
+	FsmBool_t664485696 * V_4 = NULL;
+	FsmVector2_t2430450063 * V_5 = NULL;
+	FsmVector3_t3996534004 * V_6 = NULL;
+	FsmRect_t19023354 * V_7 = NULL;
+	FsmQuaternion_t878438756 * V_8 = NULL;
+	FsmColor_t118301965 * V_9 = NULL;
+	FsmMaterial_t1421632035 * V_10 = NULL;
+	FsmTexture_t3372293163 * V_11 = NULL;
+	FsmObject_t2785794313 * V_12 = NULL;
+	{
+		FsmGameObject_t3097142863 * L_0 = (FsmGameObject_t3097142863 *)il2cpp_codegen_object_new(FsmGameObject_t3097142863_il2cpp_TypeInfo_var);
+		FsmGameObject__ctor_m3432344422(L_0, /*hidden argument*/NULL);
+		V_0 = L_0;
+		FsmGameObject_t3097142863 * L_1 = V_0;
+		NullCheck(L_1);
+		NamedVariable_set_UseVariable_m1478981231(L_1, (bool)1, /*hidden argument*/NULL);
+		FsmGameObject_t3097142863 * L_2 = V_0;
+		__this->set_setGameObjectData_11(L_2);
+		FsmInt_t1273009179 * L_3 = (FsmInt_t1273009179 *)il2cpp_codegen_object_new(FsmInt_t1273009179_il2cpp_TypeInfo_var);
+		FsmInt__ctor_m3152485982(L_3, /*hidden argument*/NULL);
+		V_1 = L_3;
+		FsmInt_t1273009179 * L_4 = V_1;
+		NullCheck(L_4);
+		NamedVariable_set_UseVariable_m1478981231(L_4, (bool)1, /*hidden argument*/NULL);
+		FsmInt_t1273009179 * L_5 = V_1;
+		__this->set_setIntData_12(L_5);
+		FsmFloat_t937133978 * L_6 = (FsmFloat_t937133978 *)il2cpp_codegen_object_new(FsmFloat_t937133978_il2cpp_TypeInfo_var);
+		FsmFloat__ctor_m2608255745(L_6, /*hidden argument*/NULL);
+		V_2 = L_6;
+		FsmFloat_t937133978 * L_7 = V_2;
+		NullCheck(L_7);
+		NamedVariable_set_UseVariable_m1478981231(L_7, (bool)1, /*hidden argument*/NULL);
+		FsmFloat_t937133978 * L_8 = V_2;
+		__this->set_setFloatData_13(L_8);
+		FsmString_t2414474701 * L_9 = (FsmString_t2414474701 *)il2cpp_codegen_object_new(FsmString_t2414474701_il2cpp_TypeInfo_var);
+		FsmString__ctor_m1192568582(L_9, /*hidden argument*/NULL);
+		V_3 = L_9;
+		FsmString_t2414474701 * L_10 = V_3;
+		NullCheck(L_10);
+		NamedVariable_set_UseVariable_m1478981231(L_10, (bool)1, /*hidden argument*/NULL);
+		FsmString_t2414474701 * L_11 = V_3;
+		__this->set_setStringData_14(L_11);
+		FsmBool_t664485696 * L_12 = (FsmBool_t664485696 *)il2cpp_codegen_object_new(FsmBool_t664485696_il2cpp_TypeInfo_var);
+		FsmBool__ctor_m1176758167(L_12, /*hidden argument*/NULL);
+		V_4 = L_12;
+		FsmBool_t664485696 * L_13 = V_4;
+		NullCheck(L_13);
+		NamedVariable_set_UseVariable_m1478981231(L_13, (bool)1, /*hidden argument*/NULL);
+		FsmBool_t664485696 * L_14 = V_4;
+		__this->set_setBoolData_15(L_14);
+		FsmVector2_t2430450063 * L_15 = (FsmVector2_t2430450063 *)il2cpp_codegen_object_new(FsmVector2_t2430450063_il2cpp_TypeInfo_var);
+		FsmVector2__ctor_m39699932(L_15, /*hidden argument*/NULL);
+		V_5 = L_15;
+		FsmVector2_t2430450063 * L_16 = V_5;
+		NullCheck(L_16);
+		NamedVariable_set_UseVariable_m1478981231(L_16, (bool)1, /*hidden argument*/NULL);
+		FsmVector2_t2430450063 * L_17 = V_5;
+		__this->set_setVector2Data_16(L_17);
+		FsmVector3_t3996534004 * L_18 = (FsmVector3_t3996534004 *)il2cpp_codegen_object_new(FsmVector3_t3996534004_il2cpp_TypeInfo_var);
+		FsmVector3__ctor_m2525545399(L_18, /*hidden argument*/NULL);
+		V_6 = L_18;
+		FsmVector3_t3996534004 * L_19 = V_6;
+		NullCheck(L_19);
+		NamedVariable_set_UseVariable_m1478981231(L_19, (bool)1, /*hidden argument*/NULL);
+		FsmVector3_t3996534004 * L_20 = V_6;
+		__this->set_setVector3Data_17(L_20);
+		FsmRect_t19023354 * L_21 = (FsmRect_t19023354 *)il2cpp_codegen_object_new(FsmRect_t19023354_il2cpp_TypeInfo_var);
+		FsmRect__ctor_m2863765477(L_21, /*hidden argument*/NULL);
+		V_7 = L_21;
+		FsmRect_t19023354 * L_22 = V_7;
+		NullCheck(L_22);
+		NamedVariable_set_UseVariable_m1478981231(L_22, (bool)1, /*hidden argument*/NULL);
+		FsmRect_t19023354 * L_23 = V_7;
+		__this->set_setRectData_18(L_23);
+		FsmQuaternion_t878438756 * L_24 = (FsmQuaternion_t878438756 *)il2cpp_codegen_object_new(FsmQuaternion_t878438756_il2cpp_TypeInfo_var);
+		FsmQuaternion__ctor_m3078120561(L_24, /*hidden argument*/NULL);
+		V_8 = L_24;
+		FsmQuaternion_t878438756 * L_25 = V_8;
+		NullCheck(L_25);
+		NamedVariable_set_UseVariable_m1478981231(L_25, (bool)1, /*hidden argument*/NULL);
+		FsmQuaternion_t878438756 * L_26 = V_8;
+		__this->set_setQuaternionData_19(L_26);
+		FsmColor_t118301965 * L_27 = (FsmColor_t118301965 *)il2cpp_codegen_object_new(FsmColor_t118301965_il2cpp_TypeInfo_var);
+		FsmColor__ctor_m1940543644(L_27, /*hidden argument*/NULL);
+		V_9 = L_27;
+		FsmColor_t118301965 * L_28 = V_9;
+		NullCheck(L_28);
+		NamedVariable_set_UseVariable_m1478981231(L_28, (bool)1, /*hidden argument*/NULL);
+		FsmColor_t118301965 * L_29 = V_9;
+		__this->set_setColorData_20(L_29);
+		FsmMaterial_t1421632035 * L_30 = (FsmMaterial_t1421632035 *)il2cpp_codegen_object_new(FsmMaterial_t1421632035_il2cpp_TypeInfo_var);
+		FsmMaterial__ctor_m3208408158(L_30, /*hidden argument*/NULL);
+		V_10 = L_30;
+		FsmMaterial_t1421632035 * L_31 = V_10;
+		NullCheck(L_31);
+		NamedVariable_set_UseVariable_m1478981231(L_31, (bool)1, /*hidden argument*/NULL);
+		FsmMaterial_t1421632035 * L_32 = V_10;
+		__this->set_setMaterialData_21(L_32);
+		FsmTexture_t3372293163 * L_33 = (FsmTexture_t3372293163 *)il2cpp_codegen_object_new(FsmTexture_t3372293163_il2cpp_TypeInfo_var);
+		FsmTexture__ctor_m1123765920(L_33, /*hidden argument*/NULL);
+		V_11 = L_33;
+		FsmTexture_t3372293163 * L_34 = V_11;
+		NullCheck(L_34);
+		NamedVariable_set_UseVariable_m1478981231(L_34, (bool)1, /*hidden argument*/NULL);
+		FsmTexture_t3372293163 * L_35 = V_11;
+		__this->set_setTextureData_22(L_35);
+		FsmObject_t2785794313 * L_36 = (FsmObject_t2785794313 *)il2cpp_codegen_object_new(FsmObject_t2785794313_il2cpp_TypeInfo_var);
+		FsmObject__ctor_m2731248784(L_36, /*hidden argument*/NULL);
+		V_12 = L_36;
+		FsmObject_t2785794313 * L_37 = V_12;
+		NullCheck(L_37);
+		NamedVariable_set_UseVariable_m1478981231(L_37, (bool)1, /*hidden argument*/NULL);
+		FsmObject_t2785794313 * L_38 = V_12;
+		__this->set_setObjectData_23(L_38);
+		return;
+	}
+}
+// System.Void HutongGames.PlayMaker.Actions.SetEventData::OnEnter()
+extern "C"  void SetEventData_OnEnter_m3925395097 (SetEventData_t3188337776 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (SetEventData_OnEnter_m3925395097_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(Fsm_t917886356_il2cpp_TypeInfo_var);
+		FsmEventData_t2110469976 * L_0 = ((Fsm_t917886356_StaticFields*)Fsm_t917886356_il2cpp_TypeInfo_var->static_fields)->get_EventData_4();
+		FsmBool_t664485696 * L_1 = __this->get_setBoolData_15();
+		NullCheck(L_1);
+		bool L_2 = FsmBool_get_Value_m3738134001(L_1, /*hidden argument*/NULL);
+		NullCheck(L_0);
+		L_0->set_BoolData_3(L_2);
+		FsmEventData_t2110469976 * L_3 = ((Fsm_t917886356_StaticFields*)Fsm_t917886356_il2cpp_TypeInfo_var->static_fields)->get_EventData_4();
+		FsmInt_t1273009179 * L_4 = __this->get_setIntData_12();
+		NullCheck(L_4);
+		int32_t L_5 = FsmInt_get_Value_m3705703582(L_4, /*hidden argument*/NULL);
+		NullCheck(L_3);
+		L_3->set_IntData_4(L_5);
+		FsmEventData_t2110469976 * L_6 = ((Fsm_t917886356_StaticFields*)Fsm_t917886356_il2cpp_TypeInfo_var->static_fields)->get_EventData_4();
+		FsmFloat_t937133978 * L_7 = __this->get_setFloatData_13();
+		NullCheck(L_7);
+		float L_8 = FsmFloat_get_Value_m1818441449(L_7, /*hidden argument*/NULL);
+		NullCheck(L_6);
+		L_6->set_FloatData_5(L_8);
+		FsmEventData_t2110469976 * L_9 = ((Fsm_t917886356_StaticFields*)Fsm_t917886356_il2cpp_TypeInfo_var->static_fields)->get_EventData_4();
+		FsmVector2_t2430450063 * L_10 = __this->get_setVector2Data_16();
+		NullCheck(L_10);
+		Vector2_t2243707579  L_11 = FsmVector2_get_Value_m2589490767(L_10, /*hidden argument*/NULL);
+		NullCheck(L_9);
+		L_9->set_Vector2Data_6(L_11);
+		FsmEventData_t2110469976 * L_12 = ((Fsm_t917886356_StaticFields*)Fsm_t917886356_il2cpp_TypeInfo_var->static_fields)->get_EventData_4();
+		FsmVector3_t3996534004 * L_13 = __this->get_setVector3Data_17();
+		NullCheck(L_13);
+		Vector3_t2243707580  L_14 = FsmVector3_get_Value_m4242600139(L_13, /*hidden argument*/NULL);
+		NullCheck(L_12);
+		L_12->set_Vector3Data_7(L_14);
+		FsmEventData_t2110469976 * L_15 = ((Fsm_t917886356_StaticFields*)Fsm_t917886356_il2cpp_TypeInfo_var->static_fields)->get_EventData_4();
+		FsmString_t2414474701 * L_16 = __this->get_setStringData_14();
+		NullCheck(L_16);
+		String_t* L_17 = FsmString_get_Value_m3775166715(L_16, /*hidden argument*/NULL);
+		NullCheck(L_15);
+		L_15->set_StringData_8(L_17);
+		FsmEventData_t2110469976 * L_18 = ((Fsm_t917886356_StaticFields*)Fsm_t917886356_il2cpp_TypeInfo_var->static_fields)->get_EventData_4();
+		FsmGameObject_t3097142863 * L_19 = __this->get_setGameObjectData_11();
+		NullCheck(L_19);
+		GameObject_t1756533147 * L_20 = FsmGameObject_get_Value_m15585107(L_19, /*hidden argument*/NULL);
+		NullCheck(L_18);
+		L_18->set_GameObjectData_13(L_20);
+		FsmEventData_t2110469976 * L_21 = ((Fsm_t917886356_StaticFields*)Fsm_t917886356_il2cpp_TypeInfo_var->static_fields)->get_EventData_4();
+		FsmRect_t19023354 * L_22 = __this->get_setRectData_18();
+		NullCheck(L_22);
+		Rect_t3681755626  L_23 = FsmRect_get_Value_m3959922771(L_22, /*hidden argument*/NULL);
+		NullCheck(L_21);
+		L_21->set_RectData_10(L_23);
+		FsmEventData_t2110469976 * L_24 = ((Fsm_t917886356_StaticFields*)Fsm_t917886356_il2cpp_TypeInfo_var->static_fields)->get_EventData_4();
+		FsmQuaternion_t878438756 * L_25 = __this->get_setQuaternionData_19();
+		NullCheck(L_25);
+		Quaternion_t4030073918  L_26 = FsmQuaternion_get_Value_m2629833107(L_25, /*hidden argument*/NULL);
+		NullCheck(L_24);
+		L_24->set_QuaternionData_9(L_26);
+		FsmEventData_t2110469976 * L_27 = ((Fsm_t917886356_StaticFields*)Fsm_t917886356_il2cpp_TypeInfo_var->static_fields)->get_EventData_4();
+		FsmColor_t118301965 * L_28 = __this->get_setColorData_20();
+		NullCheck(L_28);
+		Color_t2020392075  L_29 = FsmColor_get_Value_m687626399(L_28, /*hidden argument*/NULL);
+		NullCheck(L_27);
+		L_27->set_ColorData_11(L_29);
+		FsmEventData_t2110469976 * L_30 = ((Fsm_t917886356_StaticFields*)Fsm_t917886356_il2cpp_TypeInfo_var->static_fields)->get_EventData_4();
+		FsmMaterial_t1421632035 * L_31 = __this->get_setMaterialData_21();
+		NullCheck(L_31);
+		Material_t193706927 * L_32 = FsmMaterial_get_Value_m361239091(L_31, /*hidden argument*/NULL);
+		NullCheck(L_30);
+		L_30->set_MaterialData_14(L_32);
+		FsmEventData_t2110469976 * L_33 = ((Fsm_t917886356_StaticFields*)Fsm_t917886356_il2cpp_TypeInfo_var->static_fields)->get_EventData_4();
+		FsmTexture_t3372293163 * L_34 = __this->get_setTextureData_22();
+		NullCheck(L_34);
+		Texture_t2243626319 * L_35 = FsmTexture_get_Value_m2325441495(L_34, /*hidden argument*/NULL);
+		NullCheck(L_33);
+		L_33->set_TextureData_15(L_35);
+		FsmEventData_t2110469976 * L_36 = ((Fsm_t917886356_StaticFields*)Fsm_t917886356_il2cpp_TypeInfo_var->static_fields)->get_EventData_4();
+		FsmObject_t2785794313 * L_37 = __this->get_setObjectData_23();
+		NullCheck(L_37);
+		Object_t1021602117 * L_38 = FsmObject_get_Value_m1585581971(L_37, /*hidden argument*/NULL);
+		NullCheck(L_36);
+		L_36->set_ObjectData_12(L_38);
+		FsmStateAction_Finish_m1955744727(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void HutongGames.PlayMaker.Actions.SetEventTarget::.ctor()
+extern "C"  void SetEventTarget__ctor_m1648724237 (SetEventTarget_t3604402311 * __this, const MethodInfo* method)
+{
+	{
+		FsmStateAction__ctor_m1837021228(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void HutongGames.PlayMaker.Actions.SetEventTarget::Reset()
+extern "C"  void SetEventTarget_Reset_m2479041388 (SetEventTarget_t3604402311 * __this, const MethodInfo* method)
+{
+	{
+		return;
+	}
+}
+// System.Void HutongGames.PlayMaker.Actions.SetEventTarget::OnEnter()
+extern "C"  void SetEventTarget_OnEnter_m4227069806 (SetEventTarget_t3604402311 * __this, const MethodInfo* method)
+{
+	{
+		Fsm_t917886356 * L_0 = FsmStateAction_get_Fsm_m4079598046(__this, /*hidden argument*/NULL);
+		FsmEventTarget_t172293745 * L_1 = __this->get_eventTarget_11();
+		NullCheck(L_0);
+		Fsm_set_EventTarget_m972259304(L_0, L_1, /*hidden argument*/NULL);
+		FsmStateAction_Finish_m1955744727(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void HutongGames.PlayMaker.Actions.SetFlareStrength::.ctor()
+extern "C"  void SetFlareStrength__ctor_m1790257981 (SetFlareStrength_t1646161835 * __this, const MethodInfo* method)
+{
+	{
+		FsmStateAction__ctor_m1837021228(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void HutongGames.PlayMaker.Actions.SetFlareStrength::Reset()
+extern "C"  void SetFlareStrength_Reset_m1608230324 (SetFlareStrength_t1646161835 * __this, const MethodInfo* method)
+{
+	{
+		FsmFloat_t937133978 * L_0 = FsmFloat_op_Implicit_m475928236(NULL /*static, unused*/, (0.2f), /*hidden argument*/NULL);
+		__this->set_flareStrength_11(L_0);
+		__this->set_everyFrame_12((bool)0);
+		return;
+	}
+}
+// System.Void HutongGames.PlayMaker.Actions.SetFlareStrength::OnEnter()
+extern "C"  void SetFlareStrength_OnEnter_m709822310 (SetFlareStrength_t1646161835 * __this, const MethodInfo* method)
+{
+	{
+		SetFlareStrength_DoSetFlareStrength_m89931073(__this, /*hidden argument*/NULL);
+		bool L_0 = __this->get_everyFrame_12();
+		if (L_0)
+		{
+			goto IL_0017;
+		}
+	}
+	{
+		FsmStateAction_Finish_m1955744727(__this, /*hidden argument*/NULL);
+	}
+
+IL_0017:
+	{
+		return;
+	}
+}
+// System.Void HutongGames.PlayMaker.Actions.SetFlareStrength::OnUpdate()
+extern "C"  void SetFlareStrength_OnUpdate_m1591378545 (SetFlareStrength_t1646161835 * __this, const MethodInfo* method)
+{
+	{
+		SetFlareStrength_DoSetFlareStrength_m89931073(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void HutongGames.PlayMaker.Actions.SetFlareStrength::DoSetFlareStrength()
+extern "C"  void SetFlareStrength_DoSetFlareStrength_m89931073 (SetFlareStrength_t1646161835 * __this, const MethodInfo* method)
+{
+	{
+		FsmFloat_t937133978 * L_0 = __this->get_flareStrength_11();
+		NullCheck(L_0);
+		float L_1 = FsmFloat_get_Value_m1818441449(L_0, /*hidden argument*/NULL);
+		RenderSettings_set_flareStrength_m3519736811(NULL /*static, unused*/, L_1, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void HutongGames.PlayMaker.Actions.SetFloatValue::.ctor()
+extern "C"  void SetFloatValue__ctor_m1894697243 (SetFloatValue_t1765088067 * __this, const MethodInfo* method)
+{
+	{
+		FsmStateAction__ctor_m1837021228(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void HutongGames.PlayMaker.Actions.SetFloatValue::Reset()
+extern "C"  void SetFloatValue_Reset_m2613863224 (SetFloatValue_t1765088067 * __this, const MethodInfo* method)
+{
+	{
+		__this->set_floatVariable_11((FsmFloat_t937133978 *)NULL);
+		__this->set_floatValue_12((FsmFloat_t937133978 *)NULL);
+		__this->set_everyFrame_13((bool)0);
+		return;
+	}
+}
+// System.Void HutongGames.PlayMaker.Actions.SetFloatValue::OnEnter()
+extern "C"  void SetFloatValue_OnEnter_m2613809758 (SetFloatValue_t1765088067 * __this, const MethodInfo* method)
+{
+	{
+		FsmFloat_t937133978 * L_0 = __this->get_floatVariable_11();
+		FsmFloat_t937133978 * L_1 = __this->get_floatValue_12();
+		NullCheck(L_1);
+		float L_2 = FsmFloat_get_Value_m1818441449(L_1, /*hidden argument*/NULL);
+		NullCheck(L_0);
+		FsmFloat_set_Value_m3447553958(L_0, L_2, /*hidden argument*/NULL);
+		bool L_3 = __this->get_everyFrame_13();
+		if (L_3)
+		{
+			goto IL_0027;
+		}
+	}
+	{
+		FsmStateAction_Finish_m1955744727(__this, /*hidden argument*/NULL);
+	}
+
+IL_0027:
+	{
+		return;
+	}
+}
+// System.Void HutongGames.PlayMaker.Actions.SetFloatValue::OnUpdate()
+extern "C"  void SetFloatValue_OnUpdate_m3092239299 (SetFloatValue_t1765088067 * __this, const MethodInfo* method)
+{
+	{
+		FsmFloat_t937133978 * L_0 = __this->get_floatVariable_11();
+		FsmFloat_t937133978 * L_1 = __this->get_floatValue_12();
+		NullCheck(L_1);
+		float L_2 = FsmFloat_get_Value_m1818441449(L_1, /*hidden argument*/NULL);
+		NullCheck(L_0);
+		FsmFloat_set_Value_m3447553958(L_0, L_2, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void HutongGames.PlayMaker.Actions.SetFogColor::.ctor()
+extern "C"  void SetFogColor__ctor_m1872018307 (SetFogColor_t2065187483 * __this, const MethodInfo* method)
+{
+	{
+		FsmStateAction__ctor_m1837021228(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void HutongGames.PlayMaker.Actions.SetFogColor::Reset()
+extern "C"  void SetFogColor_Reset_m2615270992 (SetFogColor_t2065187483 * __this, const MethodInfo* method)
+{
+	{
+		Color_t2020392075  L_0 = Color_get_white_m3987539815(NULL /*static, unused*/, /*hidden argument*/NULL);
+		FsmColor_t118301965 * L_1 = FsmColor_op_Implicit_m1499113597(NULL /*static, unused*/, L_0, /*hidden argument*/NULL);
+		__this->set_fogColor_11(L_1);
+		__this->set_everyFrame_12((bool)0);
+		return;
+	}
+}
+// System.Void HutongGames.PlayMaker.Actions.SetFogColor::OnEnter()
+extern "C"  void SetFogColor_OnEnter_m3189594438 (SetFogColor_t2065187483 * __this, const MethodInfo* method)
+{
+	{
+		SetFogColor_DoSetFogColor_m2686219629(__this, /*hidden argument*/NULL);
+		bool L_0 = __this->get_everyFrame_12();
+		if (L_0)
+		{
+			goto IL_0017;
+		}
+	}
+	{
+		FsmStateAction_Finish_m1955744727(__this, /*hidden argument*/NULL);
+	}
+
+IL_0017:
+	{
+		return;
+	}
+}
+// System.Void HutongGames.PlayMaker.Actions.SetFogColor::OnUpdate()
+extern "C"  void SetFogColor_OnUpdate_m4048437547 (SetFogColor_t2065187483 * __this, const MethodInfo* method)
+{
+	{
+		SetFogColor_DoSetFogColor_m2686219629(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void HutongGames.PlayMaker.Actions.SetFogColor::DoSetFogColor()
+extern "C"  void SetFogColor_DoSetFogColor_m2686219629 (SetFogColor_t2065187483 * __this, const MethodInfo* method)
+{
+	{
+		FsmColor_t118301965 * L_0 = __this->get_fogColor_11();
+		NullCheck(L_0);
+		Color_t2020392075  L_1 = FsmColor_get_Value_m687626399(L_0, /*hidden argument*/NULL);
+		RenderSettings_set_fogColor_m3716873294(NULL /*static, unused*/, L_1, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void HutongGames.PlayMaker.Actions.SetFogDensity::.ctor()
+extern "C"  void SetFogDensity__ctor_m3494912758 (SetFogDensity_t3867228106 * __this, const MethodInfo* method)
+{
+	{
+		FsmStateAction__ctor_m1837021228(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void HutongGames.PlayMaker.Actions.SetFogDensity::Reset()
+extern "C"  void SetFogDensity_Reset_m3349222091 (SetFogDensity_t3867228106 * __this, const MethodInfo* method)
+{
+	{
+		FsmFloat_t937133978 * L_0 = FsmFloat_op_Implicit_m475928236(NULL /*static, unused*/, (0.5f), /*hidden argument*/NULL);
+		__this->set_fogDensity_11(L_0);
+		__this->set_everyFrame_12((bool)0);
+		return;
+	}
+}
+// System.Void HutongGames.PlayMaker.Actions.SetFogDensity::OnEnter()
+extern "C"  void SetFogDensity_OnEnter_m909774171 (SetFogDensity_t3867228106 * __this, const MethodInfo* method)
+{
+	{
+		SetFogDensity_DoSetFogDensity_m1637368249(__this, /*hidden argument*/NULL);
+		bool L_0 = __this->get_everyFrame_12();
+		if (L_0)
+		{
+			goto IL_0017;
+		}
+	}
+	{
+		FsmStateAction_Finish_m1955744727(__this, /*hidden argument*/NULL);
+	}
+
+IL_0017:
+	{
+		return;
+	}
+}
+// System.Void HutongGames.PlayMaker.Actions.SetFogDensity::OnUpdate()
+extern "C"  void SetFogDensity_OnUpdate_m2299801848 (SetFogDensity_t3867228106 * __this, const MethodInfo* method)
+{
+	{
+		SetFogDensity_DoSetFogDensity_m1637368249(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void HutongGames.PlayMaker.Actions.SetFogDensity::DoSetFogDensity()
+extern "C"  void SetFogDensity_DoSetFogDensity_m1637368249 (SetFogDensity_t3867228106 * __this, const MethodInfo* method)
+{
+	{
+		FsmFloat_t937133978 * L_0 = __this->get_fogDensity_11();
+		NullCheck(L_0);
+		float L_1 = FsmFloat_get_Value_m1818441449(L_0, /*hidden argument*/NULL);
+		RenderSettings_set_fogDensity_m2940444706(NULL /*static, unused*/, L_1, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void HutongGames.PlayMaker.Actions.SetFsmArray::.ctor()
+extern "C"  void SetFsmArray__ctor_m472987977 (SetFsmArray_t309067603 * __this, const MethodInfo* method)
+{
+	{
+		BaseFsmVariableAction__ctor_m2274704639(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void HutongGames.PlayMaker.Actions.SetFsmArray::Reset()
+extern "C"  void SetFsmArray_Reset_m2050803916 (SetFsmArray_t309067603 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (SetFsmArray_Reset_m2050803916_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		__this->set_gameObject_16((FsmOwnerDefault_t2023674184 *)NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+		String_t* L_0 = ((String_t_StaticFields*)String_t_il2cpp_TypeInfo_var->static_fields)->get_Empty_2();
+		FsmString_t2414474701 * L_1 = FsmString_op_Implicit_m1196227529(NULL /*static, unused*/, L_0, /*hidden argument*/NULL);
+		__this->set_fsmName_17(L_1);
+		__this->set_variableName_18((FsmString_t2414474701 *)NULL);
+		__this->set_setValue_19((FsmArray_t527459893 *)NULL);
+		__this->set_copyValues_20((bool)1);
+		return;
+	}
+}
+// System.Void HutongGames.PlayMaker.Actions.SetFsmArray::OnEnter()
+extern "C"  void SetFsmArray_OnEnter_m3285255454 (SetFsmArray_t309067603 * __this, const MethodInfo* method)
+{
+	{
+		SetFsmArray_DoSetFsmArrayCopy_m469428794(__this, /*hidden argument*/NULL);
+		FsmStateAction_Finish_m1955744727(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void HutongGames.PlayMaker.Actions.SetFsmArray::DoSetFsmArrayCopy()
+extern "C"  void SetFsmArray_DoSetFsmArrayCopy_m469428794 (SetFsmArray_t309067603 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (SetFsmArray_DoSetFsmArrayCopy_m469428794_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	GameObject_t1756533147 * V_0 = NULL;
+	FsmArray_t527459893 * V_1 = NULL;
+	{
+		Fsm_t917886356 * L_0 = FsmStateAction_get_Fsm_m4079598046(__this, /*hidden argument*/NULL);
+		FsmOwnerDefault_t2023674184 * L_1 = __this->get_gameObject_16();
+		NullCheck(L_0);
+		GameObject_t1756533147 * L_2 = Fsm_GetOwnerDefaultTarget_m1045900479(L_0, L_1, /*hidden argument*/NULL);
+		V_0 = L_2;
+		GameObject_t1756533147 * L_3 = V_0;
+		FsmString_t2414474701 * L_4 = __this->get_fsmName_17();
+		NullCheck(L_4);
+		String_t* L_5 = FsmString_get_Value_m3775166715(L_4, /*hidden argument*/NULL);
+		bool L_6 = BaseFsmVariableAction_UpdateCache_m3608133638(__this, L_3, L_5, /*hidden argument*/NULL);
+		if (L_6)
+		{
+			goto IL_002a;
+		}
+	}
+	{
+		return;
+	}
+
+IL_002a:
+	{
+		PlayMakerFSM_t437737208 * L_7 = ((BaseFsmVariableAction_t1849884759 *)__this)->get_fsm_15();
+		NullCheck(L_7);
+		FsmVariables_t630687169 * L_8 = PlayMakerFSM_get_FsmVariables_m2623807583(L_7, /*hidden argument*/NULL);
+		FsmString_t2414474701 * L_9 = __this->get_variableName_18();
+		NullCheck(L_9);
+		String_t* L_10 = FsmString_get_Value_m3775166715(L_9, /*hidden argument*/NULL);
+		NullCheck(L_8);
+		FsmArray_t527459893 * L_11 = FsmVariables_GetFsmArray_m4229145173(L_8, L_10, /*hidden argument*/NULL);
+		V_1 = L_11;
+		FsmArray_t527459893 * L_12 = V_1;
+		if (!L_12)
+		{
+			goto IL_00f5;
+		}
+	}
+	{
+		FsmArray_t527459893 * L_13 = V_1;
+		NullCheck(L_13);
+		int32_t L_14 = FsmArray_get_ElementType_m2542029030(L_13, /*hidden argument*/NULL);
+		FsmArray_t527459893 * L_15 = __this->get_setValue_19();
+		NullCheck(L_15);
+		int32_t L_16 = FsmArray_get_ElementType_m2542029030(L_15, /*hidden argument*/NULL);
+		if ((((int32_t)L_14) == ((int32_t)L_16)))
+		{
+			goto IL_00ad;
+		}
+	}
+	{
+		ObjectU5BU5D_t3614634134* L_17 = ((ObjectU5BU5D_t3614634134*)SZArrayNew(ObjectU5BU5D_t3614634134_il2cpp_TypeInfo_var, (uint32_t)5));
+		NullCheck(L_17);
+		ArrayElementTypeCheck (L_17, _stringLiteral597527219);
+		(L_17)->SetAt(static_cast<il2cpp_array_size_t>(0), (Il2CppObject *)_stringLiteral597527219);
+		ObjectU5BU5D_t3614634134* L_18 = L_17;
+		FsmArray_t527459893 * L_19 = V_1;
+		NullCheck(L_19);
+		int32_t L_20 = FsmArray_get_ElementType_m2542029030(L_19, /*hidden argument*/NULL);
+		int32_t L_21 = L_20;
+		Il2CppObject * L_22 = Box(VariableType_t930978778_il2cpp_TypeInfo_var, &L_21);
+		NullCheck(L_18);
+		ArrayElementTypeCheck (L_18, L_22);
+		(L_18)->SetAt(static_cast<il2cpp_array_size_t>(1), (Il2CppObject *)L_22);
+		ObjectU5BU5D_t3614634134* L_23 = L_18;
+		NullCheck(L_23);
+		ArrayElementTypeCheck (L_23, _stringLiteral3135188505);
+		(L_23)->SetAt(static_cast<il2cpp_array_size_t>(2), (Il2CppObject *)_stringLiteral3135188505);
+		ObjectU5BU5D_t3614634134* L_24 = L_23;
+		FsmArray_t527459893 * L_25 = __this->get_setValue_19();
+		NullCheck(L_25);
+		int32_t L_26 = FsmArray_get_ElementType_m2542029030(L_25, /*hidden argument*/NULL);
+		int32_t L_27 = L_26;
+		Il2CppObject * L_28 = Box(VariableType_t930978778_il2cpp_TypeInfo_var, &L_27);
+		NullCheck(L_24);
+		ArrayElementTypeCheck (L_24, L_28);
+		(L_24)->SetAt(static_cast<il2cpp_array_size_t>(3), (Il2CppObject *)L_28);
+		ObjectU5BU5D_t3614634134* L_29 = L_24;
+		NullCheck(L_29);
+		ArrayElementTypeCheck (L_29, _stringLiteral372029332);
+		(L_29)->SetAt(static_cast<il2cpp_array_size_t>(4), (Il2CppObject *)_stringLiteral372029332);
+		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+		String_t* L_30 = String_Concat_m3881798623(NULL /*static, unused*/, L_29, /*hidden argument*/NULL);
+		FsmStateAction_LogError_m3656178960(__this, L_30, /*hidden argument*/NULL);
+		return;
+	}
+
+IL_00ad:
+	{
+		FsmArray_t527459893 * L_31 = V_1;
+		NullCheck(L_31);
+		FsmArray_Resize_m247957487(L_31, 0, /*hidden argument*/NULL);
+		bool L_32 = __this->get_copyValues_20();
+		if (!L_32)
+		{
+			goto IL_00df;
+		}
+	}
+	{
+		FsmArray_t527459893 * L_33 = V_1;
+		FsmArray_t527459893 * L_34 = __this->get_setValue_19();
+		NullCheck(L_34);
+		ObjectU5BU5D_t3614634134* L_35 = FsmArray_get_Values_m592566460(L_34, /*hidden argument*/NULL);
+		NullCheck((Il2CppArray *)(Il2CppArray *)L_35);
+		Il2CppObject * L_36 = Array_Clone_m768574314((Il2CppArray *)(Il2CppArray *)L_35, /*hidden argument*/NULL);
+		NullCheck(L_33);
+		FsmArray_set_Values_m2545008121(L_33, ((ObjectU5BU5D_t3614634134*)IsInst(L_36, ObjectU5BU5D_t3614634134_il2cpp_TypeInfo_var)), /*hidden argument*/NULL);
+		goto IL_00f0;
+	}
+
+IL_00df:
+	{
+		FsmArray_t527459893 * L_37 = V_1;
+		FsmArray_t527459893 * L_38 = __this->get_setValue_19();
+		NullCheck(L_38);
+		ObjectU5BU5D_t3614634134* L_39 = FsmArray_get_Values_m592566460(L_38, /*hidden argument*/NULL);
+		NullCheck(L_37);
+		FsmArray_set_Values_m2545008121(L_37, L_39, /*hidden argument*/NULL);
+	}
+
+IL_00f0:
+	{
+		goto IL_0106;
+	}
+
+IL_00f5:
+	{
+		FsmString_t2414474701 * L_40 = __this->get_variableName_18();
+		NullCheck(L_40);
+		String_t* L_41 = FsmString_get_Value_m3775166715(L_40, /*hidden argument*/NULL);
+		BaseFsmVariableAction_DoVariableNotFound_m1061033127(__this, L_41, /*hidden argument*/NULL);
+	}
+
+IL_0106:
+	{
+		return;
+	}
+}
+// System.Void HutongGames.PlayMaker.Actions.SetFsmArrayItem::.ctor()
+extern "C"  void SetFsmArrayItem__ctor_m418602646 (SetFsmArrayItem_t1117188136 * __this, const MethodInfo* method)
+{
+	{
+		BaseFsmVariableIndexAction__ctor_m305525353(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void HutongGames.PlayMaker.Actions.SetFsmArrayItem::Reset()
+extern "C"  void SetFsmArrayItem_Reset_m314938337 (SetFsmArrayItem_t1117188136 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (SetFsmArrayItem_Reset_m314938337_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		__this->set_gameObject_17((FsmOwnerDefault_t2023674184 *)NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+		String_t* L_0 = ((String_t_StaticFields*)String_t_il2cpp_TypeInfo_var->static_fields)->get_Empty_2();
+		FsmString_t2414474701 * L_1 = FsmString_op_Implicit_m1196227529(NULL /*static, unused*/, L_0, /*hidden argument*/NULL);
+		__this->set_fsmName_18(L_1);
+		__this->set_value_21((FsmVar_t2872592513 *)NULL);
+		return;
+	}
+}
+// System.Void HutongGames.PlayMaker.Actions.SetFsmArrayItem::OnEnter()
+extern "C"  void SetFsmArrayItem_OnEnter_m1426587745 (SetFsmArrayItem_t1117188136 * __this, const MethodInfo* method)
+{
+	{
+		SetFsmArrayItem_DoSetFsmArray_m3822892670(__this, /*hidden argument*/NULL);
+		bool L_0 = __this->get_everyFrame_22();
+		if (L_0)
+		{
+			goto IL_0017;
+		}
+	}
+	{
+		FsmStateAction_Finish_m1955744727(__this, /*hidden argument*/NULL);
+	}
+
+IL_0017:
+	{
+		return;
+	}
+}
+// System.Void HutongGames.PlayMaker.Actions.SetFsmArrayItem::DoSetFsmArray()
+extern "C"  void SetFsmArrayItem_DoSetFsmArray_m3822892670 (SetFsmArrayItem_t1117188136 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (SetFsmArrayItem_DoSetFsmArray_m3822892670_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	GameObject_t1756533147 * V_0 = NULL;
+	FsmArray_t527459893 * V_1 = NULL;
+	{
+		Fsm_t917886356 * L_0 = FsmStateAction_get_Fsm_m4079598046(__this, /*hidden argument*/NULL);
+		FsmOwnerDefault_t2023674184 * L_1 = __this->get_gameObject_17();
+		NullCheck(L_0);
+		GameObject_t1756533147 * L_2 = Fsm_GetOwnerDefaultTarget_m1045900479(L_0, L_1, /*hidden argument*/NULL);
+		V_0 = L_2;
+		GameObject_t1756533147 * L_3 = V_0;
+		FsmString_t2414474701 * L_4 = __this->get_fsmName_18();
+		NullCheck(L_4);
+		String_t* L_5 = FsmString_get_Value_m3775166715(L_4, /*hidden argument*/NULL);
+		bool L_6 = BaseFsmVariableIndexAction_UpdateCache_m3540055838(__this, L_3, L_5, /*hidden argument*/NULL);
+		if (L_6)
+		{
+			goto IL_002a;
+		}
+	}
+	{
+		return;
+	}
+
+IL_002a:
+	{
+		PlayMakerFSM_t437737208 * L_7 = ((BaseFsmVariableIndexAction_t3235583395 *)__this)->get_fsm_16();
+		NullCheck(L_7);
+		FsmVariables_t630687169 * L_8 = PlayMakerFSM_get_FsmVariables_m2623807583(L_7, /*hidden argument*/NULL);
+		FsmString_t2414474701 * L_9 = __this->get_variableName_19();
+		NullCheck(L_9);
+		String_t* L_10 = FsmString_get_Value_m3775166715(L_9, /*hidden argument*/NULL);
+		NullCheck(L_8);
+		FsmArray_t527459893 * L_11 = FsmVariables_GetFsmArray_m4229145173(L_8, L_10, /*hidden argument*/NULL);
+		V_1 = L_11;
+		FsmArray_t527459893 * L_12 = V_1;
+		if (!L_12)
+		{
+			goto IL_00f2;
+		}
+	}
+	{
+		FsmInt_t1273009179 * L_13 = __this->get_index_20();
+		NullCheck(L_13);
+		int32_t L_14 = FsmInt_get_Value_m3705703582(L_13, /*hidden argument*/NULL);
+		if ((((int32_t)L_14) < ((int32_t)0)))
+		{
+			goto IL_0073;
+		}
+	}
+	{
+		FsmInt_t1273009179 * L_15 = __this->get_index_20();
+		NullCheck(L_15);
+		int32_t L_16 = FsmInt_get_Value_m3705703582(L_15, /*hidden argument*/NULL);
+		FsmArray_t527459893 * L_17 = V_1;
+		NullCheck(L_17);
+		int32_t L_18 = FsmArray_get_Length_m1940022255(L_17, /*hidden argument*/NULL);
+		if ((((int32_t)L_16) < ((int32_t)L_18)))
+		{
+			goto IL_008b;
+		}
+	}
+
+IL_0073:
+	{
+		Fsm_t917886356 * L_19 = FsmStateAction_get_Fsm_m4079598046(__this, /*hidden argument*/NULL);
+		FsmEvent_t1258573736 * L_20 = ((BaseFsmVariableIndexAction_t3235583395 *)__this)->get_indexOutOfRange_11();
+		NullCheck(L_19);
+		Fsm_Event_m4079224475(L_19, L_20, /*hidden argument*/NULL);
+		FsmStateAction_Finish_m1955744727(__this, /*hidden argument*/NULL);
+		return;
+	}
+
+IL_008b:
+	{
+		FsmArray_t527459893 * L_21 = V_1;
+		NullCheck(L_21);
+		int32_t L_22 = FsmArray_get_ElementType_m2542029030(L_21, /*hidden argument*/NULL);
+		FsmVar_t2872592513 * L_23 = __this->get_value_21();
+		NullCheck(L_23);
+		NamedVariable_t3026441313 * L_24 = FsmVar_get_NamedVar_m4159647311(L_23, /*hidden argument*/NULL);
+		NullCheck(L_24);
+		int32_t L_25 = VirtFuncInvoker0< int32_t >::Invoke(22 /* HutongGames.PlayMaker.VariableType HutongGames.PlayMaker.NamedVariable::get_VariableType() */, L_24);
+		if ((!(((uint32_t)L_22) == ((uint32_t)L_25))))
+		{
+			goto IL_00d2;
+		}
+	}
+	{
+		FsmVar_t2872592513 * L_26 = __this->get_value_21();
+		NullCheck(L_26);
+		FsmVar_UpdateValue_m4265045260(L_26, /*hidden argument*/NULL);
+		FsmArray_t527459893 * L_27 = V_1;
+		FsmInt_t1273009179 * L_28 = __this->get_index_20();
+		NullCheck(L_28);
+		int32_t L_29 = FsmInt_get_Value_m3705703582(L_28, /*hidden argument*/NULL);
+		FsmVar_t2872592513 * L_30 = __this->get_value_21();
+		NullCheck(L_30);
+		Il2CppObject * L_31 = FsmVar_GetValue_m2514959358(L_30, /*hidden argument*/NULL);
+		NullCheck(L_27);
+		FsmArray_Set_m324686745(L_27, L_29, L_31, /*hidden argument*/NULL);
+		goto IL_00ed;
+	}
+
+IL_00d2:
+	{
+		FsmString_t2414474701 * L_32 = __this->get_variableName_19();
+		NullCheck(L_32);
+		String_t* L_33 = FsmString_get_Value_m3775166715(L_32, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+		String_t* L_34 = String_Concat_m2596409543(NULL /*static, unused*/, _stringLiteral816937841, L_33, /*hidden argument*/NULL);
+		FsmStateAction_LogWarning_m1851739038(__this, L_34, /*hidden argument*/NULL);
+	}
+
+IL_00ed:
+	{
+		goto IL_0103;
+	}
+
+IL_00f2:
+	{
+		FsmString_t2414474701 * L_35 = __this->get_variableName_19();
+		NullCheck(L_35);
+		String_t* L_36 = FsmString_get_Value_m3775166715(L_35, /*hidden argument*/NULL);
+		BaseFsmVariableIndexAction_DoVariableNotFound_m1393183601(__this, L_36, /*hidden argument*/NULL);
+	}
+
+IL_0103:
+	{
+		return;
+	}
+}
+// System.Void HutongGames.PlayMaker.Actions.SetFsmArrayItem::OnUpdate()
+extern "C"  void SetFsmArrayItem_OnUpdate_m3094329136 (SetFsmArrayItem_t1117188136 * __this, const MethodInfo* method)
+{
+	{
+		SetFsmArrayItem_DoSetFsmArray_m3822892670(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void HutongGames.PlayMaker.Actions.SetFsmBool::.ctor()
+extern "C"  void SetFsmBool__ctor_m3275610526 (SetFsmBool_t2886585218 * __this, const MethodInfo* method)
+{
+	{
+		FsmStateAction__ctor_m1837021228(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void HutongGames.PlayMaker.Actions.SetFsmBool::Reset()
+extern "C"  void SetFsmBool_Reset_m2445796591 (SetFsmBool_t2886585218 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (SetFsmBool_Reset_m2445796591_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		__this->set_gameObject_11((FsmOwnerDefault_t2023674184 *)NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+		String_t* L_0 = ((String_t_StaticFields*)String_t_il2cpp_TypeInfo_var->static_fields)->get_Empty_2();
+		FsmString_t2414474701 * L_1 = FsmString_op_Implicit_m1196227529(NULL /*static, unused*/, L_0, /*hidden argument*/NULL);
+		__this->set_fsmName_12(L_1);
+		__this->set_setValue_14((FsmBool_t664485696 *)NULL);
+		return;
+	}
+}
+// System.Void HutongGames.PlayMaker.Actions.SetFsmBool::OnEnter()
+extern "C"  void SetFsmBool_OnEnter_m1508699751 (SetFsmBool_t2886585218 * __this, const MethodInfo* method)
+{
+	{
+		SetFsmBool_DoSetFsmBool_m3739246433(__this, /*hidden argument*/NULL);
+		bool L_0 = __this->get_everyFrame_15();
+		if (L_0)
+		{
+			goto IL_0017;
+		}
+	}
+	{
+		FsmStateAction_Finish_m1955744727(__this, /*hidden argument*/NULL);
+	}
+
+IL_0017:
+	{
+		return;
+	}
+}
+// System.Void HutongGames.PlayMaker.Actions.SetFsmBool::DoSetFsmBool()
+extern "C"  void SetFsmBool_DoSetFsmBool_m3739246433 (SetFsmBool_t2886585218 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (SetFsmBool_DoSetFsmBool_m3739246433_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	GameObject_t1756533147 * V_0 = NULL;
+	FsmBool_t664485696 * V_1 = NULL;
+	{
+		FsmBool_t664485696 * L_0 = __this->get_setValue_14();
+		if (L_0)
+		{
+			goto IL_000c;
+		}
+	}
+	{
+		return;
+	}
+
+IL_000c:
+	{
+		Fsm_t917886356 * L_1 = FsmStateAction_get_Fsm_m4079598046(__this, /*hidden argument*/NULL);
+		FsmOwnerDefault_t2023674184 * L_2 = __this->get_gameObject_11();
+		NullCheck(L_1);
+		GameObject_t1756533147 * L_3 = Fsm_GetOwnerDefaultTarget_m1045900479(L_1, L_2, /*hidden argument*/NULL);
+		V_0 = L_3;
+		GameObject_t1756533147 * L_4 = V_0;
+		IL2CPP_RUNTIME_CLASS_INIT(Object_t1021602117_il2cpp_TypeInfo_var);
+		bool L_5 = Object_op_Equality_m3764089466(NULL /*static, unused*/, L_4, (Object_t1021602117 *)NULL, /*hidden argument*/NULL);
+		if (!L_5)
+		{
+			goto IL_002b;
+		}
+	}
+	{
+		return;
+	}
+
+IL_002b:
+	{
+		GameObject_t1756533147 * L_6 = V_0;
+		GameObject_t1756533147 * L_7 = __this->get_goLastFrame_16();
+		IL2CPP_RUNTIME_CLASS_INIT(Object_t1021602117_il2cpp_TypeInfo_var);
+		bool L_8 = Object_op_Inequality_m2402264703(NULL /*static, unused*/, L_6, L_7, /*hidden argument*/NULL);
+		if (L_8)
+		{
+			goto IL_0057;
+		}
+	}
+	{
+		FsmString_t2414474701 * L_9 = __this->get_fsmName_12();
+		NullCheck(L_9);
+		String_t* L_10 = FsmString_get_Value_m3775166715(L_9, /*hidden argument*/NULL);
+		String_t* L_11 = __this->get_fsmNameLastFrame_17();
+		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+		bool L_12 = String_op_Inequality_m304203149(NULL /*static, unused*/, L_10, L_11, /*hidden argument*/NULL);
+		if (!L_12)
+		{
+			goto IL_0086;
+		}
+	}
+
+IL_0057:
+	{
+		GameObject_t1756533147 * L_13 = V_0;
+		__this->set_goLastFrame_16(L_13);
+		FsmString_t2414474701 * L_14 = __this->get_fsmName_12();
+		NullCheck(L_14);
+		String_t* L_15 = FsmString_get_Value_m3775166715(L_14, /*hidden argument*/NULL);
+		__this->set_fsmNameLastFrame_17(L_15);
+		GameObject_t1756533147 * L_16 = V_0;
+		FsmString_t2414474701 * L_17 = __this->get_fsmName_12();
+		NullCheck(L_17);
+		String_t* L_18 = FsmString_get_Value_m3775166715(L_17, /*hidden argument*/NULL);
+		PlayMakerFSM_t437737208 * L_19 = ActionHelpers_GetGameObjectFsm_m2570111466(NULL /*static, unused*/, L_16, L_18, /*hidden argument*/NULL);
+		__this->set_fsm_18(L_19);
+	}
+
+IL_0086:
+	{
+		PlayMakerFSM_t437737208 * L_20 = __this->get_fsm_18();
+		IL2CPP_RUNTIME_CLASS_INIT(Object_t1021602117_il2cpp_TypeInfo_var);
+		bool L_21 = Object_op_Equality_m3764089466(NULL /*static, unused*/, L_20, (Object_t1021602117 *)NULL, /*hidden argument*/NULL);
+		if (!L_21)
+		{
+			goto IL_00b3;
+		}
+	}
+	{
+		FsmString_t2414474701 * L_22 = __this->get_fsmName_12();
+		NullCheck(L_22);
+		String_t* L_23 = FsmString_get_Value_m3775166715(L_22, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+		String_t* L_24 = String_Concat_m2596409543(NULL /*static, unused*/, _stringLiteral89614007, L_23, /*hidden argument*/NULL);
+		FsmStateAction_LogWarning_m1851739038(__this, L_24, /*hidden argument*/NULL);
+		return;
+	}
+
+IL_00b3:
+	{
+		PlayMakerFSM_t437737208 * L_25 = __this->get_fsm_18();
+		NullCheck(L_25);
+		FsmVariables_t630687169 * L_26 = PlayMakerFSM_get_FsmVariables_m2623807583(L_25, /*hidden argument*/NULL);
+		FsmString_t2414474701 * L_27 = __this->get_variableName_13();
+		NullCheck(L_27);
+		String_t* L_28 = FsmString_get_Value_m3775166715(L_27, /*hidden argument*/NULL);
+		NullCheck(L_26);
+		FsmBool_t664485696 * L_29 = FsmVariables_FindFsmBool_m2600024012(L_26, L_28, /*hidden argument*/NULL);
+		V_1 = L_29;
+		FsmBool_t664485696 * L_30 = V_1;
+		if (!L_30)
+		{
+			goto IL_00eb;
+		}
+	}
+	{
+		FsmBool_t664485696 * L_31 = V_1;
+		FsmBool_t664485696 * L_32 = __this->get_setValue_14();
+		NullCheck(L_32);
+		bool L_33 = FsmBool_get_Value_m3738134001(L_32, /*hidden argument*/NULL);
+		NullCheck(L_31);
+		FsmBool_set_Value_m2522230142(L_31, L_33, /*hidden argument*/NULL);
+		goto IL_0106;
+	}
+
+IL_00eb:
+	{
+		FsmString_t2414474701 * L_34 = __this->get_variableName_13();
+		NullCheck(L_34);
+		String_t* L_35 = FsmString_get_Value_m3775166715(L_34, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+		String_t* L_36 = String_Concat_m2596409543(NULL /*static, unused*/, _stringLiteral4100572733, L_35, /*hidden argument*/NULL);
+		FsmStateAction_LogWarning_m1851739038(__this, L_36, /*hidden argument*/NULL);
+	}
+
+IL_0106:
+	{
+		return;
+	}
+}
+// System.Void HutongGames.PlayMaker.Actions.SetFsmBool::OnUpdate()
+extern "C"  void SetFsmBool_OnUpdate_m189668672 (SetFsmBool_t2886585218 * __this, const MethodInfo* method)
+{
+	{
+		SetFsmBool_DoSetFsmBool_m3739246433(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void HutongGames.PlayMaker.Actions.SetFsmColor::.ctor()
+extern "C"  void SetFsmColor__ctor_m3456286517 (SetFsmColor_t759142125 * __this, const MethodInfo* method)
+{
+	{
+		FsmStateAction__ctor_m1837021228(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void HutongGames.PlayMaker.Actions.SetFsmColor::Reset()
+extern "C"  void SetFsmColor_Reset_m3286521322 (SetFsmColor_t759142125 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (SetFsmColor_Reset_m3286521322_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		__this->set_gameObject_11((FsmOwnerDefault_t2023674184 *)NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+		String_t* L_0 = ((String_t_StaticFields*)String_t_il2cpp_TypeInfo_var->static_fields)->get_Empty_2();
+		FsmString_t2414474701 * L_1 = FsmString_op_Implicit_m1196227529(NULL /*static, unused*/, L_0, /*hidden argument*/NULL);
+		__this->set_fsmName_12(L_1);
+		__this->set_setValue_14((FsmColor_t118301965 *)NULL);
+		return;
+	}
+}
+// System.Void HutongGames.PlayMaker.Actions.SetFsmColor::OnEnter()
+extern "C"  void SetFsmColor_OnEnter_m2607201608 (SetFsmColor_t759142125 * __this, const MethodInfo* method)
+{
+	{
+		SetFsmColor_DoSetFsmColor_m3716858801(__this, /*hidden argument*/NULL);
+		bool L_0 = __this->get_everyFrame_15();
+		if (L_0)
+		{
+			goto IL_0017;
+		}
+	}
+	{
+		FsmStateAction_Finish_m1955744727(__this, /*hidden argument*/NULL);
+	}
+
+IL_0017:
+	{
+		return;
+	}
+}
+// System.Void HutongGames.PlayMaker.Actions.SetFsmColor::DoSetFsmColor()
+extern "C"  void SetFsmColor_DoSetFsmColor_m3716858801 (SetFsmColor_t759142125 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (SetFsmColor_DoSetFsmColor_m3716858801_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	GameObject_t1756533147 * V_0 = NULL;
+	FsmColor_t118301965 * V_1 = NULL;
+	{
+		FsmColor_t118301965 * L_0 = __this->get_setValue_14();
+		if (L_0)
+		{
+			goto IL_000c;
+		}
+	}
+	{
+		return;
+	}
+
+IL_000c:
+	{
+		Fsm_t917886356 * L_1 = FsmStateAction_get_Fsm_m4079598046(__this, /*hidden argument*/NULL);
+		FsmOwnerDefault_t2023674184 * L_2 = __this->get_gameObject_11();
+		NullCheck(L_1);
+		GameObject_t1756533147 * L_3 = Fsm_GetOwnerDefaultTarget_m1045900479(L_1, L_2, /*hidden argument*/NULL);
+		V_0 = L_3;
+		GameObject_t1756533147 * L_4 = V_0;
+		IL2CPP_RUNTIME_CLASS_INIT(Object_t1021602117_il2cpp_TypeInfo_var);
+		bool L_5 = Object_op_Equality_m3764089466(NULL /*static, unused*/, L_4, (Object_t1021602117 *)NULL, /*hidden argument*/NULL);
+		if (!L_5)
+		{
+			goto IL_002b;
+		}
+	}
+	{
+		return;
+	}
+
+IL_002b:
+	{
+		GameObject_t1756533147 * L_6 = V_0;
+		GameObject_t1756533147 * L_7 = __this->get_goLastFrame_16();
+		IL2CPP_RUNTIME_CLASS_INIT(Object_t1021602117_il2cpp_TypeInfo_var);
+		bool L_8 = Object_op_Inequality_m2402264703(NULL /*static, unused*/, L_6, L_7, /*hidden argument*/NULL);
+		if (L_8)
+		{
+			goto IL_0057;
+		}
+	}
+	{
+		FsmString_t2414474701 * L_9 = __this->get_fsmName_12();
+		NullCheck(L_9);
+		String_t* L_10 = FsmString_get_Value_m3775166715(L_9, /*hidden argument*/NULL);
+		String_t* L_11 = __this->get_fsmNameLastFrame_17();
+		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+		bool L_12 = String_op_Inequality_m304203149(NULL /*static, unused*/, L_10, L_11, /*hidden argument*/NULL);
+		if (!L_12)
+		{
+			goto IL_0086;
+		}
+	}
+
+IL_0057:
+	{
+		GameObject_t1756533147 * L_13 = V_0;
+		__this->set_goLastFrame_16(L_13);
+		FsmString_t2414474701 * L_14 = __this->get_fsmName_12();
+		NullCheck(L_14);
+		String_t* L_15 = FsmString_get_Value_m3775166715(L_14, /*hidden argument*/NULL);
+		__this->set_fsmNameLastFrame_17(L_15);
+		GameObject_t1756533147 * L_16 = V_0;
+		FsmString_t2414474701 * L_17 = __this->get_fsmName_12();
+		NullCheck(L_17);
+		String_t* L_18 = FsmString_get_Value_m3775166715(L_17, /*hidden argument*/NULL);
+		PlayMakerFSM_t437737208 * L_19 = ActionHelpers_GetGameObjectFsm_m2570111466(NULL /*static, unused*/, L_16, L_18, /*hidden argument*/NULL);
+		__this->set_fsm_18(L_19);
+	}
+
+IL_0086:
+	{
+		PlayMakerFSM_t437737208 * L_20 = __this->get_fsm_18();
+		IL2CPP_RUNTIME_CLASS_INIT(Object_t1021602117_il2cpp_TypeInfo_var);
+		bool L_21 = Object_op_Equality_m3764089466(NULL /*static, unused*/, L_20, (Object_t1021602117 *)NULL, /*hidden argument*/NULL);
+		if (!L_21)
+		{
+			goto IL_00b3;
+		}
+	}
+	{
+		FsmString_t2414474701 * L_22 = __this->get_fsmName_12();
+		NullCheck(L_22);
+		String_t* L_23 = FsmString_get_Value_m3775166715(L_22, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+		String_t* L_24 = String_Concat_m2596409543(NULL /*static, unused*/, _stringLiteral89614007, L_23, /*hidden argument*/NULL);
+		FsmStateAction_LogWarning_m1851739038(__this, L_24, /*hidden argument*/NULL);
+		return;
+	}
+
+IL_00b3:
+	{
+		PlayMakerFSM_t437737208 * L_25 = __this->get_fsm_18();
+		NullCheck(L_25);
+		FsmVariables_t630687169 * L_26 = PlayMakerFSM_get_FsmVariables_m2623807583(L_25, /*hidden argument*/NULL);
+		FsmString_t2414474701 * L_27 = __this->get_variableName_13();
+		NullCheck(L_27);
+		String_t* L_28 = FsmString_get_Value_m3775166715(L_27, /*hidden argument*/NULL);
+		NullCheck(L_26);
+		FsmColor_t118301965 * L_29 = FsmVariables_GetFsmColor_m198518549(L_26, L_28, /*hidden argument*/NULL);
+		V_1 = L_29;
+		FsmColor_t118301965 * L_30 = V_1;
+		if (!L_30)
+		{
+			goto IL_00eb;
+		}
+	}
+	{
+		FsmColor_t118301965 * L_31 = V_1;
+		FsmColor_t118301965 * L_32 = __this->get_setValue_14();
+		NullCheck(L_32);
+		Color_t2020392075  L_33 = FsmColor_get_Value_m687626399(L_32, /*hidden argument*/NULL);
+		NullCheck(L_31);
+		FsmColor_set_Value_m92994086(L_31, L_33, /*hidden argument*/NULL);
+		goto IL_0106;
+	}
+
+IL_00eb:
+	{
+		FsmString_t2414474701 * L_34 = __this->get_variableName_13();
+		NullCheck(L_34);
+		String_t* L_35 = FsmString_get_Value_m3775166715(L_34, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+		String_t* L_36 = String_Concat_m2596409543(NULL /*static, unused*/, _stringLiteral4100572733, L_35, /*hidden argument*/NULL);
+		FsmStateAction_LogWarning_m1851739038(__this, L_36, /*hidden argument*/NULL);
+	}
+
+IL_0106:
+	{
+		return;
+	}
+}
+// System.Void HutongGames.PlayMaker.Actions.SetFsmColor::OnUpdate()
+extern "C"  void SetFsmColor_OnUpdate_m337105881 (SetFsmColor_t759142125 * __this, const MethodInfo* method)
+{
+	{
+		SetFsmColor_DoSetFsmColor_m3716858801(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void HutongGames.PlayMaker.Actions.SetFsmEnum::.ctor()
+extern "C"  void SetFsmEnum__ctor_m2822235635 (SetFsmEnum_t16539373 * __this, const MethodInfo* method)
+{
+	{
+		FsmStateAction__ctor_m1837021228(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void HutongGames.PlayMaker.Actions.SetFsmEnum::Reset()
+extern "C"  void SetFsmEnum_Reset_m213780250 (SetFsmEnum_t16539373 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (SetFsmEnum_Reset_m213780250_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		__this->set_gameObject_11((FsmOwnerDefault_t2023674184 *)NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+		String_t* L_0 = ((String_t_StaticFields*)String_t_il2cpp_TypeInfo_var->static_fields)->get_Empty_2();
+		FsmString_t2414474701 * L_1 = FsmString_op_Implicit_m1196227529(NULL /*static, unused*/, L_0, /*hidden argument*/NULL);
+		__this->set_fsmName_12(L_1);
+		__this->set_setValue_14((FsmEnum_t2808516103 *)NULL);
+		return;
+	}
+}
+// System.Void HutongGames.PlayMaker.Actions.SetFsmEnum::OnEnter()
+extern "C"  void SetFsmEnum_OnEnter_m1318469924 (SetFsmEnum_t16539373 * __this, const MethodInfo* method)
+{
+	{
+		SetFsmEnum_DoSetFsmEnum_m1383548289(__this, /*hidden argument*/NULL);
+		bool L_0 = __this->get_everyFrame_15();
+		if (L_0)
+		{
+			goto IL_0017;
+		}
+	}
+	{
+		FsmStateAction_Finish_m1955744727(__this, /*hidden argument*/NULL);
+	}
+
+IL_0017:
+	{
+		return;
+	}
+}
+// System.Void HutongGames.PlayMaker.Actions.SetFsmEnum::DoSetFsmEnum()
+extern "C"  void SetFsmEnum_DoSetFsmEnum_m1383548289 (SetFsmEnum_t16539373 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (SetFsmEnum_DoSetFsmEnum_m1383548289_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	GameObject_t1756533147 * V_0 = NULL;
+	FsmEnum_t2808516103 * V_1 = NULL;
+	{
+		FsmEnum_t2808516103 * L_0 = __this->get_setValue_14();
+		if (L_0)
+		{
+			goto IL_000c;
+		}
+	}
+	{
+		return;
+	}
+
+IL_000c:
+	{
+		Fsm_t917886356 * L_1 = FsmStateAction_get_Fsm_m4079598046(__this, /*hidden argument*/NULL);
+		FsmOwnerDefault_t2023674184 * L_2 = __this->get_gameObject_11();
+		NullCheck(L_1);
+		GameObject_t1756533147 * L_3 = Fsm_GetOwnerDefaultTarget_m1045900479(L_1, L_2, /*hidden argument*/NULL);
+		V_0 = L_3;
+		GameObject_t1756533147 * L_4 = V_0;
+		IL2CPP_RUNTIME_CLASS_INIT(Object_t1021602117_il2cpp_TypeInfo_var);
+		bool L_5 = Object_op_Equality_m3764089466(NULL /*static, unused*/, L_4, (Object_t1021602117 *)NULL, /*hidden argument*/NULL);
+		if (!L_5)
+		{
+			goto IL_002b;
+		}
+	}
+	{
+		return;
+	}
+
+IL_002b:
+	{
+		GameObject_t1756533147 * L_6 = V_0;
+		GameObject_t1756533147 * L_7 = __this->get_goLastFrame_16();
+		IL2CPP_RUNTIME_CLASS_INIT(Object_t1021602117_il2cpp_TypeInfo_var);
+		bool L_8 = Object_op_Inequality_m2402264703(NULL /*static, unused*/, L_6, L_7, /*hidden argument*/NULL);
+		if (L_8)
+		{
+			goto IL_0057;
+		}
+	}
+	{
+		FsmString_t2414474701 * L_9 = __this->get_fsmName_12();
+		NullCheck(L_9);
+		String_t* L_10 = FsmString_get_Value_m3775166715(L_9, /*hidden argument*/NULL);
+		String_t* L_11 = __this->get_fsmNameLastFrame_17();
+		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+		bool L_12 = String_op_Inequality_m304203149(NULL /*static, unused*/, L_10, L_11, /*hidden argument*/NULL);
+		if (!L_12)
+		{
+			goto IL_0086;
+		}
+	}
+
+IL_0057:
+	{
+		GameObject_t1756533147 * L_13 = V_0;
+		__this->set_goLastFrame_16(L_13);
+		FsmString_t2414474701 * L_14 = __this->get_fsmName_12();
+		NullCheck(L_14);
+		String_t* L_15 = FsmString_get_Value_m3775166715(L_14, /*hidden argument*/NULL);
+		__this->set_fsmNameLastFrame_17(L_15);
+		GameObject_t1756533147 * L_16 = V_0;
+		FsmString_t2414474701 * L_17 = __this->get_fsmName_12();
+		NullCheck(L_17);
+		String_t* L_18 = FsmString_get_Value_m3775166715(L_17, /*hidden argument*/NULL);
+		PlayMakerFSM_t437737208 * L_19 = ActionHelpers_GetGameObjectFsm_m2570111466(NULL /*static, unused*/, L_16, L_18, /*hidden argument*/NULL);
+		__this->set_fsm_18(L_19);
+	}
+
+IL_0086:
+	{
+		PlayMakerFSM_t437737208 * L_20 = __this->get_fsm_18();
+		IL2CPP_RUNTIME_CLASS_INIT(Object_t1021602117_il2cpp_TypeInfo_var);
+		bool L_21 = Object_op_Equality_m3764089466(NULL /*static, unused*/, L_20, (Object_t1021602117 *)NULL, /*hidden argument*/NULL);
+		if (!L_21)
+		{
+			goto IL_00b3;
+		}
+	}
+	{
+		FsmString_t2414474701 * L_22 = __this->get_fsmName_12();
+		NullCheck(L_22);
+		String_t* L_23 = FsmString_get_Value_m3775166715(L_22, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+		String_t* L_24 = String_Concat_m2596409543(NULL /*static, unused*/, _stringLiteral89614007, L_23, /*hidden argument*/NULL);
+		FsmStateAction_LogWarning_m1851739038(__this, L_24, /*hidden argument*/NULL);
+		return;
+	}
+
+IL_00b3:
+	{
+		PlayMakerFSM_t437737208 * L_25 = __this->get_fsm_18();
+		NullCheck(L_25);
+		FsmVariables_t630687169 * L_26 = PlayMakerFSM_get_FsmVariables_m2623807583(L_25, /*hidden argument*/NULL);
+		FsmString_t2414474701 * L_27 = __this->get_variableName_13();
+		NullCheck(L_27);
+		String_t* L_28 = FsmString_get_Value_m3775166715(L_27, /*hidden argument*/NULL);
+		NullCheck(L_26);
+		FsmEnum_t2808516103 * L_29 = FsmVariables_GetFsmEnum_m221487545(L_26, L_28, /*hidden argument*/NULL);
+		V_1 = L_29;
+		FsmEnum_t2808516103 * L_30 = V_1;
+		if (!L_30)
+		{
+			goto IL_00eb;
+		}
+	}
+	{
+		FsmEnum_t2808516103 * L_31 = V_1;
+		FsmEnum_t2808516103 * L_32 = __this->get_setValue_14();
+		NullCheck(L_32);
+		Enum_t2459695545 * L_33 = FsmEnum_get_Value_m3904328091(L_32, /*hidden argument*/NULL);
+		NullCheck(L_31);
+		FsmEnum_set_Value_m1697063838(L_31, L_33, /*hidden argument*/NULL);
+		goto IL_0106;
+	}
+
+IL_00eb:
+	{
+		FsmString_t2414474701 * L_34 = __this->get_variableName_13();
+		NullCheck(L_34);
+		String_t* L_35 = FsmString_get_Value_m3775166715(L_34, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+		String_t* L_36 = String_Concat_m2596409543(NULL /*static, unused*/, _stringLiteral4100572733, L_35, /*hidden argument*/NULL);
+		FsmStateAction_LogWarning_m1851739038(__this, L_36, /*hidden argument*/NULL);
+	}
+
+IL_0106:
+	{
+		return;
+	}
+}
+// System.Void HutongGames.PlayMaker.Actions.SetFsmEnum::OnUpdate()
+extern "C"  void SetFsmEnum_OnUpdate_m3393983155 (SetFsmEnum_t16539373 * __this, const MethodInfo* method)
+{
+	{
+		SetFsmEnum_DoSetFsmEnum_m1383548289(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void HutongGames.PlayMaker.Actions.SetFsmFloat::.ctor()
+extern "C"  void SetFsmFloat__ctor_m841719374 (SetFsmFloat_t2903169588 * __this, const MethodInfo* method)
+{
+	{
+		FsmStateAction__ctor_m1837021228(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void HutongGames.PlayMaker.Actions.SetFsmFloat::Reset()
+extern "C"  void SetFsmFloat_Reset_m1682546897 (SetFsmFloat_t2903169588 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (SetFsmFloat_Reset_m1682546897_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		__this->set_gameObject_11((FsmOwnerDefault_t2023674184 *)NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+		String_t* L_0 = ((String_t_StaticFields*)String_t_il2cpp_TypeInfo_var->static_fields)->get_Empty_2();
+		FsmString_t2414474701 * L_1 = FsmString_op_Implicit_m1196227529(NULL /*static, unused*/, L_0, /*hidden argument*/NULL);
+		__this->set_fsmName_12(L_1);
+		__this->set_setValue_14((FsmFloat_t937133978 *)NULL);
+		return;
+	}
+}
+// System.Void HutongGames.PlayMaker.Actions.SetFsmFloat::OnEnter()
+extern "C"  void SetFsmFloat_OnEnter_m3004988137 (SetFsmFloat_t2903169588 * __this, const MethodInfo* method)
+{
+	{
+		SetFsmFloat_DoSetFsmFloat_m317043325(__this, /*hidden argument*/NULL);
+		bool L_0 = __this->get_everyFrame_15();
+		if (L_0)
+		{
+			goto IL_0017;
+		}
+	}
+	{
+		FsmStateAction_Finish_m1955744727(__this, /*hidden argument*/NULL);
+	}
+
+IL_0017:
+	{
+		return;
+	}
+}
+// System.Void HutongGames.PlayMaker.Actions.SetFsmFloat::DoSetFsmFloat()
+extern "C"  void SetFsmFloat_DoSetFsmFloat_m317043325 (SetFsmFloat_t2903169588 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (SetFsmFloat_DoSetFsmFloat_m317043325_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	GameObject_t1756533147 * V_0 = NULL;
+	FsmFloat_t937133978 * V_1 = NULL;
+	{
+		FsmFloat_t937133978 * L_0 = __this->get_setValue_14();
+		if (L_0)
+		{
+			goto IL_000c;
+		}
+	}
+	{
+		return;
+	}
+
+IL_000c:
+	{
+		Fsm_t917886356 * L_1 = FsmStateAction_get_Fsm_m4079598046(__this, /*hidden argument*/NULL);
+		FsmOwnerDefault_t2023674184 * L_2 = __this->get_gameObject_11();
+		NullCheck(L_1);
+		GameObject_t1756533147 * L_3 = Fsm_GetOwnerDefaultTarget_m1045900479(L_1, L_2, /*hidden argument*/NULL);
+		V_0 = L_3;
+		GameObject_t1756533147 * L_4 = V_0;
+		IL2CPP_RUNTIME_CLASS_INIT(Object_t1021602117_il2cpp_TypeInfo_var);
+		bool L_5 = Object_op_Equality_m3764089466(NULL /*static, unused*/, L_4, (Object_t1021602117 *)NULL, /*hidden argument*/NULL);
+		if (!L_5)
+		{
+			goto IL_002b;
+		}
+	}
+	{
+		return;
+	}
+
+IL_002b:
+	{
+		GameObject_t1756533147 * L_6 = V_0;
+		GameObject_t1756533147 * L_7 = __this->get_goLastFrame_16();
+		IL2CPP_RUNTIME_CLASS_INIT(Object_t1021602117_il2cpp_TypeInfo_var);
+		bool L_8 = Object_op_Inequality_m2402264703(NULL /*static, unused*/, L_6, L_7, /*hidden argument*/NULL);
+		if (L_8)
+		{
+			goto IL_0057;
+		}
+	}
+	{
+		FsmString_t2414474701 * L_9 = __this->get_fsmName_12();
+		NullCheck(L_9);
+		String_t* L_10 = FsmString_get_Value_m3775166715(L_9, /*hidden argument*/NULL);
+		String_t* L_11 = __this->get_fsmNameLastFrame_17();
+		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+		bool L_12 = String_op_Inequality_m304203149(NULL /*static, unused*/, L_10, L_11, /*hidden argument*/NULL);
+		if (!L_12)
+		{
+			goto IL_0086;
+		}
+	}
+
+IL_0057:
+	{
+		GameObject_t1756533147 * L_13 = V_0;
+		__this->set_goLastFrame_16(L_13);
+		FsmString_t2414474701 * L_14 = __this->get_fsmName_12();
+		NullCheck(L_14);
+		String_t* L_15 = FsmString_get_Value_m3775166715(L_14, /*hidden argument*/NULL);
+		__this->set_fsmNameLastFrame_17(L_15);
+		GameObject_t1756533147 * L_16 = V_0;
+		FsmString_t2414474701 * L_17 = __this->get_fsmName_12();
+		NullCheck(L_17);
+		String_t* L_18 = FsmString_get_Value_m3775166715(L_17, /*hidden argument*/NULL);
+		PlayMakerFSM_t437737208 * L_19 = ActionHelpers_GetGameObjectFsm_m2570111466(NULL /*static, unused*/, L_16, L_18, /*hidden argument*/NULL);
+		__this->set_fsm_18(L_19);
+	}
+
+IL_0086:
+	{
+		PlayMakerFSM_t437737208 * L_20 = __this->get_fsm_18();
+		IL2CPP_RUNTIME_CLASS_INIT(Object_t1021602117_il2cpp_TypeInfo_var);
+		bool L_21 = Object_op_Equality_m3764089466(NULL /*static, unused*/, L_20, (Object_t1021602117 *)NULL, /*hidden argument*/NULL);
+		if (!L_21)
+		{
+			goto IL_00b3;
+		}
+	}
+	{
+		FsmString_t2414474701 * L_22 = __this->get_fsmName_12();
+		NullCheck(L_22);
+		String_t* L_23 = FsmString_get_Value_m3775166715(L_22, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+		String_t* L_24 = String_Concat_m2596409543(NULL /*static, unused*/, _stringLiteral89614007, L_23, /*hidden argument*/NULL);
+		FsmStateAction_LogWarning_m1851739038(__this, L_24, /*hidden argument*/NULL);
+		return;
+	}
+
+IL_00b3:
+	{
+		PlayMakerFSM_t437737208 * L_25 = __this->get_fsm_18();
+		NullCheck(L_25);
+		FsmVariables_t630687169 * L_26 = PlayMakerFSM_get_FsmVariables_m2623807583(L_25, /*hidden argument*/NULL);
+		FsmString_t2414474701 * L_27 = __this->get_variableName_13();
+		NullCheck(L_27);
+		String_t* L_28 = FsmString_get_Value_m3775166715(L_27, /*hidden argument*/NULL);
+		NullCheck(L_26);
+		FsmFloat_t937133978 * L_29 = FsmVariables_GetFsmFloat_m1215451093(L_26, L_28, /*hidden argument*/NULL);
+		V_1 = L_29;
+		FsmFloat_t937133978 * L_30 = V_1;
+		if (!L_30)
+		{
+			goto IL_00eb;
+		}
+	}
+	{
+		FsmFloat_t937133978 * L_31 = V_1;
+		FsmFloat_t937133978 * L_32 = __this->get_setValue_14();
+		NullCheck(L_32);
+		float L_33 = FsmFloat_get_Value_m1818441449(L_32, /*hidden argument*/NULL);
+		NullCheck(L_31);
+		FsmFloat_set_Value_m3447553958(L_31, L_33, /*hidden argument*/NULL);
+		goto IL_0106;
+	}
+
+IL_00eb:
+	{
+		FsmString_t2414474701 * L_34 = __this->get_variableName_13();
+		NullCheck(L_34);
+		String_t* L_35 = FsmString_get_Value_m3775166715(L_34, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+		String_t* L_36 = String_Concat_m2596409543(NULL /*static, unused*/, _stringLiteral4100572733, L_35, /*hidden argument*/NULL);
+		FsmStateAction_LogWarning_m1851739038(__this, L_36, /*hidden argument*/NULL);
+	}
+
+IL_0106:
+	{
+		return;
+	}
+}
+// System.Void HutongGames.PlayMaker.Actions.SetFsmFloat::OnUpdate()
+extern "C"  void SetFsmFloat_OnUpdate_m772409416 (SetFsmFloat_t2903169588 * __this, const MethodInfo* method)
+{
+	{
+		SetFsmFloat_DoSetFsmFloat_m317043325(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void HutongGames.PlayMaker.Actions.SetFsmGameObject::.ctor()
+extern "C"  void SetFsmGameObject__ctor_m384338019 (SetFsmGameObject_t1367964709 * __this, const MethodInfo* method)
+{
+	{
+		FsmStateAction__ctor_m1837021228(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void HutongGames.PlayMaker.Actions.SetFsmGameObject::Reset()
+extern "C"  void SetFsmGameObject_Reset_m196040394 (SetFsmGameObject_t1367964709 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (SetFsmGameObject_Reset_m196040394_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		__this->set_gameObject_11((FsmOwnerDefault_t2023674184 *)NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+		String_t* L_0 = ((String_t_StaticFields*)String_t_il2cpp_TypeInfo_var->static_fields)->get_Empty_2();
+		FsmString_t2414474701 * L_1 = FsmString_op_Implicit_m1196227529(NULL /*static, unused*/, L_0, /*hidden argument*/NULL);
+		__this->set_fsmName_12(L_1);
+		__this->set_setValue_14((FsmGameObject_t3097142863 *)NULL);
+		__this->set_everyFrame_15((bool)0);
+		return;
+	}
+}
+// System.Void HutongGames.PlayMaker.Actions.SetFsmGameObject::OnEnter()
+extern "C"  void SetFsmGameObject_OnEnter_m2480094220 (SetFsmGameObject_t1367964709 * __this, const MethodInfo* method)
+{
+	{
+		SetFsmGameObject_DoSetFsmGameObject_m1016196609(__this, /*hidden argument*/NULL);
+		bool L_0 = __this->get_everyFrame_15();
+		if (L_0)
+		{
+			goto IL_0017;
+		}
+	}
+	{
+		FsmStateAction_Finish_m1955744727(__this, /*hidden argument*/NULL);
+	}
+
+IL_0017:
+	{
+		return;
+	}
+}
+// System.Void HutongGames.PlayMaker.Actions.SetFsmGameObject::DoSetFsmGameObject()
+extern "C"  void SetFsmGameObject_DoSetFsmGameObject_m1016196609 (SetFsmGameObject_t1367964709 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (SetFsmGameObject_DoSetFsmGameObject_m1016196609_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	GameObject_t1756533147 * V_0 = NULL;
+	FsmGameObject_t3097142863 * V_1 = NULL;
+	FsmGameObject_t3097142863 * G_B10_0 = NULL;
+	FsmGameObject_t3097142863 * G_B9_0 = NULL;
+	GameObject_t1756533147 * G_B11_0 = NULL;
+	FsmGameObject_t3097142863 * G_B11_1 = NULL;
+	{
+		Fsm_t917886356 * L_0 = FsmStateAction_get_Fsm_m4079598046(__this, /*hidden argument*/NULL);
+		FsmOwnerDefault_t2023674184 * L_1 = __this->get_gameObject_11();
+		NullCheck(L_0);
+		GameObject_t1756533147 * L_2 = Fsm_GetOwnerDefaultTarget_m1045900479(L_0, L_1, /*hidden argument*/NULL);
+		V_0 = L_2;
+		GameObject_t1756533147 * L_3 = V_0;
+		IL2CPP_RUNTIME_CLASS_INIT(Object_t1021602117_il2cpp_TypeInfo_var);
+		bool L_4 = Object_op_Equality_m3764089466(NULL /*static, unused*/, L_3, (Object_t1021602117 *)NULL, /*hidden argument*/NULL);
+		if (!L_4)
+		{
+			goto IL_001f;
+		}
+	}
+	{
+		return;
+	}
+
+IL_001f:
+	{
+		GameObject_t1756533147 * L_5 = V_0;
+		GameObject_t1756533147 * L_6 = __this->get_goLastFrame_16();
+		IL2CPP_RUNTIME_CLASS_INIT(Object_t1021602117_il2cpp_TypeInfo_var);
+		bool L_7 = Object_op_Inequality_m2402264703(NULL /*static, unused*/, L_5, L_6, /*hidden argument*/NULL);
+		if (L_7)
+		{
+			goto IL_004b;
+		}
+	}
+	{
+		FsmString_t2414474701 * L_8 = __this->get_fsmName_12();
+		NullCheck(L_8);
+		String_t* L_9 = FsmString_get_Value_m3775166715(L_8, /*hidden argument*/NULL);
+		String_t* L_10 = __this->get_fsmNameLastFrame_17();
+		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+		bool L_11 = String_op_Inequality_m304203149(NULL /*static, unused*/, L_9, L_10, /*hidden argument*/NULL);
+		if (!L_11)
+		{
+			goto IL_007a;
+		}
+	}
+
+IL_004b:
+	{
+		GameObject_t1756533147 * L_12 = V_0;
+		__this->set_goLastFrame_16(L_12);
+		FsmString_t2414474701 * L_13 = __this->get_fsmName_12();
+		NullCheck(L_13);
+		String_t* L_14 = FsmString_get_Value_m3775166715(L_13, /*hidden argument*/NULL);
+		__this->set_fsmNameLastFrame_17(L_14);
+		GameObject_t1756533147 * L_15 = V_0;
+		FsmString_t2414474701 * L_16 = __this->get_fsmName_12();
+		NullCheck(L_16);
+		String_t* L_17 = FsmString_get_Value_m3775166715(L_16, /*hidden argument*/NULL);
+		PlayMakerFSM_t437737208 * L_18 = ActionHelpers_GetGameObjectFsm_m2570111466(NULL /*static, unused*/, L_15, L_17, /*hidden argument*/NULL);
+		__this->set_fsm_18(L_18);
+	}
+
+IL_007a:
+	{
+		PlayMakerFSM_t437737208 * L_19 = __this->get_fsm_18();
+		IL2CPP_RUNTIME_CLASS_INIT(Object_t1021602117_il2cpp_TypeInfo_var);
+		bool L_20 = Object_op_Equality_m3764089466(NULL /*static, unused*/, L_19, (Object_t1021602117 *)NULL, /*hidden argument*/NULL);
+		if (!L_20)
+		{
+			goto IL_008c;
+		}
+	}
+	{
+		return;
+	}
+
+IL_008c:
+	{
+		PlayMakerFSM_t437737208 * L_21 = __this->get_fsm_18();
+		NullCheck(L_21);
+		FsmVariables_t630687169 * L_22 = PlayMakerFSM_get_FsmVariables_m2623807583(L_21, /*hidden argument*/NULL);
+		FsmString_t2414474701 * L_23 = __this->get_variableName_13();
+		NullCheck(L_23);
+		String_t* L_24 = FsmString_get_Value_m3775166715(L_23, /*hidden argument*/NULL);
+		NullCheck(L_22);
+		FsmGameObject_t3097142863 * L_25 = FsmVariables_FindFsmGameObject_m1797685292(L_22, L_24, /*hidden argument*/NULL);
+		V_1 = L_25;
+		FsmGameObject_t3097142863 * L_26 = V_1;
+		if (!L_26)
+		{
+			goto IL_00d5;
+		}
+	}
+	{
+		FsmGameObject_t3097142863 * L_27 = V_1;
+		FsmGameObject_t3097142863 * L_28 = __this->get_setValue_14();
+		G_B9_0 = L_27;
+		if (L_28)
+		{
+			G_B10_0 = L_27;
+			goto IL_00c0;
+		}
+	}
+	{
+		G_B11_0 = ((GameObject_t1756533147 *)(NULL));
+		G_B11_1 = G_B9_0;
+		goto IL_00cb;
+	}
+
+IL_00c0:
+	{
+		FsmGameObject_t3097142863 * L_29 = __this->get_setValue_14();
+		NullCheck(L_29);
+		GameObject_t1756533147 * L_30 = FsmGameObject_get_Value_m15585107(L_29, /*hidden argument*/NULL);
+		G_B11_0 = L_30;
+		G_B11_1 = G_B10_0;
+	}
+
+IL_00cb:
+	{
+		NullCheck(G_B11_1);
+		FsmGameObject_set_Value_m1923169006(G_B11_1, G_B11_0, /*hidden argument*/NULL);
+		goto IL_00f0;
+	}
+
+IL_00d5:
+	{
+		FsmString_t2414474701 * L_31 = __this->get_variableName_13();
+		NullCheck(L_31);
+		String_t* L_32 = FsmString_get_Value_m3775166715(L_31, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+		String_t* L_33 = String_Concat_m2596409543(NULL /*static, unused*/, _stringLiteral4100572733, L_32, /*hidden argument*/NULL);
+		FsmStateAction_LogWarning_m1851739038(__this, L_33, /*hidden argument*/NULL);
+	}
+
+IL_00f0:
+	{
+		return;
+	}
+}
+// System.Void HutongGames.PlayMaker.Actions.SetFsmGameObject::OnUpdate()
+extern "C"  void SetFsmGameObject_OnUpdate_m3747720667 (SetFsmGameObject_t1367964709 * __this, const MethodInfo* method)
+{
+	{
+		SetFsmGameObject_DoSetFsmGameObject_m1016196609(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void HutongGames.PlayMaker.Actions.SetFsmInt::.ctor()
+extern "C"  void SetFsmInt__ctor_m1425760627 (SetFsmInt_t1716896067 * __this, const MethodInfo* method)
+{
+	{
+		FsmStateAction__ctor_m1837021228(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void HutongGames.PlayMaker.Actions.SetFsmInt::Reset()
+extern "C"  void SetFsmInt_Reset_m3882309568 (SetFsmInt_t1716896067 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (SetFsmInt_Reset_m3882309568_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		__this->set_gameObject_11((FsmOwnerDefault_t2023674184 *)NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+		String_t* L_0 = ((String_t_StaticFields*)String_t_il2cpp_TypeInfo_var->static_fields)->get_Empty_2();
+		FsmString_t2414474701 * L_1 = FsmString_op_Implicit_m1196227529(NULL /*static, unused*/, L_0, /*hidden argument*/NULL);
+		__this->set_fsmName_12(L_1);
+		__this->set_setValue_14((FsmInt_t1273009179 *)NULL);
+		return;
+	}
+}
+// System.Void HutongGames.PlayMaker.Actions.SetFsmInt::OnEnter()
+extern "C"  void SetFsmInt_OnEnter_m570485166 (SetFsmInt_t1716896067 * __this, const MethodInfo* method)
+{
+	{
+		SetFsmInt_DoSetFsmInt_m3294848813(__this, /*hidden argument*/NULL);
+		bool L_0 = __this->get_everyFrame_15();
+		if (L_0)
+		{
+			goto IL_0017;
+		}
+	}
+	{
+		FsmStateAction_Finish_m1955744727(__this, /*hidden argument*/NULL);
+	}
+
+IL_0017:
+	{
+		return;
+	}
+}
+// System.Void HutongGames.PlayMaker.Actions.SetFsmInt::DoSetFsmInt()
+extern "C"  void SetFsmInt_DoSetFsmInt_m3294848813 (SetFsmInt_t1716896067 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (SetFsmInt_DoSetFsmInt_m3294848813_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	GameObject_t1756533147 * V_0 = NULL;
+	FsmInt_t1273009179 * V_1 = NULL;
+	{
+		FsmInt_t1273009179 * L_0 = __this->get_setValue_14();
+		if (L_0)
+		{
+			goto IL_000c;
+		}
+	}
+	{
+		return;
+	}
+
+IL_000c:
+	{
+		Fsm_t917886356 * L_1 = FsmStateAction_get_Fsm_m4079598046(__this, /*hidden argument*/NULL);
+		FsmOwnerDefault_t2023674184 * L_2 = __this->get_gameObject_11();
+		NullCheck(L_1);
+		GameObject_t1756533147 * L_3 = Fsm_GetOwnerDefaultTarget_m1045900479(L_1, L_2, /*hidden argument*/NULL);
+		V_0 = L_3;
+		GameObject_t1756533147 * L_4 = V_0;
+		IL2CPP_RUNTIME_CLASS_INIT(Object_t1021602117_il2cpp_TypeInfo_var);
+		bool L_5 = Object_op_Equality_m3764089466(NULL /*static, unused*/, L_4, (Object_t1021602117 *)NULL, /*hidden argument*/NULL);
+		if (!L_5)
+		{
+			goto IL_002b;
+		}
+	}
+	{
+		return;
+	}
+
+IL_002b:
+	{
+		GameObject_t1756533147 * L_6 = V_0;
+		GameObject_t1756533147 * L_7 = __this->get_goLastFrame_16();
+		IL2CPP_RUNTIME_CLASS_INIT(Object_t1021602117_il2cpp_TypeInfo_var);
+		bool L_8 = Object_op_Inequality_m2402264703(NULL /*static, unused*/, L_6, L_7, /*hidden argument*/NULL);
+		if (L_8)
+		{
+			goto IL_0057;
+		}
+	}
+	{
+		FsmString_t2414474701 * L_9 = __this->get_fsmName_12();
+		NullCheck(L_9);
+		String_t* L_10 = FsmString_get_Value_m3775166715(L_9, /*hidden argument*/NULL);
+		String_t* L_11 = __this->get_fsmNameLastFrame_17();
+		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+		bool L_12 = String_op_Inequality_m304203149(NULL /*static, unused*/, L_10, L_11, /*hidden argument*/NULL);
+		if (!L_12)
+		{
+			goto IL_0086;
+		}
+	}
+
+IL_0057:
+	{
+		GameObject_t1756533147 * L_13 = V_0;
+		__this->set_goLastFrame_16(L_13);
+		FsmString_t2414474701 * L_14 = __this->get_fsmName_12();
+		NullCheck(L_14);
+		String_t* L_15 = FsmString_get_Value_m3775166715(L_14, /*hidden argument*/NULL);
+		__this->set_fsmNameLastFrame_17(L_15);
+		GameObject_t1756533147 * L_16 = V_0;
+		FsmString_t2414474701 * L_17 = __this->get_fsmName_12();
+		NullCheck(L_17);
+		String_t* L_18 = FsmString_get_Value_m3775166715(L_17, /*hidden argument*/NULL);
+		PlayMakerFSM_t437737208 * L_19 = ActionHelpers_GetGameObjectFsm_m2570111466(NULL /*static, unused*/, L_16, L_18, /*hidden argument*/NULL);
+		__this->set_fsm_18(L_19);
+	}
+
+IL_0086:
+	{
+		PlayMakerFSM_t437737208 * L_20 = __this->get_fsm_18();
+		IL2CPP_RUNTIME_CLASS_INIT(Object_t1021602117_il2cpp_TypeInfo_var);
+		bool L_21 = Object_op_Equality_m3764089466(NULL /*static, unused*/, L_20, (Object_t1021602117 *)NULL, /*hidden argument*/NULL);
+		if (!L_21)
+		{
+			goto IL_00b3;
+		}
+	}
+	{
+		FsmString_t2414474701 * L_22 = __this->get_fsmName_12();
+		NullCheck(L_22);
+		String_t* L_23 = FsmString_get_Value_m3775166715(L_22, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+		String_t* L_24 = String_Concat_m2596409543(NULL /*static, unused*/, _stringLiteral89614007, L_23, /*hidden argument*/NULL);
+		FsmStateAction_LogWarning_m1851739038(__this, L_24, /*hidden argument*/NULL);
+		return;
+	}
+
+IL_00b3:
+	{
+		PlayMakerFSM_t437737208 * L_25 = __this->get_fsm_18();
+		NullCheck(L_25);
+		FsmVariables_t630687169 * L_26 = PlayMakerFSM_get_FsmVariables_m2623807583(L_25, /*hidden argument*/NULL);
+		FsmString_t2414474701 * L_27 = __this->get_variableName_13();
+		NullCheck(L_27);
+		String_t* L_28 = FsmString_get_Value_m3775166715(L_27, /*hidden argument*/NULL);
+		NullCheck(L_26);
+		FsmInt_t1273009179 * L_29 = FsmVariables_GetFsmInt_m4075723285(L_26, L_28, /*hidden argument*/NULL);
+		V_1 = L_29;
+		FsmInt_t1273009179 * L_30 = V_1;
+		if (!L_30)
+		{
+			goto IL_00eb;
+		}
+	}
+	{
+		FsmInt_t1273009179 * L_31 = V_1;
+		FsmInt_t1273009179 * L_32 = __this->get_setValue_14();
+		NullCheck(L_32);
+		int32_t L_33 = FsmInt_get_Value_m3705703582(L_32, /*hidden argument*/NULL);
+		NullCheck(L_31);
+		FsmInt_set_Value_m4097648685(L_31, L_33, /*hidden argument*/NULL);
+		goto IL_0106;
+	}
+
+IL_00eb:
+	{
+		FsmString_t2414474701 * L_34 = __this->get_variableName_13();
+		NullCheck(L_34);
+		String_t* L_35 = FsmString_get_Value_m3775166715(L_34, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+		String_t* L_36 = String_Concat_m2596409543(NULL /*static, unused*/, _stringLiteral4100572733, L_35, /*hidden argument*/NULL);
+		FsmStateAction_LogWarning_m1851739038(__this, L_36, /*hidden argument*/NULL);
+	}
+
+IL_0106:
+	{
+		return;
+	}
+}
+// System.Void HutongGames.PlayMaker.Actions.SetFsmInt::OnUpdate()
+extern "C"  void SetFsmInt_OnUpdate_m4123470211 (SetFsmInt_t1716896067 * __this, const MethodInfo* method)
+{
+	{
+		SetFsmInt_DoSetFsmInt_m3294848813(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void HutongGames.PlayMaker.Actions.SetFsmMaterial::.ctor()
+extern "C"  void SetFsmMaterial__ctor_m2892592307 (SetFsmMaterial_t3345318009 * __this, const MethodInfo* method)
+{
+	{
+		FsmStateAction__ctor_m1837021228(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void HutongGames.PlayMaker.Actions.SetFsmMaterial::Reset()
+extern "C"  void SetFsmMaterial_Reset_m1166806346 (SetFsmMaterial_t3345318009 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (SetFsmMaterial_Reset_m1166806346_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		__this->set_gameObject_11((FsmOwnerDefault_t2023674184 *)NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+		String_t* L_0 = ((String_t_StaticFields*)String_t_il2cpp_TypeInfo_var->static_fields)->get_Empty_2();
+		FsmString_t2414474701 * L_1 = FsmString_op_Implicit_m1196227529(NULL /*static, unused*/, L_0, /*hidden argument*/NULL);
+		__this->set_fsmName_12(L_1);
+		String_t* L_2 = ((String_t_StaticFields*)String_t_il2cpp_TypeInfo_var->static_fields)->get_Empty_2();
+		FsmString_t2414474701 * L_3 = FsmString_op_Implicit_m1196227529(NULL /*static, unused*/, L_2, /*hidden argument*/NULL);
+		__this->set_variableName_13(L_3);
+		__this->set_setValue_14((FsmMaterial_t1421632035 *)NULL);
+		__this->set_everyFrame_15((bool)0);
+		return;
+	}
+}
+// System.Void HutongGames.PlayMaker.Actions.SetFsmMaterial::OnEnter()
+extern "C"  void SetFsmMaterial_OnEnter_m3489241060 (SetFsmMaterial_t3345318009 * __this, const MethodInfo* method)
+{
+	{
+		SetFsmMaterial_DoSetFsmBool_m2270217842(__this, /*hidden argument*/NULL);
+		bool L_0 = __this->get_everyFrame_15();
+		if (L_0)
+		{
+			goto IL_0017;
+		}
+	}
+	{
+		FsmStateAction_Finish_m1955744727(__this, /*hidden argument*/NULL);
+	}
+
+IL_0017:
+	{
+		return;
+	}
+}
+// System.Void HutongGames.PlayMaker.Actions.SetFsmMaterial::DoSetFsmBool()
+extern "C"  void SetFsmMaterial_DoSetFsmBool_m2270217842 (SetFsmMaterial_t3345318009 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (SetFsmMaterial_DoSetFsmBool_m2270217842_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	GameObject_t1756533147 * V_0 = NULL;
+	FsmMaterial_t1421632035 * V_1 = NULL;
+	{
+		FsmMaterial_t1421632035 * L_0 = __this->get_setValue_14();
+		if (L_0)
+		{
+			goto IL_000c;
+		}
+	}
+	{
+		return;
+	}
+
+IL_000c:
+	{
+		Fsm_t917886356 * L_1 = FsmStateAction_get_Fsm_m4079598046(__this, /*hidden argument*/NULL);
+		FsmOwnerDefault_t2023674184 * L_2 = __this->get_gameObject_11();
+		NullCheck(L_1);
+		GameObject_t1756533147 * L_3 = Fsm_GetOwnerDefaultTarget_m1045900479(L_1, L_2, /*hidden argument*/NULL);
+		V_0 = L_3;
+		GameObject_t1756533147 * L_4 = V_0;
+		IL2CPP_RUNTIME_CLASS_INIT(Object_t1021602117_il2cpp_TypeInfo_var);
+		bool L_5 = Object_op_Equality_m3764089466(NULL /*static, unused*/, L_4, (Object_t1021602117 *)NULL, /*hidden argument*/NULL);
+		if (!L_5)
+		{
+			goto IL_002b;
+		}
+	}
+	{
+		return;
+	}
+
+IL_002b:
+	{
+		GameObject_t1756533147 * L_6 = V_0;
+		GameObject_t1756533147 * L_7 = __this->get_goLastFrame_16();
+		IL2CPP_RUNTIME_CLASS_INIT(Object_t1021602117_il2cpp_TypeInfo_var);
+		bool L_8 = Object_op_Inequality_m2402264703(NULL /*static, unused*/, L_6, L_7, /*hidden argument*/NULL);
+		if (L_8)
+		{
+			goto IL_0057;
+		}
+	}
+	{
+		FsmString_t2414474701 * L_9 = __this->get_fsmName_12();
+		NullCheck(L_9);
+		String_t* L_10 = FsmString_get_Value_m3775166715(L_9, /*hidden argument*/NULL);
+		String_t* L_11 = __this->get_fsmNameLastFrame_17();
+		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+		bool L_12 = String_op_Inequality_m304203149(NULL /*static, unused*/, L_10, L_11, /*hidden argument*/NULL);
+		if (!L_12)
+		{
+			goto IL_0086;
+		}
+	}
+
+IL_0057:
+	{
+		GameObject_t1756533147 * L_13 = V_0;
+		__this->set_goLastFrame_16(L_13);
+		FsmString_t2414474701 * L_14 = __this->get_fsmName_12();
+		NullCheck(L_14);
+		String_t* L_15 = FsmString_get_Value_m3775166715(L_14, /*hidden argument*/NULL);
+		__this->set_fsmNameLastFrame_17(L_15);
+		GameObject_t1756533147 * L_16 = V_0;
+		FsmString_t2414474701 * L_17 = __this->get_fsmName_12();
+		NullCheck(L_17);
+		String_t* L_18 = FsmString_get_Value_m3775166715(L_17, /*hidden argument*/NULL);
+		PlayMakerFSM_t437737208 * L_19 = ActionHelpers_GetGameObjectFsm_m2570111466(NULL /*static, unused*/, L_16, L_18, /*hidden argument*/NULL);
+		__this->set_fsm_18(L_19);
+	}
+
+IL_0086:
+	{
+		PlayMakerFSM_t437737208 * L_20 = __this->get_fsm_18();
+		IL2CPP_RUNTIME_CLASS_INIT(Object_t1021602117_il2cpp_TypeInfo_var);
+		bool L_21 = Object_op_Equality_m3764089466(NULL /*static, unused*/, L_20, (Object_t1021602117 *)NULL, /*hidden argument*/NULL);
+		if (!L_21)
+		{
+			goto IL_00b3;
+		}
+	}
+	{
+		FsmString_t2414474701 * L_22 = __this->get_fsmName_12();
+		NullCheck(L_22);
+		String_t* L_23 = FsmString_get_Value_m3775166715(L_22, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+		String_t* L_24 = String_Concat_m2596409543(NULL /*static, unused*/, _stringLiteral89614007, L_23, /*hidden argument*/NULL);
+		FsmStateAction_LogWarning_m1851739038(__this, L_24, /*hidden argument*/NULL);
+		return;
+	}
+
+IL_00b3:
+	{
+		PlayMakerFSM_t437737208 * L_25 = __this->get_fsm_18();
+		NullCheck(L_25);
+		FsmVariables_t630687169 * L_26 = PlayMakerFSM_get_FsmVariables_m2623807583(L_25, /*hidden argument*/NULL);
+		FsmString_t2414474701 * L_27 = __this->get_variableName_13();
+		NullCheck(L_27);
+		String_t* L_28 = FsmString_get_Value_m3775166715(L_27, /*hidden argument*/NULL);
+		NullCheck(L_26);
+		FsmMaterial_t1421632035 * L_29 = FsmVariables_GetFsmMaterial_m1839896713(L_26, L_28, /*hidden argument*/NULL);
+		V_1 = L_29;
+		FsmMaterial_t1421632035 * L_30 = V_1;
+		if (!L_30)
+		{
+			goto IL_00eb;
+		}
+	}
+	{
+		FsmMaterial_t1421632035 * L_31 = V_1;
+		FsmMaterial_t1421632035 * L_32 = __this->get_setValue_14();
+		NullCheck(L_32);
+		Material_t193706927 * L_33 = FsmMaterial_get_Value_m361239091(L_32, /*hidden argument*/NULL);
+		NullCheck(L_31);
+		FsmMaterial_set_Value_m4198295470(L_31, L_33, /*hidden argument*/NULL);
+		goto IL_0106;
+	}
+
+IL_00eb:
+	{
+		FsmString_t2414474701 * L_34 = __this->get_variableName_13();
+		NullCheck(L_34);
+		String_t* L_35 = FsmString_get_Value_m3775166715(L_34, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+		String_t* L_36 = String_Concat_m2596409543(NULL /*static, unused*/, _stringLiteral4100572733, L_35, /*hidden argument*/NULL);
+		FsmStateAction_LogWarning_m1851739038(__this, L_36, /*hidden argument*/NULL);
+	}
+
+IL_0106:
+	{
+		return;
+	}
+}
+// System.Void HutongGames.PlayMaker.Actions.SetFsmMaterial::OnUpdate()
+extern "C"  void SetFsmMaterial_OnUpdate_m1883567683 (SetFsmMaterial_t3345318009 * __this, const MethodInfo* method)
+{
+	{
+		SetFsmMaterial_DoSetFsmBool_m2270217842(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void HutongGames.PlayMaker.Actions.SetFsmObject::.ctor()
+extern "C"  void SetFsmObject__ctor_m2139089017 (SetFsmObject_t3286560103 * __this, const MethodInfo* method)
+{
+	{
+		FsmStateAction__ctor_m1837021228(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void HutongGames.PlayMaker.Actions.SetFsmObject::Reset()
+extern "C"  void SetFsmObject_Reset_m3824522488 (SetFsmObject_t3286560103 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (SetFsmObject_Reset_m3824522488_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		__this->set_gameObject_11((FsmOwnerDefault_t2023674184 *)NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+		String_t* L_0 = ((String_t_StaticFields*)String_t_il2cpp_TypeInfo_var->static_fields)->get_Empty_2();
+		FsmString_t2414474701 * L_1 = FsmString_op_Implicit_m1196227529(NULL /*static, unused*/, L_0, /*hidden argument*/NULL);
+		__this->set_fsmName_12(L_1);
+		String_t* L_2 = ((String_t_StaticFields*)String_t_il2cpp_TypeInfo_var->static_fields)->get_Empty_2();
+		FsmString_t2414474701 * L_3 = FsmString_op_Implicit_m1196227529(NULL /*static, unused*/, L_2, /*hidden argument*/NULL);
+		__this->set_variableName_13(L_3);
+		__this->set_setValue_14((FsmObject_t2785794313 *)NULL);
+		__this->set_everyFrame_15((bool)0);
+		return;
+	}
+}
+// System.Void HutongGames.PlayMaker.Actions.SetFsmObject::OnEnter()
+extern "C"  void SetFsmObject_OnEnter_m3146556578 (SetFsmObject_t3286560103 * __this, const MethodInfo* method)
+{
+	{
+		SetFsmObject_DoSetFsmBool_m2735063900(__this, /*hidden argument*/NULL);
+		bool L_0 = __this->get_everyFrame_15();
+		if (L_0)
+		{
+			goto IL_0017;
+		}
+	}
+	{
+		FsmStateAction_Finish_m1955744727(__this, /*hidden argument*/NULL);
+	}
+
+IL_0017:
+	{
+		return;
+	}
+}
+// System.Void HutongGames.PlayMaker.Actions.SetFsmObject::DoSetFsmBool()
+extern "C"  void SetFsmObject_DoSetFsmBool_m2735063900 (SetFsmObject_t3286560103 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (SetFsmObject_DoSetFsmBool_m2735063900_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	GameObject_t1756533147 * V_0 = NULL;
+	FsmObject_t2785794313 * V_1 = NULL;
+	{
+		FsmObject_t2785794313 * L_0 = __this->get_setValue_14();
+		if (L_0)
+		{
+			goto IL_000c;
+		}
+	}
+	{
+		return;
+	}
+
+IL_000c:
+	{
+		Fsm_t917886356 * L_1 = FsmStateAction_get_Fsm_m4079598046(__this, /*hidden argument*/NULL);
+		FsmOwnerDefault_t2023674184 * L_2 = __this->get_gameObject_11();
+		NullCheck(L_1);
+		GameObject_t1756533147 * L_3 = Fsm_GetOwnerDefaultTarget_m1045900479(L_1, L_2, /*hidden argument*/NULL);
+		V_0 = L_3;
+		GameObject_t1756533147 * L_4 = V_0;
+		IL2CPP_RUNTIME_CLASS_INIT(Object_t1021602117_il2cpp_TypeInfo_var);
+		bool L_5 = Object_op_Equality_m3764089466(NULL /*static, unused*/, L_4, (Object_t1021602117 *)NULL, /*hidden argument*/NULL);
+		if (!L_5)
+		{
+			goto IL_002b;
+		}
+	}
+	{
+		return;
+	}
+
+IL_002b:
+	{
+		GameObject_t1756533147 * L_6 = V_0;
+		GameObject_t1756533147 * L_7 = __this->get_goLastFrame_16();
+		IL2CPP_RUNTIME_CLASS_INIT(Object_t1021602117_il2cpp_TypeInfo_var);
+		bool L_8 = Object_op_Inequality_m2402264703(NULL /*static, unused*/, L_6, L_7, /*hidden argument*/NULL);
+		if (L_8)
+		{
+			goto IL_0057;
+		}
+	}
+	{
+		FsmString_t2414474701 * L_9 = __this->get_fsmName_12();
+		NullCheck(L_9);
+		String_t* L_10 = FsmString_get_Value_m3775166715(L_9, /*hidden argument*/NULL);
+		String_t* L_11 = __this->get_fsmNameLastFrame_17();
+		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+		bool L_12 = String_op_Inequality_m304203149(NULL /*static, unused*/, L_10, L_11, /*hidden argument*/NULL);
+		if (!L_12)
+		{
+			goto IL_0086;
+		}
+	}
+
+IL_0057:
+	{
+		GameObject_t1756533147 * L_13 = V_0;
+		__this->set_goLastFrame_16(L_13);
+		FsmString_t2414474701 * L_14 = __this->get_fsmName_12();
+		NullCheck(L_14);
+		String_t* L_15 = FsmString_get_Value_m3775166715(L_14, /*hidden argument*/NULL);
+		__this->set_fsmNameLastFrame_17(L_15);
+		GameObject_t1756533147 * L_16 = V_0;
+		FsmString_t2414474701 * L_17 = __this->get_fsmName_12();
+		NullCheck(L_17);
+		String_t* L_18 = FsmString_get_Value_m3775166715(L_17, /*hidden argument*/NULL);
+		PlayMakerFSM_t437737208 * L_19 = ActionHelpers_GetGameObjectFsm_m2570111466(NULL /*static, unused*/, L_16, L_18, /*hidden argument*/NULL);
+		__this->set_fsm_18(L_19);
+	}
+
+IL_0086:
+	{
+		PlayMakerFSM_t437737208 * L_20 = __this->get_fsm_18();
+		IL2CPP_RUNTIME_CLASS_INIT(Object_t1021602117_il2cpp_TypeInfo_var);
+		bool L_21 = Object_op_Equality_m3764089466(NULL /*static, unused*/, L_20, (Object_t1021602117 *)NULL, /*hidden argument*/NULL);
+		if (!L_21)
+		{
+			goto IL_00b3;
+		}
+	}
+	{
+		FsmString_t2414474701 * L_22 = __this->get_fsmName_12();
+		NullCheck(L_22);
+		String_t* L_23 = FsmString_get_Value_m3775166715(L_22, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+		String_t* L_24 = String_Concat_m2596409543(NULL /*static, unused*/, _stringLiteral89614007, L_23, /*hidden argument*/NULL);
+		FsmStateAction_LogWarning_m1851739038(__this, L_24, /*hidden argument*/NULL);
+		return;
+	}
+
+IL_00b3:
+	{
+		PlayMakerFSM_t437737208 * L_25 = __this->get_fsm_18();
+		NullCheck(L_25);
+		FsmVariables_t630687169 * L_26 = PlayMakerFSM_get_FsmVariables_m2623807583(L_25, /*hidden argument*/NULL);
+		FsmString_t2414474701 * L_27 = __this->get_variableName_13();
+		NullCheck(L_27);
+		String_t* L_28 = FsmString_get_Value_m3775166715(L_27, /*hidden argument*/NULL);
+		NullCheck(L_26);
+		FsmObject_t2785794313 * L_29 = FsmVariables_GetFsmObject_m703724597(L_26, L_28, /*hidden argument*/NULL);
+		V_1 = L_29;
+		FsmObject_t2785794313 * L_30 = V_1;
+		if (!L_30)
+		{
+			goto IL_00eb;
+		}
+	}
+	{
+		FsmObject_t2785794313 * L_31 = V_1;
+		FsmObject_t2785794313 * L_32 = __this->get_setValue_14();
+		NullCheck(L_32);
+		Object_t1021602117 * L_33 = FsmObject_get_Value_m1585581971(L_32, /*hidden argument*/NULL);
+		NullCheck(L_31);
+		FsmObject_set_Value_m4152526958(L_31, L_33, /*hidden argument*/NULL);
+		goto IL_0106;
+	}
+
+IL_00eb:
+	{
+		FsmString_t2414474701 * L_34 = __this->get_variableName_13();
+		NullCheck(L_34);
+		String_t* L_35 = FsmString_get_Value_m3775166715(L_34, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+		String_t* L_36 = String_Concat_m2596409543(NULL /*static, unused*/, _stringLiteral4100572733, L_35, /*hidden argument*/NULL);
+		FsmStateAction_LogWarning_m1851739038(__this, L_36, /*hidden argument*/NULL);
+	}
+
+IL_0106:
+	{
+		return;
+	}
+}
+// System.Void HutongGames.PlayMaker.Actions.SetFsmObject::OnUpdate()
+extern "C"  void SetFsmObject_OnUpdate_m2831418325 (SetFsmObject_t3286560103 * __this, const MethodInfo* method)
+{
+	{
+		SetFsmObject_DoSetFsmBool_m2735063900(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void HutongGames.PlayMaker.Actions.SetFsmQuaternion::.ctor()
+extern "C"  void SetFsmQuaternion__ctor_m3069395126 (SetFsmQuaternion_t128851816 * __this, const MethodInfo* method)
+{
+	{
+		FsmStateAction__ctor_m1837021228(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void HutongGames.PlayMaker.Actions.SetFsmQuaternion::Reset()
+extern "C"  void SetFsmQuaternion_Reset_m1995988589 (SetFsmQuaternion_t128851816 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (SetFsmQuaternion_Reset_m1995988589_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		__this->set_gameObject_11((FsmOwnerDefault_t2023674184 *)NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+		String_t* L_0 = ((String_t_StaticFields*)String_t_il2cpp_TypeInfo_var->static_fields)->get_Empty_2();
+		FsmString_t2414474701 * L_1 = FsmString_op_Implicit_m1196227529(NULL /*static, unused*/, L_0, /*hidden argument*/NULL);
+		__this->set_fsmName_12(L_1);
+		String_t* L_2 = ((String_t_StaticFields*)String_t_il2cpp_TypeInfo_var->static_fields)->get_Empty_2();
+		FsmString_t2414474701 * L_3 = FsmString_op_Implicit_m1196227529(NULL /*static, unused*/, L_2, /*hidden argument*/NULL);
+		__this->set_variableName_13(L_3);
+		__this->set_setValue_14((FsmQuaternion_t878438756 *)NULL);
+		__this->set_everyFrame_15((bool)0);
+		return;
+	}
+}
+// System.Void HutongGames.PlayMaker.Actions.SetFsmQuaternion::OnEnter()
+extern "C"  void SetFsmQuaternion_OnEnter_m3518007093 (SetFsmQuaternion_t128851816 * __this, const MethodInfo* method)
+{
+	{
+		SetFsmQuaternion_DoSetFsmQuaternion_m4057498497(__this, /*hidden argument*/NULL);
+		bool L_0 = __this->get_everyFrame_15();
+		if (L_0)
+		{
+			goto IL_0017;
+		}
+	}
+	{
+		FsmStateAction_Finish_m1955744727(__this, /*hidden argument*/NULL);
+	}
+
+IL_0017:
+	{
+		return;
+	}
+}
+// System.Void HutongGames.PlayMaker.Actions.SetFsmQuaternion::DoSetFsmQuaternion()
+extern "C"  void SetFsmQuaternion_DoSetFsmQuaternion_m4057498497 (SetFsmQuaternion_t128851816 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (SetFsmQuaternion_DoSetFsmQuaternion_m4057498497_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	GameObject_t1756533147 * V_0 = NULL;
+	FsmQuaternion_t878438756 * V_1 = NULL;
+	{
+		FsmQuaternion_t878438756 * L_0 = __this->get_setValue_14();
+		if (L_0)
+		{
+			goto IL_000c;
+		}
+	}
+	{
+		return;
+	}
+
+IL_000c:
+	{
+		Fsm_t917886356 * L_1 = FsmStateAction_get_Fsm_m4079598046(__this, /*hidden argument*/NULL);
+		FsmOwnerDefault_t2023674184 * L_2 = __this->get_gameObject_11();
+		NullCheck(L_1);
+		GameObject_t1756533147 * L_3 = Fsm_GetOwnerDefaultTarget_m1045900479(L_1, L_2, /*hidden argument*/NULL);
+		V_0 = L_3;
+		GameObject_t1756533147 * L_4 = V_0;
+		IL2CPP_RUNTIME_CLASS_INIT(Object_t1021602117_il2cpp_TypeInfo_var);
+		bool L_5 = Object_op_Equality_m3764089466(NULL /*static, unused*/, L_4, (Object_t1021602117 *)NULL, /*hidden argument*/NULL);
+		if (!L_5)
+		{
+			goto IL_002b;
+		}
+	}
+	{
+		return;
+	}
+
+IL_002b:
+	{
+		GameObject_t1756533147 * L_6 = V_0;
+		GameObject_t1756533147 * L_7 = __this->get_goLastFrame_16();
+		IL2CPP_RUNTIME_CLASS_INIT(Object_t1021602117_il2cpp_TypeInfo_var);
+		bool L_8 = Object_op_Inequality_m2402264703(NULL /*static, unused*/, L_6, L_7, /*hidden argument*/NULL);
+		if (L_8)
+		{
+			goto IL_0057;
+		}
+	}
+	{
+		FsmString_t2414474701 * L_9 = __this->get_fsmName_12();
+		NullCheck(L_9);
+		String_t* L_10 = FsmString_get_Value_m3775166715(L_9, /*hidden argument*/NULL);
+		String_t* L_11 = __this->get_fsmNameLastFrame_17();
+		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+		bool L_12 = String_op_Inequality_m304203149(NULL /*static, unused*/, L_10, L_11, /*hidden argument*/NULL);
+		if (!L_12)
+		{
+			goto IL_0086;
+		}
+	}
+
+IL_0057:
+	{
+		GameObject_t1756533147 * L_13 = V_0;
+		__this->set_goLastFrame_16(L_13);
+		FsmString_t2414474701 * L_14 = __this->get_fsmName_12();
+		NullCheck(L_14);
+		String_t* L_15 = FsmString_get_Value_m3775166715(L_14, /*hidden argument*/NULL);
+		__this->set_fsmNameLastFrame_17(L_15);
+		GameObject_t1756533147 * L_16 = V_0;
+		FsmString_t2414474701 * L_17 = __this->get_fsmName_12();
+		NullCheck(L_17);
+		String_t* L_18 = FsmString_get_Value_m3775166715(L_17, /*hidden argument*/NULL);
+		PlayMakerFSM_t437737208 * L_19 = ActionHelpers_GetGameObjectFsm_m2570111466(NULL /*static, unused*/, L_16, L_18, /*hidden argument*/NULL);
+		__this->set_fsm_18(L_19);
+	}
+
+IL_0086:
+	{
+		PlayMakerFSM_t437737208 * L_20 = __this->get_fsm_18();
+		IL2CPP_RUNTIME_CLASS_INIT(Object_t1021602117_il2cpp_TypeInfo_var);
+		bool L_21 = Object_op_Equality_m3764089466(NULL /*static, unused*/, L_20, (Object_t1021602117 *)NULL, /*hidden argument*/NULL);
+		if (!L_21)
+		{
+			goto IL_00b3;
+		}
+	}
+	{
+		FsmString_t2414474701 * L_22 = __this->get_fsmName_12();
+		NullCheck(L_22);
+		String_t* L_23 = FsmString_get_Value_m3775166715(L_22, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+		String_t* L_24 = String_Concat_m2596409543(NULL /*static, unused*/, _stringLiteral89614007, L_23, /*hidden argument*/NULL);
+		FsmStateAction_LogWarning_m1851739038(__this, L_24, /*hidden argument*/NULL);
+		return;
+	}
+
+IL_00b3:
+	{
+		PlayMakerFSM_t437737208 * L_25 = __this->get_fsm_18();
+		NullCheck(L_25);
+		FsmVariables_t630687169 * L_26 = PlayMakerFSM_get_FsmVariables_m2623807583(L_25, /*hidden argument*/NULL);
+		FsmString_t2414474701 * L_27 = __this->get_variableName_13();
+		NullCheck(L_27);
+		String_t* L_28 = FsmString_get_Value_m3775166715(L_27, /*hidden argument*/NULL);
+		NullCheck(L_26);
+		FsmQuaternion_t878438756 * L_29 = FsmVariables_GetFsmQuaternion_m1196207457(L_26, L_28, /*hidden argument*/NULL);
+		V_1 = L_29;
+		FsmQuaternion_t878438756 * L_30 = V_1;
+		if (!L_30)
+		{
+			goto IL_00eb;
+		}
+	}
+	{
+		FsmQuaternion_t878438756 * L_31 = V_1;
+		FsmQuaternion_t878438756 * L_32 = __this->get_setValue_14();
+		NullCheck(L_32);
+		Quaternion_t4030073918  L_33 = FsmQuaternion_get_Value_m2629833107(L_32, /*hidden argument*/NULL);
+		NullCheck(L_31);
+		FsmQuaternion_set_Value_m1061544654(L_31, L_33, /*hidden argument*/NULL);
+		goto IL_0106;
+	}
+
+IL_00eb:
+	{
+		FsmString_t2414474701 * L_34 = __this->get_variableName_13();
+		NullCheck(L_34);
+		String_t* L_35 = FsmString_get_Value_m3775166715(L_34, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+		String_t* L_36 = String_Concat_m2596409543(NULL /*static, unused*/, _stringLiteral4100572733, L_35, /*hidden argument*/NULL);
+		FsmStateAction_LogWarning_m1851739038(__this, L_36, /*hidden argument*/NULL);
+	}
+
+IL_0106:
+	{
+		return;
+	}
+}
+// System.Void HutongGames.PlayMaker.Actions.SetFsmQuaternion::OnUpdate()
+extern "C"  void SetFsmQuaternion_OnUpdate_m1724962616 (SetFsmQuaternion_t128851816 * __this, const MethodInfo* method)
+{
+	{
+		SetFsmQuaternion_DoSetFsmQuaternion_m4057498497(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void HutongGames.PlayMaker.Actions.SetFsmRect::.ctor()
+extern "C"  void SetFsmRect__ctor_m1494113240 (SetFsmRect_t487080500 * __this, const MethodInfo* method)
+{
+	{
+		FsmStateAction__ctor_m1837021228(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void HutongGames.PlayMaker.Actions.SetFsmRect::Reset()
+extern "C"  void SetFsmRect_Reset_m4071714497 (SetFsmRect_t487080500 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (SetFsmRect_Reset_m4071714497_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		__this->set_gameObject_11((FsmOwnerDefault_t2023674184 *)NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+		String_t* L_0 = ((String_t_StaticFields*)String_t_il2cpp_TypeInfo_var->static_fields)->get_Empty_2();
+		FsmString_t2414474701 * L_1 = FsmString_op_Implicit_m1196227529(NULL /*static, unused*/, L_0, /*hidden argument*/NULL);
+		__this->set_fsmName_12(L_1);
+		String_t* L_2 = ((String_t_StaticFields*)String_t_il2cpp_TypeInfo_var->static_fields)->get_Empty_2();
+		FsmString_t2414474701 * L_3 = FsmString_op_Implicit_m1196227529(NULL /*static, unused*/, L_2, /*hidden argument*/NULL);
+		__this->set_variableName_13(L_3);
+		__this->set_setValue_14((FsmRect_t19023354 *)NULL);
+		__this->set_everyFrame_15((bool)0);
+		return;
+	}
+}
+// System.Void HutongGames.PlayMaker.Actions.SetFsmRect::OnEnter()
+extern "C"  void SetFsmRect_OnEnter_m1958827369 (SetFsmRect_t487080500 * __this, const MethodInfo* method)
+{
+	{
+		SetFsmRect_DoSetFsmBool_m3764728407(__this, /*hidden argument*/NULL);
+		bool L_0 = __this->get_everyFrame_15();
+		if (L_0)
+		{
+			goto IL_0017;
+		}
+	}
+	{
+		FsmStateAction_Finish_m1955744727(__this, /*hidden argument*/NULL);
+	}
+
+IL_0017:
+	{
+		return;
+	}
+}
+// System.Void HutongGames.PlayMaker.Actions.SetFsmRect::DoSetFsmBool()
+extern "C"  void SetFsmRect_DoSetFsmBool_m3764728407 (SetFsmRect_t487080500 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (SetFsmRect_DoSetFsmBool_m3764728407_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	GameObject_t1756533147 * V_0 = NULL;
+	FsmRect_t19023354 * V_1 = NULL;
+	{
+		FsmRect_t19023354 * L_0 = __this->get_setValue_14();
+		if (L_0)
+		{
+			goto IL_000c;
+		}
+	}
+	{
+		return;
+	}
+
+IL_000c:
+	{
+		Fsm_t917886356 * L_1 = FsmStateAction_get_Fsm_m4079598046(__this, /*hidden argument*/NULL);
+		FsmOwnerDefault_t2023674184 * L_2 = __this->get_gameObject_11();
+		NullCheck(L_1);
+		GameObject_t1756533147 * L_3 = Fsm_GetOwnerDefaultTarget_m1045900479(L_1, L_2, /*hidden argument*/NULL);
+		V_0 = L_3;
+		GameObject_t1756533147 * L_4 = V_0;
+		IL2CPP_RUNTIME_CLASS_INIT(Object_t1021602117_il2cpp_TypeInfo_var);
+		bool L_5 = Object_op_Equality_m3764089466(NULL /*static, unused*/, L_4, (Object_t1021602117 *)NULL, /*hidden argument*/NULL);
+		if (!L_5)
+		{
+			goto IL_002b;
+		}
+	}
+	{
+		return;
+	}
+
+IL_002b:
+	{
+		GameObject_t1756533147 * L_6 = V_0;
+		GameObject_t1756533147 * L_7 = __this->get_goLastFrame_16();
+		IL2CPP_RUNTIME_CLASS_INIT(Object_t1021602117_il2cpp_TypeInfo_var);
+		bool L_8 = Object_op_Inequality_m2402264703(NULL /*static, unused*/, L_6, L_7, /*hidden argument*/NULL);
+		if (L_8)
+		{
+			goto IL_0057;
+		}
+	}
+	{
+		FsmString_t2414474701 * L_9 = __this->get_fsmName_12();
+		NullCheck(L_9);
+		String_t* L_10 = FsmString_get_Value_m3775166715(L_9, /*hidden argument*/NULL);
+		String_t* L_11 = __this->get_fsmNameLastFrame_17();
+		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+		bool L_12 = String_op_Inequality_m304203149(NULL /*static, unused*/, L_10, L_11, /*hidden argument*/NULL);
+		if (!L_12)
+		{
+			goto IL_0086;
+		}
+	}
+
+IL_0057:
+	{
+		GameObject_t1756533147 * L_13 = V_0;
+		__this->set_goLastFrame_16(L_13);
+		FsmString_t2414474701 * L_14 = __this->get_fsmName_12();
+		NullCheck(L_14);
+		String_t* L_15 = FsmString_get_Value_m3775166715(L_14, /*hidden argument*/NULL);
+		__this->set_fsmNameLastFrame_17(L_15);
+		GameObject_t1756533147 * L_16 = V_0;
+		FsmString_t2414474701 * L_17 = __this->get_fsmName_12();
+		NullCheck(L_17);
+		String_t* L_18 = FsmString_get_Value_m3775166715(L_17, /*hidden argument*/NULL);
+		PlayMakerFSM_t437737208 * L_19 = ActionHelpers_GetGameObjectFsm_m2570111466(NULL /*static, unused*/, L_16, L_18, /*hidden argument*/NULL);
+		__this->set_fsm_18(L_19);
+	}
+
+IL_0086:
+	{
+		PlayMakerFSM_t437737208 * L_20 = __this->get_fsm_18();
+		IL2CPP_RUNTIME_CLASS_INIT(Object_t1021602117_il2cpp_TypeInfo_var);
+		bool L_21 = Object_op_Equality_m3764089466(NULL /*static, unused*/, L_20, (Object_t1021602117 *)NULL, /*hidden argument*/NULL);
+		if (!L_21)
+		{
+			goto IL_00b3;
+		}
+	}
+	{
+		FsmString_t2414474701 * L_22 = __this->get_fsmName_12();
+		NullCheck(L_22);
+		String_t* L_23 = FsmString_get_Value_m3775166715(L_22, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+		String_t* L_24 = String_Concat_m2596409543(NULL /*static, unused*/, _stringLiteral89614007, L_23, /*hidden argument*/NULL);
+		FsmStateAction_LogWarning_m1851739038(__this, L_24, /*hidden argument*/NULL);
+		return;
+	}
+
+IL_00b3:
+	{
+		PlayMakerFSM_t437737208 * L_25 = __this->get_fsm_18();
+		NullCheck(L_25);
+		FsmVariables_t630687169 * L_26 = PlayMakerFSM_get_FsmVariables_m2623807583(L_25, /*hidden argument*/NULL);
+		FsmString_t2414474701 * L_27 = __this->get_variableName_13();
+		NullCheck(L_27);
+		String_t* L_28 = FsmString_get_Value_m3775166715(L_27, /*hidden argument*/NULL);
+		NullCheck(L_26);
+		FsmRect_t19023354 * L_29 = FsmVariables_GetFsmRect_m3728049889(L_26, L_28, /*hidden argument*/NULL);
+		V_1 = L_29;
+		FsmRect_t19023354 * L_30 = V_1;
+		if (!L_30)
+		{
+			goto IL_00eb;
+		}
+	}
+	{
+		FsmRect_t19023354 * L_31 = V_1;
+		FsmRect_t19023354 * L_32 = __this->get_setValue_14();
+		NullCheck(L_32);
+		Rect_t3681755626  L_33 = FsmRect_get_Value_m3959922771(L_32, /*hidden argument*/NULL);
+		NullCheck(L_31);
+		FsmRect_set_Value_m829547054(L_31, L_33, /*hidden argument*/NULL);
+		goto IL_0106;
+	}
+
+IL_00eb:
+	{
+		FsmString_t2414474701 * L_34 = __this->get_variableName_13();
+		NullCheck(L_34);
+		String_t* L_35 = FsmString_get_Value_m3775166715(L_34, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+		String_t* L_36 = String_Concat_m2596409543(NULL /*static, unused*/, _stringLiteral4100572733, L_35, /*hidden argument*/NULL);
+		FsmStateAction_LogWarning_m1851739038(__this, L_36, /*hidden argument*/NULL);
+	}
+
+IL_0106:
+	{
+		return;
+	}
+}
+// System.Void HutongGames.PlayMaker.Actions.SetFsmRect::OnUpdate()
+extern "C"  void SetFsmRect_OnUpdate_m2892650862 (SetFsmRect_t487080500 * __this, const MethodInfo* method)
+{
+	{
+		SetFsmRect_DoSetFsmBool_m3764728407(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void HutongGames.PlayMaker.Actions.SetFsmString::.ctor()
+extern "C"  void SetFsmString__ctor_m132739869 (SetFsmString_t4065550381 * __this, const MethodInfo* method)
+{
+	{
+		FsmStateAction__ctor_m1837021228(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void HutongGames.PlayMaker.Actions.SetFsmString::Reset()
+extern "C"  void SetFsmString_Reset_m2984007902 (SetFsmString_t4065550381 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (SetFsmString_Reset_m2984007902_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		__this->set_gameObject_11((FsmOwnerDefault_t2023674184 *)NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+		String_t* L_0 = ((String_t_StaticFields*)String_t_il2cpp_TypeInfo_var->static_fields)->get_Empty_2();
+		FsmString_t2414474701 * L_1 = FsmString_op_Implicit_m1196227529(NULL /*static, unused*/, L_0, /*hidden argument*/NULL);
+		__this->set_fsmName_12(L_1);
+		__this->set_setValue_14((FsmString_t2414474701 *)NULL);
+		return;
+	}
+}
+// System.Void HutongGames.PlayMaker.Actions.SetFsmString::OnEnter()
+extern "C"  void SetFsmString_OnEnter_m2119816876 (SetFsmString_t4065550381 * __this, const MethodInfo* method)
+{
+	{
+		SetFsmString_DoSetFsmString_m474226881(__this, /*hidden argument*/NULL);
+		bool L_0 = __this->get_everyFrame_15();
+		if (L_0)
+		{
+			goto IL_0017;
+		}
+	}
+	{
+		FsmStateAction_Finish_m1955744727(__this, /*hidden argument*/NULL);
+	}
+
+IL_0017:
+	{
+		return;
+	}
+}
+// System.Void HutongGames.PlayMaker.Actions.SetFsmString::DoSetFsmString()
+extern "C"  void SetFsmString_DoSetFsmString_m474226881 (SetFsmString_t4065550381 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (SetFsmString_DoSetFsmString_m474226881_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	GameObject_t1756533147 * V_0 = NULL;
+	FsmString_t2414474701 * V_1 = NULL;
+	{
+		FsmString_t2414474701 * L_0 = __this->get_setValue_14();
+		if (L_0)
+		{
+			goto IL_000c;
+		}
+	}
+	{
+		return;
+	}
+
+IL_000c:
+	{
+		Fsm_t917886356 * L_1 = FsmStateAction_get_Fsm_m4079598046(__this, /*hidden argument*/NULL);
+		FsmOwnerDefault_t2023674184 * L_2 = __this->get_gameObject_11();
+		NullCheck(L_1);
+		GameObject_t1756533147 * L_3 = Fsm_GetOwnerDefaultTarget_m1045900479(L_1, L_2, /*hidden argument*/NULL);
+		V_0 = L_3;
+		GameObject_t1756533147 * L_4 = V_0;
+		IL2CPP_RUNTIME_CLASS_INIT(Object_t1021602117_il2cpp_TypeInfo_var);
+		bool L_5 = Object_op_Equality_m3764089466(NULL /*static, unused*/, L_4, (Object_t1021602117 *)NULL, /*hidden argument*/NULL);
+		if (!L_5)
+		{
+			goto IL_002b;
+		}
+	}
+	{
+		return;
+	}
+
+IL_002b:
+	{
+		GameObject_t1756533147 * L_6 = V_0;
+		GameObject_t1756533147 * L_7 = __this->get_goLastFrame_16();
+		IL2CPP_RUNTIME_CLASS_INIT(Object_t1021602117_il2cpp_TypeInfo_var);
+		bool L_8 = Object_op_Inequality_m2402264703(NULL /*static, unused*/, L_6, L_7, /*hidden argument*/NULL);
+		if (L_8)
+		{
+			goto IL_0057;
+		}
+	}
+	{
+		FsmString_t2414474701 * L_9 = __this->get_fsmName_12();
+		NullCheck(L_9);
+		String_t* L_10 = FsmString_get_Value_m3775166715(L_9, /*hidden argument*/NULL);
+		String_t* L_11 = __this->get_fsmNameLastFrame_17();
+		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+		bool L_12 = String_op_Inequality_m304203149(NULL /*static, unused*/, L_10, L_11, /*hidden argument*/NULL);
+		if (!L_12)
+		{
+			goto IL_0086;
+		}
+	}
+
+IL_0057:
+	{
+		GameObject_t1756533147 * L_13 = V_0;
+		__this->set_goLastFrame_16(L_13);
+		FsmString_t2414474701 * L_14 = __this->get_fsmName_12();
+		NullCheck(L_14);
+		String_t* L_15 = FsmString_get_Value_m3775166715(L_14, /*hidden argument*/NULL);
+		__this->set_fsmNameLastFrame_17(L_15);
+		GameObject_t1756533147 * L_16 = V_0;
+		FsmString_t2414474701 * L_17 = __this->get_fsmName_12();
+		NullCheck(L_17);
+		String_t* L_18 = FsmString_get_Value_m3775166715(L_17, /*hidden argument*/NULL);
+		PlayMakerFSM_t437737208 * L_19 = ActionHelpers_GetGameObjectFsm_m2570111466(NULL /*static, unused*/, L_16, L_18, /*hidden argument*/NULL);
+		__this->set_fsm_18(L_19);
+	}
+
+IL_0086:
+	{
+		PlayMakerFSM_t437737208 * L_20 = __this->get_fsm_18();
+		IL2CPP_RUNTIME_CLASS_INIT(Object_t1021602117_il2cpp_TypeInfo_var);
+		bool L_21 = Object_op_Equality_m3764089466(NULL /*static, unused*/, L_20, (Object_t1021602117 *)NULL, /*hidden argument*/NULL);
+		if (!L_21)
+		{
+			goto IL_00b3;
+		}
+	}
+	{
+		FsmString_t2414474701 * L_22 = __this->get_fsmName_12();
+		NullCheck(L_22);
+		String_t* L_23 = FsmString_get_Value_m3775166715(L_22, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+		String_t* L_24 = String_Concat_m2596409543(NULL /*static, unused*/, _stringLiteral89614007, L_23, /*hidden argument*/NULL);
+		FsmStateAction_LogWarning_m1851739038(__this, L_24, /*hidden argument*/NULL);
+		return;
+	}
+
+IL_00b3:
+	{
+		PlayMakerFSM_t437737208 * L_25 = __this->get_fsm_18();
+		NullCheck(L_25);
+		FsmVariables_t630687169 * L_26 = PlayMakerFSM_get_FsmVariables_m2623807583(L_25, /*hidden argument*/NULL);
+		FsmString_t2414474701 * L_27 = __this->get_variableName_13();
+		NullCheck(L_27);
+		String_t* L_28 = FsmString_get_Value_m3775166715(L_27, /*hidden argument*/NULL);
+		NullCheck(L_26);
+		FsmString_t2414474701 * L_29 = FsmVariables_GetFsmString_m619955285(L_26, L_28, /*hidden argument*/NULL);
+		V_1 = L_29;
+		FsmString_t2414474701 * L_30 = V_1;
+		if (!L_30)
+		{
+			goto IL_00eb;
+		}
+	}
+	{
+		FsmString_t2414474701 * L_31 = V_1;
+		FsmString_t2414474701 * L_32 = __this->get_setValue_14();
+		NullCheck(L_32);
+		String_t* L_33 = FsmString_get_Value_m3775166715(L_32, /*hidden argument*/NULL);
+		NullCheck(L_31);
+		FsmString_set_Value_m1767060322(L_31, L_33, /*hidden argument*/NULL);
+		goto IL_0106;
+	}
+
+IL_00eb:
+	{
+		FsmString_t2414474701 * L_34 = __this->get_variableName_13();
+		NullCheck(L_34);
+		String_t* L_35 = FsmString_get_Value_m3775166715(L_34, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+		String_t* L_36 = String_Concat_m2596409543(NULL /*static, unused*/, _stringLiteral4100572733, L_35, /*hidden argument*/NULL);
+		FsmStateAction_LogWarning_m1851739038(__this, L_36, /*hidden argument*/NULL);
+	}
+
+IL_0106:
+	{
+		return;
+	}
+}
+// System.Void HutongGames.PlayMaker.Actions.SetFsmString::OnUpdate()
+extern "C"  void SetFsmString_OnUpdate_m1681826129 (SetFsmString_t4065550381 * __this, const MethodInfo* method)
+{
+	{
+		SetFsmString_DoSetFsmString_m474226881(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void HutongGames.PlayMaker.Actions.SetFsmTexture::.ctor()
+extern "C"  void SetFsmTexture__ctor_m3321557795 (SetFsmTexture_t3916602097 * __this, const MethodInfo* method)
+{
+	{
+		FsmStateAction__ctor_m1837021228(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void HutongGames.PlayMaker.Actions.SetFsmTexture::Reset()
+extern "C"  void SetFsmTexture_Reset_m3897946446 (SetFsmTexture_t3916602097 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (SetFsmTexture_Reset_m3897946446_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		__this->set_gameObject_11((FsmOwnerDefault_t2023674184 *)NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+		String_t* L_0 = ((String_t_StaticFields*)String_t_il2cpp_TypeInfo_var->static_fields)->get_Empty_2();
+		FsmString_t2414474701 * L_1 = FsmString_op_Implicit_m1196227529(NULL /*static, unused*/, L_0, /*hidden argument*/NULL);
+		__this->set_fsmName_12(L_1);
+		String_t* L_2 = ((String_t_StaticFields*)String_t_il2cpp_TypeInfo_var->static_fields)->get_Empty_2();
+		FsmString_t2414474701 * L_3 = FsmString_op_Implicit_m1196227529(NULL /*static, unused*/, L_2, /*hidden argument*/NULL);
+		__this->set_variableName_13(L_3);
+		__this->set_setValue_14((FsmTexture_t3372293163 *)NULL);
+		__this->set_everyFrame_15((bool)0);
+		return;
+	}
+}
+// System.Void HutongGames.PlayMaker.Actions.SetFsmTexture::OnEnter()
+extern "C"  void SetFsmTexture_OnEnter_m3299250232 (SetFsmTexture_t3916602097 * __this, const MethodInfo* method)
+{
+	{
+		SetFsmTexture_DoSetFsmBool_m1021498382(__this, /*hidden argument*/NULL);
+		bool L_0 = __this->get_everyFrame_15();
+		if (L_0)
+		{
+			goto IL_0017;
+		}
+	}
+	{
+		FsmStateAction_Finish_m1955744727(__this, /*hidden argument*/NULL);
+	}
+
+IL_0017:
+	{
+		return;
+	}
+}
+// System.Void HutongGames.PlayMaker.Actions.SetFsmTexture::DoSetFsmBool()
+extern "C"  void SetFsmTexture_DoSetFsmBool_m1021498382 (SetFsmTexture_t3916602097 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (SetFsmTexture_DoSetFsmBool_m1021498382_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	GameObject_t1756533147 * V_0 = NULL;
+	FsmTexture_t3372293163 * V_1 = NULL;
+	{
+		FsmTexture_t3372293163 * L_0 = __this->get_setValue_14();
+		if (L_0)
+		{
+			goto IL_000c;
+		}
+	}
+	{
+		return;
+	}
+
+IL_000c:
+	{
+		Fsm_t917886356 * L_1 = FsmStateAction_get_Fsm_m4079598046(__this, /*hidden argument*/NULL);
+		FsmOwnerDefault_t2023674184 * L_2 = __this->get_gameObject_11();
+		NullCheck(L_1);
+		GameObject_t1756533147 * L_3 = Fsm_GetOwnerDefaultTarget_m1045900479(L_1, L_2, /*hidden argument*/NULL);
+		V_0 = L_3;
+		GameObject_t1756533147 * L_4 = V_0;
+		IL2CPP_RUNTIME_CLASS_INIT(Object_t1021602117_il2cpp_TypeInfo_var);
+		bool L_5 = Object_op_Equality_m3764089466(NULL /*static, unused*/, L_4, (Object_t1021602117 *)NULL, /*hidden argument*/NULL);
+		if (!L_5)
+		{
+			goto IL_002b;
+		}
+	}
+	{
+		return;
+	}
+
+IL_002b:
+	{
+		GameObject_t1756533147 * L_6 = V_0;
+		GameObject_t1756533147 * L_7 = __this->get_goLastFrame_16();
+		IL2CPP_RUNTIME_CLASS_INIT(Object_t1021602117_il2cpp_TypeInfo_var);
+		bool L_8 = Object_op_Inequality_m2402264703(NULL /*static, unused*/, L_6, L_7, /*hidden argument*/NULL);
+		if (L_8)
+		{
+			goto IL_0057;
+		}
+	}
+	{
+		FsmString_t2414474701 * L_9 = __this->get_fsmName_12();
+		NullCheck(L_9);
+		String_t* L_10 = FsmString_get_Value_m3775166715(L_9, /*hidden argument*/NULL);
+		String_t* L_11 = __this->get_fsmNameLastFrame_17();
+		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+		bool L_12 = String_op_Inequality_m304203149(NULL /*static, unused*/, L_10, L_11, /*hidden argument*/NULL);
+		if (!L_12)
+		{
+			goto IL_0086;
+		}
+	}
+
+IL_0057:
+	{
+		GameObject_t1756533147 * L_13 = V_0;
+		__this->set_goLastFrame_16(L_13);
+		FsmString_t2414474701 * L_14 = __this->get_fsmName_12();
+		NullCheck(L_14);
+		String_t* L_15 = FsmString_get_Value_m3775166715(L_14, /*hidden argument*/NULL);
+		__this->set_fsmNameLastFrame_17(L_15);
+		GameObject_t1756533147 * L_16 = V_0;
+		FsmString_t2414474701 * L_17 = __this->get_fsmName_12();
+		NullCheck(L_17);
+		String_t* L_18 = FsmString_get_Value_m3775166715(L_17, /*hidden argument*/NULL);
+		PlayMakerFSM_t437737208 * L_19 = ActionHelpers_GetGameObjectFsm_m2570111466(NULL /*static, unused*/, L_16, L_18, /*hidden argument*/NULL);
+		__this->set_fsm_18(L_19);
+	}
+
+IL_0086:
+	{
+		PlayMakerFSM_t437737208 * L_20 = __this->get_fsm_18();
+		IL2CPP_RUNTIME_CLASS_INIT(Object_t1021602117_il2cpp_TypeInfo_var);
+		bool L_21 = Object_op_Equality_m3764089466(NULL /*static, unused*/, L_20, (Object_t1021602117 *)NULL, /*hidden argument*/NULL);
+		if (!L_21)
+		{
+			goto IL_00b3;
+		}
+	}
+	{
+		FsmString_t2414474701 * L_22 = __this->get_fsmName_12();
+		NullCheck(L_22);
+		String_t* L_23 = FsmString_get_Value_m3775166715(L_22, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+		String_t* L_24 = String_Concat_m2596409543(NULL /*static, unused*/, _stringLiteral89614007, L_23, /*hidden argument*/NULL);
+		FsmStateAction_LogWarning_m1851739038(__this, L_24, /*hidden argument*/NULL);
+		return;
+	}
+
+IL_00b3:
+	{
+		PlayMakerFSM_t437737208 * L_25 = __this->get_fsm_18();
+		NullCheck(L_25);
+		FsmVariables_t630687169 * L_26 = PlayMakerFSM_get_FsmVariables_m2623807583(L_25, /*hidden argument*/NULL);
+		FsmString_t2414474701 * L_27 = __this->get_variableName_13();
+		NullCheck(L_27);
+		String_t* L_28 = FsmString_get_Value_m3775166715(L_27, /*hidden argument*/NULL);
+		NullCheck(L_26);
+		FsmTexture_t3372293163 * L_29 = FsmVariables_FindFsmTexture_m2285545046(L_26, L_28, /*hidden argument*/NULL);
+		V_1 = L_29;
+		FsmTexture_t3372293163 * L_30 = V_1;
+		if (!L_30)
+		{
+			goto IL_00eb;
+		}
+	}
+	{
+		FsmTexture_t3372293163 * L_31 = V_1;
+		FsmTexture_t3372293163 * L_32 = __this->get_setValue_14();
+		NullCheck(L_32);
+		Texture_t2243626319 * L_33 = FsmTexture_get_Value_m2325441495(L_32, /*hidden argument*/NULL);
+		NullCheck(L_31);
+		FsmTexture_set_Value_m1312269522(L_31, L_33, /*hidden argument*/NULL);
+		goto IL_0106;
+	}
+
+IL_00eb:
+	{
+		FsmString_t2414474701 * L_34 = __this->get_variableName_13();
+		NullCheck(L_34);
+		String_t* L_35 = FsmString_get_Value_m3775166715(L_34, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+		String_t* L_36 = String_Concat_m2596409543(NULL /*static, unused*/, _stringLiteral4100572733, L_35, /*hidden argument*/NULL);
+		FsmStateAction_LogWarning_m1851739038(__this, L_36, /*hidden argument*/NULL);
+	}
+
+IL_0106:
+	{
+		return;
+	}
+}
+// System.Void HutongGames.PlayMaker.Actions.SetFsmTexture::OnUpdate()
+extern "C"  void SetFsmTexture_OnUpdate_m176137419 (SetFsmTexture_t3916602097 * __this, const MethodInfo* method)
+{
+	{
+		SetFsmTexture_DoSetFsmBool_m1021498382(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif

@@ -1,0 +1,83 @@
+﻿#pragma once
+
+#include "il2cpp-config.h"
+
+#ifndef _MSC_VER
+# include <alloca.h>
+#else
+# include <malloc.h>
+#endif
+
+#include <stdint.h>
+
+#include "PlayMaker_HutongGames_PlayMaker_FsmStateAction2862378169.h"
+
+// HutongGames.PlayMaker.FsmOwnerDefault
+struct FsmOwnerDefault_t2023674184;
+// HutongGames.PlayMaker.FsmGameObject
+struct FsmGameObject_t3097142863;
+// HutongGames.PlayMaker.FsmFloat
+struct FsmFloat_t937133978;
+
+
+
+
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+
+// HutongGames.PlayMaker.Actions.GetDistance
+struct  GetDistance_t829290575  : public FsmStateAction_t2862378169
+{
+public:
+	// HutongGames.PlayMaker.FsmOwnerDefault HutongGames.PlayMaker.Actions.GetDistance::gameObject
+	FsmOwnerDefault_t2023674184 * ___gameObject_11;
+	// HutongGames.PlayMaker.FsmGameObject HutongGames.PlayMaker.Actions.GetDistance::target
+	FsmGameObject_t3097142863 * ___target_12;
+	// HutongGames.PlayMaker.FsmFloat HutongGames.PlayMaker.Actions.GetDistance::storeResult
+	FsmFloat_t937133978 * ___storeResult_13;
+	// System.Boolean HutongGames.PlayMaker.Actions.GetDistance::everyFrame
+	bool ___everyFrame_14;
+
+public:
+	inline static int32_t get_offset_of_gameObject_11() { return static_cast<int32_t>(offsetof(GetDistance_t829290575, ___gameObject_11)); }
+	inline FsmOwnerDefault_t2023674184 * get_gameObject_11() const { return ___gameObject_11; }
+	inline FsmOwnerDefault_t2023674184 ** get_address_of_gameObject_11() { return &___gameObject_11; }
+	inline void set_gameObject_11(FsmOwnerDefault_t2023674184 * value)
+	{
+		___gameObject_11 = value;
+		Il2CppCodeGenWriteBarrier(&___gameObject_11, value);
+	}
+
+	inline static int32_t get_offset_of_target_12() { return static_cast<int32_t>(offsetof(GetDistance_t829290575, ___target_12)); }
+	inline FsmGameObject_t3097142863 * get_target_12() const { return ___target_12; }
+	inline FsmGameObject_t3097142863 ** get_address_of_target_12() { return &___target_12; }
+	inline void set_target_12(FsmGameObject_t3097142863 * value)
+	{
+		___target_12 = value;
+		Il2CppCodeGenWriteBarrier(&___target_12, value);
+	}
+
+	inline static int32_t get_offset_of_storeResult_13() { return static_cast<int32_t>(offsetof(GetDistance_t829290575, ___storeResult_13)); }
+	inline FsmFloat_t937133978 * get_storeResult_13() const { return ___storeResult_13; }
+	inline FsmFloat_t937133978 ** get_address_of_storeResult_13() { return &___storeResult_13; }
+	inline void set_storeResult_13(FsmFloat_t937133978 * value)
+	{
+		___storeResult_13 = value;
+		Il2CppCodeGenWriteBarrier(&___storeResult_13, value);
+	}
+
+	inline static int32_t get_offset_of_everyFrame_14() { return static_cast<int32_t>(offsetof(GetDistance_t829290575, ___everyFrame_14)); }
+	inline bool get_everyFrame_14() const { return ___everyFrame_14; }
+	inline bool* get_address_of_everyFrame_14() { return &___everyFrame_14; }
+	inline void set_everyFrame_14(bool value)
+	{
+		___everyFrame_14 = value;
+	}
+};
+
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
