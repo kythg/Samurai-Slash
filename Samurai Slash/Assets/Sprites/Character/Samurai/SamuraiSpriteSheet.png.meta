@@ -1,6 +1,6 @@
 fileFormatVersion: 2
 guid: de8b29d9b9642456cb24882028281457
-timeCreated: 1500062538
+timeCreated: 1501021521
 licenseType: Pro
 TextureImporter:
   fileIDToRecycleName:
@@ -12,6 +12,23 @@ TextureImporter:
     21300010: SamuraiSpriteSheet_1
     21300012: SamuraiSpriteSheet_2
     21300014: SamuraiSpriteSheet_3
+    21300016: SamuraiSpriteSheet_4
+    21300018: SamuraiSpriteSheet_5
+    21300020: SamuraiSpriteSheet_6
+    21300022: SamuraiSpriteSheet_7
+    21300024: SamuraiSpriteSheet_8
+    21300026: SamuraiSpriteSheet_9
+    21300028: SamuraiSpriteSheet_10
+    21300030: SamuraiSpriteSheet_11
+    21300032: SamuraiSpriteSheet_12
+    21300034: SamuraiSpriteSheet_13
+    21300036: SamuraiSpriteSheet_14
+    21300038: SamuraiSpriteSheet_15
+    21300040: SamuraiSpriteSheet_16
+    21300042: SamuraiSpriteSheet_17
+    21300044: SamuraiSpriteSheet_18
+    21300046: SamuraiSpriteSheet_19
+    21300048: SamuraiSpriteSheet_20
   serializedVersion: 4
   mipmaps:
     mipMapMode: 0
@@ -95,9 +112,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 128
-        y: 700
+        y: 768
         width: 128
-        height: 256
+        height: 128
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -109,9 +126,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 256
-        y: 700
+        y: 768
         width: 128
-        height: 256
+        height: 128
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -123,9 +140,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 384
-        y: 700
+        y: 768
         width: 128
-        height: 256
+        height: 128
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -137,9 +154,191 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 512
-        y: 700
+        y: 768
         width: 128
-        height: 256
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SamuraiSpriteSheet_4
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 768
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SamuraiSpriteSheet_5
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 768
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SamuraiSpriteSheet_6
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 640
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SamuraiSpriteSheet_7
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 512
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SamuraiSpriteSheet_8
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 512
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SamuraiSpriteSheet_9
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 512
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SamuraiSpriteSheet_10
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 512
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SamuraiSpriteSheet_11
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 384
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SamuraiSpriteSheet_12
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 256
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SamuraiSpriteSheet_13
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 256
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SamuraiSpriteSheet_14
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 256
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SamuraiSpriteSheet_15
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 256
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SamuraiSpriteSheet_16
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 256
+        width: 128
+        height: 128
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
