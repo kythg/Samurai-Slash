@@ -1,6 +1,6 @@
 fileFormatVersion: 2
 guid: de8b29d9b9642456cb24882028281457
-timeCreated: 1501021521
+timeCreated: 1501349370
 licenseType: Pro
 TextureImporter:
   fileIDToRecycleName:
@@ -209,8 +209,8 @@ TextureImporter:
       name: SamuraiSpriteSheet_7
       rect:
         serializedVersion: 2
-        x: 128
-        y: 512
+        x: 256
+        y: 640
         width: 128
         height: 128
       alignment: 0
@@ -221,48 +221,6 @@ TextureImporter:
       tessellationDetail: 0
     - serializedVersion: 2
       name: SamuraiSpriteSheet_8
-      rect:
-        serializedVersion: 2
-        x: 256
-        y: 512
-        width: 128
-        height: 128
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: SamuraiSpriteSheet_9
-      rect:
-        serializedVersion: 2
-        x: 384
-        y: 512
-        width: 128
-        height: 128
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: SamuraiSpriteSheet_10
-      rect:
-        serializedVersion: 2
-        x: 512
-        y: 512
-        width: 128
-        height: 128
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: SamuraiSpriteSheet_11
       rect:
         serializedVersion: 2
         x: 896
@@ -276,7 +234,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: SamuraiSpriteSheet_12
+      name: SamuraiSpriteSheet_9
       rect:
         serializedVersion: 2
         x: 128
@@ -290,7 +248,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: SamuraiSpriteSheet_13
+      name: SamuraiSpriteSheet_10
       rect:
         serializedVersion: 2
         x: 256
@@ -304,7 +262,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: SamuraiSpriteSheet_14
+      name: SamuraiSpriteSheet_11
       rect:
         serializedVersion: 2
         x: 384
@@ -318,7 +276,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: SamuraiSpriteSheet_15
+      name: SamuraiSpriteSheet_12
       rect:
         serializedVersion: 2
         x: 512
@@ -332,7 +290,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: SamuraiSpriteSheet_16
+      name: SamuraiSpriteSheet_13
       rect:
         serializedVersion: 2
         x: 896

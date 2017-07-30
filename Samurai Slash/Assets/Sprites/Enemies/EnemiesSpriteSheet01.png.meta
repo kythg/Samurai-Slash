@@ -1,12 +1,17 @@
 fileFormatVersion: 2
 guid: 431250bae57fe40318961a8a72f846ee
-timeCreated: 1500924433
+timeCreated: 1501353847
 licenseType: Pro
 TextureImporter:
   fileIDToRecycleName:
     21300000: EnemiesSpriteSheet01_0
     21300002: EnemiesSpriteSheet01_1
     21300004: EnemiesSpriteSheet01_2
+    21300006: EnemiesSpriteSheet01_3
+    21300008: EnemiesSpriteSheet01_4
+    21300010: EnemiesSpriteSheet01_5
+    21300012: EnemiesSpriteSheet01_6
+    21300014: EnemiesSpriteSheet01_7
   serializedVersion: 4
   mipmaps:
     mipMapMode: 0
@@ -119,6 +124,76 @@ TextureImporter:
         serializedVersion: 2
         x: 512
         y: 768
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: EnemiesSpriteSheet01_3
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 768
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: EnemiesSpriteSheet01_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 640
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: EnemiesSpriteSheet01_5
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 640
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: EnemiesSpriteSheet01_6
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 640
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: EnemiesSpriteSheet01_7
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 640
         width: 128
         height: 128
       alignment: 0
